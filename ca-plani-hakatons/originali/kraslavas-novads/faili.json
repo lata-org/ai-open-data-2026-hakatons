@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "27.08.2026_pasvaldibas_domes_protokols_nr.9.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 767497,
+    "sha256": "0035ead1315766c7ad01b326e837613cde539902e3255548f89b0da7408f43b0",
+    "avota_url": "https://www.kraslava.lv/lv/media/19239/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.kraslava.lv%2Flv%2Fmedia%2F19239%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:35:54",
+    "apraksts": "domes 27.08.2026. sēdes protokols Nr.9 (12.§ — lēmums Nr.809 par plāna apstiprināšanu)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "kraslavas_novada_STCA_plans_2022_VUGD.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2379871,
+    "sha256": "79de048bca275d1850a05766ec52dc5dcfae3b62f26046e982c3c6d497c9f010",
+    "avota_url": "https://www.vugd.gov.lv/lv/media/7083/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.vugd.gov.lv%2Flv%2Fmedia%2F7083%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:36:11",
+    "apraksts": "vecāka versija — 2022. gada redakcija, publicēta VUGD vietnē",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "kraslavas_novada_sadarbibas_teritorijas_civilas_aizsardzibas_plans.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 3322493,
+    "sha256": "58980db09dc4a6f610fe74a8443cd10980d29e6a878b32a6af42c54f377f5e8b",
+    "avota_url": "https://www.kraslava.lv/lv/media/3822/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.kraslava.lv%2Flv%2Fmedia%2F3822%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:21:19",
+    "apraksts": "pamatdokuments (Krāslavas novada sadarbības teritorijas civilās aizsardzības plāns)",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "ca-plans-tukums-2024.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 924443,
+    "sha256": "34a67ed1663f71380dbfe92f99f4156f6f3cc3396e278f82c922f2f8d0870192",
+    "avota_url": "https://www.tukums.lv/lv/media/56137/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.tukums.lv%2Flv%2Fmedia%2F56137%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:26:01",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "8.pielikums_kartes_piktogrammas_3.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 1715494,
+    "sha256": "a33d2b90d804c4e822f42c16444f51525a493f6cc88ef2e5ebe8879e35c52a0d",
+    "avota_url": "https://www.tukums.lv/lv/media/32973/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.tukums.lv%2Flv%2Fmedia%2F32973%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:26:24",
+    "apraksts": "8. pielikums - Tukuma novada civilās aizsardzības sistēmai nozīmīgi objekti",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "9.pielikums_sadarbibas_ligums_ca.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 232593,
+    "sha256": "86f7f2ff4b386ac157810cc8c3f49f8c57295f565f5b4895900a90f2d371eeb4",
+    "avota_url": "https://www.tukums.lv/lv/media/32976/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.tukums.lv%2Flv%2Fmedia%2F32976%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:26:37",
+    "apraksts": "9. pielikums - Sadarbības līgums par sadarbību civilās ārkārtējās situācijās",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

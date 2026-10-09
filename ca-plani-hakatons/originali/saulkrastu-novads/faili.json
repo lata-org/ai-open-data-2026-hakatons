@@ -1,0 +1,54 @@
+[
+  {
+    "fails": "SAULKRASTU_NOVADA_CA_plans_.2021_jauns.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 2352574,
+    "sha256": "18f6fb3d8972833e6bacb44f3a32287fb2e8674c2bbd947dd7cbc75289fa2bd3",
+    "avota_url": "https://saulkrasti.lv/wp-content/uploads/2024/04/SAULKRASTU_NOVADA_CA_plans_.2021_jauns.pdf",
+    "gala_url": "https://saulkrasti.lv/wp-content/uploads/2024/04/SAULKRASTU_NOVADA_CA_plans_.2021_jauns.pdf",
+    "lejupieladets": "2026-09-12 00:09:56",
+    "apraksts": "tas pats pamatdokuments, agrāks eksemplārs (augšupielādēts 2024. gada aprīlī, saite VUGD norādītajā lapā; titullapā apstiprināšanas datums nav aizpildīts; teksts identisks 2026/07 eksemplāram)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "SAULKRASTU_NOVADA_CA_plans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 4877355,
+    "sha256": "e04543ecc5f80f93193dc2fb595d766a89e19311ef1d3abac391ba381762e5d2",
+    "avota_url": "https://saulkrasti.lv/wp-content/uploads/2026/07/SAULKRASTU_NOVADA_CA_plans.pdf",
+    "gala_url": "https://saulkrasti.lv/wp-content/uploads/2026/07/SAULKRASTU_NOVADA_CA_plans.pdf",
+    "lejupieladets": "2026-09-12 00:10:06",
+    "apraksts": "pamatdokuments ar 1.-4. pielikumu (aktuālā publiskā redakcija; augšupielādēta 2026. gada jūlijā)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "Domes-sede-nr.-2024-DSE-11-protokols-29.05.2024.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 609389,
+    "sha256": "9c3015633a369763dfbc668033b30f4b4b84ba948f78fd0d55658b191943ef31",
+    "avota_url": "https://saulkrasti.lv/wp-content/uploads/2024/06/Domes-sede-nr.-2024-DSE-11-protokols-29.05.2024.pdf",
+    "gala_url": "https://saulkrasti.lv/wp-content/uploads/2024/06/Domes-sede-nr.-2024-DSE-11-protokols-29.05.2024.pdf",
+    "lejupieladets": "2026-09-12 00:27:22",
+    "apraksts": "domes 29.05.2024. sēdes protokols Nr.11/2024 – §62 lēmums Nr.1676 par CA plāna aktualizētās redakcijas un speciālās sadaļas apstiprināšanu (64. lpp.)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "SAULKRASTU_NOVADA_CA_plans-2022_publicesanai.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 4309123,
+    "sha256": "c20fff66f4bc721d2e5445b775efb5c2296e704fe9953711de760c6a836a0f6d",
+    "avota_url": "https://saulkrasti.lv/wp-content/uploads/2022/04/SAULKRASTU_NOVADA_CA_plans-2022_publicesanai.pdf",
+    "gala_url": "https://saulkrasti.lv/wp-content/uploads/2022/04/SAULKRASTU_NOVADA_CA_plans-2022_publicesanai.pdf",
+    "lejupieladets": "2026-09-12 00:27:36",
+    "apraksts": "vecāka versija (2022. gada publicēšanai sagatavotā redakcija; pielikums grozīts ar 03.03.2022. domes ārkārtas sēdes lēmumu)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

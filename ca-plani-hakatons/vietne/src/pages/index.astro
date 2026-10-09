@@ -1,0 +1,117 @@
+---
+import Base from '../layouts/Base.astro';
+import Cips from '../components/Cips.astro';
+import AtbilstibasJosla from '../components/AtbilstibasJosla.astro';
+import novadi from '../data/novadi.json';
+import { profili, punkti, kopsavilkums, datums, fmt } from '../lib/vertejums';
+import type { Statuss, Vertejums } from '../lib/vertejums';
+
+const base = import.meta.env.BASE_URL;
+const proto = novadi.filter((n) => n.prototips);
+const konvertetas = novadi.filter((n) => n.markdown_ir).length;
+const ar = (slug: string) => profili[slug];
+const kops = Object.fromEntries(proto.map((n) => [n.slug, kopsavilkums(ar(n.slug))]));
+const vert = (slug: string, id: string): Vertejums | undefined => (ar(slug).atbilstiba as Record<string, Vertejums>)[id];
+---
+<Base title="Civilās aizsardzības plāni — pašvaldību salīdzinājums" aktivs="sakums">
+  <div class="wrap">
+    <section class="section" style="margin-top:0">
+      <h1>Pašvaldību civilās aizsardzības plāni vienuviet</h1>
+      <p class="lead">Visu 42 Latvijas pašvaldību plāni pārvērsti mašīnlasāmā tekstā, novērtēti pret MK noteikumu Nr. 658 obligātajām prasībām un — prototipa novadiem — pārstāstīti lasāmā versijā ar kartēm, tabulām un atvērtajiem datiem.</p>
+      <div class="grid grid--4">
+        <div class="tile"><div class="tile__label">Pašvaldības</div><div class="tile__value">42</div><div class="tile__note">7 valstspilsētas + 35 novadi</div></div>
+        <div class="tile"><div class="tile__label">Plāni konvertēti</div><div class="tile__value">{konvertetas}</div><div class="tile__note">PDF/DOCX → Markdown ar lpp. marķieriem</div></div>
+        <div class="tile"><div class="tile__label">Prototipā izvērsti</div><div class="tile__value">{proto.length}</div><div class="tile__note">Ogres un Cēsu novads</div></div>
+        <div class="tile"><div class="tile__label">Obligātie elementi</div><div class="tile__value">{punkti.length}</div><div class="tile__note">MK 658 4.1.–4.9. un 5.1.–5.4.</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Prototipa novadi</h2>
+      <div class="grid grid--2">
+        {proto.map((n) => { const p = ar(n.slug); const k = kops[n.slug]; return (
+          <article class="card">
+            <h3 style="margin-bottom:2px"><a href={`${base}novads/${n.slug}/`}>{p.pasvaldiba}</a></h3>
+            <p class="small" style="margin-bottom:10px">{p.plans.nosaukums} · apstiprināts {datums(p.plans.apstiprinats)} · {p.plans.lpp} lpp.</p>
+            <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:4px">
+              <span style="font-size:1.6rem;font-weight:700">{k.punkti}<span class="muted" style="font-size:1rem">/{k.max}</span></span>
+              <span class="small">atbilstības punkti · {k.ir}/{k.kopa} elementi ir plānā · {k.publiski}/{k.kopa} pilnībā publiski</span>
+            </div>
+            <AtbilstibasJosla p={p} />
+            <dl class="kv" style="margin-top:14px">
+              <dt>Iedzīvotāji</dt><dd>{fmt(p.teritorija.iedzivotaji)} ({p.teritorija.iedzivotaju_datums})</dd>
+              <dt>Platība</dt><dd>{fmt(p.teritorija.platiba_km2)} km²</dd>
+              <dt>Risku scenāriji</dt><dd>{p.riski.scenariju_skaits} no {p.riski.apdraudejumu_skaits} apdraudējumiem</dd>
+              <dt>Patvertnes (112.lv)</dt><dd>{p.patvertnes.skaits} · {p.patvertnes.uz_1000} uz 1000 iedz.</dd>
+              <dt>Evakuācijas vietas</dt><dd>{p.evakuacija.pulcesanas_vietas_publiskas ? `${p.evakuacija.pulcesanas_vietas.length} pulcēšanās + ${p.evakuacija.izmitinasanas_vietu_skaits} izmitināšanas vietas ar koordinātēm` : 'pielikumos, nav publicētas'}</dd>
+            </dl>
+            <p style="margin:14px 0 0;display:flex;gap:8px;flex-wrap:wrap">
+              <a class="btn" href={`${base}novads/${n.slug}/`}>Pārskats</a>
+              <a class="btn btn--ghost" href={`${base}novads/${n.slug}/analize/`}>Analīze</a>
+              <a class="btn btn--ghost" href={`${base}novads/${n.slug}/plans/`}>Pilns teksts</a>
+            </p>
+          </article>
+        ); })}
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Atbilstība MK noteikumu Nr. 658 obligātajām prasībām <span class="ref">4.1.–5.4.</span></h2>
+      <p class="small">Katrs obligātais elements vērtēts pēc publiski pieejamās plāna versijas: <Cips s="pilns" pilns /> <Cips s="dalejs" pilns /> <Cips s="ierobezots" pilns /> <Cips s="nav" pilns />. Metodika un punktu sistēma — <a href={`${base}metodika/`}>šeit</a>.</p>
+      <div class="table-wrap card card--flat" style="padding:0">
+        <table class="t">
+          <thead>
+            <tr><th>Punkts</th><th>Obligātais elements</th>{proto.map((n) => <th>{n.pasvaldiba}</th>)}</tr>
+          </thead>
+          <tbody>
+            {punkti.map((pk) => (
+              <tr>
+                <td class="mono dim">{pk.id}</td>
+                <td><strong>{pk.nosaukums}</strong><br /><span class="small">{pk.apraksts}</span></td>
+                {proto.map((n) => { const v = vert(n.slug, pk.id); const s: Statuss = v?.statuss ?? 'nav_vertets'; return (
+                  <td><Cips s={s} /><br /><span class="small">{v?.kur}{v?.lpp && v.lpp !== '—' ? ` · lpp. ${v.lpp}` : ''}</span></td>
+                ); })}
+              </tr>
+            ))}
+            <tr>
+              <td></td><td><strong>Kopā</strong> (max {punkti.length * 2} punkti)</td>
+              {proto.map((n) => { const k = kops[n.slug]; return <td><strong>{k.punkti}</strong> / {k.max} · {k.procenti} %</td>; })}
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Visas pašvaldības</h2>
+      <p class="small">Pārējām 40 pašvaldībām plāni ir konvertēti, bet vēl nav novērtēti — tās šeit parādās kā vietturi ar saiti uz pašvaldības publicēto plānu.</p>
+      <p><input class="filtrs" type="search" id="filtrs" placeholder="Meklēt pašvaldību…" aria-label="Meklēt pašvaldību" /></p>
+      <div class="table-wrap card card--flat" style="padding:0">
+        <table class="t" id="registrs">
+          <thead><tr><th>Pašvaldība</th><th>Tips</th><th>ATVK</th><th>Statuss vietnē</th><th>MK 658</th><th>Plāns pašvaldības lapā</th></tr></thead>
+          <tbody>
+            {novadi.map((n) => { const k = n.prototips ? kops[n.slug] : null; return (
+              <tr data-nos={n.pasvaldiba.toLowerCase()}>
+                <td>{n.prototips ? <a href={`${base}novads/${n.slug}/`}><strong>{n.pasvaldiba}</strong></a> : n.pasvaldiba}</td>
+                <td class="dim">{n.tips}</td>
+                <td class="mono dim">{n.atvk}</td>
+                <td>{n.prototips ? <span class="chip chip--pilns">Prototips</span> : n.markdown_ir ? <span class="chip chip--neitrals">Konvertēts, nav vērtēts</span> : <span class="chip chip--nav">Nav konvertēts</span>}</td>
+                <td>{k ? <strong>{k.punkti}/{k.max}</strong> : <span class="dim">—</span>}</td>
+                <td>{n.plana_lapa ? <a href={n.plana_lapa} target="_blank" rel="noopener">{new URL(n.plana_lapa).hostname}</a> : <a href={n.majas_lapa} target="_blank" rel="noopener">{new URL(n.majas_lapa).hostname}</a>}{n.kopigs_ar && <span class="small dim"> · kopīgs ar {n.kopigs_ar}</span>}</td>
+              </tr>
+            ); })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+  <script>
+    const inp = document.getElementById('filtrs') as HTMLInputElement | null;
+    inp?.addEventListener('input', () => {
+      const q = inp.value.trim().toLowerCase();
+      document.querySelectorAll<HTMLTableRowElement>('#registrs tbody tr').forEach((tr) => {
+        tr.hidden = !!q && !(tr.dataset.nos || '').includes(q);
+      });
+    });
+  </script>
+</Base>

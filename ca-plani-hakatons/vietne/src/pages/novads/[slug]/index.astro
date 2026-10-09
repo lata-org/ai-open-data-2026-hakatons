@@ -1,0 +1,187 @@
+---
+import Base from '../../../layouts/Base.astro';
+import NovadsHead from '../../../components/NovadsHead.astro';
+import Karte from '../../../components/Karte.astro';
+import IedzDiagramma from '../../../components/IedzDiagramma.astro';
+import RiskuMatrica from '../../../components/RiskuMatrica.astro';
+import Vietturis from '../../../components/Vietturis.astro';
+import AtvertieDati from '../../../components/AtvertieDati.astro';
+import { profili, prototipi, kopsavilkums, fmt, datums } from '../../../lib/vertejums';
+
+export function getStaticPaths() {
+  return prototipi.map((n) => ({ params: { slug: n.slug } }));
+}
+const { slug } = Astro.params;
+const p = profili[slug!];
+const k = kopsavilkums(p);
+const base = import.meta.env.BASE_URL;
+const ev = p.evakuacija;
+const limena: Record<string, string> = { loti_augsts: 'Ļoti augsts', augsts: 'Augsts', videjs: 'Vidējs', nozimigs: 'Nozīmīgs', maznozimigs: 'Maznozīmīgs', zems: 'Zems' };
+const kapac = ev.izmitinasanas_kapacitate;
+const anom = ev.pulcesanas_vietas.filter((v) => v.anomalija).length;
+const dubl = ev.pulcesanas_vietas.filter((v) => v.dublikats).length;
+---
+<Base title={`${p.pasvaldiba} — civilās aizsardzības plāns, pārskats`} aktivs="novads">
+  <NovadsHead p={p} cilne="parskats" />
+  <div class="wrap">
+    <section class="section">
+      <p class="lead">Lasāmā versija: plāna galvenie fakti tabulās, kartē un diagrammās. Vietturi iezīmē vietas, kur nākotnē pieslēdzami atvērtie dati vai kur plāna dati nav publicēti.</p>
+      <div class="grid grid--4">
+        <div class="tile"><div class="tile__label">Iedzīvotāji</div><div class="tile__value">{fmt(p.teritorija.iedzivotaji)}</div><div class="tile__note">{p.teritorija.iedzivotaju_datums} · {fmt(p.teritorija.blivums)} iedz./km²</div></div>
+        <div class="tile"><div class="tile__label">Platība</div><div class="tile__value">{fmt(p.teritorija.platiba_km2)} km²</div><div class="tile__note">{p.teritorija.pilsetas.length} pilsētas, {p.teritorija.pagasti} pagasti</div></div>
+        <div class="tile"><div class="tile__label">Risku scenāriji</div><div class="tile__value">{p.riski.scenariju_skaits}</div><div class="tile__note">no {p.riski.apdraudejumu_skaits} apdraudējumiem</div></div>
+        <div class="tile"><div class="tile__label">Patvertnes</div><div class="tile__value">{p.patvertnes.skaits}</div><div class="tile__note">{p.patvertnes.uz_1000} uz 1000 iedz. · 112.lv</div></div>
+        <div class={`tile${kapac ? '' : ' tile--na'}`}><div class="tile__label">Izmitināšanas vietas</div><div class="tile__value">{kapac ? fmt(kapac) : 'nav publiski'}</div><div class="tile__note">2 % norma: {fmt(ev.norma_2_procenti)} pers.{kapac ? ` · ${(kapac / ev.norma_2_procenti).toFixed(1)}×` : ''}</div></div>
+        <div class="tile"><div class="tile__label">MK 658 atbilstība</div><div class="tile__value">{k.punkti}<span class="muted" style="font-size:1rem">/{k.max}</span></div><div class="tile__note"><a href={`${base}novads/${slug}/analize/`}>{k.ir} no {k.kopa} elementiem ir plānā →</a></div></div>
+        <div class="tile"><div class="tile__label">Plāns spēkā</div><div class="tile__value">{datums(p.plans.apstiprinats)}</div><div class="tile__note">pārapstiprināšana līdz {datums(p.plans.derigs_lidz)}</div></div>
+        <div class="tile"><div class="tile__label">Blakus komisijas</div><div class="tile__value">{p.teritorija.blakus_komisijas.length}</div><div class="tile__note">{p.teritorija.blakus_komisijas.join(', ')}</div></div>
+      </div>
+    </section>
+
+    <section class="section" id="teritorija">
+      <h2>Teritorija un iedzīvotāji <span class="ref">MK 658 4.1.</span></h2>
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>Iedzīvotāju skaits pa teritoriālajām vienībām</h3>
+          <IedzDiagramma vienibas={p.teritorija.vienibas} id={`iedz-${slug}`} virsraksts="Iedzīvotāju skaits pa vienībām" />
+          <p class="small muted" style="margin:8px 0 0">Avots: {p.teritorija.vienibu_avots}</p>
+        </div>
+        <div class="card">
+          <h3>Vienības</h3>
+          <div class="table-wrap" style="max-height:420px;overflow:auto">
+            <table class="t">
+              <thead><tr><th>Vienība</th><th>Grupa</th><th class="num">Iedz.</th><th class="num">km²</th><th class="num">Iedz./km²</th></tr></thead>
+              <tbody>
+                {p.teritorija.vienibas.map((v) => <tr><td>{v.nosaukums}</td><td class="dim">{v.grupa}</td><td class="num">{fmt(v.iedz)}</td><td class="num">{fmt(v.km2)}</td><td class="num">{fmt(v.iedz / v.km2)}</td></tr>)}
+              </tbody>
+            </table>
+          </div>
+          {'ieslodzijuma_vieta' in p.teritorija && (p.teritorija as any).ieslodzijuma_vieta && <p class="small" style="margin-top:10px"><strong>Ieslodzījuma vieta:</strong> {(p.teritorija as any).ieslodzijuma_vieta}</p>}
+        </div>
+      </div>
+      <Vietturis virsraksts="Iedzīvotāju blīvuma karte (CSP 1×1 km režģis) un aktuālais iedzīvotāju skaits (PMLP)" avots="data.gov.lv — CSP režģis, PMLP iedzīvotāju skaits" avotaUrl="https://data.gov.lv/dati/lv/dataset/latvijas-iedzivotaju-skaits-pasvaldibas">Šeit paredzēts choropleth slānis, kas ļauj aprēķināt iedzīvotāju skaitu jebkurā riska zonā un salīdzināt plānā norādīto skaitu ({p.teritorija.iedzivotaju_datums}) ar aktuālo.</Vietturis>
+    </section>
+
+    <section class="section" id="riski">
+      <h2>Riski <span class="ref">MK 658 4.2.–4.3.</span></h2>
+      <div class="grid grid--2" style="margin-bottom:16px">
+        {p.riski.augstakie.map((r) => (
+          <div class="card card--flat">
+            <div style="display:flex;justify-content:space-between;gap:10px;align-items:flex-start"><h3 style="margin:0">{r.risks}</h3><span class={`riska riska--${r.limenis}`}>{limena[r.limenis]}</span></div>
+            <p class="small" style="margin:8px 0 0">{r.pamatojums} <span class="muted">(lpp. {r.lpp})</span></p>
+          </div>
+        ))}
+      </div>
+      {p.riski.matrica_publiska ? (
+        <div class="card">
+          <h3>Risku matrica</h3>
+          <RiskuMatrica varbutibas={p.riski.varbutibas} sekas={p.riski.sekas} matrica={p.riski.matrica} avots={p.riski.matrica_avots} />
+        </div>
+      ) : (
+        <div class="card">
+          <h3>Risku līmeņi, kas norādīti scenāriju tekstā</h3>
+          <p class="small">{p.riski.matrica_avots}. Plāns nosauc 12 svarīgākos riskus; skaitlisks vērtējums tekstā dots tikai daļai scenāriju.</p>
+          <div class="table-wrap">
+            <table class="t">
+              <thead><tr><th>Risks</th><th>Līmenis</th><th>Varbūtība</th><th>Lpp.</th></tr></thead>
+              <tbody>{(p.riski as any).vertejumi_teksta.map((r: any) => <tr><td>{r.risks}</td><td><span class={`riska riska--${r.limenis}`}>{limena[r.limenis]}</span></td><td>{r.varbutiba}</td><td class="dim">{r.lpp}</td></tr>)}</tbody>
+            </table>
+          </div>
+          <p class="small" style="margin-top:10px"><strong>Svarīgākie riski pēc plāna:</strong> {(p.riski as any).svarigakie.join('; ')}.</p>
+          <Vietturis virsraksts="Grafiskā risku matrica (31. pielikums)">Pielikums nav publicēts. Šeit paredzēta tāda pati 5×5 matrica kā Ogres novadam, kad pašvaldība to publicē vai iesniedz datus.</Vietturis>
+        </div>
+      )}
+      <p class="small" style="margin-top:12px">{p.riski.scenariju_piezime} Paaugstinātas bīstamības objekti: {p.riski.pbo_skaits ?? '—'}. {p.riski.pbo_piezime}</p>
+      <Vietturis virsraksts="Plūdu riska zonas (LVĢMC WMS: 10 %, 1 %, 0,5 %) un aktuālais ūdens līmenis" avots="data.gov.lv — plūdu riska zonas; LVĢMC hidroloģiskie novērojumi" avotaUrl="https://data.gov.lv/dati/lv/dataset/pldu-riska-zonas">Plānā ielīmēto rastra karšu vietā — interaktīvs slānis ar applūstošajām teritorijām un sasaisti ar novērojumu staciju.</Vietturis>
+      <Vietturis virsraksts="Paaugstinātas bīstamības objekti ar buferzonām (VVD atļaujas, PTAC)" avots="data.gov.lv — izsniegtās atļaujas un licences" avotaUrl="https://data.gov.lv/dati/lv/dataset/izsniegtas-atlaujas-un-licences">Automātiska pārbaude, vai plānā uzskaitītie objekti sakrīt ar aktuālo reģistru, un 100/500/1500 m ietekmes zonas kartē.</Vietturis>
+    </section>
+
+    <section class="section" id="evakuacija">
+      <h2>Evakuācija un patvertnes <span class="ref">MK 658 4.6., 4.9.9.</span></h2>
+      <div class="card" style="padding:12px">
+        <Karte slug={slug!} centrs={p.centrs as [number, number]} zoom={p.zoom} pulcesanas={ev.pulcesanas_vietas} izmitinasanas={ev.izmitinasanas_vietas} robeza={slug === 'ogres-novads'} id={`karte-${slug}`} />
+      </div>
+      {slug !== 'ogres-novads' && <Vietturis virsraksts="Novada robeža (VZD administratīvo teritoriju robežas)" avots="data.gov.lv — VZD robežas" avotaUrl="https://data.gov.lv/dati/lv/dataset/administrativo-teritoriju-un-teritoriala-iedalijuma-vienibu-robezas">Robežas slānis šim novadam vēl nav sagatavots.</Vietturis>}
+      <div class="grid grid--2" style="margin-top:16px">
+        <div class="card">
+          <h3>Pulcēšanās vietas</h3>
+          {ev.pulcesanas_vietas_publiskas ? (
+            <>
+              <p class="small">{ev.pulcesanas_avots}. {anom > 0 && <strong style="color:var(--critical)">{anom} ieraksti ar koordinātu anomāliju</strong>}{dubl > 0 && <span>, {dubl} dublikāti</span>}.</p>
+              <div class="table-wrap" style="max-height:380px;overflow:auto">
+                <table class="t">
+                  <thead><tr><th>#</th><th>Vieta</th><th>Adrese</th><th>Piezīme</th></tr></thead>
+                  <tbody>{ev.pulcesanas_vietas.map((v) => <tr><td class="dim">{v.nr}</td><td>{v.nosaukums}</td><td class="small">{v.adrese}</td><td class="small">{v.anomalija && <span style="color:var(--critical)">⚠ {v.anomalija}</span>}{v.dublikats && <span class="dim"> dublē {v.dublikats}.</span>}</td></tr>)}</tbody>
+                </table>
+              </div>
+            </>
+          ) : (
+            <Vietturis virsraksts="Pulcēšanās vietas nav publicētas">{ev.pulcesanas_avots}. Kad dati būs pieejami, tie parādīsies kartē un tabulā ar VARIS validētām koordinātēm.</Vietturis>
+          )}
+        </div>
+        <div class="card">
+          <h3>Izmitināšanas vietas</h3>
+          {ev.izmitinasanas_vietas.length > 0 ? (
+            <>
+              <p class="small">{ev.izmitinasanas_avots}. Kopējā ietilpība <strong>{fmt(kapac)}</strong> personas — {(kapac! / ev.norma_2_procenti).toFixed(1)} reizes vairāk nekā 2 % norma ({fmt(ev.norma_2_procenti)}).</p>
+              <div class="table-wrap" style="max-height:380px;overflow:auto">
+                <table class="t">
+                  <thead><tr><th>#</th><th>Vieta</th><th class="num">Vietas</th><th>Ēdnīca</th><th class="num">Guļvietas</th></tr></thead>
+                  <tbody>{ev.izmitinasanas_vietas.map((v) => <tr><td class="dim">{v.nr}</td><td>{v.nosaukums}<br /><span class="small dim">{v.adrese}</span></td><td class="num">{fmt(v.vietas)}</td><td>{v.ednica ? 'ir' : 'nav'}</td><td class="num">{v.gulvietas || '—'}</td></tr>)}</tbody>
+                </table>
+              </div>
+            </>
+          ) : (
+            <Vietturis virsraksts="Izmitināšanas vietas nav publicētas">{ev.izmitinasanas_avots}. {(ev as any).norma_piezime}</Vietturis>
+          )}
+        </div>
+      </div>
+      <div class="grid grid--2" style="margin-top:16px">
+        <div class="card card--flat"><h3>Maršruti un transports</h3><p class="small">{ev.marsruti}</p><p class="small">{ev.transports}</p></div>
+        <Vietturis virsraksts="Evakuācijas maršruti uz valsts ceļu tīkla (LVC NAP) ar reāllaika slēgumiem" avots="transportdata.gov.lv" avotaUrl="https://www.transportdata.gov.lv/">Maršrutētājs no pulcēšanās vietas līdz izmitināšanas vietai, apejot slēgtos un applūdušos posmus; tiltu kravnesības ierobežojumi autobusiem.</Vietturis>
+      </div>
+    </section>
+
+    <section class="section" id="komisija">
+      <h2>Komisija, apziņošana un brīdināšana <span class="ref">MK 658 5.1.–5.2., 4.9.1.</span></h2>
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>Civilās aizsardzības komisija</h3>
+          <dl class="kv">
+            <dt>Priekšsēdētājs</dt><dd>{p.komisija.priekssedetajs}</dd>
+            <dt>Vietnieki</dt><dd>{p.komisija.vietnieki.join('; ')}</dd>
+            <dt>Pārstāvētās institūcijas</dt><dd>{p.komisija.institucijas}: {p.komisija.institucijas_saraksts.join(', ')}</dd>
+          </dl>
+          <h3 style="margin-top:14px">Apziņošana</h3>
+          <p class="small">{p.komisija.apzinosana}</p>
+          {p.komisija.apzinosanas_shema ? (
+            <ol class="steps">
+              <li>Komisijas priekšsēdētājs pieņem lēmumu par sasaukšanu (pats vai pēc locekļa ierosinājuma).</li>
+              <li>Sekretārs saņem īsu informāciju par notikumu un sēdes laiku (≤ 2 h).</li>
+              <li>Sekretārs sūta SMS un e-pastu kontaktu grupai (A) vai apziņo tieši (B, bez sakariem).</li>
+              <li>Loceklis atbild 30 min laikā; ja ne — zvans loceklim, tad aizvietotājam.</li>
+              <li>Bez sakariem — pulcēšanās noteiktajā vietā.</li>
+            </ol>
+          ) : (
+            <Vietturis virsraksts="Grafiska apziņošanas shēma">Plānā apziņošanas kārtība aprakstīta tekstā; shēma zīmējama pēc nolikuma 23.–26. punkta.</Vietturis>
+          )}
+        </div>
+        <div class="card">
+          <h3>Agrīnā brīdināšana</h3>
+          <p class="small">{p.bridinasana.sirenas}</p>
+          <ul class="tiks small">{p.bridinasana.kanali.map((k) => <li>{k}</li>)}</ul>
+          <h3 style="margin-top:14px">Iedzīvotāju rīcība</h3>
+          <p class="small">{p.bridinasana.iedzivotaju_instrukcijas}</p>
+          <p><a class="btn btn--ghost" href={`${base}novads/${slug}/plans/`}>Lasīt plāna tekstā →</a></p>
+          <Vietturis virsraksts="Sirēnu pārklājums un LVĢMC brīdinājumi reāllaikā" avots="LVĢMC brīdinājumu API" avotaUrl="https://data.gov.lv/dati/lv/dataset/hidrometeorologiskie-bridinajumi">Sirēnu 1,5 km rādiusi kartē un aktuālie dzeltenie/oranžie/sarkanie brīdinājumi novada teritorijai.</Vietturis>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="atvertie-dati">
+      <h2>Atvērtie dati, kas papildina plānu</h2>
+      <p class="small">Statuss „Pieslēgts” — dati jau redzami šajā lapā; „Vietturis” — vieta rezervēta, integrācija sekos.</p>
+      <div class="card card--flat" style="padding:0"><AtvertieDati /></div>
+    </section>
+  </div>
+</Base>

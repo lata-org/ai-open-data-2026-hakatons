@@ -1,0 +1,67 @@
+[
+  {
+    "fails": "CAK_Valmieras-novads-aktualizets-22.07.2026-timeklvietnei.docx",
+    "formats": "docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "izmers_baiti": 559234,
+    "sha256": "06ca572271644f08c7d42f186b95b35dae9182c86dfa82d62a6919d8d24c6cd5",
+    "avota_url": "https://www.valmierasnovads.lv/content/uploads/2026/09/CAK_Valmieras-novads-aktualizets-22.07.2026-timeklvietnei.docx",
+    "gala_url": "https://www.valmierasnovads.lv/content/uploads/2026/09/CAK_Valmieras-novads-aktualizets-22.07.2026-timeklvietnei.docx",
+    "lejupieladets": "2026-09-11 22:07:44",
+    "apraksts": "Civilās aizsardzības komisijas nolikums (aktualizēts 22.07.2026), publicēts atsevišķi lapā 'Civilā aizsardzība'; atbilst plāna 2. pielikuma sastāvdaļai 'CA komisijas nolikums'",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "140_lem_Pielikums_Civilas-aizsardzibas-plans-aktializets28.03.2024._publisks.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 10168098,
+    "sha256": "a2f49525559e554a5c658fd96935d087a297255bd8093d76c89cc78df82df5a3",
+    "avota_url": "https://www.valmierasnovads.lv/content/uploads/2024/04/140_lem_Pielikums_Civilas-aizsardzibas-plans-aktializets28.03.2024._publisks.pdf",
+    "gala_url": "https://www.valmierasnovads.lv/content/uploads/2024/04/140_lem_Pielikums_Civilas-aizsardzibas-plans-aktializets28.03.2024._publisks.pdf",
+    "lejupieladets": "2026-09-12 00:25:27",
+    "apraksts": "pamatdokuments – Valmieras novada sadarbības teritorijas civilās aizsardzības plāns, publicējamā daļa (aktualizēts ar domes 28.03.2024. lēmumu Nr. 140)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "140_lem_publicesanai.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 106010,
+    "sha256": "f6d98a78229205a8387e75c52da57b08786aa195f43e4e1326e911ffb7c95ff6",
+    "avota_url": "https://www.valmierasnovads.lv/content/uploads/2024/04/140_lem_publicesanai.pdf",
+    "gala_url": "https://www.valmierasnovads.lv/content/uploads/2024/04/140_lem_publicesanai.pdf",
+    "lejupieladets": "2026-09-12 00:25:29",
+    "apraksts": "domes 28.03.2024. lēmums Nr. 140 'Par precizējumiem Valmieras novada sadarbības teritorijas civilās aizsardzības plānā' (publicējamā redakcija)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "636_lem.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 39396,
+    "sha256": "9d5a9e070ea6bfff78bddf75690b33971b2121d4f269533894401b2cc7de4b89",
+    "avota_url": "https://www.valmierasnovads.lv/content/uploads/2022/01/636_lem.pdf",
+    "gala_url": "https://www.valmierasnovads.lv/content/uploads/2022/01/636_lem.pdf",
+    "lejupieladets": "2026-09-12 00:25:31",
+    "apraksts": "domes 30.12.2021. lēmums Nr. 636 'Par Valmieras novada sadarbības teritorijas civilās aizsardzības plāna apstiprināšanu' (sākotnējā apstiprināšana, bez plāna teksta)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "608_lem.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 89549,
+    "sha256": "81e4a2636dc99225ed452d26b4ffd79b1414685a6378c2a949924b772c9cb8a1",
+    "avota_url": "https://www.valmierasnovads.lv/content/uploads/2022/10/608_lem.pdf",
+    "gala_url": "https://www.valmierasnovads.lv/content/uploads/2022/10/608_lem.pdf",
+    "lejupieladets": "2026-09-12 00:25:34",
+    "apraksts": "domes 29.09.2022. lēmums Nr. 608 'Par grozījumu ... lēmumā Nr. 636 Par Valmieras novada sadarbības teritorijas civilās aizsardzības plāna apstiprināšanu' (bez plāna teksta)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

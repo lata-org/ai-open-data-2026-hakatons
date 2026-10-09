@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "VALKAS_NOVADA_CIVILAS_AIZSARDZIBAS_PLANS_3_23.02.2021.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2533481,
+    "sha256": "4d1dc9960e596c5f858cc4ef2f1b1940917b3654c1e84c6ad62b112aa36ba935",
+    "avota_url": "https://www.valka.lv/lv/media/1092/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.valka.lv%2Flv%2Fmedia%2F1092%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 22:06:04",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "3_pielikums.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 278620,
+    "sha256": "add59134ba57ee9e7b3f86352c6fd2561dbd7ed8a4cf1d476a9fe7233b86c255",
+    "avota_url": "https://www.valka.lv/lv/media/1094/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.valka.lv%2Flv%2Fmedia%2F1094%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 22:06:14",
+    "apraksts": "3. pielikums – Vispārējā katastrofu apziņošanas shēma",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "Jaunais_CAK_nolikums.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 152455,
+    "sha256": "bab37287c1d38a4de6913899ab330227bb43e14d03af039a67367e4c43a713c7",
+    "avota_url": "https://www.valka.lv/lv/media/1228/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.valka.lv%2Flv%2Fmedia%2F1228%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:29:23",
+    "apraksts": "2. pielikums (daļa) – Civilās aizsardzības komisijas nolikums (Jaunais_CAK_nolikums.pdf, plāna lapā)",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ogres Civilās aizsardzības plāns</title>
+
+<!-- External resources -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+:root{
+--vds-red:#D52B1E;--vds-orange:#F57E20;--vds-yellow:#FFD700;--vds-green:#2E8B4B;
+--vds-blue:#0077C8;--vds-light:#fff;--vds-gray:#e0e0e0;--vds-text:#333;--vds-text2:#666;
+--br:8px;--shadow:0 4px 6px rgba(0,0,0,.1);--tr:all .3s ease;
+}
+.dark{--vds-light:#1a1a1a;--vds-gray:#333;--vds-text:#e0e0e0;--vds-text2:#b0b0b0;}
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Roboto',sans-serif;background:#f5f5f5;color:var(--vds-text);line-height:1.6;transition:var(--tr)}
+
+/* Header */
+header{background:linear-gradient(135deg,#005A9C,#0077C8);color:var(--vds-light);padding:12px 0;box-shadow:var(--shadow);position:sticky;top:0;z-index:1000}
+.header-c{max-width:1200px;margin:0 auto;padding:0 15px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.brand{display:flex;align-items:center;gap:10px}
+.coa{width:50px;height:50px;background:var(--vds-light);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 4px rgba(0,0,0,.1)}
+.coa i{color:var(--vds-blue);font-size:1.4rem}
+.brand h1{font-size:1.1rem;font-weight:500}
+.brand p{font-size:.8rem;opacity:.9}
+.header-ctrl{display:flex;align-items:center;gap:10px}
+.wl-widget{display:flex;align-items:center;gap:8px;padding:6px 10px;background:rgba(255,255,255,.15);border-radius:var(--br);font-size:.85rem}
+.wl-bar{width:80px;height:8px;background:var(--vds-gray);border-radius:4px;overflow:hidden}
+.wl-fill{height:100%;width:0%;background:var(--vds-yellow);transition:var(--tr);border-radius:4px}
+.wl-fill.warning{background:var(--vds-orange)}
+.wl-fill.danger{background:var(--vds-red)}
+.sos-badge{padding:6px 10px;border-radius:var(--br);font-size:.85rem;font-weight:500;display:flex;align-items:center;gap:6px}
+.theme-toggle{background:var(--vds-gray);border:none;width:35px;height:35px;border-radius:50%;cursor:pointer;color:var(--vds-blue);font-size:1rem;display:flex;align-items:center;justify-content:center;transition:var(--tr)}
+.theme-toggle:hover{background:var(--vds-blue);color:var(--vds-light)}
+.menu-toggle{display:none;background:none;border:none;color:var(--vds-light);font-size:1.3rem;cursor:pointer}
+
+/* Navigation */
+nav{background:var(--vds-light);border-bottom:1px solid var(--vds-gray);box-shadow:0 2px 4px rgba(0,0,0,.05)}
+.tabs-c{max-width:1200px;margin:0 auto;display:flex;overflow-x:auto;padding:0 10px;-webkit-overflow-scrolling:touch}
+.tab-btn{padding:12px 15px;border:none;background:none;color:var(--vds-text2);font-size:.9rem;font-weight:500;cursor:pointer;border-bottom:2px solid transparent;transition:var(--tr);white-space:nowrap}
+.tab-btn:hover{color:var(--vds-blue);background:rgba(0,119,200,.05)}
+.tab-btn.active{color:var(--vds-blue);border-bottom-color:var(--vds-blue)}
+
+/* Main content */
+main{max-width:1200px;margin:0 auto;padding:15px;min-height:calc(100vh - 150px)}
+.tab-pane{display:none;animation:fadeIn .5s ease}
+.tab-pane.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+
+/* Map layout */
+.map-layout{display:flex;gap:15px;height:calc(100vh - 220px);min-height:500px}
+.map-sidebar{width:300px;background:var(--vds-light);border-radius:var(--br);box-shadow:var(--shadow);padding:15px;overflow-y:auto;transition:var(--tr)}
+.map-sidebar h2{color:var(--vds-blue);margin-bottom:12px;font-size:1.1rem}
+.map-container{flex:1;border-radius:var(--br);overflow:hidden;box-shadow:var(--shadow);position:relative}
+#map{height:100%;width:100%}
+.map-ctrl{position:absolute;top:10px;right:10px;z-index:400;display:flex;flex-direction:column;gap:8px}
+.map-ctrl-btn{background:var(--vds-light);border:none;width:35px;height:35px;border-radius:var(--br);cursor:pointer;box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;font-size:1rem;color:var(--vds-blue);transition:var(--tr)}
+.map-ctrl-btn:hover{background:var(--vds-blue);color:var(--vds-light)}
+.basemap-switcher{position:absolute;bottom:10px;right:10px;z-index:400;background:var(--vds-light);border-radius:var(--br);padding:6px;box-shadow:var(--shadow);display:flex;gap:4px}
+.basemap-btn{width:30px;height:30px;border:none;background:none;cursor:pointer;border-radius:var(--br);transition:var(--tr);display:flex;align-items:center;justify-content:center}
+.basemap-btn:hover{background:var(--vds-gray)}
+.basemap-btn.active{background:var(--vds-blue);color:var(--vds-light)}
+
+/* Sidebar sections */
+.sb-section{margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid var(--vds-gray)}
+.sb-section:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.sb-title{font-size:.9rem;font-weight:600;color:var(--vds-text);margin-bottom:10px}
+.form-ctrl{width:100%;padding:8px 10px;border:1px solid var(--vds-gray);border-radius:var(--br);font-size:.9rem;margin-bottom:8px;transition:var(--tr);background:var(--vds-light);color:var(--vds-text)}
+.form-ctrl:focus{outline:none;border-color:var(--vds-blue);box-shadow:0 0 0 2px rgba(0,119,200,.2)}
+.btn{padding:8px 12px;border:none;border-radius:var(--br);font-size:.9rem;font-weight:500;cursor:pointer;transition:var(--tr);display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:var(--vds-blue);color:var(--vds-light)}
+.btn-primary:hover{background:#005A9C;transform:translateY(-2px)}
+.btn-outline{background:transparent;border:1px solid var(--vds-blue);color:var(--vds-blue)}
+.btn-outline:hover{background:var(--vds-blue);color:var(--vds-light)}
+.btn-full{width:100%}
+.checkbox-group{display:flex;flex-direction:column;gap:6px}
+.checkbox-label{display:flex;align-items:center;gap:8px;cursor:pointer;padding:6px 0;transition:var(--tr);border-radius:var(--br)}
+.checkbox-label:hover{background:var(--vds-gray);padding-left:3px;padding-right:3px}
+.checkbox-label input[type=checkbox]{width:16px;height:16px;accent-color:var(--vds-blue);cursor:pointer}
+.badge-cnt{display:inline-block;background:var(--vds-blue);color:var(--vds-light);padding:1px 6px;border-radius:8px;font-size:.75rem;font-weight:500}
+
+/* Cards */
+.grid-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.card{background:var(--vds-light);border-radius:var(--br);padding:12px;box-shadow:var(--shadow);transition:var(--tr);cursor:pointer;border:1px solid var(--vds-gray)}
+.card:hover{transform:translateY(-3px);box-shadow:0 6px 12px rgba(0,0,0,.15)}
+.card-bar{height:3px;background:var(--vds-blue);border-radius:var(--br) var(--br) 0 0;margin:-12px -12px 8px -12px}
+.card-title{font-weight:600;color:var(--vds-text);margin-bottom:4px}
+.card-addr{font-size:.85rem;color:var(--vds-text2);margin-bottom:6px}
+.card-detail{font-size:.8rem;color:var(--vds-text2);display:flex;flex-direction:column;gap:3px}
+
+/* Risk matrix */
+.matrix-c{overflow-x:auto;margin-top:15px}
+table.risk-m{width:100%;border-collapse:collapse;background:var(--vds-light);border-radius:var(--br);box-shadow:var(--shadow)}
+table.risk-m th,table.risk-m td{padding:8px;text-align:center;border:1px solid var(--vds-gray)}
+table.risk-m th{background:var(--vds-blue);color:var(--vds-light);font-weight:500}
+.risk-item{cursor:pointer;transition:var(--tr);height:100%;display:flex;align-items:center;justify-content:center;padding:6px}
+.risk-item:hover{transform:scale(1.03);box-shadow:inset 0 0 0 1px var(--vds-blue)}
+.cell-vhigh{background:linear-gradient(135deg,#D52B1E,#B02A1A);color:#fff;font-weight:600}
+.cell-high{background:linear-gradient(135deg,#F57E20,#D16800);color:#fff;font-weight:600}
+.cell-medium{background:linear-gradient(135deg,#FFD700,#D4AF37);color:#000;font-weight:600}
+.cell-low{background:linear-gradient(135deg,#90EE90,#7CB87C);color:#000;font-weight:600}
+
+/* Checklist */
+.checklist-c{background:var(--vds-light);border-radius:var(--br);padding:15px;box-shadow:var(--shadow)}
+.progress-bar-bg{height:8px;background:var(--vds-gray);border-radius:4px;margin-bottom:15px;overflow:hidden}
+.progress-bar-fill{height:100%;background:linear-gradient(90deg,var(--vds-blue),var(--vds-green));border-radius:4px;transition:width .5s ease}
+.checklist-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.check-item{display:flex;align-items:flex-start;gap:10px;padding:10px;background:var(--vds-gray);border-radius:var(--br);transition:var(--tr);cursor:pointer}
+.check-item:hover{background:var(--vds-gray)}
+.check-item input[type=checkbox]{width:18px;height:18px;accent-color:var(--vds-green);cursor:pointer;flex-shrink:0;margin-top:1px}
+.check-item label{cursor:pointer;font-size:.9rem;line-height:1.4}
+
+/* Accordion */
+.accordion-item{margin-bottom:8px;border-radius:var(--br);overflow:hidden;box-shadow:var(--shadow)}
+.accordion-hdr{width:100%;padding:12px 15px;background:var(--vds-light);border:none;text-align:left;font-size:.95rem;font-weight:500;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;transition:var(--tr);border:1px solid var(--vds-gray)}
+.accordion-hdr:hover{background:var(--vds-gray)}
+.accordion-hdr i{transition:transform .3s ease}
+.accordion-hdr.open i{transform:rotate(180deg)}
+.accordion-cnt{max-height:0;overflow:hidden;transition:max-height .3s ease;background:var(--vds-gray);border-top:1px solid var(--vds-gray)}
+.accordion-cnt.open{max-height:400px}
+.accordion-cnt p{padding:12px 15px;margin:0;line-height:1.6}
+
+/* Modal */
+.modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);z-index:2000;align-items:center;justify-content:center;padding:15px}
+.modal.active{display:flex}
+.modal-cnt{background:var(--vds-light);border-radius:var(--br);width:100%;max-width:500px;max-height:80vh;overflow-y:auto;box-shadow:0 10px 30px rgba(0,0,0,.3);animation:modalSlide .3s ease}
+@keyframes modalSlide{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
+.modal-hdr{padding:15px;border-bottom:1px solid var(--vds-gray);display:flex;justify-content:space-between;align-items:center;background:var(--vds-blue);color:var(--vds-light);border-radius:var(--br) var(--br) 0 0}
+.modal-body{padding:15px}
+.modal-close{background:none;border:none;color:var(--vds-light);font-size:1.3rem;cursor:pointer;padding:3px;line-height:1}
+.modal-close:hover{color:var(--vds-red)}
+
+/* Mermaid */
+.mermaid{background:var(--vds-light);border-radius:var(--br);padding:15px;box-shadow:var(--shadow);margin:15px 0;text-align:center}
+
+/* Loading */
+.loading{display:none;text-align:center;padding:30px}
+.loading.active{display:block}
+.spinner{border:3px solid var(--vds-gray);border-top:3px solid var(--vds-blue);border-radius:50%;width:35px;height:35px;animation:spin 1s linear infinite;margin:0 auto 10px}
+@keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+/* Print */
+@media print{header,nav,.map-sidebar,.btn,.tabs-c,.map-ctrl,.basemap-switcher{display:none!important}body,main{background:#fff!important;color:#000!important}.tab-pane{page-break-inside:avoid}.accordion-cnt{display:block!important;max-height:none!important}#map{height:250px!important}}
+
+/* Mobile */
+@media (max-width:768px){
+.map-layout{flex-direction:column}
+.map-sidebar{width:100%!important;position:relative!important;height:auto!important;order:2}
+#map{height:250px!important;order:1}
+.menu-toggle{display:block}
+.map-sidebar.collapsed{display:none}
+.header-c{flex-wrap:wrap}
+.header-ctrl{width:100%;justify-content:space-between;order:2}
+.brand{order:1;width:100%;justify-content:center}
+.tabs-c{padding:0 5px}
+.tab-btn{padding:10px 8px;font-size:.85rem}
+.sos-badge{font-size:.75rem;padding:4px 6px}
+.wl-widget{font-size:.75rem;padding:4px 6px}
+.wl-bar{width:60px}
+main{padding:8px}
+.tab-pane{padding:5px!important}
+.checklist-grid{grid-template-columns:1fr}
+.grid-cards{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+<div class="header-c">
+<button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+<div class="brand">
+<div class="coa"><i class="fas fa-shield-alt"></i></div>
+<div><h1>Ogres Civilā aizsardzība</h1><p>Interaktīvā platforma</p></div>
+</div>
+<div class="header-ctrl">
+<div class="wl-widget"><i class="fas fa-tint"></i><span>Ūdens: <b id="waterLevel">21.85m</b></span>
+<div class="wl-bar"><div class="wl-fill" id="waterLevelFill" style="width:85%"></div></div>
+</div>
+<div class="sos-badge" id="sosBadge"><i class="fas fa-exclamation-triangle"></i><span><b>GATAVĪBA</b><br>Plūdu risks</span></div>
+<button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></button>
+</div>
+</div>
+</header>
+
+<!-- NAV -->
+<nav>
+<div class="tabs-c">
+<button class="tab-btn active" data-tab="map"><i class="fas fa-map"></i> Karte</button>
+<button class="tab-btn" data-tab="risk"><i class="fas fa-chart-line"></i> Riski</button>
+<button class="tab-btn" data-tab="shelters"><i class="fas fa-home"></i> Patvertnes <span class="badge-cnt" id="shelterCount">5</span></button>
+<button class="tab-btn" data-tab="evac"><i class="fas fa-route"></i> Evakuācija</button>
+<button class="tab-btn" data-tab="checklist"><i class="fas fa-clipboard-check"></i> 72h soma</button>
+<button class="tab-btn" data-tab="flows"><i class="fas fa-project-diagram"></i> Shēmas</button>
+</div>
+</nav>
+
+<!-- MAIN -->
+<main>
+
+<!-- MAP -->
+<section class="tab-pane active" id="map-pane">
+<div class="map-layout">
+<aside class="map-sidebar" id="mapSidebar">
+<div class="sb-section">
+<h2><i class="fas fa-search"></i> Meklēt</h2>
+<div style="position:relative">
+<input type="text" class="form-ctrl" id="addressSearch" placeholder="Adrese...">
+<div class="search-results" id="searchResults"></div>
+</div>
+<button class="btn btn-primary btn-full" id="findMyLoc"><i class="fas fa-location-arrow"></i> Manā vieta</button>
+<button class="btn btn-outline btn-full" id="findNearest"><i class="fas fa-home"></i> Tuvākā patvertne</button>
+</div>
+
+<div class="sb-section">
+<h2><i class="fas fa-layer-group"></i> Slāņi</h2>
+<div class="checkbox-group">
+<label class="checkbox-label"><input type="checkbox" id="l-boundary" checked><span>Robeža</span></label>
+<label class="checkbox-label"><input type="checkbox" id="l-shelters" checked><span>Patvertnes <span class="badge-cnt">5</span></span></label>
+<label class="checkbox-label"><input type="checkbox" id="l-evacp" checked><span>Pulcēšanās punkti</span></label>
+<label class="checkbox-label"><input type="checkbox" id="l-evacc"><span>Izmitināšanas centri</span></label>
+<label class="checkbox-label"><input type="checkbox" id="l-flood"><span>Plūdu zonas</span></label>
+</div>
+</div>
+</aside>
+
+<div class="map-container">
+<div id="map"></div>
+<div class="map-ctrl">
+<button class="map-ctrl-btn" id="zoomIn"><i class="fas fa-plus"></i></button>
+<button class="map-ctrl-btn" id="zoomOut"><i class="fas fa-minus"></i></button>
+<button class="map-ctrl-btn" id="locateBtn"><i class="fas fa-crosshairs"></i></button>
+</div>
+<div class="basemap-switcher">
+<button class="basemap-btn active" data-map="osm"><i class="fas fa-globe"></i></button>
+<button class="basemap-btn" data-map="sat"><i class="fas fa-satellite"></i></button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- RISK MATRIX -->
+<section class="tab-pane" id="risk-pane">
+<div style="padding:15px;max-width:800px;margin:0 auto">
+<h1 style="margin-bottom:15px;color:var(--vds-blue)"><i class="fas fa-chart-line"></i> Risku Matrica</h1>
+<p style="margin-bottom:15px;color:var(--vds-text2)">Uzklikšķiniet uz riska detaļām</p>
+<div class="matrix-c">
+<table class="risk-m">
+<thead><tr><th></th><th>Zems</th><th>Vidējs</th><th>Augsts</th><th>Ļoti Augsts</th></tr></thead>
+<tbody>
+<tr><th>Videji</th>
+<td></td><td class="cell-medium"><div class="risk-item" data-r="infrastructure">Infrastruktūra</div></td>
+<td class="cell-high"><div class="risk-item" data-r="flood">Daugavas/Ogres pli</div></td>
+<td class="cell-vhigh"><div class="risk-item" data-r="hes">HES pārrāvums</div></td></tr>
+<tr><th>Tālie</th>
+<td class="cell-low"><div class="risk-item" data-r="power">Elektroapgāde</div></td>
+<td class="cell-medium"><div class="risk-item" data-r="fire">Mežu ugunsgrēki</div></td>
+<td class="cell-high"><div class="risk-item" data-r="chemical">Ķīmiskās avārijas</div></td>
+<td class="cell-vhigh"><div class="risk-item" data-r="large_flood">Lielmēroga plūdi</div></td></tr>
+</tbody>
+</table>
+</div>
+<div style="margin-top:20px"><canvas id="riskChart"></canvas></div>
+</div>
+</section>
+
+<!-- SHELTERS -->
+<section class="tab-pane" id="shelters-pane">
+<div style="padding:15px;max-width:1000px;margin:0 auto">
+<h1 style="margin-bottom:15px;color:var(--vds-blue)"><i class="fas fa-home"></i> Patvertnes</h1>
+<p style="margin-bottom:15px;color:var(--vds-text2)">Ogres novadā - 31 patvertne (5 parāda)</p>
+<div class="grid-cards" id="sheltersGrid">
+<div class="loading active"><div class="spinner"></div><p>Ielāde...</p></div>
+</div>
+</div>
+</section>
+
+<!-- EVACUATION -->
+<section class="tab-pane" id="evac-pane">
+<div style="padding:15px;max-width:800px;margin:0 auto">
+<h1 style="margin-bottom:15px;color:var(--vds-blue)"><i class="fas fa-route"></i> Evakuācija</h1>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-bottom:20px">
+<div class="card"><div class="card-bar" style="background:var(--vds-orange)"></div>
+<h3 class="card-title"><i class="fas fa-people-arrows"></i> Pulcēšanās vietas</h3>
+<p class="card-detail">19 punkts<br>4 500 cilvēki</p>
+</div>
+<div class="card"><div class="card-bar" style="background:var(--vds-green)"></div>
+<h3 class="card-title"><i class="fas fa-bed"></i> Izmitināšanas centri</h3>
+<p class="card-detail">11 centrs<br>6 500 vietas</p>
+</div>
+<div class="card"><div class="card-bar" style="background:var(--vds-red)"></div>
+<h3 class="card-title"><i class="fas fa-road"></i> Evakuācijas maršruti</h3>
+<p class="card-detail">A6, P80, P4<br>12 melnie punkti</p>
+</div>
+</div>
+<div style="margin-top:20px"><canvas id="evacChart"></canvas></div>
+</div>
+</section>
+
+<!-- CHECKLIST -->
+<section class="tab-pane" id="checklist-pane">
+<div style="padding:15px;max-width:700px;margin:0 auto">
+<h1 style="margin-bottom:15px;color:var(--vds-blue)"><i class="fas fa-clipboard-check"></i> 72 Stundu Soma</h1>
+<div class="checklist-c">
+<div class="progress-bar-bg"><div class="progress-bar-fill" id="checkProgress"></div></div>
+<div style="display:flex;justify-content:space-between;margin-bottom:15px">
+<span id="checkCount">0/7 sagatavināts</span>
+<button class="btn btn-outline" onclick="resetChecklist()"><i class="fas fa-redo"></i> Notīrīt</button>
+</div>
+<div class="checklist-grid">
+<label class="check-item"><input type="checkbox" class="check-item-cb" data-id="water"><span><strong>Dzergājas ūdens</strong><br><small>3L uz personu dienā</small></span></label>
+<label class="check-item"><input type="checkbox" class="check-item-cb" data-id="food"><span><strong>Ēdiena pakas</strong><br><small>Neisošs ēdiens, konservi</small></span></label>
+<label class="check-item"><input type="checkbox" class="check-item-cb" data-id="first_aid"><span><strong>Pirmās palīdzības</strong><br><small>Medikamenti, pallīdzības komplekts</small></span></label>
+<label class="check-item"><input type="checkbox" class="check-item-cb" data-id="flashlight"><span><strong>Lukturiņš</strong><br><small>Ar rezerves baterijām</small></span></label>
+<label class="check-item"><input type="checkbox" class="check-item-cb" data-id="radio"><span><strong>Rādio aparāts</strong><br><small>Ar 112 numuru</small></span></label>
+<label class="check-item"><input type="checkbox" class="check-item-cb" data-id="docs"><span><strong>Dokumenti</strong><br><small>Pase, apliecības kopijas</small></span></label>
+<label class="check-item"><input type="checkbox" class="check-item-cb" data-id="clothes"><span><strong>Siltā apģērba</strong><br><small>Vilna, lietussargi</small></span></label>
+</div>
+<div style="margin-top:20px;text-align:center">
+<button class="btn btn-primary" onclick="printChecklist()"><i class="fas fa-print"></i> Drukāt</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FLOWS -->
+<section class="tab-pane" id="flows-pane">
+<div style="padding:15px;max-width:800px;margin:0 auto">
+<h1 style="margin-bottom:15px;color:var(--vds-blue)"><i class="fas fa-project-diagram"></i> Apziņošanas Shēmas</h1>
+<div class="accordion-item">
+<button class="accordion-hdr"><span><i class="fas fa-bell"></i> Agrīnā Brīdināšana</span><i class="fas fa-chevron-down"></i></button>
+<div class="accordion-cnt">
+<p>Brīdināšanas procesa shēma no LVĢMC līdz iedzīvotājiem.</p>
+<div class="mermaid">
+graph TD
+ A[LVĢMC Brīdinājums] --> B[Pašvaldības CA Komisija]
+ B --> C[Operacionālais Vadības Centrs]
+ C --> D[Iedzīvotāju Informēšana]
+ D --> E1[Sirēnas]
+ D --> E2[SMS]
+ D --> E3[Radio]
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<button class="accordion-hdr"><span><i class="fas fa-users"></i> Komisijas Sasaukšana</span><i class="fas fa-chevron-down"></i></button>
+<div class="accordion-cnt">
+<p>CA komisijas aktivizācijas shēma.</p>
+<div class="mermaid">
+graph TD
+ A[Domes priekšsēdētājs] --> B[CA komisijas priekšsēdētājs]
+ B --> C1[Domes vietnieks]
+ B --> C2[CA locekļi]
+ B --> C3[Operacionālais centrs]
+ C2 --> D[VUGD pārstāvis]
+</div>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<!-- MODAL -->
+<div class="modal" id="riskModal">
+<div class="modal-cnt">
+<div class="modal-hdr">
+<h2 id="riskModalTitle">Riska Detalizācija</h2>
+<button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+</div>
+<div class="modal-body" id="riskModalBody"></div>
+</div>
+</div>
+
+<script>
+// ===== THEME =====
+const themeBtn = document.getElementById('themeToggle');
+const isDark = localStorage.getItem('darkMode') === 'true';
+if(isDark){document.body.classList.add('dark');themeBtn.innerHTML = '<i class="fas fa-sun"></i>'}
+themeBtn.addEventListener('click',()=>{
+ document.body.classList.toggle('dark');
+ const nowDark = document.body.classList.contains('dark');
+ localStorage.setItem('darkMode',nowDark);
+ themeBtn.innerHTML = nowDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+});
+
+// ===== NAV =====
+const tabs = document.querySelectorAll('.tab-btn');
+const panes = document.querySelectorAll('.tab-pane');
+tabs.forEach(t=>{t.addEventListener('click',()=>{
+ const target = t.getAttribute('data-tab') + '-pane';
+ tabs.forEach(b=>b.classList.remove('active'));
+ panes.forEach(p=>p.classList.remove('active'));
+ t.classList.add('active');
+ document.getElementById(target).classList.add('active');
+ if(window.innerWidth<=768) document.getElementById('mapSidebar').classList.add('collapsed');
+ if(target==='flows-pane') mermaid.initialize({startOnLoad:true});
+})});
+
+// ===== MOBILE MENU =====
+document.getElementById('menuToggle').addEventListener('click',()=>{
+ document.getElementById('mapSidebar').classList.toggle('collapsed');
+});
+
+// ===== WATER LEVEL =====
+function updateWaterLevel(){
+ const levels = [21.5,21.8,22.0,21.9,22.1,21.7,21.85];
+ const lvl = levels[Math.floor(Math.random()*levels.length)];
+ document.getElementById('waterLevel').textContent = `${lvl}m`;
+ const fill = document.getElementById('waterLevelFill');
+ let w = (lvl-18)/(22.15-18)*100;
+ if(w<0)w=0;if(w>100)w=100;
+ fill.style.width = `${w}%`;
+ fill.className = 'wl-fill';
+ if(lvl>22.15){fill.classList.add('danger');updateStatus('ĀRKĀRTAS SITUĀCIJA','Ogres upes pali!','fa-exclamation-circle','var(--vds-red)')}
+ else if(lvl>20.0){fill.classList.add('warning');updateStatus('PAUGSTINĀTA GATAVĪBA','Plūdu risks','fa-exclamation-triangle','var(--vds-orange)')}
+ else{updateStatus('MIERĪGS','Normāls līmenis','fa-check-circle','var(--vds-green)')}
+}
+function updateStatus(title,msg,icon,color){
+ const badge = document.getElementById('sosBadge');
+ badge.innerHTML = `<i class="fas ${icon}"></i><span><b>${title}</b><br>${msg}</span>`;
+ badge.style.background = color;
+}
+updateWaterLevel();
+setInterval(updateWaterLevel,300000);
+
+// ===== MAP =====
+const map = L.map('map').setView([56.95,25.0],11);
+const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap'});
+const sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'Esri'});
+osm.addTo(map);
+let currentMap = 'osm';
+
+document.querySelectorAll('.basemap-btn').forEach(b=>{
+ b.addEventListener('click',()=>{
+  document.querySelectorAll('.basemap-btn').forEach(bb=>bb.classList.remove('active'));
+  b.classList.add('active');
+  const type = b.getAttribute('data-map');
+  currentMap = type;
+  if(type==='osm'){map.removeLayer(sat);osm.addTo(map)}
+  else{map.removeLayer(osm);sat.addTo(map)}
+ });
+});
+
+document.getElementById('zoomIn').addEventListener('click',()=>map.zoomIn());
+document.getElementById('zoomOut').addEventListener('click',()=>map.zoomOut());
+document.getElementById('locateBtn').addEventListener('click',()=>map.locate({setView:true,maxZoom:16}));
+
+// GeoJSON data (simplified)
+const shelters = {
+ type:'FeatureCollection',
+ features:[
+  {type:'Feature',id:1,geometry:{type:'Point',coordinates:[24.9825,56.9514]},properties:{name:'Ogres dome',addr:'Brīvības iela 4',type:'administrativa',cap:200}},
+  {type:'Feature',id:2,geometry:{type:'Point',coordinates:[24.9903,56.9456]},properties:{name:'Ogres 1. vidusskola',addr:'Rīgas iela 15',type:'skola',cap:300}},
+  {type:'Feature',id:3,geometry:{type:'Point',coordinates:[24.9758,56.9552]},properties:{name:'Ogres kultūras nams',addr:'J. Pliekšāna iela 2',type:'kulturas_nams',cap:150}},
+  {type:'Feature',id:4,geometry:{type:'Point',coordinates:[25.0123,56.9389]},properties:{name:'Ķeguma administrācija',addr:'Stacijas iela 1',type:'administrativa',cap:120}},
+  {type:'Feature',id:5,geometry:{type:'Point',coordinates:[24.8567,56.8945]},properties:{name:'Lielvārdes vidusskola',addr:'Bērzu iela 3',type:'skola',cap:250}}
+ ]
+};
+
+const evacPoints = {
+ type:'FeatureCollection',
+ features:[
+  {type:'Feature',properties:{name:'Ogres stadions',addr:'Sporta iela 5',type:'point',nr:1},geometry:{type:'Point',coordinates:[24.9856,56.9489]}},
+  {type:'Feature',properties:{name:'Ogres parks',addr:'Parka iela 1',type:'point',nr:2},geometry:{type:'Point',coordinates:[24.9912,56.9523]}}
+ ]
+};
+
+const evacCenters = {
+ type:'FeatureCollection',
+ features:[
+  {type:'Feature',properties:{name:'Ogres 1. vidusskola',addr:'Rīgas iela 15',cap:300,food:'IR',beds:150,rooms:12},geometry:{type:'Point',coordinates:[24.9903,56.9456]}},
+  {type:'Feature',properties:{name:'Ķeguma vidusskola',addr:'Stacijas iela 3',cap:200,food:'IR',beds:100,rooms:8},geometry:{type:'Point',coordinates:[25.0123,56.9389]}}
+ ]
+};
+
+const boundary = {
+ type:'Feature',
+ geometry:{type:'Polygon',coordinates:[[[24.8,56.85],[24.8,57.0],[25.2,57.0],[25.2,56.85],[24.8,56.85]]]}
+};
+
+// Icons
+const shelterIcon = L.divIcon({html:'<i class="fas fa-home" style="color:#2E8B4B;font-size:20px"></i>',iconSize:[25,25],iconAnchor:[12,12]});
+const evacIcon = L.divIcon({html:'<i class="fas fa-map-marker-alt" style="color:#F57E20;font-size:20px"></i>',iconSize:[25,25],iconAnchor:[12,12]});
+const centerIcon = L.divIcon({html:'<i class="fas fa-building" style="color:#2E8B4B;font-size:20px"></i>',iconSize:[25,25],iconAnchor:[12,12]});
+
+// Layers
+const bLayer = L.geoJSON(boundary,{style:{color:'#0077C8',weight:2,dashArray:'5,5',fillColor:'rgba(0,119,200,0.1)',fillOpacity:0.3}});
+const sLayer = L.layerGroup();
+const pLayer = L.layerGroup();
+const cLayer = L.layerGroup();
+
+// Add shelters
+shelters.features.forEach(f=>{
+ const c = f.geometry.coordinates;
+ const p = f.properties;
+ const m = L.marker([c[1],c[0]],{icon:shelterIcon});
+ m.bindPopup(`<b>${p.name}</b><br>${p.addr}<br>Tips: ${p.type}<br>Ietilpība: ${p.cap}`);
+ sLayer.addLayer(m);
+});
+
+// Add evac points
+evacPoints.features.forEach(f=>{
+ const c = f.geometry.coordinates;
+ const p = f.properties;
+ const m = L.marker([c[1],c[0]],{icon:evacIcon});
+ m.bindPopup(`<b>${p.name}</b><br>${p.addr}<br>Nr: ${p.nr}`);
+ pLayer.addLayer(m);
+});
+
+// Add evac centers
+evacCenters.features.forEach(f=>{
+ const c = f.geometry.coordinates;
+ const p = f.properties;
+ const m = L.marker([c[1],c[0]],{icon:centerIcon});
+ m.bindPopup(`<b>${p.name}</b><br>${p.addr}<br>Ietilpība: ${p.cap}<br>Ēdnīca: ${p.food}<br>Gultas: ${p.beds}`);
+ cLayer.addLayer(m);
+});
+
+// Add to map
+bLayer.addTo(map);
+sLayer.addTo(map);
+pLayer.addTo(map);
+
+// Layer controls
+document.getElementById('l-boundary').addEventListener('change',e=>{e.target.checked?bLayer.addTo(map):map.removeLayer(bLayer)});
+document.getElementById('l-shelters').addEventListener('change',e=>{e.target.checked?sLayer.addTo(map):map.removeLayer(sLayer)});
+document.getElementById('l-evacp').addEventListener('change',e=>{e.target.checked?pLayer.addTo(map):map.removeLayer(pLayer)});
+document.getElementById('l-evacc').addEventListener('change',e=>{e.target.checked?cLayer.addTo(map):map.removeLayer(cLayer)});
+
+// ===== SEARCH =====
+const addrDb = [
+ {name:'Ogres dome',addr:'Brīvības iela 4, Ogre',lat:56.9514,lon:24.9825},
+ {name:'Ogres 1. vidusskola',addr:'Rīgas iela 15, Ogre',lat:56.9456,lon:24.9903},
+ {name:'Ogres stadions',addr:'Sporta iela 5, Ogre',lat:56.9489,lon:24.9856},
+ {name:'Ķeguma administrācija',addr:'Stacijas iela 1, Ķegums',lat:56.9389,lon:25.0123}
+];
+
+document.getElementById('addressSearch').addEventListener('input',e=>{
+ const q = e.target.value.toLowerCase();
+ const rc = document.getElementById('searchResults');
+ const res = addrDb.filter(a=>a.name.toLowerCase().includes(q)||a.addr.toLowerCase().includes(q));
+ if(q.length<2){rc.classList.remove('active');return}
+ rc.innerHTML='';
+ res.forEach(a=>{
+  const d = document.createElement('div');
+  d.className='search-result-item';
+  d.style.padding='8px 10px';d.style.cursor='pointer';
+  d.innerHTML=`<b>${a.name}</b><br><small>${a.addr}</small>`;
+  d.addEventListener('click',()=>{
+   map.setView([a.lat,a.lon],16);
+   L.marker([a.lat,a.lon]).addTo(map).bindPopup(`<b>${a.name}</b><br>${a.addr}`).openPopup();
+   rc.classList.remove('active');
+   e.target.value=a.name;
+  });
+  rc.appendChild(d);
+ });
+ rc.classList.add('active');
+});
+
+document.addEventListener('click',e=>{if(!e.target.closest('.form-ctrl')) document.getElementById('searchResults').classList.remove('active')});
+
+// ===== GEOLOCATION =====
+window.userMarker = null;
+map.on('locationfound',e=>{
+ if(window.userMarker) map.removeLayer(window.userMarker);
+ window.userMarker = L.marker(e.latlng,{icon:L.divIcon({html:'<i class="fas fa-user" style="color:#0077C8;font-size:16px"></i>',iconSize:[20,20],iconAnchor:[10,10]})}).addTo(map).bindPopup('Jūs atrodaties šeit');
+ findNearestShelter(e.latlng.lat,e.latlng.lng);
+});
+
+document.getElementById('findMyLoc').addEventListener('click',()=>map.locate({setView:true,maxZoom:16}));
+
+document.getElementById('findNearest').addEventListener('click',()=>{
+ if(window.userMarker) findNearestShelter(window.userMarker.getLatLng().lat,window.userMarker.getLatLng().lng);
+ else alert('Lūdzu, vispār atrodi savu atrašanās vietu!');
+});
+
+function findNearestShelter(lat,lon){
+ let minD = Infinity;let nearest = null;
+ shelters.features.forEach(f=>{
+  const c = f.geometry.coordinates;
+  const d = Math.sqrt(Math.pow(c[1]-lat,2)+Math.pow(c[0]-lon,2))*111;
+  if(d<minD){minD=d;nearest=f}
+ });
+ if(nearest){
+  const c = nearest.geometry.coordinates;
+  const p = nearest.properties;
+  L.polyline([[lat,lon],[c[1],c[0]]],{color:'#FFD700',weight:3,dashArray:'8,4'}).addTo(map);
+  L.marker([c[1],c[0]],{icon:shelterIcon}).addTo(map).bindPopup(`<b>Tuvākā: ${p.name}</b><br>${p.addr}<br>~${Math.round(minD*1000)}m`).openPopup();
+ }
+}
+
+// ===== SHELTERS GRID =====
+function renderShelters(){
+ const c = document.getElementById('sheltersGrid');
+ c.innerHTML = '<div class="loading active"><div class="spinner"></div><p>Ielāde...</p></div>';
+ setTimeout(()=>{
+  c.innerHTML='';
+  shelters.features.forEach(f=>{
+   const p = f.properties;
+   const card = document.createElement('div');
+   card.className='card';
+   const types = {skola:'🏫',administrativa:'🏢',kulturas_nams:'🎭'};
+   card.innerHTML=`<div class="card-bar" style="background:var(--vds-green)"></div>
+   <h3 class="card-title">${types[p.type]||'🏠'} ${p.name}</h3>
+   <div class="card-addr">${p.addr}</div>
+   <div class="card-detail">Tips: ${p.type}<br>Ietilpība: ${p.cap}</div>
+   <button class="btn btn-outline btn-full" style="margin-top:8px" onclick="map.setView([${f.geometry.coordinates[1]},${f.geometry.coordinates[0]}],16)">Rādīt uz kartes</button>`;
+   c.appendChild(card);
+  });
+  document.getElementById('shelterCount').textContent = shelters.features.length;
+ },300);
+}
+renderShelters();
+
+// ===== RISK MATRIX =====
+const riskData = {
+ infrastructure:{level:'Vidējs',coord:'Pašvaldības tehniskā nodaļa',actions:'Novērtēt bojājumus, organizēt remontu',center:'Ogres dome'},
+ flood:{level:'Augsts',coord:'VUGD Ogres nodaļa',actions:'Monitorēt ūdens līmeni, gatavināties evakuācijai',center:'Ogres CA komisija'},
+ hes:{level:'Ļoti augsts',coord:'VUGD un LVĢMC',actions:'Nekavējoties evakuēt, aktivizēt glābšanas darbus',center:'Ogres CA vadības centrs'},
+ power:{level:'Zems',coord:'Sadales tīkls',actions:'Atjaunot elektroapgādi, informēt iedzīvotājus',center:'Sadales tīkls'},
+ fire:{level:'Vidējs',coord:'VUGD un Mežsaimniecība',actions:'Dzēst ugunsgrēku, aizstādīt uguns drošības jostas',center:'Ogres mežsargi'},
+ chemical:{level:'Augsts',coord:'VUGD ķīmiskās drošības',actions:'Izolēt avārijas zonu, evakuēt iedzīvotājus',center:'VUGD Rīgas centrs'},
+ large_flood:{level:'Ļoti augsts',coord:'Valsts ārkārtas komisija',actions:'Aktivizēt valsts līmeņa glābšanas operācijas',center:'Valsts vadības centrs'}
+};
+
+const levelColors = {Zems:'#2E8B4B',Vidējs:'#FFD700',Augsts:'#F57E20',Ļoti:var(--vds-red)};
+
+function showRiskDetail(type){
+ const r = riskData[type];
+ if(!r)return;
+ const m = document.getElementById('riskModal');
+ const mt = document.getElementById('riskModalTitle');
+ const mb = document.getElementById('riskModalBody');
+ mt.innerHTML = '<i class="fas fa-exclamation-circle"></i> ' + type.replace(/_/g,' ').toUpperCase();
+ mb.innerHTML = `<div style="padding:10px;background:${levelColors[r.level]}20;border-left:4px solid ${levelColors[r.level]};margin-bottom:15px"><p><strong>Līmenis:</strong> <span style="color:${levelColors[r.level]};font-weight:bold">${r.level}</span></p></div>
+<div style="margin-bottom:10px"><p><strong>Koordinators:</strong> ${r.coord}</p></div>
+<div style="margin-bottom:10px"><p><strong>Vadības centrs:</strong> ${r.center}</p></div>
+<div style="margin-bottom:15px"><h4>Pasākumi:</h4><p>${r.actions}</p></div>
+<div style="text-align:center"><button class="btn btn-primary" onclick="closeModal()">Aizvērt</button></div>`;
+ m.classList.add('active');
+}
+
+function closeModal(){document.getElementById('riskModal').classList.remove('active')}
+
+document.querySelectorAll('.risk-item').forEach(i=>{i.addEventListener('click',()=>showRiskDetail(i.getAttribute('data-r')))});
+
+// ===== CHARTS =====
+new Chart(document.getElementById('riskChart'),{
+ type:'doughnut',
+ data:{labels:['Zems','Vidējs','Augsts','Ļoti augsts'],datasets:[{data:[2,2,2,1],backgroundColor:['#2E8B4B','#FFD700','#F57E20','#D52B1E']}]},
+ options:{responsive:true,plugins:{legend:{position:'bottom'},title:{display:true,text:'Risku sadalījums'}}}
+});
+
+new Chart(document.getElementById('evacChart'),{
+ type:'bar',
+ data:{labels:['Ogres 1.vsk','Ķeguma vsk'],datasets:[{label:'Ietilpība',data:[300,200],backgroundColor:'rgba(46,139,75,0.7)'}]},
+ options:{responsive:true,plugins:{legend:{position:'top'},title:{display:true,text:'Evakuācijas centru ietilpība'}},scales:{y:{beginAtZero:true,title:{display:true,text:'Cilvēki'}}}}}}
+});
+
+// ===== CHECKLIST =====
+const checkItems = document.querySelectorAll('.check-item-cb');
+let checklist = JSON.parse(localStorage.getItem('ogre_checklist')||'{}');
+checkItems.forEach(i=>{i.checked=checklist[i.getAttribute('data-id')]||false});
+updateCheckProgress();
+
+checkItems.forEach(i=>{i.addEventListener('change',updateCheckProgress)});
+
+function updateCheckProgress(){
+ let c = 0;checkItems.forEach(i=>{if(i.checked)c++});
+ const t = checkItems.length;
+ document.getElementById('checkProgress').style.width = `${c/t*100}%`;
+ document.getElementById('checkCount').textContent = `${c}/${t} sagatavināts`;
+ const newCheck = {};
+ checkItems.forEach(i=>{newCheck[i.getAttribute('data-id')]=i.checked});
+ localStorage.setItem('ogre_checklist',JSON.stringify(newCheck));
+}
+
+function resetChecklist(){
+ checkItems.forEach(i=>{i.checked=false});
+ updateCheckProgress();
+}
+
+function printChecklist(){window.print()}
+
+// ===== ACCORDION =====
+document.querySelectorAll('.accordion-hdr').forEach(h=>{
+ h.addEventListener('click',()=>{
+  h.classList.toggle('open');
+  h.nextElementSibling.classList.toggle('open');
+  if(h.nextElementSibling.querySelector('.mermaid')){
+   mermaid.initialize({startOnLoad:true});
+   mermaid.init(undefined,h.nextElementSibling.querySelector('.mermaid'));
+  }
+ });
+});
+
+mermaid.initialize({startOnLoad:true});
+
+// ===== SEARCH RESULTS STYLE =====
+const srStyle = document.createElement('style');
+srStyle.textContent = '.search-results{position:absolute;top:100%;left:0;right:0;background:var(--vds-light);border:1px solid var(--vds-gray);border-radius:var(--br);box-shadow:var(--shadow);max-height:200px;overflow-y:auto;z-index:100}.search-result-item:hover{background:var(--vds-gray)}';
+document.head.appendChild(srStyle);
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "dobeles_novada_sadarbibas_teritorijas_ca_plans.doc",
+    "formats": "doc",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 1618432,
+    "sha256": "6746fb9c219b041bd9297907cb03044b6b4fd8a3923668d52057bbf7b93fa502",
+    "avota_url": "https://www.dobele.lv/lv/media/39263/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.dobele.lv%2Flv%2Fmedia%2F39263%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:22:14",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "dobeles_novada_sadarbibas_teritorijas_ca_komisijas_nolikums_0.docx",
+    "formats": "docx",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 149285,
+    "sha256": "5b31415f4f95ded9cd493047e72a24da4b40bedc68ade3043b2e96f0ee78971f",
+    "avota_url": "https://www.dobele.lv/lv/media/45939/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.dobele.lv%2Flv%2Fmedia%2F45939%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:31:34",
+    "apraksts": "Dobeles novada sadarbības teritorijas civilās aizsardzības komisijas nolikums (publicēts plāna lapā; tas pats nolikums iekļauts arī plāna .doc failā kā pielikums)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "28.05.2026.domes_sedes_lemumi.docx",
+    "formats": "docx",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 284309,
+    "sha256": "0f2b19710831e0f0a52d6631c03f336950885c2fb19a55cc78cca776e4be7fa8",
+    "avota_url": "https://www.dobele.lv/lv/media/45693/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.dobele.lv%2Flv%2Fmedia%2F45693%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:33:42",
+    "apraksts": "Dobeles novada domes 28.05.2026. sēdes lēmumi (satur lēmumu Nr.115/7 ar jaunākajiem plāna grozījumiem un komisijas nolikuma grozījumiem; pārējie lēmumi nav saistīti ar plānu)",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

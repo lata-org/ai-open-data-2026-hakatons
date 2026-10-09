@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "Cesu_novada_civilas_aizsardzibas_plans_bez_pielikumiem.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 3519963,
+    "sha256": "86e23922f5ebfcc35f411dbe40700657420c20c67d6f3ef5f3a4c12231c845c9",
+    "avota_url": "https://www.cesis.lv/images/userfiles/Civil%C4%81s_aizsardz%C4%ABbas_pl%C4%81ns_%28bez_pielikumiem%29.pdf",
+    "gala_url": "https://www.cesis.lv/images/userfiles/Civil%C4%81s_aizsardz%C4%ABbas_pl%C4%81ns_%28bez_pielikumiem%29.pdf",
+    "lejupieladets": "2026-09-11 21:04:34",
+    "apraksts": "pamatdokuments (bez pielikumiem)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "Domes_sedes_protokols_Nr6_28.05.2026.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 534983,
+    "sha256": "84ebcb6d7f1e94456aefd31b2145e506efb5ebacfe98fd27872fdc194a8ec071",
+    "avota_url": "https://www.cesis.lv/images/userfiles/komiteju_protokoli/Protokols_28.05.2026.pdf",
+    "gala_url": "https://www.cesis.lv/images/userfiles/komiteju_protokoli/Protokols_28.05.2026.pdf",
+    "lejupieladets": "2026-09-11 21:14:55",
+    "apraksts": "Cēsu novada domes 28.05.2026. sēdes protokols Nr.6 (2. jautājums: lēmums Nr.222 'Par Cēsu novada pašvaldības civilās aizsardzības plānu' - plāna apstiprināšana)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "2_pielikums_CA_komisijas_nolikums_Nr207_konsolidets.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 356921,
+    "sha256": "05cd0b3e672bef84c5e6e9766a6a29e2d6116caf3c0ca9211883fa15bae77851",
+    "avota_url": "https://www.cesis.lv/images/userfiles/Nolikums_Nr.207_konsolidets%282%29.pdf",
+    "gala_url": "https://www.cesis.lv/images/userfiles/Nolikums_Nr.207_konsolidets%282%29.pdf",
+    "lejupieladets": "2026-09-11 21:15:22",
+    "apraksts": "2. pielikums - Civilās aizsardzības komisijas nolikums (Nr.207, konsolidēts)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

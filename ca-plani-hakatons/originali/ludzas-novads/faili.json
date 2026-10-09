@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "LSTCAP_plans.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2058522,
+    "sha256": "ea3d0dfdff26d0c949ee36c5498bb7a7445ea85d6cb40210751b8e92c04b7c1b",
+    "avota_url": "https://www.ludzasnovads.lv/lv/media/50219/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.ludzasnovads.lv%2Flv%2Fmedia%2F50219%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:43:34",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "LSTCAP_pielikumi_publiskojams.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 3385584,
+    "sha256": "f0246b8a1655db6b724a2412416f2ecaf5a3bdf65ca350aa85860c4684208c50",
+    "avota_url": "https://www.ludzasnovads.lv/lv/media/50222/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.ludzasnovads.lv%2Flv%2Fmedia%2F50222%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:44:00",
+    "apraksts": "pielikumi (publiskojamā daļa)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "Lemums_419_2025-10-29_grozijums_plana.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 158883,
+    "sha256": "a8821ace33b7b27d8d549fd52f3386881c580806b2436d5c2f0ae63b76cbb53a",
+    "avota_url": "https://www.ludzasnovads.lv/lv/media/50240/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.ludzasnovads.lv%2Flv%2Fmedia%2F50240%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:55:43",
+    "apraksts": "domes lēmums Nr. 419 (29.10.2025) par pēdējo grozījumu plānā",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

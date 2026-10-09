@@ -1,0 +1,28 @@
+[
+  {
+    "fails": "bauska_stca_plans_2022_precizets.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2787021,
+    "sha256": "7dba1aef8b5be48351951d5d67099efae34654a389873e15bfcaabebd191da1b",
+    "avota_url": "https://www.bauskasnovads.lv/lv/media/2665/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.bauskasnovads.lv%2Flv%2Fmedia%2F2665%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:11:24",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "BAUSKA_STCA_PLANS_2022_apstiprinaats.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2002155,
+    "sha256": "a2b92a342ae71dcdb9a8162570ac9e985343f29787eac1f03c51bd631792dc4f",
+    "avota_url": "https://www.bauskasnovads.lv/lv/media/39288/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.bauskasnovads.lv%2Flv%2Fmedia%2F39288%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:16:53",
+    "apraksts": "pamatdokuments (versija no lapas 'Operatīvā rīcība, civilā aizsardzība')",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

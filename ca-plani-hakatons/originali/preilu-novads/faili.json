@@ -1,0 +1,15 @@
+[
+  {
+    "fails": "cak_plans_22_homepage.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 3208471,
+    "sha256": "d8aa64bd43c2699d6cf1da3dbe3bd4ac13500a71cbddb217156fb2d38784e554",
+    "avota_url": "https://www.preili.lv/lv/media/965/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.preili.lv%2Flv%2Fmedia%2F965%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:11:04",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

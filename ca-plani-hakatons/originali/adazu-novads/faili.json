@@ -1,0 +1,15 @@
+[
+  {
+    "fails": "adazu_novada_ca_plans_publiska-versija_0.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 4208604,
+    "sha256": "74b625111770cb2ea24fb108e939e7650f6b1d7652ed8244fcf1b2cc498adf57",
+    "avota_url": "https://www.adazunovads.lv/lv/media/26445/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.adazunovads.lv%2Flv%2Fmedia%2F26445%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:22:25",
+    "apraksts": "pamatdokuments (publiskā versija)",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

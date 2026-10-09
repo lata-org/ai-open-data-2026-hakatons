@@ -1,0 +1,67 @@
+[
+  {
+    "fails": "49_paragrafs_pielikums_plans_0.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2223946,
+    "sha256": "ef6ec1e1265bc6befd7a57a6a573295e6f450a55a939e541c036d1bcad756134",
+    "avota_url": "https://www.balvi.lv/lv/media/21408/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.balvi.lv%2Flv%2Fmedia%2F21408%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:08:53",
+    "apraksts": "pamatdokuments – Balvu sadarbības teritorijas civilās aizsardzības plāns",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "49_paragrafs_lemums_3.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 143550,
+    "sha256": "867dabc297b5a407d810b70328936a212ac7fe814927b68f0216e6b6aaaca549",
+    "avota_url": "https://www.balvi.lv/lv/media/4593/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.balvi.lv%2Flv%2Fmedia%2F4593%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:17:07",
+    "apraksts": "domes 26.05.2022. lēmums Nr.13, 49.§ Par Balvu sadarbības teritorijas civilās aizsardzības plāna apstiprināšanu",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "49_paragrafs_1.pielikums_0.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 231228,
+    "sha256": "d5d1536e8f9179aff32ba81cadc90798ea52d870334e3df6396318b2a837232f",
+    "avota_url": "https://www.balvi.lv/lv/media/4594/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.balvi.lv%2Flv%2Fmedia%2F4594%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:17:12",
+    "apraksts": "plāna 8.1. pielikums – Balvu sadarbības teritorijas civilās aizsardzības komisijas nolikums un apziņošanas kārtība (konsolidēts, apstiprināts 26.08.2021., grozīts 27.01.2022.); publicēts kā lēmuma 49.§ pielikums",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "70_paragrafs_lemums_5.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 173419,
+    "sha256": "f99de16451a1f131f3ad2dca13afccb36356fada68515d6b7113d93450b6775c",
+    "avota_url": "https://www.balvi.lv/lv/media/24984/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.balvi.lv%2Flv%2Fmedia%2F24984%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:18:28",
+    "apraksts": "domes 28.12.2023. lēmums (prot. Nr.21, 70.§) Par grozījumiem Balvu sadarbības teritorijas civilās aizsardzības plānā – papildina ar 9. sadaļu (pati 9. sadaļa ir ierobežotas pieejamības, nav publiska)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "49_paragrafs_pielikums_plans.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2223946,
+    "sha256": "ef6ec1e1265bc6befd7a57a6a573295e6f450a55a939e541c036d1bcad756134",
+    "avota_url": "https://www.balvi.lv/lv/media/4595/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.balvi.lv%2Flv%2Fmedia%2F4595%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:18:38",
+    "apraksts": "plāna kopija no domes 26.05.2022. protokola Nr.13 lapas (49.§ pielikums)",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

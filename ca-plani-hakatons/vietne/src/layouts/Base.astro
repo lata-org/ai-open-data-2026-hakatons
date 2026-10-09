@@ -1,0 +1,42 @@
+---
+import '../styles/global.css';
+interface Props { title: string; apraksts?: string; aktivs?: 'sakums' | 'metodika' | 'novads' }
+const { title, apraksts = 'Latvijas pašvaldību civilās aizsardzības plāni — salīdzinājums pēc MK noteikumu Nr. 658 prasībām un lasāmā versija ar atvērtajiem datiem.', aktivs } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="lv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={apraksts} />
+    <link rel="icon" href={`data:image/svg+xml,${encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#2a78d6"/><text x="16" y="22" font-size="17" font-family="Arial" font-weight="700" fill="#fff" text-anchor="middle">CA</text></svg>')}`} />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href={base}>
+          <span class="brand__mark">CA</span>
+          <span>Civilās aizsardzības plāni<small>Latvijas pašvaldības · atvērtie dati</small></span>
+        </a>
+        <span class="proto-badge">Prototips</span>
+        <nav class="site-nav" aria-label="Galvenā navigācija">
+          <a href={base} aria-current={aktivs === 'sakums' ? 'page' : undefined}>Salīdzinājums</a>
+          <a href={`${base}novads/ogres-novads/`} aria-current={Astro.url.pathname.includes('ogres-novads') ? 'page' : undefined}>Ogres novads</a>
+          <a href={`${base}novads/cesu-novads/`} aria-current={Astro.url.pathname.includes('cesu-novads') ? 'page' : undefined}>Cēsu novads</a>
+          <a href={`${base}metodika/`} aria-current={aktivs === 'metodika' ? 'page' : undefined}>Metodika</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Prototips VARAM hakatonam 2026. Plānu teksti — pašvaldību publicētās versijas (konvertētas no PDF/DOCX); patvertnes — 112.lv reģistrs (VUGD / IeM IC); robežas — VZD atvērtie dati. Atbilstības vērtējums ir analītisks, ne oficiāls.</p>
+        <p class="muted">Vietne ģenerēta ar Astro. Saturs: <code>markdown/&lt;novads&gt;/</code>, profili: <code>src/data/profili/</code>.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+---
+import dati from '../data/atvertie-dati.json';
+interface Props { filtrs?: string[]; kompakts?: boolean }
+const { filtrs, kompakts = false } = Astro.props;
+const rindas = filtrs ? dati.filter((d) => filtrs.includes(d.sadala)) : dati;
+const nos: Record<string, string> = { pieslegts: 'Pieslēgts', daleji: 'Daļēji', vietturis: 'Vietturis' };
+---
+<div class="table-wrap">
+  <table class="t">
+    <thead><tr><th>Datu kopa</th><th>Turētājs</th>{!kompakts && <th>Formāts</th>}<th>Pielietojums plānā</th><th>MK 658</th><th>Statuss</th></tr></thead>
+    <tbody>
+      {rindas.map((d) => (
+        <tr>
+          <td><a href={d.url} target="_blank" rel="noopener">{d.nosaukums}</a></td>
+          <td>{d.iestade}</td>
+          {!kompakts && <td class="dim">{d.formats}</td>}
+          <td>{d.lietojums}</td>
+          <td class="mono dim">{d.sadala}</td>
+          <td><span class={`chip chip--${d.statuss}`}>{nos[d.statuss]}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

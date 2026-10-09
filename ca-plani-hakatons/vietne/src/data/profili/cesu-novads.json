@@ -1,0 +1,142 @@
+{
+  "slug": "cesu-novads",
+  "pasvaldiba": "Cēsu novads",
+  "tips": "novads",
+  "centrs": [57.22, 25.55],
+  "zoom": 9,
+  "plans": {
+    "nosaukums": "Cēsu novada civilās aizsardzības plāns",
+    "apstiprinats": "2026-05-28",
+    "lemums": "Domes 28.05.2026. sēdes lēmums Nr. 222 (protokols Nr. 6, 2. §), 18 balsis „par”",
+    "grozijumi": "Iepriekšējais plāns 04.03.2021. (lēmums Nr. 39); militārā sadaļa pievienota 29.08.2024. (lēmums Nr. 419)",
+    "derigs_lidz": "2030-05",
+    "lpp": 85,
+    "publiskais_apjoms": "Publicēts pamatdokuments „bez pielikumiem” (85 lpp.) un atsevišķi 2. pielikums (komisijas nolikums). Pielikumu sarakstā 43 pielikumi, no tiem 16 ar ierobežotu pieejamību; pārējie mājaslapā nav publicēti.",
+    "avota_url": "https://www.cesis.lv/images/userfiles/Civil%C4%81s_aizsardz%C4%ABbas_pl%C4%81ns_%28bez_pielikumiem%29.pdf",
+    "publicesanas_lapa": "https://www.cesis.lv/lv/novads/drosiba/civilas-aizsardzibas-plans/",
+    "izstradatajs": "Cēsu novada pašvaldības civilās aizsardzības speciālists sadarbībā ar VUGD Vidzemes reģiona pārvaldi",
+    "struktura": "Trīs daļas: informatīvā (nemainīga 4 gadus), pielikumu (mainīgā) un militārā (ierobežota). Nodaļu numerācija 1–10 precīzi seko MK 658 4.1.–4.9. punktiem."
+  },
+  "teritorija": {
+    "platiba_km2": 2668.2,
+    "iedzivotaji": 42898,
+    "iedzivotaju_datums": "01.01.2026",
+    "blivums": 16.08,
+    "pilsetas": ["Cēsis", "Līgatne"],
+    "pagasti": 22,
+    "ieslodzijuma_vieta": "Cēsu Audzināšanas iestāde nepilngadīgajiem (Līgatnes iela 6, Cēsis): < 70 audzināmo, ietilpība līdz 160",
+    "mezi_procenti": 54.9,
+    "blakus_komisijas": ["Valmieras", "Smiltenes", "Madonas", "Gulbenes", "Ogres", "Siguldas", "Limbažu"],
+    "vienibas": [
+      { "nosaukums": "Cēsu pilsēta", "grupa": "Cēsu apvienība", "iedz": 15020, "km2": 19.3 },
+      { "nosaukums": "Vaives pagasts", "grupa": "Cēsu apvienība", "iedz": 1387, "km2": 153.7 },
+      { "nosaukums": "Priekuļu pagasts", "grupa": "Priekuļu apvienība", "iedz": 3768, "km2": 98.3 },
+      { "nosaukums": "Liepas pagasts", "grupa": "Priekuļu apvienība", "iedz": 2623, "km2": 74.7 },
+      { "nosaukums": "Mārsnēnu pagasts", "grupa": "Priekuļu apvienība", "iedz": 780, "km2": 69.2 },
+      { "nosaukums": "Veselavas pagasts", "grupa": "Priekuļu apvienība", "iedz": 457, "km2": 59.5 },
+      { "nosaukums": "Drabešu pagasts", "grupa": "Amatas apvienība", "iedz": 2323, "km2": 120.3 },
+      { "nosaukums": "Skujenes pagasts", "grupa": "Amatas apvienība", "iedz": 787, "km2": 180.3 },
+      { "nosaukums": "Nītaures pagasts", "grupa": "Amatas apvienība", "iedz": 702, "km2": 173.7 },
+      { "nosaukums": "Zaubes pagasts", "grupa": "Amatas apvienība", "iedz": 668, "km2": 163.4 },
+      { "nosaukums": "Amatas pagasts", "grupa": "Amatas apvienība", "iedz": 626, "km2": 108.3 },
+      { "nosaukums": "Līgatnes pagasts", "grupa": "Līgatnes apvienība", "iedz": 2179, "km2": 160.5 },
+      { "nosaukums": "Līgatnes pilsēta", "grupa": "Līgatnes apvienība", "iedz": 1017, "km2": 7.1 },
+      { "nosaukums": "Raiskuma pagasts", "grupa": "Pārgaujas apvienība", "iedz": 1380, "km2": 174.6 },
+      { "nosaukums": "Straupes pagasts", "grupa": "Pārgaujas apvienība", "iedz": 1278, "km2": 152.0 },
+      { "nosaukums": "Stalbes pagasts", "grupa": "Pārgaujas apvienība", "iedz": 979, "km2": 160.0 },
+      { "nosaukums": "Jaunpiebalgas pagasts", "grupa": "Jaunpiebalgas apvienība", "iedz": 1568, "km2": 183.8 },
+      { "nosaukums": "Zosēnu pagasts", "grupa": "Jaunpiebalgas apvienība", "iedz": 285, "km2": 67.4 },
+      { "nosaukums": "Vecpiebalgas pagasts", "grupa": "Vecpiebalgas apvienība", "iedz": 1256, "km2": 110.1 },
+      { "nosaukums": "Dzērbenes pagasts", "grupa": "Vecpiebalgas apvienība", "iedz": 759, "km2": 124.7 },
+      { "nosaukums": "Taurenes pagasts", "grupa": "Vecpiebalgas apvienība", "iedz": 678, "km2": 102.2 },
+      { "nosaukums": "Inešu pagasts", "grupa": "Vecpiebalgas apvienība", "iedz": 535, "km2": 87.9 },
+      { "nosaukums": "Kaives pagasts", "grupa": "Vecpiebalgas apvienība", "iedz": 269, "km2": 117.3 }
+    ],
+    "vienibu_avots": "Plāna 1. tabula (lpp. 11–12), PMLP dati uz 01.01.2026."
+  },
+  "riski": {
+    "apdraudejumu_skaits": 35,
+    "scenariju_skaits": 27,
+    "scenariju_piezime": "3.1.1.–3.1.27. — katram riskam apraksts, vēsturiskā statistika, atbildīgie dienesti un sadaļa „KĀ RĪKOTIES” iedzīvotājiem.",
+    "matrica_publiska": false,
+    "matrica_avots": "31. pielikums „Grafiska risku matrica” (2 lpp.) — nav publicēts",
+    "svarigakie": ["Lietusgāzes, ilgstošas lietavas, pērkona negaiss un krusa", "Sniegs un putenis, apledojums un slapja sniega nogulums", "Stiprs sals, karstums, sausums", "Vētras (vēja brāzmas), viesuļi", "Mežu un kūdras purvu ugunsgrēki", "Bīstamo ķīmisko vielu noplūde objektā", "Pārvades un sadales elektrotīklu bojājumi", "Avārijas dabasgāzes pārvades sistēmās", "Ūdensapgādes un kanalizācijas sistēmu bojājumi", "Autotransporta avārijas", "Dzelzceļa transporta katastrofa", "Aviācijas nelaimes gadījumi ar gaisa kuģiem"],
+    "vertejumi_teksta": [
+      { "risks": "Bīstamo vielu noplūde objektā", "limenis": "loti_augsts", "varbutiba": "vidēja", "lpp": "43" },
+      { "risks": "Epidēmija, pandēmija", "limenis": "augsts", "varbutiba": "—", "lpp": "32" },
+      { "risks": "Mežu un kūdras purvu ugunsgrēki", "limenis": "videjs", "varbutiba": "augsta", "lpp": "31" },
+      { "risks": "Epizootijas", "limenis": "nozimigs", "varbutiba": "augsta", "lpp": "38" },
+      { "risks": "Epifitotijas", "limenis": "nozimigs", "varbutiba": "augsta", "lpp": "41" },
+      { "risks": "Avārijas dabasgāzes apgādes sistēmā", "limenis": "nozimigs", "varbutiba": "augsta", "lpp": "47" },
+      { "risks": "Sabiedriskās nekārtības, iekšējie nemieri", "limenis": "maznozimigs", "varbutiba": "augsta", "lpp": "65" }
+    ],
+    "augstakie": [
+      { "risks": "Bīstamo vielu noplūde objektā", "limenis": "loti_augsts", "pamatojums": "Ļoti augsts risks ar vidēju varbūtību. SEVESO objektu novadā nav; paaugstinātas bīstamības objekti (DUS, GUS) uzskaitīti 9. pielikumā.", "lpp": "42–44" },
+      { "risks": "Pali un plūdi Gaujas baseinā", "limenis": "augsts", "pamatojums": "Lielākā iespējamā applūstošā teritorija 18 km², Gaujas līmenim sasniedzot 27 m pie tilta Cēsis–Raiskums; ledus sastrēgumi pavasarī.", "lpp": "17–20" },
+      { "risks": "Mežu un kūdras purvu ugunsgrēki", "limenis": "videjs", "pamatojums": "Meži klāj 54,9 % teritorijas (~1631 km²), purvi 3,3 %. Vidējs risks ar augstu varbūtību.", "lpp": "29–32" },
+      { "risks": "Epidēmija, pandēmija", "limenis": "augsts", "pamatojums": "Augsts risks — noslogo veselības nozari un kritiskos pakalpojumus.", "lpp": "32–34" }
+    ],
+    "pbo_skaits": null,
+    "pbo_piezime": "Paaugstinātas bīstamības objekti — 9. pielikums (2 lpp., nav publicēts). Cēsu novadā nav objektu, kam jāizstrādā rūpniecisko avāriju novēršanas programma."
+  },
+  "evakuacija": {
+    "pulcesanas_vietas_publiskas": false,
+    "pulcesanas_avots": "12. pielikums „Evakuācijas pulcēšanās vietas” (5 lpp.) — nav publicēts",
+    "izmitinasanas_avots": "19. pielikums (10 lpp.) — ierobežota pieejamība",
+    "izmitinasanas_vietu_skaits": null,
+    "izmitinasanas_kapacitate": null,
+    "norma_2_procenti": 858,
+    "norma_piezime": "Plānā: „būtu jābūt resursiem izmitināt vismaz ~850 cilvēku; apzinātais izmitināšanas vietu skaits ir atbilstošs.”",
+    "marsruti": "6.3. sadaļa: maršrutus katrā situācijā nosaka CAK; vairāki koridori izstrādāti un testēti mācībās „Pilskalns”, „Namejs”; kara gadījumā maršrutus nosaka NBS.",
+    "transports": "Privātais transports, pašvaldības transports (20. piel., ierobežots), AS „CATA” autobusi.",
+    "pulcesanas_vietas": [],
+    "izmitinasanas_vietas": []
+  },
+  "komisija": {
+    "priekssedetajs": "Cēsu novada domes priekšsēdētājs",
+    "vietnieki": ["Domes priekšsēdētāja vietnieks", "VUGD pilnvarots pārstāvis (VUGD Cēsu daļas komandieris pilda priekšsēdētāja pienākumus prombūtnē)"],
+    "institucijas": 7,
+    "institucijas_saraksts": ["Valsts policija", "Zemessardze", "Pašvaldības policija", "Cēsu Digitālais centrs", "Komunikācijas un klientu servisa pārvalde", "pieaicinātās institūcijas pēc nepieciešamības"],
+    "apzinosana": "Nolikuma 2. pielikums: shēma A (mobilie sakari) — SMS + e-pasts kontaktu grupai, atbilde 30 min laikā, citādi zvana aizvietotājam; shēma B (bez sakariem) — tiešā apziņošana. Pulcēšanās vieta bez sakariem: Raunas iela 4, Cēsis (2. stāva zāle). Pārbaude ne retāk kā 2 reizes gadā.",
+    "apzinosanas_shema": true
+  },
+  "bridinasana": {
+    "sirenas": "Sirēnu vietas un pārklājums — 11. pielikums (nav publicēts); signāls dzirdams ~1,5 km rādiusā.",
+    "kanali": ["Trauksmes sirēnas", "Šūnu apraide LV-ALERT (no 2025. g. novembra)", "Radio, TV, pašvaldības kanāli", "Operatīvo dienestu skaļruņi, apsekošana"],
+    "iedzivotaju_instrukcijas": "Sadaļa „KĀ RĪKOTIES” katra riska aprakstā (lpp. 14–72); 1. pielikums „Informācija iedzīvotājiem”, 38. pielikums „Kā rīkoties krīzes situācijā, 72 stundas” (94 lpp.), 40. un 43. pielikums (nav publicēti)."
+  },
+  "patvertnes": { "skaits": 45, "avots": "112.lv reģistrs (VUGD / IeM IC), 2026-09-13", "uz_1000": 1.05, "piezime": "Plāna 10. pielikums „Bumbu patvertnes” (7 lpp.) nav publicēts." },
+  "atbilstiba": {
+    "4.1": { "statuss": "pilns", "kur": "1. nodaļa (1.1.–1.3.), 1. tabula", "lpp": "10–12", "piezime": "Iekļauts arī ieslodzījuma vietas raksturojums (4.1.2.)." },
+    "4.2": { "statuss": "pilns", "kur": "2. nodaļa — Valsts CA plāna 35 apdraudējumi", "lpp": "13–14", "piezime": "Riska līmeņi norādīti scenāriju tekstā, ne vienotā tabulā." },
+    "4.3": { "statuss": "dalejs", "kur": "3. nodaļa — 27 scenāriji; 3.2. atsaucas uz 31. pielikumu", "lpp": "14–73", "piezime": "Scenāriji pilnīgi (t.sk. komunālie riski 3.1.27.); grafiskā risku matrica un risku kartes nav publicētas." },
+    "4.4": { "statuss": "ierobezots", "kur": "4. nodaļa → 32. pielikums (96 lpp.)", "lpp": "73", "piezime": "Pasākumi katram riskam ir izstrādāti, bet pielikums nav publicēts." },
+    "4.5": { "statuss": "pilns", "kur": "5. nodaļa, 5. tabula (22 apdraudējuma veidi)", "lpp": "74–75", "piezime": "" },
+    "4.6": { "statuss": "dalejs", "kur": "6. nodaļa 6.1.–6.10. — visas 10 obligātās apakšsadaļas", "lpp": "75–82", "piezime": "Struktūra pilnīga; konkrētās pulcēšanās vietas (12. piel.), izmitināšana (19. piel.) un transports (20. piel.) nav publiski." },
+    "4.7": { "statuss": "ierobezots", "kur": "7. nodaļa 7.1.–7.3. → 22., 23., 37. pielikums", "lpp": "83–84", "piezime": "Resursu saraksti ar ierobežotu pieejamību; publiski tikai vadlīnijas ģeneratoru pieslēgšanai." },
+    "4.8": { "statuss": "pilns", "kur": "8. nodaļa", "lpp": "84", "piezime": "Līgumi ar kaimiņiem nav noslēgti; minēts Baltijas valstu 2018. g. nolīgums." },
+    "4.9": { "statuss": "ierobezots", "kur": "3.1.26. (publiski) + 10. nodaļa (ierobežota)", "lpp": "69–72", "piezime": "Militārā sadaļa apstiprināta 2024. g., iekļauta 2026. g. plānā ar ierobežotu pieejamību." },
+    "5.1": { "statuss": "pilns", "kur": "2. pielikums — nolikums Nr. 207 (konsolidēts 23.01.2025.)", "lpp": "6 lpp.", "piezime": "Publicēts atsevišķi mājaslapā ar sastāvu un kontaktiem." },
+    "5.2": { "statuss": "pilns", "kur": "Nolikuma 2. pielikums — shēmas A un B", "lpp": "6", "piezime": "Detalizētā komisijas un kritiskā personāla apziņošana — 4. pielikums (ierobežots)." },
+    "5.3": { "statuss": "nav", "kur": "—", "lpp": "—", "piezime": "Pielikumu sarakstā kartes 1:10 000 nav; tikai sirēnu pārklājums (11. piel.) un LVĢMC plūdu kartes attēls." },
+    "5.4": { "statuss": "nav", "kur": "—", "lpp": "—", "piezime": "Sadarbības līgumi nav noslēgti (8. nodaļa)." }
+  },
+  "datu_kvalitate": [
+    { "veids": "brīdinājums", "teksts": "Pielikumu saraksts nav konsekvents: numerācija līdz 45, trūkst 18. un 29. pielikuma; rindas „.pielikums” bez satura." },
+    { "veids": "brīdinājums", "teksts": "Konvertētajā tekstā 27 vizuālie elementi (kartes, attēli) palikuši bez atveides — jāaizstāj ar atvērto datu slāņiem." },
+    { "veids": "info", "teksts": "Iedzīvotāju dati aktuāli (PMLP 01.01.2026.) — jaunākie no visiem 42 plāniem." },
+    { "veids": "info", "teksts": "Plāna PDF nesatur apstiprināšanas rekvizītus; apstiprināšana pierādāma ar domes protokolu Nr. 6." }
+  ],
+  "stipras_puses": [
+    "Jaunākais plāns (2026. g. maijs) — struktūra 1:1 seko MK 658 4.1.–4.9. punktiem.",
+    "27 risku scenāriji, katram sadaļa „KĀ RĪKOTIES” iedzīvotājiem.",
+    "Komisijas apziņošanas shēmas A un B publicētas; šūnu apraide LV-ALERT iekļauta.",
+    "Skaidri nošķirta informatīvā, pielikumu un militārā daļa ar pieejamības statusiem."
+  ],
+  "vajas_puses": [
+    "Gandrīz visi dati (vietas, resursi, matrica, kartes) ir pielikumos, kas nav publicēti — iedzīvotājam nav zināmas pulcēšanās vietas.",
+    "Risku matrica un risku kartes publiski nav pieejamas (4.3.2., 4.3.3.).",
+    "Nav karšu 1:10 000 (5.3.).",
+    "Nav publiskas izmitināšanas kapacitātes — tikai apgalvojums, ka 2 % norma (~850) ir izpildīta."
+  ]
+}

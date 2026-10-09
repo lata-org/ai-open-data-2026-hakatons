@@ -1,0 +1,47 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import NovadsHead from '../../../components/NovadsHead.astro';
+import { profili, prototipi } from '../../../lib/vertejums';
+
+export function getStaticPaths() {
+  return prototipi.map((n) => ({ params: { slug: n.slug } }));
+}
+const { slug } = Astro.params;
+const p = profili[slug!];
+const doki = (await getCollection('plani', (d) => d.data.novads === slug)).sort((a, b) => (a.data.loma === 'plans' ? -1 : 1) - (b.data.loma === 'plans' ? -1 : 1));
+const galvenais = doki.find((d) => d.data.loma === 'plans');
+const parejie = doki.filter((d) => d !== galvenais);
+const g = galvenais ? await render(galvenais) : null;
+const G = g?.Content;
+const toc = (g?.headings ?? []).filter((h) => h.depth >= 2 && h.depth <= 4);
+const rendered = await Promise.all(parejie.map(async (d) => ({ d, r: await render(d) })));
+---
+<Base title={`${p.pasvaldiba} — pilns plāna teksts`} aktivs="novads">
+  <NovadsHead p={p} cilne="plans" />
+  <div class="wrap">
+    <section class="section">
+      <p class="lead">Pašvaldības publicētā plāna teksts, konvertēts no PDF. Lapu numuri labajā malā atbilst oriģinālam; vietās, kur oriģinālā ir attēls vai shēma, ir vietturis. Oriģināls: <a href={p.plans.avota_url} target="_blank" rel="noopener">PDF pašvaldības vietnē</a>.</p>
+      <div class="plans-layout">
+        <aside>
+          <nav class="toc card card--flat" aria-label="Satura rādītājs">
+            <strong class="small" style="display:block;margin-bottom:6px">Saturs ({toc.length})</strong>
+            {toc.map((h) => <a href={`#${h.slug}`} class={`d${h.depth}`}>{h.text.replace(/<[^>]+>/g, '')}</a>)}
+          </nav>
+        </aside>
+        <div>
+          <article class="prose card">
+            <h2 style="margin-top:0;border:0;padding:0">{galvenais?.data.virsraksts}</h2>
+            {G ? <G /> : <p>Plāna teksts nav sagatavots — palaidiet <code>pnpm sagatavot</code>.</p>}
+          </article>
+          {rendered.map(({ d, r }) => (
+            <details class="doc-details card">
+              <summary>{d.data.virsraksts}</summary>
+              <div class="prose"><r.Content /></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>

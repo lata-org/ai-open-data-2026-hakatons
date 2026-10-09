@@ -1,0 +1,782 @@
+﻿objectid,pilsetasvaiapdzvietasnosaukums,ielasnosaukums,ekasnumurs,ekasgalvlietosanasveids,lat,lon,komentars,globalid
+1,"Jaunpiebalga, Jaunpiebalgas pagasts, Cēsu novads",Gaujas iela,2a,Kultūras nams,57.1803569998753,26.0552269996123,,67f21bbc-87d8-468c-8406-7d39454625bf
+2,"Jaunpiebalga, Jaunpiebalgas pagasts, Cēsu novads",Gaujas iela,4,Pagasta pārvaldes ēka,57.1806240000392,26.0540850001377,,76a0b93f-c842-4cf4-be42-0b2ebfb9a2bf
+3,"Jaunpiebalga, Jaunpiebalgas pagasts, Cēsu novads",Brāļu Kaudzīšu iela,10,Mūzikas un mākslas skola,57.1808829998646,26.0351160003251,,e38f09c4-2756-4b75-a777-de7fb510eb0c
+4,"Taurene, Taurenes pagasts, Cēsu novads","""Senkrasti""",Nav,Muzejs,57.1620089999352,25.6630199998419,,20d738aa-79eb-47ce-880d-0007a23db7e5
+5,"Taurene, Taurenes pagasts, Cēsu novads","""Pagrabi""",Nav,Telpas kultūras pasākumiem,57.1619799998912,25.6627450003806,,d07318ab-fb16-42b5-9112-d833aa65fa18
+6,"Taurene, Taurenes pagasts, Cēsu novads","""Nēķina muiža""",Nav,Kultūras nams,57.1613330001845,25.6627219999161,,b32836b2-3a7b-42be-b4f4-ee6c069d1d88
+7,"Taurenes pagasts, Cēsu novads","""Lībieši""",Nav,Daudzdzīvokļu dzīvojamā māja,57.1503829997762,25.5976480003103,,51a7615f-0a64-43ba-8ab8-a74e17ccfeb9
+8,"Jaunpiebalgas pagasts, Cēsu novads","""Dzelzceļa ēka 58.km""",Nav,Dzīvojamā māja,57.1637509999679,26.0315059999816,,80e8e0ec-a71d-43f7-989a-0fe25b628dbe
+9,"Jaunpiebalga, Jaunpiebalgas pagasts, Cēsu novads",Gaujas iela,41,Skola,57.1672840000905,26.0193309999853,,610bbd1e-bc00-47f9-927e-92513116f8c5
+10,"Krīvi, Vaives pagasts, Cēsu novads","""Līvu skola""",Nav,Pirmsskolas izglītības iestāde,57.2737800000745,25.3254490000807,,c6d32440-58cc-4490-aed7-3032de6e288a
+11,"Vaive, Vaives pagasts, Cēsu novads","""Kaķukrogs""",Nav,Kultūras nams,57.2558200002284,25.3689949996667,,6f61e780-64ff-4f6c-b64f-6d916f616a87
+12,"Rāmuļi, Vaives pagasts, Cēsu novads","""Rāmuļu Skola""",Nav,Skola,57.2127300002375,25.4150529996042,,4d88b539-692c-4ce4-a5b7-83bb90e8bf07
+13,"Rūjiena, Valmieras novads",Raiņa iela,3,Biroju ēkas,57.8982420000695,25.3262669996902,,dca01952-949c-41b4-bbf1-decda2694464
+14,"Stirniene, Varaksļānu pagasts, Varakļānu novads",Muiža,3,Pagasta pārvalde,56.5539449999553,26.6654450002152,,9022bff9-9125-47f6-ab26-bb118c55eb10
+15,"Vecpiebalga, Vecpiebalgas pagasts, Cēsu novads",Gaismas iela,1,Ēkas plašizklaides pasākumiem,57.0591890001843,25.8098970002979,,cae7d1c6-b2a9-4a03-8f0a-20c88939fb09
+16,"Vecpiebalga, Vecpiebalgas pagasts, Cēsu novads",Gaismas iela,1A,Ārstniecības vai veselības aprūpes iestāžu ēkas,57.0584350002419,25.8097230002206,,9931d9d5-045a-4bf2-882c-5251ed84a1ef
+17,Madona,Skolas iela,10,Skola,56.8529569997612,26.2124119999686,,6a36f021-b2ea-4967-bd08-a35b12687748
+18,"Degumnieki, Ošupes pagasts, Madonas novads",Skolas iela,4,Biroju ēka,56.7997369999491,26.7473229996118,,d9d9792a-d768-4777-b13b-96d15bacabca
+19,"Kusa, Aronas pagasts, Madonas novads",Skolas iela,3,Skola,56.8973539999947,26.1271729997506,,fdd125ef-af28-4f94-848f-1c1a72d8a83f
+20,"Kusa, Aronas pagasts, Madonas novads",Melioratoru iela,1,Dienesta viesnīca,56.8965270000089,26.1327149995891,,be59d18a-531e-4d54-9593-63b4a7324b51
+21,Limbaži,Parka iela,5,Pirmsskolas izglītības iestāde,57.5131120001154,24.7134420000979,,51eb7d39-23e3-4a36-8bb5-4c0ffed89a59
+22,Cēsis,Rīgas iela,7,Vairumtirdzniecības un mazumtirdzniecības ēka,57.3121039998952,25.2741730001697,,b3356393-7cfe-4fb5-85d5-0ad2178bffed
+23,"Lubāna, Madonas novads",Oskara Kalpaka iela,2,Biroju ēka,56.9031420001658,26.7226379998834,,656802c3-dd89-4bfd-ac74-fa3625b662a2
+24,"Lubāna, Madonas novads",Oskara Kalpaka iela,4,Biroju ēka,56.9028229999715,26.7215259996477,,636e028f-d46b-4b61-b8d9-e4e416ba33b0
+25,"Grundzāle, Grundzāles pagasts, Smiltenes novads",Tilta iela,5,Administratīvā ēka,57.4581120001051,26.2670039995968,,57988d11-4101-48bb-b067-552a828e7ebe
+26,"Variņi, Variņu pagasts, Smiltenes novads",Oktobra iela,15,Skola,57.3186660001654,26.1681149998219,,765971b8-ee92-4fab-955f-1d8a77ce9947
+27,"Variņi, Variņu pagasts, Smiltenes novads",Oktobra iela,13,Tautas nams,57.3186160001633,26.168037999829,,0e3e0ef7-33fe-402b-85e3-972f79a4cece
+28,"Bērzaune, Bērzaunes pagasts, Madonas novads",Bērzaunes pamatskola,Nav,Skola,56.8025050001606,26.0268510002479,,11571f0c-0f08-480a-a2bd-a9510b5da635
+29,"Ļaudona, Ļaudonas pagasts, Madonas novads",Skolas iela,2,Skola,56.7038400000153,26.1969100003843,,db790bcb-f2a2-48ae-9ad3-4fb6679662d3
+30,"Mētriena, Mētrienas pagasts, Madonas novads",Centra iela,5,Biroju ēka,56.6769449997772,26.3217209997968,,44505a33-51a9-4b40-aaf3-178998f037fb
+31,"Mētriena, Mētrienas pagasts, Madonas novads",Tautas iela,1,Ēka plašizklaides pasākumiem,56.674215000071,26.318285000429,,3f094289-a425-4825-816c-eaa3b804234e
+32,Alūksne,Brūža iela,7,Ēka plašizklaides pasākumiem,57.426159999803,27.049398999604,,6a07fd85-5530-4901-aca8-17794748d20a
+33,Alūksne,Uzvaras iela,1,Biroja telpas,57.4180720002286,27.0541310002289,,d8963e0f-c99b-4963-8e11-786e784d2ebe
+34,"Drabeši, Drabešu pagasts, Cēsu novads","""Drabešu skola""",Nav,Skola,57.2449669999769,25.2786349995596,,728665b4-ac19-4a06-b23d-c87958785d47
+35,"Ērgļi, Ērgļu pagasts, Madonas novads",Oškalna iela,6,Skola,56.9022160000927,25.6459780003998,,62dd619a-2187-4c7d-bd4d-4823a1a0df03
+36,"Liepa, Liepas pagasts, Cēsu novads",Rūpnīcas iela,8,Muzejs un bibliotēka,57.3878170001949,25.4184269999461,,0d8da3e5-4d19-4f8a-972a-3fcfcd8dbdf7
+37,"Jāņmuiža, Priekuļu pagasts, Cēsu novads",Sporta iela,3,Pirmsskolas izglītības iestāde,57.3526899998409,25.3296569999257,,d5d7dfa8-330e-4636-b269-f467489074b4
+38,"Priekuļi, Priekuļu pagasts, Cēsu novads",Selekcijas iela,6A,Kultūras nams,57.3166349999697,25.34172700034,,2f9c6733-79b7-43da-8566-0f8cb33f79d2
+39,"Priekuļi, Priekuļu pagasts, Cēsu novads",Cēsu prospekts,46,Skola,57.3133610000838,25.3616190002424,,4fd90d10-4b2c-458c-9ad8-2087371004e3
+40,"Priekuļi, Priekuļu pagasts, Cēsu novads",Raiņa iela,8,Administratīvā ēka,57.3104229999196,25.3573539995978,,a311777d-d74b-4890-87fa-6a989553ea94
+41,Valka,Voldemāra Roberta Zāmuela iela,3A,Daudzdzīvokļu māja,57.7832540000415,26.017654999685,,660220e2-05ec-4ce2-b6bd-5b64d23e1486
+42,"Ranka, Rankas pagasts, Gulbenes novads",Skolas iela,7,Dienesta viesnīca,57.2051529999239,26.1801840004114,,d506aaea-3a65-47b8-969c-bc6a71fe64fe
+43,Valmiera,Ausekļa iela,25B,Viesnīca,57.5307270001841,25.3946610001096,,9c3d9461-78f6-4188-a6e9-4eceb20ad224
+44,Limbaži,Rīgas iela,9,Kultūras nams,57.511675000067,24.7163810002467,,9468e86e-f03b-45c3-a1ed-8ce3f7b8f3bf
+45,Limbaži,Burtnieku iela,7,Muzejs,57.5152100000347,24.713617999825,,07df8cf5-5523-4b35-8039-fac11b0b3837
+46,Cēsis,Raunas iela,12,Koncertzāle,57.3132470002155,25.2764419999487,,4f052245-891e-47c5-8011-d533ef42dc56
+47,Madona,Valdemāra bulvāris,2A,Skola,56.8545339999936,26.2194519998322,,ac7ad0c5-e848-4ce8-9987-fe043c393ce3
+48,Valmiera,Viestura aleja,3,Mācību darbnīca,57.5503619999737,25.4326270002222,,620352bf-7619-4ddf-98ee-40725c2f1197
+49,"Jaunlaicene, Jaunlaicenes pagasts, Alūksnes novads","""Līgotņi""",Nav,Tautas nams,57.5280650000013,26.8720309999905,,8d32f4c7-2b9d-437f-b8a3-0b0f3334c045
+50,"Turna, Ērģemes pagasts, Valkas novads","""Valžkalni""",Nav,Tautas nams,57.7538279999017,25.784748000064,,9fb9d09a-a4ac-4209-8b65-27248d6a1dda
+51,"Kārķi, Kārķu pagasts, Valkas novads","""Ausmas""",Nav,Administrātīvā ēka,57.8167800001452,25.6137750000585,,28018c0a-5ba0-4af7-be68-43381e5fe6ae
+52,"Lazdonas pagasts, Madonas novads","""Biatlonā trase""",Nav,"Pazemes eja, noliktava ",56.8405369998603,26.189416000061,,61f4ab36-c9ac-4b4c-896b-e56095e7c9cc
+53,"Aizpurve, Dzelzavas pagasts, Madonas novads",Bērzu iela,21,Dzīvojamā māja,56.9798699998799,26.4251000003473,,5ea075fa-8c14-449b-9cab-ca6d9fcb3fa1
+54,"Augšlīgatne, Līgatnes pagasts, Cēsu novads",Nītaures iela,4,Sabiedriska ēka- biroju ēka/kultūras nams,57.1835169998558,25.0336900002096,,cdaaca8d-f75d-4bd9-8e7b-90c3a4ee6829
+55,"Līgatnes pagasts, Cēsu novads","""Skaļupes""",Nav,Ārstniecības vai veselības aprūpes iestāžu ēka,57.2558149999455,25.0679139997343,,7312b4ba-5849-4225-ae10-9b7c213960bc
+56,"Līgatnes pagasts, Cēsu novads","""Skaļupes""",Nav,Neklasificēta būve,57.2559690001845,25.0694660001861,,66d1ce3f-aad8-4f64-96a6-3eaf1424d37b
+57,"Lādezers, Limbažu pagasts, Limbažu novads",Skolas iela,1,Skola,57.4214900001056,24.6991840000955,,93c77dc2-0b63-434c-b5a2-dd67eea962bd
+58,Valmiera,Purva iela,12,Profesionālās izglītības centrs,57.5429349999836,25.3867979997153,,bd823d7b-6447-4e8c-bcbe-6eeba829d01a
+59,Madona,Blaumaņa iela,3,Biroju ēka,56.8530419999983,26.2198579997131,,3a1b385e-8b63-4c74-9943-83512d4c8969
+60,Valmiera,Ausekļa iela,25 A,Dienesta viesnīca,57.5307320002354,25.3934810001018,,12f3041f-7b78-4cba-a56c-6c1322a25010
+61,Valmiera,Raiņa iela,3,Skola,57.5406819999849,25.4230370003723,,fca3f93d-fded-4a3e-8179-0c9d0087f19b
+62,"Lugaži, Valkas pagasts, Valkas novads","""Lugažu muiža""",Nav,Tautas nams,57.7643469998604,25.9552020002106,,060188a7-5be6-442c-a528-98bf03f54d01
+63,Cēsis,Noras iela,15,Bērnudārzs,57.3193320002066,25.2702830003421,,66396c90-55e4-4657-9a14-7a9cc3c4e248
+64,"Murmastiene, Murmastienes pagasts, Varakļānu novads",Jaunatnes iela,14,Administratīvā ēka,56.6674829999539,26.5556440002924,,e1a035e2-3e1c-46bc-b124-9d71a9bb6d6c
+65,"Murmastiene, Murmastienes pagasts, Varakļānu novads",Jaunatnes iela,14,Pagrabs,56.6675089999829,26.5556760000794,,1ff2faa0-78b7-4683-8115-972943b71c06
+66,"Murmastienes pagasts, Varakļānu novads","""Bērzi""",1,Daudzdzīvokļu māja,56.6628370001119,26.5528719996499,,de953176-a2ab-4e6f-8ca7-6dfbaaba9c01
+67,Cesis,Raunas iela,7,Skola,57.3131280002142,25.2786210002142,,625dcc93-f714-4124-b5d0-8f0195608fc7
+68,"Kocēni, Kocēnu pagasts, Valmieras novads",Alejas iela,2,Skola,57.5227709998402,25.3343810001546,,d7987f44-e6ec-4828-8d08-d934c57bdd38
+69,"Pociems, Katvaru pagasts, Limbažu novads",Liepu iela,8,Kultūras nams,57.5962209998718,24.8475989998612,,3dba3896-3dfa-4b08-87e6-ce3e4b593515
+70,"Prauliena, Parulienas pagasts, Madonas novads",Kalna iela,2,Administratīvā ēka,56.8266389998547,26.304260000055,,53cbd76f-1fb5-42cd-b38a-9a8bc600bdc1
+71,"Saikava, Praulienas pagasts, Madonas novads","""Saikavas tautas nams""",Nav,Kulturas nams,56.7595269997863,26.3913260001861,,4801501c-2bf1-4871-bdf1-e0b9d42e8949
+72,"Vaidava, Vaidavas pagasts, Valmieras novads",Skolas iela,1A,Kultūras nams,57.4297810001956,25.2857010002608,,da62e40a-4219-4907-b413-5653cba783a3
+73,"Vaidava, Vaidavas pagasts, Valmieras novads",Nākotnes iela,1,Skola,57.4296739998558,25.2880069998496,,97e125cc-457a-49bb-b5a3-472be96bb6e3
+74,"Mālupe, Mālupes pagasts, Alūksnes novads","""Austriņi""",Nav,Saietu nams,57.3364149998224,27.2320019998077,,9e909e89-2592-42b5-9891-35d94093bdc8
+75,Cēsis,Ķiršu iela,4,Daudzdzīvokļu māja,57.3063079998561,25.2706299997734,,6d7d2075-c5f0-4910-9373-1c04cd813403
+76,Cēsis,Caunas iela,7,Daudzdzīvokļu māja,57.3029990000128,25.277421000115,,5c66c1ba-a6b4-46fa-babd-4583474eccec
+77,Cēsis,Caunas iela,7A,Daudzdzīvokļu māja,57.3030919997772,25.2781609999067,,7f1f0eed-b384-4ce3-bc67-9881098ba5f1
+78,Cēsis,Palasta iela,14,Pirmsskolas izglītības iestāde,57.3127580000896,25.2669130001981,,4581b9c9-695e-42c9-b41e-3bcba8033cc6
+79,Cēsis,Palasta iela,14,Pirmsskolas izglītības iestāde,57.3131159999644,25.2677390002036,,c7c586c2-4f2c-4351-9660-338d100751c5
+80,Valka,Emīla Dārziņa iela,8,Kultūras nams,57.7740199997997,26.01854000014,,9d575e7b-7999-412e-8d6d-670fe33e637e
+81,Cēsis,Pils laukums,9,Muzejs,57.3132289998976,25.2716840002828,,1110d04f-4233-4fdc-b901-a4951df6d8bd
+82,Varakļāni,Rīgas iela,13,Pagarabs,56.6094929998328,26.7526319998218,,43955672-4f00-4386-ac32-e66371d87400
+83,Varakļāni,Rīgas iela,36,Sociālā māja,56.6070419997996,26.7419330001092,,aecf874c-6502-4e91-b9e5-11b086b85211
+84,"Straupe, Straupes pagasts, Cēsu novads","""Lielstraupes pils""",Nav,Ārstniecības iestāde,57.3472040002108,24.9476679996438,,c538ce93-aa5b-482d-9909-09aa18c576c5
+85,"Straupe, Straupes pagasts, Cēsu novads","""Mazstraupes pils""",Nav,Skola,57.3545990001332,24.9515290000575,,8ab91e00-9962-4686-a839-71502053f56b
+86,"Līvi, Drabešu pagasts",Parka iela,1,Pirmsskolas izglītības iestāde,57.2797450001671,25.2460360002816,,5061fc61-a0fa-41ad-8b22-d492fd4f9dcf
+87,Madona,Valdemāra bulvāris,3,Skola,56.8545210002282,26.2185299995673,,fa103b96-8fd7-4f6c-9ce6-6b79e7c468fb
+88,"Sausnēja, Sausnējas pagasts, Madonas novads","""Rīti""",Nav,Skola,56.7995950000163,25.7048559996908,,ac8813cc-0650-44c9-91c8-ee03e0976fd3
+89,"Sarkaņu pagasts, Madonas novads","""Airītes""",Nav,Dzīvojamā māja,56.9095049999366,26.2922030000595,,60ede417-81d6-4817-bae3-05eded3999f9
+90,"Sarkaņu pagasts, Madonas novads","""Mazie Bākšāni""",Nav,Šķūnis,56.8886569999647,26.2654629999141,,5fb6bb5f-c96d-4728-9ea7-88c8998c4464
+91,"Sarkaņu pagasts, Madonas novads","""Iebuļas""",Nav,Dzīvojamā māja,56.9215340000748,26.2695839997204,,be6ea35f-fd3e-496f-b943-e4a29117959d
+92,"Biksēre, Sarkaņu pagasts, Madonas novads","""Kalnagravas 1""",Nav,Saimniecības ēka,56.9253370001092,26.2916110004058,,d0ed5d48-9ab1-4560-8330-e070f2629c1a
+93,"Biksēre, Sarkaņu pagasts, Madonas novads","""Biksēre""",Nav,Administratīvā ēka,56.9226390002056,26.3067749998813,,423124bc-c418-46df-9872-a4666ecee0bb
+94,"Kocēni, Kocēnu pagasts, Valmieras novads",Alejas iela,8,Biroja ēka,57.5200979999393,25.3400639995602,,fab66e4b-c859-4b4b-9a6c-522f4d0b3a1a
+95,Cēsis,Pils iela,12,Biroja ēka,57.3135610001392,25.2727050002819,,b2e3a559-5021-427e-8aa5-1fc1e5b052b6
+96,Cēsis,Pils iela,12,Palīgbūve,57.3135879998838,25.2727110001297,,0fec6795-d12d-4746-8f69-2f1bc2e5c992
+97,"Aloja, Limbažu novads",Jūras iela,13,"Kultūras nams, administratīvā ēka",57.7668929998293,24.8791410000534,,81ea19ae-47e5-490a-ae3e-c8a19df0aa27
+98,"Aloja, Limbažu novads",Jūras iela,14,Bibliotēka,57.7665790001029,24.8832040001334,,7ee285f4-dfde-4011-8622-28411cbfe9f5
+99,"Aloja, Limbažu novads",Ausekļa iela,1,Skola,57.764841000009,24.8765829996712,,4e83c5ea-f7b3-43ec-b910-0479eefcd1f9
+100,Cēsis,Zirņu iela,23,Pirmsskolas izglītības iestāde,57.3051890000931,25.2683469997508,,c8292cb5-4409-4754-922f-5340bda25398
+101,"Ineši, Inešu pagasts, Cēsu novads","""Zemnieki""",Nav,Skola,57.0208289998868,25.8304960003801,,7d1f018c-63b0-4454-aa4b-f3d882e2221c
+102,"Dzērbene, Dzērbenes pagasts, Cēsu novads","""Dzērbenes pils""",Nav,Kultūras objekts,57.1960930002208,25.6662290003274,,4b5a71c2-46b1-464e-8dbf-c60a1f30010f
+103,Valka,Semināra iela,25,Mūzikas skola,57.7728700001684,26.0193340003583,,9e0e0561-81c2-448d-a73d-bc488e7ba2aa
+104,Valka,Ausekļa iela,44,Pirmsskolas izglītības iestāde,57.7845020000279,26.0203760002738,,1bb10677-b876-4934-8974-44d45a0883e3
+105,"Drusti, Drustu pagasts, Smiltenes novads",Palsas iela,20,Pagasta pārvaldes ēka,57.2317180001833,25.8542999998515,,ea1ab2e3-6752-42a4-8fc8-13d6ad547a39
+106,"Drustu pagasts, Smiltenes novads","""Grantskalns""",Nav,Dzīvojamā māja,57.196449999861,25.9114470003872,,f0c48b0f-a7c1-4127-ac95-b390e16e97ca
+107,"Drustu pagasts, Smiltenes novads","""Palejas""",Nav,Dzīvojamā māja,57.2157980002132,25.8934970000255,,2a3d8012-4a96-4017-960b-693cfa963310
+108,"Drustu pagasts, Smiltenes novads","""Gatartas pansionāts""",Nav,Noliktava,57.2299560000164,25.9410799997523,,054579d4-8fc6-4a1a-9991-17421594ba01
+109,"Drustu pagasts, Smiltenes novads","""Gatartas pansionāts""",Nav,Pansionāts,57.2299529999777,25.9416010001592,,65bc0d38-08a0-46ba-bf45-d889633bf600
+110,"Drustu pagasts, Smiltenes novads","""Sprīdīši""",Nav,Dzīvojamā māja,57.2304930000914,25.9414770003107,,3f71b435-c9f0-449f-9a2a-ccfa77e67fe8
+111,"Melnbārži, Zosēnu pagasts, Cēsu novads",Annas iela,4,Kultūras nams,57.1654020000626,25.8449080003683,,944399bc-bfa2-45ac-a921-bd101f31d51f
+112,"Ģikši, Amatas pagasts, Cēsu novads",Kastaņu iela,2,pagrabs,57.1740400001483,25.3218470001331,,632ad6cb-45af-4f72-ae19-e716d14b1f6c
+113,"Ģikši, Amatas pagasts, Cēsu novads",Egļu iela,1,Tautas nams,57.1725009999919,25.3240730002543,,1c4861be-eebd-4e73-ba1a-b30dacc1c1a7
+114,Madona,Parka iela,4,Sociālā ēka,56.8511779999548,26.2089969996188,,f190b1d1-783a-45bf-8a89-d7e69aa09c26
+115,"Līgo pagasts, Gulbenes novads","""Jaunstukmaņi""",Nav,Pašizklaides pasākumu būve,57.0207500000927,26.5776490003382,,9b8000db-7de6-4146-bbc6-10e2755d67bf
+116,"Līgo, Līgo pagasts, Gulbenes novads","""Siltais""",Nav,Sociālais centrs,57.030035000092,26.5757019998762,,48854dae-ce2d-47c3-ae20-63abbb2a1c3c
+117,Cēsis,Kovārņu iela,20,pansionāts,57.3022890001287,25.2325349997893,,906b680a-ab29-46dd-8525-c3d8b5aff8a8
+118,"Mārsēni, Mārsēnu pagasts, Cēsu novads","""Tautas nams""",Nav,Ēka plašizklaides pasākumiem,57.4208759998971,25.5804820001213,,ba9e3ef6-b81d-4120-8c51-0a81716c07ae
+119,"Dikļi, Dikļu pagasts, Valmieras novads","""Dikļu skola""",Nav,Skola,57.5977480001396,25.0728410003529,,78adfce1-82a1-4e16-a061-66f078cc920b
+120,"Cesvaine, Cesvaines pagasts, Madonas novads",Augusta Saulieša iela,1,Internāts,56.969346000168,26.3065149995902,,8af4ddf6-5f1e-4d89-bfff-6f0f1a18d55e
+121,"Cesvaine, Cesvaines pagasts, Madonas novads",Augusta Saulieša iela,9,Internāts,56.9707859999358,26.3087669996507,,32b4f4d8-7f5e-4452-8bf9-7ab17eefb6fc
+122,"Cesvaine, Cesvaines pagasts, Madonas novads",Pils iela,3,Noliktava,56.968257000191,26.3134180000848,,270608c4-481b-4f3d-b7ba-2cc106796021
+123,"Cesvaine, Cesvaines pagasts, Madonas novads",Pils iela,4,Mākslas skola,56.9680700002272,26.3129050000738,,a59c02ce-c222-4eec-b7f4-68626cb96d65
+124,"Cesvaine, Cesvaines pagasts, Madonas novads",Celtnieku iela,1,Pirmsskolas izglītības iestāde,56.9664309998973,26.3043930001244,,e9346812-aaa1-4de7-9def-16816ce224e2
+125,Gulbene,Nākotnes iela,4,Pirmsskolas izglītības iestāde,57.1667569999614,26.7677750002792,,56bf5dd7-6872-44bc-abc4-64a9ada3f76f
+126,"Jaungulbenes pagasts, Gulbenes novads","""Aduliena""",Nav,Skola,57.0747700000558,26.517555999981,,fe40d43e-d790-49d8-81fe-ab4221a77b39
+127,"Ozolkalns, Beļavas pagasts, Gulbenes novads","""Blomīte""",Nav,Sporta zāle,57.2000140000527,26.6662310000377,,f05dbff4-579c-4265-bdc8-a62517d03304
+128,"Druviena, Druvienas pagasts, Gulbenes novads","""Pamatskola""",Nav,Druvienas muiža,57.1156190000893,26.296610999921,,bb43fb5f-ce67-4238-8634-1c40048c4b18
+129,"Galgauska, Galgauskas pagasts, Gulbenes novads",Skolas iela,1,Izglītības iestādes ēka,57.1678370001357,26.5558259998673,,dfe51818-2d17-4287-a364-935ebe7cc2e3
+130,Gulbene,O.Kalpaka iela,60A,Bibliotēka,57.1726010002257,26.7629940001488,,b84dc380-e3be-46f6-b5c4-a345f212a4cb
+131,Gulbene,Pils iela,3,Muzejs,57.1619150002139,26.7607289996695,,f6c2c6a6-eb72-4598-9651-4d2f3aaad4a3
+132,Gulbene,Parka iela,10,Pils,57.1605910000937,26.7636050000691,,6a45040a-9097-405d-bdac-b818dfced312
+133,"Jaungulbene, Jaugulbenes pagasts, Gulbenes novads","""Jaungulbenes Alejas""",Nav,Sociālās aprūpes centrs,57.0594000000529,26.5947400001841,,6b25b45b-bd8d-4ebd-9000-750099802393
+134,"Gulbītis, Jaugulbenes pagasts, Gulbenes novads","""Gulbīša pamatskola""",Nav,Skola,57.0773839999661,26.6322500001872,,774c1b91-3b75-4d65-bc69-eea452eeb647
+135,"Lejaciems, Lejasciema pagasts, Gulbenes novads",Rīgas iela,11,Pirmsskolas izglītības iestāde,57.280229999768,26.5786490004209,,a0c87d72-6d3a-42aa-9066-e63f03163636
+136,"Lejaciems, Lejasciema pagasts, Gulbenes novads",Rīgas iela,18,Muzejs-bibliotēka,57.2790989998606,26.575598999944,,3702b6cf-2007-4d39-8aa2-2e91f85fc9d1
+137,"Litene, Litenes pagasts, Gulbenes novads",Skolas iela,2,Skola,57.1909929997921,27.0293259999516,,832abc82-e9d0-4380-817f-5dd7d8a6ee25
+138,"Lizums, Lizuma pagats, Gulbenes novads","""Klintis""",Nav,Kultūras nams,57.192196999989,26.3692440001475,,6da738d7-966a-4cb0-9e45-0f073cec0a2e
+139,"Stāķi, Stradu pagasts, Gulbenes novads",Stāķi,11,Dzīvokļu māja,57.1345470001808,26.7341969999366,,e63d64d1-83b6-41d4-9337-e9b511bb747f
+140,"Rauna, Raunas pagasts, Smiltenes novads",Valmieras iela,1,Jauniešu centrs,57.3323729998185,25.6090890003627,,6b295dc9-6358-4988-ba38-8b3a199fd1cb
+141,"Galēni, Galēnu pagasts, Preiļu novads",Skolas iela,11,Skola,56.4763500000175,26.8406200002178,,a5e42208-e15b-4219-886e-7f9334ffdc15
+142,"Aglona, Aglonas pagasts, Preiļu novads",Daugavpils iela,6,Skola,56.1520100001253,27.0005699997472,,405f3910-50eb-4e78-ace1-be3ce7d07ebd
+143,Preiļi,Kooperatīvā  iela 6,6,Skola,56.297587000177,26.7243960001995,,d8394d0b-a5cc-4286-b283-7c674c355122
+144,Preiļi,Celtnieku iela,10A,Pirmsskolas izglītības iestāde,56.295070000042,26.7203599998836,,20497a38-8ef4-4771-a93f-3f570cd713fe
+145,Preiļi,Raiņa bulvāris,28,Kultūras nams,56.2897499997518,26.7252439999462,,b0261e88-d3e3-46b0-9001-67903eadcf27
+146,Preiļi,A. Paulāna iela,2,Skola,56.2840300002071,26.7220000001989,,bf43159d-2f69-49b1-921a-c5b4704bdf0f
+147,"Pelēči, Pelēču pagasts, Preiļu novads",Liepu iela,6,Administratīvā ēka,56.1490829998324,26.7243509999936,,b37c18ac-5646-4b61-85d7-b8f1e23ec41e
+148,"Līči, Preiļu pagasts, Preiļu novads",Jaunatnes iela,1,Sociālo pakalpojumu centrs,56.2986700001541,26.6960299999824,,af8fd889-86f6-43f6-9012-9038ab710f92
+149,"Riebiņi, Riebiņu pagasts, Preiļu novads",Saules iela,8A,Kultūras nams,56.337629999938,26.7948900003433,,766aa4dc-63c8-42f2-88d5-8683c866b8a7
+150,"Gailīši,  Rušonas pagasts, Preiļu novads","""Gaiļmuiža""",Nav,Sociālās aprūpes centrs,56.2498200001982,27.0263800001301,,510dd60c-1a65-40ff-a706-915efb806609
+151,"Rimicāni, Rožkalnu pagasts, Preiļu novads",Saules iela,16,Kultūras nams,56.2176200001017,26.4089300000431,,7ba1c3e0-9ef2-4a19-8af6-fe956be7e601
+152,Rēzekne,Lubānas iela,49,Skola,56.5160669998651,27.3421940004411,,3629dc76-c99f-4158-adcb-0d7df150af73
+153,Rēzekne,Kosmonautu iela,6,Skola,56.5230849998731,27.3455260000519,,ffaee335-12c8-4e89-bbaa-64e58e3140e6
+154,Rēzekne,Kosmonautu iela,6,Skola,56.5225669999303,27.3453469999517,,b8c6a888-cd95-4128-a58a-9075f34ed646
+155,Rēzekne,Kr.Valdemāra iela,3A,Pirmsskolas izglītības iestāde,56.5152839999416,27.3314799997616,,4c9f85a0-e904-40b4-8c3c-75d2fb26e329
+156,Rēzekne,F.Varslavāna iela,5,Skola,56.4950410001368,27.3243040003539,,a516d88a-98e8-4bfd-8931-a9f0825a8f96
+157,Rēzekne,F.Varslavāna iela,5,Skola,56.4954849999921,27.3243219998972,,17865f87-19c0-45dc-affe-155c99c507cc
+158,Rēzekne,Brāļu Skrindu iela,3,Kultūras nams,56.5052410001293,27.3276269997438,,3f02016a-07bf-4b0d-b7a9-ca1cd4a45b76
+159,Rēzekne,18.novembra iela,39,Sporta ēka,56.5093739999188,27.3387039997482,,c792660e-b23d-4ad7-953e-557833efe275
+160,Rēzekne,Nikodema Rancāna iela,51A,Pareizticīgo izglītības centrs,56.5079680002391,27.3398269998546,,0eb352b9-465f-449e-94b3-576f1727a60b
+161,Rēzekne,Atbrīvošanas aleja,93,Administratīvā ēka (valstspilsētas dome),56.5070080000292,27.3297080001001,,7ae4a588-2cf5-4748-9c6d-aa218a8bb776
+162,Rēzekne,Viļānu iela,2,Skola,56.5028039999821,27.3226439999471,,da479bb4-1025-4206-8cc6-3588947512ec
+163,Rēzekne,Viļānu iela,2,Skola,56.5026259998393,27.3226399997491,,a264705f-4525-4721-94b7-c5aa7a61602f
+164,Rēzekne,Atbrīvošanas aleja,97,Teātris,56.5079549997661,27.3303650000512,,b2443a53-99be-422f-89b2-6e15ada4a8ff
+165,"Malta, Maltas pagasts, Rēzeknes novads",Brīvības iela,6,Administratīvā ēka,56.3480860000726,27.162415999685,,d5deb474-36a9-4358-a090-fe1ee5503bb5
+166,"Dricāni, Dricānu pagasts, Rēzeknes novads","""Dricānu vidusskola""",Nav,Skola,56.6499370001605,27.1979859997971,,f17a46b5-a25d-4780-8fef-dacbefafd619
+167,"Dricāni, Dricānu pagasts, Rēzeknes novads","""Dricānu vidusskola""",Nav,Skola,56.6496089998932,27.1984829999146,,44907b2d-976d-4eca-94cd-54833d3a3fe7
+168,"Piļcine, Dricānu pagasts, Rēzeknes novads","""Pilcenes skola""",Nav,Sociālās aprūpes centrs,56.6623830000589,27.2768410002777,,666348c7-cc05-454c-853c-0f1ebb59a72c
+169,"Audriņi, Audriņu pagasts, Rēzeknes novads",Liepu aleja,1,Pagasta ēka,56.587513999887,27.2430720001393,,b2ca2b96-6ba5-4386-adce-de93632224df
+170,"Audriņi, Audriņu pagasts, Rēzeknes novads",Piemiņas iela,9A ,Kultūras nams,56.5904899999633,27.2468010003085,,06974873-20f6-4021-85ed-b7a3337695eb
+171,"Viļāni, Rēzeknes novads",Kultūras laukums,2,Muzejs,56.5509520002442,26.9239370000882,,2807145c-e030-4375-b78e-07846a034c25
+172,"Lūznava, Lūznavas pagasts, Rēzeknes novads",Pils iela,1,Pirmsskolas izglītības iestāde,56.3594620002175,27.2629230000339,,3061b89b-2716-4839-bfe8-e7823fe04bf4
+173,"Lūznava, Lūznavas pagasts, Rēzeknes novads",Pils iela,1B,Smēde,56.3594440002363,27.2630390003848,,00d1f169-b4b1-4d70-8ff8-bf2735050fd4
+174,"Bērzgale, Bērzgales pagasts, Rēzeknes novads",Rītupes iela,25,Skola,56.6294350002453,27.5159850002214,,7c6d8008-2ddf-4a90-9688-58f41ebabd0a
+175,"Rogovka, Nautrēnu pagasts, Rēzeknes novads","""Vālodzīte""",Nav,Noliktava,56.7104339998936,27.416123000128,,ffeeb623-47d1-449c-bb85-7ed44cdf96f6
+176,"Gaigalava, Gaigalavas pagasts, Rēzeknes novads",Skolas iela,5,Skola,56.7354720001197,27.065583000152,,eb3cf5c8-39dc-4e78-b1ef-c9f1a8e60c28
+177,"Zemgale, Demenes pagasts, Augšdaugavas novads","""Zemgale 16""",Nav,skola,55.7144239997547,26.4647159999228,,d0086dde-6e17-4c25-b4f8-3ba96284f4de
+178,"Ilūkste, Augšdaugavas novads",Brīvības iela,12,Kulturas un makslas centrs,55.9757399999563,26.3012049995553,,277dbeb8-23c1-469f-8ef0-cc5c70efd100
+179,"Saliena, Salienas pagasts, Augšdaugavas novads",Centrāles iela,22,Kultūras nams,55.8236220000203,26.8776819996089,,4096fbbc-15cb-415d-8416-2026f08283e9
+180,"Silene, Skrudalienas pagasts, Augšdaugavas novads",Skaista iela,9,Administratīvā ēka,55.7502039999867,26.7857349997883,,3ae66c0b-1ff2-4ebc-8a89-b77f1d4c214d
+181,"Krauja, Naujenes pagasts, Augšdaugavas novads",Daugavas iela,2,Saimniecības ēka,55.9033149998321,26.6468880001312,,09c68fd6-5cef-41d4-b2f8-e256741f7cbb
+182,"Krauja, Naujenes pagasts, Augšdaugavas novads",Daugavas iela,2,Bērnu nama dzīvojamais korpuss,55.9031400002497,26.6468039995673,,93499bf8-00c2-4bac-93da-6e1ee24ecafd
+183,"Krauja, Naujenes pagasts, Augšdaugavas novads",Daugavas iela,4A,Bērnu nama dzīvojamais korpuss,55.9026829998758,26.6487569998771,,76d2a07b-a539-4ff1-9e94-a36a779753db
+184,"Krauja, Naujenes pagasts, Augšdaugavas novads",Alejas iela,2,pirmsskolas izglītības iestāde,55.9120720002052,26.65742899966,,650ef48d-0ac2-4912-9754-59eb79482489
+185,"Medumi, Medumu pagasts, Augšdaugavas novads",Ilgas iela,15,skola,55.7904719997731,26.3592929997242,,20cdb5b8-0e1f-4289-a0d5-8eab972d2a78
+186,"Vecstropi, Naujenes pagasts, Augšdaugavas novads",18.novembra iela,392,Sociālās aprūpes centrs,55.8966060001592,26.61129000043,,9136d4df-4893-4b7b-98be-6904f99ec4f4
+187,"Augšdaugavas novads, Sventes pagasts, Svente",Daugavpils iela,1A,Izglītības iestāde,55.9036610001936,26.3808819998434,,16669f1b-8e91-4539-85f4-775a0a20887a
+188,"Augšdaugavas novads, Sventes pagasts, Svente",Alejas iela,13,Tautas nams- pūbliska būve,55.9043050000121,26.3772229999944,,7be3afcf-69eb-4f9f-9b29-52a9fcbc12d7
+189,"Ilūkste, Augšdaugavas novads",Raiņa iela,49,skola,55.9833439997753,26.287898999955,,4477cb75-c168-4ebf-9b33-d8e0b9440cba
+190,"Ilūkste, Augšdaugavas novads",Brīvības iela,17,Dzīvojamā māja,55.9762240000762,26.3028830004038,,176edfe3-a41c-4de1-a36a-39298b96be2c
+191,"Špoģi, Višķu pagasts, Augšdaugavas novads",Šosejas iela,3,skola,56.0743110001653,26.7344730001211,,0fdbadf0-e476-41b1-91fa-2d793e63848f
+192,"Ilūkste, Augšdaugavas novads",Jēkabpils iela,10A,Pirmsskolas izglītības iestāde,55.9803839998486,26.2890909996583,,94253e42-90e4-4a56-8293-4073300d9b7e
+193,"Bebrene, Bebrenes pagasts, Augšdaugavas novads","""Bebrenes muiža""",Nav,skola,56.0683270001058,26.1314950002967,,43b39628-18f8-45c2-a09a-b0c761998f27
+194,"Bebrene, Bebrenes pagasts, Augšdaugavas novads","""Tehnikums""",Nav,skola,56.0709180001526,26.1279729998167,,b38e8883-15fe-4f2d-97db-f1e68e0df2cc
+195,"Bebrene, Bebrenes pagasts, Augšdaugavas novads","""Tehnikums""",Nav,Tehnikuma dienesta viesnīca,56.071357000088,26.1285760002394,,6d978921-9955-466d-a4fa-fe29ccfd68e8
+196,"Naujene, Naujenes pagasts, Augšdaugavas novads",Skolas iela,1,Šķūnis,55.9315520000961,26.7167139995551,,b922342e-a1d2-4de7-a95e-af84fe4fa290
+197,"Vabole, Vaboles pagasts, Augšdaugavas novads","""Vidusskola""",Nav,skola,56.0279960000574,26.4642859997524,,4fc26195-c758-4a14-81e5-7cf8d9568237
+198,"Subate, Augšdaugavas novads",1.maija,8,Dzīvojamā māja,56.0085750001943,25.9055740001126,,c3f398fd-b745-4498-bf06-aa6f7ebbd538
+199,"Subate, Augšdaugavas novads",1.maija,10,Dzīvojamā māja,56.0081889999577,25.9059580002522,,d04f8c38-9988-4e65-9d46-3d875d9a279b
+200," Birkineļi, Kalkūnes pagasts, Augšdaugavas novads","""Raiņa mājas""",Nav,Muzejs,55.8157719998304,26.4570679996136,,3de865e5-4b8e-43c0-9b51-772b432a204a
+201,"Ilūkste, Augšdaugavas novads",Patversmes iela,11,Kulta ēka,55.973059999854,26.3095459998005,,09ebf925-7af1-4534-95cf-8e8c1169b649
+202,"Ilūkste, Augšdaugavas novads",Kastāņu iela,38a,Dažādu sociālo grupu kopdzīvojamās māja,55.9776310000425,26.2871139999575,,5d59c959-ac2a-4f2f-9fdf-9ce9bc36995e
+203,"Ilūkste, Augšdaugavas novads",Raiņa iela,35,Dažādu sociālo grupu kopdzīvojamās māja,55.9815059998338,26.2899259998846,,ff7b68c8-ff75-473f-addf-e047683f944b
+204,"Ilūkste, Augšdaugavas novads",Raiņa iela,35,Veselības aprūpes iestāžu ēka,55.9817429999506,26.2900849998933,,f01e0eae-23cd-4718-871e-5a15c3b9a76f
+205,"Līksna, Līksnas pagasts, Augšdaugavas novads ",Daugavas iela,10A,biroju ēka,55.9831570002045,26.3995209999431,,b633aa43-38d2-44a4-8ec1-be384964da58
+206,Daugavpils,Kandavas iela,17A,Sporta skola,55.8751949999175,26.5177839995866,,d01c13ae-f33f-4bdc-b738-d05303237a7f
+207,Daugavpils,Gaismas iela,9,skola,55.8683049997831,26.5864659998861,,46966e53-03b5-4849-8506-d0dd4106a49f
+208,Daugavpils,Cietokšņa iela,61,Sporta ēkas (Boksa zāle),55.8749079998848,26.5145130000752,,2d0e2327-97e5-4dbd-a9c1-8989c0015c3c
+209,Daugavpils,Komunālā iela,2,Skola,55.8644040002431,26.5025070001332,,e6dc532e-0f48-41ea-8e6d-497ac3fea5af
+210,Daugavpils,Turaidas iela,36,Sociālas aprūpes objekts,55.911890999931,26.5807790002826,,90d97415-aca7-4b4a-9873-74775fe539d8
+211,Daugavpils,18.novembra iela,47,Skola,55.8689319997719,26.5331429999541,,849d33e9-29b1-4236-92e2-a84ac705c6a7
+212,Daugavpils,Raiņa iela,30,Skola,55.8702570000112,26.5318130001585,,dd917413-c56e-45aa-8b00-5bc606e3ae43
+213,Daugavpils,Stacijas iela,45,pirmsskolas izglītības iestāde,55.8717839998398,26.5311779999488,,75c10a4e-350b-4c5b-a442-7108b84f06dd
+214,Daugavpils,Lielā Dārza iela,60/62,Lauksaimniecības nedzīvojamās ēkas,55.8775049998837,26.5638649999886,,e10b0867-4aee-4f6d-a7b9-a0a6ec2c33b8
+215,Daugavpils,Lielā Dārza iela,60/62,Ārstniecības vai veselības aprūpes iestāžu ēkas,55.8772160002124,26.5628890001954,,3b703836-22c8-468e-b4eb-a7b02223c0ba
+216,Daugavpils,Lielā Dārza iela,60/62,Biroju ēkas,55.8762260001117,26.5642070002954,,d2c44fd3-2e7e-459b-b52e-1278c3626732
+217,Daugavpils,Lielā Dārza iela,60/62,Dažādu sociālo grupu kopdzīvojamās mājas,55.876725000008,26.5645599995745,,8399d78c-b9b8-4582-bb14-9f2bec3b02e7
+218,Daugavpils,Lielā Dārza iela,60/62,Dažādu sociālo grupu kopdzīvojamās mājas,55.8763999998443,26.5630790001662,,6cf41a9e-7263-4783-abf8-e2f5c50d8173
+219,Daugavpils,Miera iela,3/5,dienesta viesnīca,55.8736109998339,26.5362029995784,,78f270e6-1863-4a94-b2c9-d226b4b171e3
+220,Daugavpils,Varšavas iela,18,aministratīvā ēka,55.8731610001252,26.53529999958,,fa71f0b6-7ee4-4562-9ccc-c8631a4bd979
+221,Daugavpils,Aveņu iela,40,Skola,55.9043199999883,26.5308280001444,,1b3708d2-b875-49f3-94e2-42bc316c408c
+222,Daugavpils,Vienības iela,30,Publiska būve,55.8735229999785,26.5122350000754,,775d1687-d44d-4dd7-9865-d8b379bbe48d
+223,Daugavpils,Stāvā iela,23,Izglītības iestāde,55.9051649998573,26.5261499999461,,a3cc64f1-545a-4f27-9309-19f3288dfbc6
+224,Daugavpils,Mihoelsa iela,4,pirmsskolas izglītības iestāde,55.8677620001199,26.5260119998539,,ec7a2f72-c1f2-45c7-b32b-49bd175d48c5
+225,Daugavpils,18.novembra iela,161,bibliotēka,55.8789820001335,26.5527570000222,,3867c344-48c7-4a53-b89c-d6efd1b02e37
+226,Daugavpils,Rīgas iela,2,Biroju ēkas,55.8684829997879,26.5099229997404,,b5844ce0-5fac-49b8-86a3-d75beb4d5c61
+227,Līvāni,Zaļā iela,43,Skola,56.3539230000279,26.1722089998641,,22ea92ef-35d8-4e06-844d-059a968bd56b
+228,Līvāni,Rīgas iela,113/117,Skola,56.3600889998981,26.1713800003839,,760b92e6-160d-4586-9ff5-4f1c222edc7e
+229,Līvāni,Rīgas iela,13,pirmskolas izglītības iestāde,56.3434019999352,26.1782539996678,,3374f29f-3ca0-4927-81f0-7b915a562326
+230,Līvāni,Domes iela,1,Muzejs,56.3554459998407,26.1635139996165,,0d267216-ee07-4b98-8a12-b32bdc6353c6
+231,Līvāni,Raiņa iela,4,Mūzikas skola,56.3506310001423,26.1758080003369,,0e5031d1-6564-4efb-a619-d3c291b72e47
+232,Līvāni,Zaļā iela,44,Ārstniecības vai veselības aprūpes iestāžu ēkas,56.3545759997612,26.1736690002543,,5a3cc485-7bd7-46c6-916c-52faf894f3cc
+233,Līvāni,Rīgas iela,105,Kultūras Centrs,56.3590450001304,26.1727029996085,,90db0520-d6bf-44b0-afd1-6fc3c192caab
+234,"Lūzenieki, Rudzātu pagasts, Līvānu novads","""Skola""",Nav,Izglītības iestāde,56.4169399999412,26.4007820001417,,c709d7be-7d2a-4dda-babe-2ac57d0a1339
+235,"Sutri, Sutru pagasts, Līvānu novads",Uzvaras iela,5,Administratīvā ēka,56.311013999891,26.5265490001543,,40031c57-81d0-4f50-9397-b21912678dd2
+236,"Martiši, Isnaudas pagasts, Ludzas novads","""Vecparks""",Nav,Adminstrācijas ēka,56.5223600000439,27.7350649998352,,622772e2-1e89-4fc7-af9b-a37f0845f3d0
+237,Ludza,Latgales iela,156,pirmsskolas izglītības iestāde,56.5420909999146,27.7270619996988,,f9d27d88-a35e-4e08-84c9-ede9684cb19e
+238,"Zilupe, Ludzas novads",Domes iela,2,Pirmsskolas izglītības iestāde,56.3876080001631,28.1240670002164,,692536db-41ea-4cad-b140-223c1eb347ec
+239,"Lauderi, Lauderu pagasts, Ludzas novads",Bērzu iela,6,Pašcaldība,56.3358570000003,27.9863079996073,,7949ad44-086e-4936-896e-4756613b294b
+240,"Kārsava, Ludzas novads",Vienības iela,49c,Kultūras nams,56.7875540001047,27.6730740003182,,c9577e3f-cd99-4041-b31a-c2bb7ea0e5e1
+241,"Kārsava, Ludzas novads",Vienības iela,53,Administratīvā ēka,56.7868510000716,27.6749680001784,,7eeb13d1-389c-4b16-bcfd-9f7fd1364869
+242,Krāslava,Rīgas iela,51,Administratīva ēka,55.8966690002358,27.1611639997072,,a8815e0f-2b37-46ee-aa40-04f7b9ddf7bd
+243,"Dagda, Krāslavas novads",Alejas iela,15A,Pirmsskolas izglītības iestāde,56.0947159999957,27.5327139996691,,7194263d-bf49-4aef-b9ef-983f6309c370
+244,"Dagda, Krāslavas novads",Brīvības iela,3A,Dienesta viesnīca,56.091541000029,27.5335720003599,,c796f978-05fa-45e1-88ea-8e6f104c50d8
+245,"Dagda, Krāslavas novads",Brīvības iela,29,Veselības un sociālo pakalpojumu centrs,56.095334999993,27.524784000226,,6002ebc5-e9ab-47ed-95b2-7d808183116c
+246,"Andrupene, Andrupenes pagasts, Krāslavas novads",Skolas iela,3,Pirmsskolas izglītības iestāde,56.1895470001639,27.3964360002649,,9f3b1c1b-f9b3-469f-9a0e-d7e39e398a1d
+247,"Kaplava, Kaplavas pagasts, Krāslavas novads",Kaplavas iela,3,Administratīva ēka,55.8592379999389,27.0359349998199,,c5e43054-d023-429f-96f8-4b01a8e442b8
+248,"Varnaviči, Kaplavas pagasts, Krāslavas novads",Ausekļa iela,1,Bijušā Skola,55.8293740000603,27.28934900036,,a2de383d-eb35-4a1d-8d3c-6562c9526089
+249,"Ezernieki, Ezernieku pagasts, Krāslavas novads","""Zāles""",Nav,Doktorāts,56.1837350002046,27.6607520000088,,1d0bd4be-baf9-4fef-9bb1-f201e5d35dd6
+250,"Svarinci, Svariņu pagasts, Krāslavas novads",Skolas iela,13,Tautas nams,56.1275159997936,27.7509330000157,,631dcd07-a786-4759-8b2a-07e3484a3a70
+251,"Andzeļi, Andzeļu pagasts, Krāslavas novads","""Ausekļi""",Nav,Ēkas plašizklaides pasākumiem,56.1685269997578,27.5536409998144,,16898e60-92bd-4e55-86fd-8376a077e9e2
+252,"Dagda, Krāslavas novads",Pasta iela,33A,Biroja ēka,56.105032000028,27.5230960002301,,1afeeb1f-3451-4652-8550-5324d95bc82e
+253,"Sikšņi, Dunikas pagasts, Dienvidkurzemes novads","""Līvas""",Nav,Ārstniecības vai veselības aprūpes iestāžu ēkas,56.2632329997698,21.2532659998743,,7ea531d3-a74a-4c04-b494-a888ebb4410a
+254,Kuldīga,Mucenieku iela,6,Skola,56.966551999889,21.9654760004323,,997b1dcd-1c85-4727-809a-73430d85f3ab
+255,Kuldīga,Kalpaku iela,1,Skola būvniecībā,56.9690550001182,21.9635549999097,,be30cc87-1af3-4286-95c8-d85230fd1752
+256,Kuldīga,Parka iela,22,Pirmsskolas izglītības iestāde,56.9714120000498,21.950400999747,,b2afcd60-dd40-4dd4-a72b-ccfa8b76ac41
+257,Saldus,Kalnsētas iela,13,skola,56.6658050000507,22.5068009999502,,9aef29e5-44c2-4235-be54-cba1ca91ab9f
+258,"Kursīši, Kursīšu pagasts, Saldus novads",Kalna iela,7,pirmsskolas izglītības iestāde,56.5123000002409,22.4037069998051,,937cc7ea-c567-4565-9104-bdbd8d5ad25d
+259,"Laidi, Laidu pagasts, Kuldīgas novads","""Laidu skola""",Nav,Muiža,56.7470859999863,21.8791020004124,,cf4e4b55-9ea9-411a-8551-663a07d2b8c6
+260,"Durbe, Dienvidkurzemes novads",Skolas iela,5A,Skola,56.5873000001678,21.3716130000817,,d7c30d23-a8cc-4311-b1c7-23251c9cd5c2
+261,"Aizpute, Dienvidkurzemes novads",Atmodas iela,16,kultūras nams,56.7192339999814,21.6031460004245,,eb0495c1-8455-4f0b-a4c4-15f243d880bb
+262,Saldus,Avotu iela,12,administratīvā ēka,56.6658140001597,22.4892199996595,,6f6397ba-171d-426e-a4c8-90f180ba9bb7
+263,"Aizpute, Dienvidkurzemes novads",Katoļu iela,1,Ārstniecības vai veselības aprūpes iestāžu ēkas,56.7214010000485,21.6017639998521,,90635c3f-b1f7-4a23-943f-ba4139f75494
+264,"Aizpute, Dienvidkurzemes novads",Atmodas iela,24,Vairumtirdzniecības un mazumtirdzniecības ēkas,56.7184439999162,21.6043940002043,,e744e273-6be8-4d8a-99a7-2c6037df75e8
+265,Kuldīga,Kalpaka iela,4,Publisks objekts,56.9690560000129,21.9626800003987,,f5d2ebdd-560e-4b77-9ef7-577d3bce260f
+266,Kuldīga,Pētera iela,10,Skola,56.9702290000009,21.9661140001168,,352362bc-5f1b-40f8-bd77-1cfa953793a0
+267,"Brocēni, Saldus novads",Ezera iela,6,skola,56.6828090001234,22.5622420000484,,8d950bb6-5837-497c-9f7a-c6b54d3b850b
+268,"Satiķi, Gaiķu pagasts, Saldus novads","""Tautas nams""",Nav,Ēkas plašizklaides pasākumiem,56.8068660000722,22.5267330000357,,823e052c-837c-46c9-8841-5f9027a8ba3e
+269,"Šķēde, Šķēdes pagasts, Saldus novads",Skolas iela,11,virszemes sakņu pagrabs,56.855365000146,22.3802809997271,,b8650a6d-5278-46d4-9318-07c95e93b234
+270,"Druva, Saldus pagasts, Saldus novads",Dārza iela,1,Pirmsskolas izglītības iestāde,56.6943759999986,22.4500669998664,,d901945e-384d-4994-b549-defa8ae4eb4d
+271,Saldus,Kalnsētas iela,13,Noliktava,56.6657319999643,22.50651499972,,6aa00a3f-1a05-480c-a763-e440befaf20f
+272,"Nīgrande, Nīgrandes pagasts, Saldus novads",Ventas iela,1,skolas darbnīca,56.4856660001135,22.0908519997344,,b685bb5b-6e36-498a-a193-d73dd0b0f127
+273,"Nīgrande, Nīgrandes pagasts, Saldus novads",Burtnieku iela,2,Pirmsskolas izglītības iestāde,56.4860449998863,22.0930460000686,,ecb9150b-f046-4345-89b1-6a861c5d8ce1
+274,"Brocēni, Saldus novads",Skolas iela,1,skola,56.6828780000307,22.5635230003385,,8b55e739-b96b-408a-827b-1b67fac44db3
+275,"Striķi, Zvārdes pagasts, Saldus novads","""Striķi""",Nav,kultūras nams,56.598243999963,22.5125339995845,,2472a74a-68b3-48ba-9f66-7d0dc38173a3
+276,"Ance, Ances pagasts, Ventspils novads","""Skola""",Nav,Skola,57.5160990002186,22.0221209999294,,114dfbdd-9acf-4a38-9409-ebd8210b41fd
+277,"Ance, Ances pagasts, Ventspils novads","""Ances muiža""",Nav,Sabiedriskais centrs,57.5144759999902,22.0227450002685,,06cdd1e7-ba7d-406b-815f-4d150ae8ccb5
+278,"Ance, Ances pagasts, Ventspils novads","""Ausmas""",Nav,Kultūras centrs,57.5117739998992,22.0188710003344,,c591f301-6eea-4cea-b689-f6405f60ae14
+279,"Skrunda, Kuldīgas novads",Liepājas iela,6,Dzīvojamā māja,56.6750900000077,22.013429000055,,23587ee5-bb0d-47b1-a2d4-a4eb41d50d99
+280,"Skrunda, Kuldīgas novads",Kalēju iela,6,Ārstniecības vai veselības aprūpes iestāžu ēkas,56.6770379997913,22.019607999753,,83cbeb0b-652f-4af6-9957-d517f6f8105f
+281,"Skrunda, Kuldīgas novads",Lielā iela,1A,Kultūras nams,56.6762840002412,22.0157799998497,,788e59b7-9373-40e7-87de-b3aa9fba19a9
+282,"Vērgale, Vērgales pagasts, Dienvidkurzemes novads","""Vērgales stacija""",Nav,Trīs vai vairāku dzīvokļu mājas,56.7164300002185,21.174924000303,,430b4bfb-ea3a-4096-9457-426187ad258b
+283,"Vērgale, Vērgales pagasts, Dienvidkurzemes novads","""Pagastmāja""",Nav,Kultūras nams - pagastmāja ,56.6985009997994,21.1975620000104,,78381e29-99cd-40cd-84cd-0edacffc9656
+284,"Blīdene, Saldus novads","""Ievas""",Nav,biroju ēka,56.6500630002184,22.7951119998595,,5da89aea-8c22-437d-8c39-d602829bec31
+285,"Pampāļi, Pampāļu pagasts, Saldus novads",Rūpniecības iela,1A,administratīvā ēka,56.5420929997865,22.2122650003121,,5a03c196-0416-4f8d-b775-9decbecca816
+286,"Stende, Talsu novads",Dumpīšu iela,3A,Administratīva ēka,57.1484129998214,22.5390250002078,,76df4419-6ded-4426-9717-7a8001d5cd9d
+287,Talsi,Kareivju iela,12,sporta ēka,57.2477170001077,22.586376000131,,e9a3572b-f8cd-4ab6-983a-ebb1034cc18d
+288,"Mežvidi, Novadnieku pagasts, Saldus novads","""Mežvidi""",Nav,Administratīva ēka,56.6498750000245,22.4664000003773,,6a3010cf-94ac-48b3-942e-cd1e63b383d3
+289,"Vandzene, Vandzenes pagasts, Talsu novads","""Tautas nams""",Nav,Tautas nams,57.309841000147,22.7739889998957,,94d633af-2bf6-4a2f-a8d7-debcbac22109
+290,"Piltene, Ventspils novads",Lielā iela,2A,Administratīvā ēka,57.2225709999108,21.6717199998706,,d9d0fcae-6c45-45fd-aa50-29dbe4050ed3
+291,"Ezere, Saldus novads",Centra iela,4,Biroju ēka,56.4061260000841,22.3606130001307,,ef9f8336-e9f2-493f-94e0-64594eb5a939
+292,"Dzelda, Nīkrāces pagasts, Kuldīgas novads",Dīķu iela,1,sociālo grupu kopdzīvojamās māja,56.570575000208,21.8966710001092,,e6014474-0864-4daf-b152-c82cacea0b2b
+293,"Rudbārži, Rudbāržu pagasts, Kuldīgas novads",Centra iela,4,Biroju ēka,56.642781000108,21.8886189995691,,efba4b2f-0e8a-4cbd-8818-67e5a67bcdb4
+294,Saldus,Lielā iela,3B,Izglītības iestāde,56.6654489998817,22.4919529999439,,349a9f8c-0343-4c29-936a-7a6b51e0b8b2
+295,"Mērsrags, Mērsraga pagasts, Talsu novads",Lielā iela,25,tautas nams pašizklaides pasākumiem,57.3326820002308,23.1242119996792,,f5c4eb65-7f61-44f6-8dd0-e9bdb4480a67
+296,"Ugāle, Ventspils novads","""Slimnīca""",Nav,Ārstniecības iestāde,57.2708320000186,22.0551779998652,,be8f7478-dbdc-45f7-8de8-bb586321e934
+297,"Ugāle, Ventspils novads","""Kraujas kapi""",Nav,Kapliča,57.2798339998267,21.996334999836,,874c7eed-0cb5-4651-8201-f40de117ab78
+298,"Renda, Rendas pagasts, Kuldīgas novads","""Vīgneri""",Nav,"Kultūras nams, pagasta pārvalde",57.0692589998806,22.29234099991,,1b8db464-bf46-4780-827b-580f86bd262c
+299,Saldus,Kuldīgas iela,3,skola,56.6695579997719,22.490670000004,,0b20c095-7b68-4e3b-b92c-dca62a5131d3
+300,Saldus,Slimnīcas iela,3,slimnīca,56.6717059998426,22.4911720001443,,72e4c9da-7676-4527-bafe-23212b0dbc19
+301,"Brocēni, Saldus novads",Lielcieceres iela,10,kultūras nams,56.6798080001031,22.5679000002379,,748d7fe1-4017-4251-bc23-b9d217479576
+302,Kuldīga,Rātskunga iela,2,Daudzdzīvokļu dzīvojamā māja,56.9665619999962,21.9537480003248,,ce921cc5-d63a-4df7-8d67-73d93869fbb5
+303,"Anuži, Lubes pagasts, Talsu novads","""Sniedzes""",Nav,adminstratīvā ēka,57.4234580001649,22.6033099996181,,d2ab1481-2d4c-4ae9-928e-04f33806c58c
+304,"Pastende, Ģibuļu pagasts, Talsu novads",Skolas iela,2,Adminstratīvā ēka,57.2245570000188,22.519990000273,,cb619d8b-1741-4712-bfad-458f3fdba383
+305,"Pastende, Ģibuļu pagasts, Talsu novads",Ozolu iela ,2,Pirmsskolas izglītības iestāde,57.2229540000984,22.5267720003937,,64b40f64-af20-4b4f-b574-10d63204195e
+306,"Jūrkalne, Ventspils novads","""Saulgoži""",Nav,Noliktava,57.0073479998278,21.3933689997071,,a4e80f28-f0c5-41c2-927f-c2ebf90c77d5
+307,"Ugāle, Ventspils novads","""Bērnudārzs""",Nav,Pirmsskolas izglītības iestāde,57.274218000231,22.0224900000004,,ab7add39-16b2-4a9d-a5b1-f965538ff44c
+308,"Kalnciems, Kalnciema pagasts Jelgavas novads",Lielupes iela,21,Skola,56.8008270002309,23.6106669997346,,798e58a1-bfcf-40d3-b76f-151dcf4c8862
+309,"Staļģene, Jaunsvirlaukas pagasts, Jelgavas novads",Skolas iela,4,Izglītības centrs,56.5716170002451,23.9603380000474,,7ca96a30-c1c5-4ae9-b0d4-a7cd8a872b3b
+310,"Auce, Dobeles novads",Jura Mātera iela,11,Skola,56.4577680001225,22.8974839997563,,b5899c45-36c7-45d8-9930-44203843bdf9
+311,"Vecumnieki, Vecumnieku pagasts, Bauskas novads",Rīgas iela,29a,Pašvaldības biroja telpas,56.5979479999104,24.5316409996102,,38348ea7-fa78-47ad-b85b-9b249aa4fbd9
+312,"Zaļenieki, Zaļenieku pagasts, Jelgavas novads ",Baznīcas iela,2,dienesta viesnīca,56.528536000103,23.506746999584,,6e350872-0731-40bb-aeb1-315bec8bcad7
+313,"Zaļenieki, Zaļenieku pagasts, Jelgavas novads ",Jelgavas iela,7,Mācību ēka - katlu māja,56.5314289997967,23.5088520002297,,7ec9d048-cbc8-42db-83ff-5c22e06ad99c
+314,"Zaļenieki, Zaļenieku pagasts, Jelgavas novads ",Jelgavas iela,7,Mācību laboratorija,56.5294529999229,23.508577999695,,7a298411-ec8b-4270-9a4a-bcfde8d8e8d6
+315,"Zaļenieki, Zaļenieku pagasts, Jelgavas novads ",Centra iela,3,skola,56.5267069999907,23.5093719999134,,e280aa42-db9b-44e8-9244-066393dbf050
+316,"Aizkraukles pagasts, Aizkraukles novads",Kalna iela,6,Izglītības iestāde,56.6161290001264,25.2191560003941,,539f5239-88dc-4ad5-bffd-99294c287d65
+317,"Engure, Engures pagasts, Tukuma novads",Skolas iela,9,Skolas internāts,57.1622130001565,23.2192139999996,,6edca53e-9c65-4b6f-aaed-3bc33351f832
+318,"Jaunjelgava, Aizkraukles novads",Lāčplēša iela,11,Administratīvā ēka,56.6177430000579,25.0820160001012,,c466e82e-7509-4a80-a52d-63f1e0c3fc0e
+319,"Nereta, Neretas pagasts, Aizkraukles novads",Rīgas iela,1,Administratīvā ēka,56.2053780000051,25.3067890000645,,3d1fc9f7-e183-4134-8e07-1ee1e5932657
+320,"Vilce, Vilces pagasts, Jelgavas novads",Madaru iela,2,Sākumskola,56.4196059998848,23.5431879999074,,361637a3-1cd2-4d90-a803-e9407495dcb6
+321,"Sesava, Sesavas pagasts, Jelgavas novads",Skolas iela,1,Skola,56.4253120000213,23.8194719999583,,c28f396a-868a-4afe-9ff2-486a17b60423
+322,"Lielvircava, Platones pagasts Jelgavas novads",Lielvircavas iela,4,Skola,56.5215290001411,23.7565270003894,,e492a250-b81f-478b-b4a5-f558bf1b7ca9
+323,"Vilce, Vilces pagasts, Jelgavas novads",Skolas iela,6,Skola,56.4207840000338,23.5422110002892,,42300bb0-ef5a-4af3-8143-b8c0c3222623
+324,"Vilce, Vilces pagasts, Jelgavas novads",Tautas nama iela,6,Noliktava,56.4226949998152,23.5408799997704,,d22fff1b-60c0-4932-b06f-4896a882044f
+325,"Platone, Platones pagasts, Jelgavas novads",Atspulgu iela,4,Biroju ēkas,56.5401550000689,23.6929419996895,,c60e1a7a-49ad-4360-b060-35842f4fae78
+326,"Lielvircava, Platones pagasts Jelgavas novads",Lielvircavas iela,4A,Skola,56.5218719998386,23.7569230002245,,873b0af5-3d60-42f5-9b94-c18193493fa6
+327,"Lielplatone, Lielplatones pagasts, Jelgavas novads",Alejas iela,7,skola,56.4522629998349,23.6598360002483,,15ce3b9e-1942-4e47-980d-10d7437b184b
+328,"Lielplatone, Lielplatones pagasts, Jelgavas novads",Alejas iela,9,Muzejs,56.4527610002082,23.6593819997885,,0ca5cca8-8a4f-4ef2-b6c8-834a8500f799
+329,"Eleja, Elejas pagasts, jelgavas novads",Parka iela,11,skola,56.4191429997929,23.6973350003807,,7738634a-28b8-4c31-8f99-05693c5bbc2c
+330,"Glūdas pagasts, Jelgavas novads","""Kažmeru kapi""",Nav,Kapliča,56.5859519998021,23.560153000255,,ee3ca965-26eb-412d-9944-815f78a2d932
+331,"Nākotne, Glūdas pagasts, Jelgavas novads",Skola iela,3,Skola,56.6187230002032,23.4408989998513,,c018b746-4f5d-495f-b0d6-6db7925f1164
+332,"Jēkabnieki, Svētes pagasts, Jelgavas novads",Straumes iela,3,Biroju ēka,56.5332529999506,23.5993949997365,,f5c1b898-934d-4858-a9c3-0e690a7721f0
+333,"Jēkabnieki, Svētes pagasts, Jelgavas novads",Straumes iela,5,Ēkas plašizklaides pasākumiem,56.5335200001447,23.5993360001853,,0a86dc99-2456-4031-907c-d60343117777
+334,"Vircava, Vircavas pagasts, Jelgavas novads",Jelgavas iela,1,Ēkas plašizklaides pasākumiem,56.5581500001569,23.7737210001675,,137feca8-e147-422c-b9ee-743ee1f2deb9
+335,"Kandava, Tukuma novads",Talsu iela,18A,Internātskolas mācību klases,57.0386030002132,22.7717970001097,,20ca97ae-2205-4e40-95ad-48b5c66a79da
+336,"Koknese, Aizkraukles novads",Parka iela,27A,Sporta ēka,56.6438800002121,25.4233870001767,,ddb3418d-0236-44f3-913d-2afdc6cb1f02
+337,"Koknese, Aizkraukles novads",Parka iela,27,Skola,56.6442699999989,25.4244409997878,,3ee21c1a-3be9-4bdb-8328-cc3ab0b7ebdc
+338,"Koknese, Aizkraukles novads",Melioratoru iela,1,Biroju ēka,56.6439919998342,25.446145000433,,916a4b5a-a4f6-4ecc-ad15-61f116bd4b10
+339,"Koknese, Aizkraukles novads",Hanzas iela,2,Kultūras nams,56.6504070000903,25.4387320003004,,efbe5b6f-1e87-4a0e-88ca-3e73cd71934c
+340,"Koknese, Aizkraukles novads",Lāčplēša iela,7,Pirmsskolas izglītības iestāde,56.6447150001869,25.4310449996332,,5a56bc03-1a66-4110-8e5b-903d5e3bd499
+341,"Daudzese, Daudzeses pagasts, Aizkraukles novads","""Skola""",Nav,Skola,56.4806099998612,25.2172740002295,,fbe7c913-31ef-4541-84c1-c311fd038452
+342,"Kandava, Tukuma novads",Skolas iela,10,Vidusskola,57.0364839999521,22.768300999569,,c7cc9a6e-2cf3-4fce-933c-6217fb3ffca7
+343,"Vecauce, Vecauces pagasts, Dobeles novads",Lielauces iela,21,Pirmsskolas izglītības iestāde,56.4739220001124,22.8854090002174,,71bc5e54-3aa6-40ee-882c-4658abef411d
+344,"Tetele, Cenas pagasts, Jelgavas novads",Skolas iela,10,Pamatskola,56.6372700001809,23.8397220000611,,52384120-aebc-4ec5-99c6-15e09ed74cab
+345,"Emburga, Salgales pagasts, Jelgavas novads",Draudzības iela,3,Administratīvā ēka,56.5663589997617,23.9831959998628,,893a5006-1d2b-4155-86fb-75be83550abc
+346,"Āne, Cenu pagasts, Jelgavas novads",Jaunatnes iela,4,Pirmsskolas izglītības iestāde,56.6485439997785,23.8116050002644,,9a2082ca-c31b-449c-9975-aa28d9fcd7f2
+347,"Ozolnieki, Ozolnieku pagasts, Jelgavas novads",Meliorācijas iela,10,Pirmsskolas izglītības iestāde,56.6906899999788,23.788375000005,,68d45a21-8927-4fa8-a3c4-33817a5b3976
+348,Dobele,Dainu iela,8,Skola,56.6139820002253,23.2876200001145,,30fc8c32-232d-46d2-9871-167682794633
+349,Dobele,Brīvības iela,11A,Dienas centrs,56.6253240000549,23.2793640002581,,79d7435a-d31b-4365-9259-f10e05a15f15
+350,"Garoza, Salgales pagasts, Jelgavas novads","""Garozas pamatskola""",Nav,Skolas saimniecības ēka,56.6384240000808,23.9453079995679,,0cef73a9-8bb0-4c21-b8e6-80e4558ed814
+351,Dobele,Zaļā iela,29,Pirmsskolas izglītības iestāde,56.6187619997815,23.286654000367,,f34e63cc-6a19-4acf-b226-72028f92e432
+352,"Kaķenieki, Annenieku pagasts, Dobeles novads",Skolas iela,2,Sporta komplekss,56.6678890000686,23.0368900003534,,1a02f2c3-46d6-4fd8-a14c-df30e6ec2aae
+353,"Annenieki, Annenieku pagasts, Dobeles novads","""Bērzupes""",Nav,Skola,56.6800840002412,23.0976520003572,,7ca43c8d-99b0-445e-81a3-0431c6467190
+354,"Annenieki, Annenieku pagasts, Dobeles novads","""Bērzupītes""",Nav,Skola,56.6800389999383,23.098134000406,,c74fba8e-05ad-420e-b21c-8445c0d76fd6
+355,Jēkabpils,Jaunā iela,44,skola,56.4938670000998,25.8589539997603,,edf84c18-a979-421e-8df5-678e9b160595
+356,Jēkabpils,Rīgas iela,192,Skola,56.5039750001846,25.8668720004062,,db7e8ac0-5b09-4b46-813b-0ada8da7b413
+357,"Uzvara, Gailīšu pagasts, Bauskas novads",Sporta iela,3,Skola,56.3195090002189,24.2605960003474,,2e559c9a-cac4-455c-9374-c74644dcc5be
+358,"Uzvara, Gailīšu pagasts, Bauskas novads",Kamardes iela,1,Pirmsskolas izglītības iestāde,56.317974000238,24.2584399996481,,9a6e9da5-72aa-434b-8a1d-23147a492d21
+359,"Uzvara, Gailīšu pagasts, Bauskas novads",Bauskas iela,2,administratīvā ēka,56.3142190002323,24.2559039999054,,86876132-e78a-4726-a9ca-21c19cc21b2a
+360,"Bēne, Bēnes pagasts, Dobeles novads",Centrālais laukums,3,Administrācijas ēka,56.4858229999198,23.06354500011,,8238a9d2-acb0-4a59-826d-5fa79248da35
+361,"Bēne, Bēnes pagasts, Dobeles novads",Centrālais laukums,3,Administrācijas ēka,56.4859240000142,23.0637490003245,,392fd237-44b5-49d2-9d03-186863639c95
+362,"Bēne, Bēnes pagasts, Dobeles novads",Jelgavas iela,27,Skola,56.4832339999077,23.0718710002866,,3db6489c-0d6a-4369-8fa5-991868b2206a
+363,Tukums,Kurzemes iela,5,Pirmsskolas izglītības iestāde,56.9699959998115,23.1595790003001,,372e1043-4d82-4e3b-bc3b-08ce93c283eb
+364,"Skrīveri, Skrīveru pagasts, Aizkraukles novads",Stacijas laukums,1,Skola,56.6469610001381,25.1212299999936,,c3ef5c4d-d0c4-40f2-b0eb-0362604869ac
+365,"Skrīveri, Skrīveru pagasts, Aizkraukles novads",Daugavas iela,85,Skola,56.6472819998831,25.1179500002614,,7e0053af-4e05-4504-bb67-e36b8d3b27fb
+366,Tukums,Celtnieku iela,3,Daudzdzīvokļu ēka,56.9746010002056,23.1586870001724,,6ca14306-84b5-4239-89a7-015bd98c5d7f
+367,Tukums,Talsu iela,4,Biroju ēka,56.9674480000147,23.1524170002378,,394b88ca-51ac-43b5-8962-9aa0b460b71b
+368,Tukums,Raudas iela,12a,Biroju ēka,56.9693420001306,23.1569949999786,,7a7976f8-13ca-4de5-9153-9b5526278a2d
+369,"Zante pagasts, Tukuma novads",Skolas iela,6,Kultūras nams,56.8357939997595,22.7364179997932,,029d757e-7252-464a-b76d-3d724a9c5ed5
+370,"Zante, Zantes pagasts, Tukuma novads",Skolas iela,14,Skola,56.8359950001283,22.7320640003584,,e365fd7d-f752-4b26-865e-2cf4165c4c84
+371,"Vecumnieki, Vecumnieku pagasts, Bauskas novads","""Jaunklīvi""",Nav,Dzīvojamā ēka,56.5506719999712,24.6111389997981,,bbd8f4c1-ca9d-4c63-ab5e-614787a6ec8a
+372,"Skrīveri, Skrīveru pagasts, Aizkraukles novads",Sprīdīša iela,1,Pirmsskolas izglītības iestāde,56.6573259998767,25.1247630003442,,cef2773e-c2ce-463e-ab08-b7ab634eb5db
+373,"Skrīveri, Skrīveru pagasts, Aizkraukles novads",Daugavas iela,85A,Aprūpes centrs,56.6471410000454,25.1173769999759,,c7b5a014-da0f-4b8d-878b-75dcf0612109
+374,Aizkraukle,Draudzības krastmala,5,Skola,56.5987109998815,25.2522700002312,,e6d6382e-5b6c-43d7-ac01-6b9bfbb91875
+375,"Vecbebri, Bebru pagasts, Aizkraukles novads","""Dienesta viesnīca""",Nav,Dienesta viesnīca,56.7234070001356,25.4779369999721,,98fb45ed-2079-4678-a752-dd2b500296fb
+376,"Nereta, Neretas pagasts, Aizkraukles novads",Dzirnavu iela,4,skola,56.2004190001794,25.3117669998384,,93031434-cfab-4022-8c04-f9cc97c0edb1
+377,"Nereta, Neretas pagasts, Aizkraukles novads",Pētera Lodziņa iela,1,kultūras nams un bibliotēka,56.2038310002254,25.3082200001425,,08054756-5a7a-4acb-822a-ed438ec9fa56
+378,"Iecava, Bauskas novads",Grāfa laukums,7,Skola,56.5924529998566,24.2045500001767,,7243f533-0c14-4385-92db-90deb5bbcd81
+379,"Iecava, Bauskas novads",Dzirnavu iela,1,Ārstniecības vai veselības aprūpes iestāžu ēkas,56.5959620001846,24.2063899996102,,569086b9-514e-4bfe-9f4b-d94d3a6f6e7b
+380,"Iecava, Bauskas novads",Zemgales iela,9A,Pirmsskolas izglītības iestāde,56.602193000211,24.1987530000701,,5f447984-0c47-4983-945e-600f1f861df3
+381,Dobele,Puķu iela,8,Pirmsskolas izglītības iestāde,56.6154929998626,23.2864049999467,,8064d36f-b3dc-414c-9caa-091e470c2d5a
+382,"Zelmeņi, Tērvetes pagasts, Dobeles novads","""Zelmeņi""",Nav,Pagstmāja,56.4499459998482,23.3605439996958,,11f7b4bb-f294-4107-bec8-b1cc36ded065
+383,"Tērvetes pagasts, Dobeles novads","""Mežmalieši""",Nav,Ēdnīca,56.474770999977,23.3211320003349,,82a49b99-8195-484c-b34f-5c573101ffeb
+384,"Tērvetes pagasts, Dobeles novads","""Mežmalieši""",Nav,Pansionāts,56.474747000033,23.3224239995973,,3e9df6cd-7407-4bf4-b7cd-891249ec5d12
+385,"Smārde, Smārdes pagasts, Tukuma novads",Bišu iela,2,Pirmsskolas izglītības iestāde,56.9519099998843,23.34256699957,,b87246bc-60b2-44de-a8de-d25cf17ebfe5
+386,"Smārde, Smārdes pagasts, Tukuma novads",Jaunā iela,9,Administratīvā ēka,56.9456340002379,23.3381889998457,,69126687-22f5-43d7-9e74-928d95f9ea1b
+387,"Līvbērze, Līvbērzes pagasts, Jelgavas novads",Jelgavas iela,17,Kultūras nams,56.6905260001377,23.4916519997055,,b4dfebad-c7f7-4364-9e01-ad5e9f98240e
+388,Tukums,Raudas iela,6,Skola,56.9686940001466,23.1560740004369,,1bf903bb-8d46-4f7a-9b13-9c6db13b338f
+389,"Irlava, Irlavas pagasts, Tukuma novads","""Mežrozītes""",Nav,Sociālā māja,56.8776180000599,22.9886189998152,,3574c2da-1a1b-43e2-b21c-05fd4a2c0211
+390,"Slampe, Slampes pagasts, Tukuma novads","""Zemagles vidusskola""",Nav,Vidusskola,56.8520639998157,23.3008679999885,,81a2b223-e537-47f7-bed1-cebbfa0a8c30
+391,"Tukums, Tukuma novads",Mazā parka iela,7 k-2,Dzīvojamā ēka,56.9667720001582,23.1939669998563,,959616d1-00a4-43f6-9443-6cd7a8b64200
+392,"Engure, Engures pagasts, Tukuma novads",Jūras iela,85,Kūltūras nams un pašvaldības administratīvā ēka,57.1624519997793,23.2268410003923,,41b32a72-f5e2-479a-b760-202e3c04397d
+393,"Kandava, Tukuma novads",Ķiršu iela,85,Sociālā māja,57.0397610001856,22.7738209996662,,aab2b845-1b02-4ea2-a9e7-fc23d97f060d
+394,"Skrīveri, Skrīveru pagasts, Aizkraukles novads",Daugavas iela,37,noliktava,56.6383270001519,25.1104509999151,,c1ce5f42-584a-45df-b874-95f8cb7c4c7e
+395,"Skrīveru pagasts, Aizkraukles novads","""Sapņi""",Nav,Sociālo pakalpojumu centrs,56.6224109997953,25.0696620000047,,fa20d32b-b3f6-4127-99f4-d7fd5c70357b
+396,Jēkabpils,Meža iela,12,Pirsmskolas izglītības iestāde,56.4908069998706,25.8758770002751,,518a7dcc-d573-4f4e-82e8-1c9b9c3943e7
+397,"Engure, Engures pagasts, Tukuma novads",Skolas iela,10,Pirsmskolas izglītības iestāde,57.163378999951,23.2201270000436,,a6ce31c4-d1de-4838-8cd3-81d3ad8433c5
+398,"Viesīte, Jēkabpils novads",Smilšu iela,2,Kūltūras nams,56.3454499998007,25.5576829998571,,2889d021-03d6-4373-bb13-1e885b0a90d0
+399,"Viesīte, Jēkabpils novads",Pavasara iela,6A,Pirmskolas izglītības iestāde,56.3421769997959,25.5639660002106,,b74190b8-8c32-4f21-9521-046d58ae8a5a
+400,"Viesīte, Jēkabpils novads",Brīvības iela,8,Administratīva ēka,56.3481200001469,25.5536790002267,,457f3afa-1b86-45e0-9326-b3c686966ffd
+401,"Viesīte, Jēkabpils novads",Brīvības iela,10,Administratīvā ēka,56.3480189999108,25.5535899996399,,085472e2-779d-4f30-9c78-475fe2500eff
+402,"Viesīte, Jēkabpils novads",Raiņa iela,35,Dzīvojamā māja,56.343283000008,25.5583189998918,,72bcaf57-1a05-40d3-a234-bf50dee23b83
+403,"Tume, Tumes pagasts, Tukuma novads",Skolas iela,1 C,Skolas sporta komplekss,56.9362649999954,23.0860730002125,,266717f5-d147-4ee0-9782-01266589e98b
+404,"Jaunpils, Jaunpils pagasts, Tukuma novads","""Jaunpils pils""",Nav,"Muzejs, viesnīca",56.7305140000448,23.0215069996965,,5c9f810b-0062-471e-8696-1435d7146a8f
+405,"Jaunpils, Jaunpils pagasts, Tukuma novads","""Ērģelnieki""",Nav,"Sociālā dienesta ēka, sporta nams, dome",56.7306349999097,23.0231760003241,,dd482b89-9ee8-40d2-8226-34151e9d27ac
+406,Aizkraukle,Lāčplēša iela,3,Bibliotēka,56.6010179998194,25.2559879996314,,07cf9534-f538-4b18-a932-386dfc6396e0
+407,"Kandava, Tukuma novads",Zīļu iela,2,"Ražošana, šūšanas darbnica",57.0335410000662,22.7756259998379,,562419a8-c591-4bdb-90ba-19718f1536d7
+408,"Irši, Iršu pagasts, Aizkraukles novads","""Pērses pamatskola""",Nav,Skola,56.7934430001785,25.5950249996307,,bb7c8b08-4c0b-4266-b73e-d5ab1f9f4e97
+409,"Irši, Iršu pagasts, Aizkraukles novads","""Silavas""",Nav,Daudzdzīvokļu ēka,56.792382999972,25.5937390002161,,ec31b3c6-6eba-4a46-ba98-a50dd1e35811
+410,"Lamiņi, Pūres pagasts, Tukuma novads","""Lamiņu Muiža""",Nav,"Skolas mācību korpuss, mājturības kabineti",57.0985119998358,22.9601100003814,,87392554-188d-4b72-bef3-32a09b3aad7c
+411,Aizkraukle,Lāčplēša iela,1,Biroju ēka,56.6015990001371,25.2531659996585,,921fd260-1182-4f65-8200-f4fb14c81323
+412,Aizkraukle,Lāčplēša iela,4,Biroju ēka,56.6005069997685,25.2541049996419,,39a9ed3d-9b96-4593-a374-26fc57e71726
+413,"Strēlnieki, Mežotnes pagasts, Bauskas novads",Parka iela,1,Daudzfunkcionālais centrs,56.5020309997702,24.0821330002166,,8bc1b33b-a6a7-4f4c-9c5f-7e7d1ae01fe5
+414,Tukums,Tidaholmas,3,Administratīvā ēka,56.9672199997794,23.1488760003896,,88840f75-7fb7-4718-9675-755f94063308
+415,Tukums,Lielā iela,18,Skola,56.9642749999604,23.1486780000229,,78cff6e4-dcc9-4cd4-b5b8-0f167dad13bd
+416,Tukums,Spartaka iela,18,Pirmsskolas izglītības iestāde,56.9724709998918,23.1649920002672,,74cb4fb4-49c9-4f53-8ba4-d2702f68752c
+417,Tukums,Lielā iela,9,Skola,56.9642889997901,23.1519290003412,,b44212c2-f925-4445-b294-2075e40d7da6
+418,Jēkabpils,Dūmu iela,1,pirmskolas izglītības iestāde,56.4941900000197,25.8896220002665,,32bfdc31-04b5-41be-9569-8675c25b614c
+419,Jēkabpils,Andreja Pormaļa,106,Viesnīca,56.4980800002213,25.8413239999641,,273196fc-b3d6-4cb4-ada7-8f923b6b9b5c
+420,Jēkabpils,Jaunā iela,39I,Sociālais pakalpojumu centrs,56.4919800001221,25.8609060002451,,2dfb3c2f-25dc-43b8-9517-5ef0ce4b0f73
+421,Jēkabpils,Rīgas iela,150,administratīvā ēka,56.5024300000078,25.8722200000759,,5f9d057f-ece0-4467-b38d-c8b0f3897353
+422,"Cīruļi, Rites pagasts, Jēkabpils novads","""Rites pamatskola""",Nav,Pirmskolas izglītības iestāde,56.208703000111,25.5090950000248,,a9f2692f-b114-47ac-8cb8-492f14f7cc85
+423,"Cīruļi, Rites pagasts, Jēkabpils novads","""Pagasta māja""",Nav,administratīvā ēka,56.2080800000518,25.5077450001377,,31a46538-3e64-48e5-99c1-c4d4b812c003
+424,"Aknīste, Jēkabpils novads",Skolas iela,19,Skola,56.1633540000479,25.7364570003325,,ba927404-d9f7-4152-9fa2-0d9dfd505324
+425,Dobele,Uzvaras iela,4,Biroju ēka,56.625695999861,23.2792370000365,,3b6636b7-a9cc-4e5c-9f1d-008edbc09961
+426,"Bikstu pagasts, Dobeles novads","""Alejas""",Nav,Skola,56.6941629997996,22.9714719998927,,aab96f9c-4a14-4b14-84e9-b4d9aaa048d0
+427,"Iecava, Bauskas novads",Grāfa laukums,1,skola,56.5931699997616,24.2051309999598,,bb626abc-c4ef-47b7-bde6-fdb04798e392
+428,Aizkraukle,Skolas iela,3,Mūzikas skola,56.6002290000245,25.2499779999878,,22862851-52dc-4521-8f5b-0d20a248646d
+429,Tukums,Smilšu iela,46,Pirmsskolas izglītības iestāde,56.9747249998167,23.1430730004351,,76e298cd-2fc5-4ed9-a2e3-d4fd6ddfa4f6
+430,Tukums,M.Smilšu iela,14,Pirmsskolas izglītības iestāde,56.9736259997603,23.1420800000252,,47841865-f249-441c-92c0-99dbbae6d794
+431,"Daudzeva, Daudzeses pagasts, Aizkraukles novads","""Pagastmāja""",Nav,Pagasta pārvalde,56.5061150002233,25.241116000234,,aec560d7-9653-4eea-97d9-671fc5c70c0a
+432,"Staburaga pagasts, Aizkraukles novads","""Vīgantes pamatskola""",Nav,Aprūpes ēka,56.528459000182,25.4800819999025,,514873d0-0a9c-4869-acf7-d1aa8650ba7c
+433,"Jaunbērze, Jaunbērzes pagasts, Dobeles novads",Ceriņu iela,2,Kultūras nams,56.7377149998416,23.3906480001374,,9f318372-2cc9-43c5-a427-62fbfcda082e
+434,"Jaunbērze, Jaunbērzes pagasts, Dobeles novads",Ceriņu iela,9,Šķūnis,56.7367080000771,23.3885619997583,,3c98f600-67bf-4602-a690-b1a08f6cbc2c
+435,"Lielauce, Lielauces pagasts, Dobeles novads","""Ezerkrasti""",Nav,Sociālā dzīvojamā māja,56.5232819998971,22.8954300000625,,8c443a18-86e6-4508-aae4-c57ff638c98b
+436,"Lielauce, Lielauces pagasts, Dobeles novads","""Ezerkrasti""",Nav,Tautas nams,56.523458999757,22.8962030003645,,19f1344b-41e2-4c40-9429-c3eccdab662e
+437,"Jaunjelgava, Aizkraukles novads",Uzvaras iela,1,Skola,56.611271000232,25.0829969999173,,1f87fc9c-ae39-47f0-9ace-969763d5a622
+438,"Sunākste, Sunākstes pagasts, Aizkraukles novads","""Skola""",Nav,Izglītības iestāde,56.4568229998979,25.4878309995956,,2ece7d23-1416-4308-acb3-fce671ae727d
+439,"Ērberģe, Mazzalves pagasts, Aizkraukles novads",Liepu iela,3,"Biroja ēka, Aptieka",56.3681049999382,25.0184759996071,,4d184f5e-9f96-4415-b2c7-1ba4eb00c607
+440,"Ērberģe, Mazzalves pagasts, Aizkraukles novads",Skolas iela,1,Skola,56.3648579999572,25.0170060000695,,4ed3db00-9225-4626-99b7-bd8d70bf5fe1
+441,Jēkabpils,Brīvības iela,45,administratīvā ēka,56.4898840001465,25.8790380001817,,9e4bad18-81d4-40b2-ac98-e4cfdf7c558f
+442,Jēkabpils,Rīgas iela,216B,Muzejs,56.5110440001885,25.8589060000797,,5143af11-faa5-42d6-bd6e-cd1c690b6915
+443,Jēkabpils,Brīvības iela,203,Mūzikas skola,56.4996790001604,25.8612640004454,,28e4106c-4565-4e25-80d1-a8b8bca4580d
+444,"Zasa, Zasas pagasts, Jēkabpils novads","""Zasas vidusskola''",Nav,skola,56.2931900002259,25.9788600000921,,6bb18440-4315-406a-9bf2-30b7e62f7be4
+445,"Asare, Asares pagasts, Jēkabpils novads","""Augļu klēts""",Nav,Administratīvā ēka,56.1174590000205,25.8840119997576,,18b97a72-7083-4480-8dda-b1614c1c3e53
+446,"Antūži, Variešu pagasts, Jēkabpils novads","""Mežmalas""",Nav,Internāts,56.6182650001383,25.949288999753,,1117c96c-6c05-4c6b-bfd8-fa86a1e4fbc7
+447,"Antūži, Variešu pagasts, Jēkabpils novads","""Mežmalas""",Nav,skola,56.6184329998447,25.9486660001372,,5a2dcd1b-966a-40aa-89e9-0638fb50c3cc
+448,"Lejasstrazdi, Dobeles pagasts, Dobeles novads","""Lejasstrazdi""",Nav,Bērnu nams,56.6588029999959,23.3119290000993,,6d788737-b8a2-41b4-a8d8-2ffaf901add4
+449,Dobele,Upes iela,5,Pirmsskolas izglītības iestāde,56.6207290001507,23.2815279995568,,35f62456-d01d-40b5-92ea-a9eb517f2b5f
+450,Dobele,Brīvības iela,2C,Muzejs,56.6228359998531,23.2727439996208,,9d85dbd4-bcb3-40d2-b7d2-9da032b8b49c
+451,Dobele,Brīvības iela,2,Dzīvojamā māja,56.6232229999642,23.2750729996742,,347b02df-1530-4608-a59e-3b435d869bb3
+452,Dobele,Brīvības iela,17,Biroju ēka,56.6263510001926,23.2806249995585,,f828358a-18b3-43df-bfc5-5a756836fcec
+453,"Birži, Salas pagasts, Jēkabpils novads",Biržu iela,11,Tautas nams,56.3506940001662,25.5603809999814,,921b6d24-457f-4454-af54-a181755fdedb
+454,"Birži, Salas pagasts, Jēkabpils novads",Podvāzes iela,2,skola,56.4111649998078,25.7742729997591,,05753739-9955-4d8b-aaf2-97ccc213fa6e
+455,"Sala, Salas pagasts, Jēkabpils novads",Skolas iela,2,Tautas nams,56.5072999998668,25.7626340002383,,bcfc2494-78e3-418c-90ed-985877d0247e
+456,"Elkšņi, Elkšņu pagasts, Jēkabpils novads","""Pagastmāja""",Nav,Pagastmāja,56.2176050001358,25.5787969996001,,17b57489-9b5d-4ccf-bcf2-7f4ae28e558f
+457,"Bukaiši, Bukaišu pagasts, Dobeles novads","""Rotas""",Nav,Biroja ēka,56.4001440000346,23.2531289997278,,bde328ac-6d8c-45c1-82a7-f8a658ade3d8
+458,"Auri, Auru pagasts, Dobeles novads",Skolas iela,10A,Pirmsskolas izglītības iestāde,56.5649039997634,23.2939059999427,,2c91ae71-97b0-4a02-a174-ed3fe084b1ea
+459,"Kroņauce, Tērvetes pagasts, Dobeles novads","""Sprīdītis""",Nav,Pirmsskolas izglītības iestāde,56.5110650001925,23.3394070003866,,1235e338-126b-4be2-b685-50fa8a61dc97
+460,"Nereta, Neretas pagasts, Aizkraukles novads",Rīgas iela,6,Sociālās aprūpes centrs,56.2058250001423,25.3043470000332,,420b19a9-0745-43d5-827a-23f9771e4376
+461,"Zalve, Zalves pagasts, Aizkraukles novads","""Zalves pamatskola""",Nav,Muzejs,56.3261650001973,25.2479460000353,,a2f0ae3d-a439-4ed6-9ca0-436bbeb28b13
+462,"Naudīte,  Naudītes pagasts, Dobeles novads","""Naudītes skola""",Nav,Skola,56.5356479999623,23.1988059997131,,9b5a2e14-0cf2-4245-b2b4-669e1d7f7b86
+463,"Sunākste, Sunākstes pagasts, Aizkraukles novads","""Saulrieši""",Nav,Saieta nams,56.4576890000058,25.4799560004041,,0c59195f-0cce-48e1-8e06-ef5b8b13157a
+464,"Gārsene, Gārsenes pagasts, Jēkabpils novads","""Labieši""",Nav,Muzejs,56.0993549999403,25.8101190000557,,58024f68-b7f1-4f2a-900f-536f5640c7be
+465,"Aknīste, Jēkabpils novads",Skolas iela,16A,izglītības iestāde,56.1644089999654,25.7389899997021,,e7aecdf4-2415-4bae-8b0e-cba0e47fbd51
+466,"Code, Codes pagasts, Bauskas novads",Lielā iela,2,administratīvā ēka,56.466201000149,24.1689469995543,,897e8a81-a3fb-459e-bd18-b80fb58586a8
+467,"Jaunā muiža, Kūku pagasts, Jēkabpils novads","""Pansionāts Jaunā Muiža""",Nav,Pansionāts,56.5239149999205,25.9754780002526,,c4223ffd-93dd-4cc4-97d9-17bd8d8d9bff
+468,"Zīlāni, Kūku pagasts, Jēkabpils novads",Laukezere iela,4,Administratīvā ēka,56.5140259997718,25.9428539999619,,35d1fb74-0c25-4b10-ab0f-a90ab2113295
+469,Jēkabpils,Rīgas iela,212,Kūltūras nams,56.5071309998105,25.864417999781,,2054822f-4616-434d-a8f0-eb2e8721a4c5
+470,Jēkabpils,Kaļķu iela,1,Dzīvojamā ēka,56.4869369997719,25.8883350001286,,1408975d-7440-4151-a704-d2cb74c2d39a
+471,"Rubeņi, Rubenes pagasts, Jēkabpils novads","""Rubeņu skola""",Nav,Skola,56.1310349999684,25.9920750003542,,c09c2085-d912-420f-a807-b88f925fd0c6
+472,"Asare, Asares pagasts, Jēkabpils novads","""Vecmuiža""",Nav,Administratīvā ēka,56.1182640000443,25.8855490001408,,bcf6e477-3e23-4b95-a0ae-7cc843e17dcb
+473,"Zasa, Zasas pagasts, Jēkabpils novads","""Skolas internāts""",Nav,skolas internāts,56.2924399999086,25.9773050001656,,a88abdc1-2a77-45e8-9333-35541336a9f4
+474,"Zasas pagasts, Jēkabpils novads","""Virši""",Nav,dzīvojamā māja,56.2842560001959,25.989877999647,,911a7210-2358-4943-ba9f-52f30638f1d6
+475,Jēkabpils,Lielā iela,22A,dzīvojamā māja,56.5125979997905,25.9205839996023,,27e95bb3-b2c5-4dbd-80d4-8a986192ca5e
+476,"Atašiene, Atašienes pagasts, Jēkabpils novads","""Ezerzeme""",Nav,skola,56.5592599999356,26.3795610002686,,875a37a3-f0b1-4246-a5b2-d9d34c10d187
+477,"Vidsala, Kalna pagasts, Jēkabpils novads","""Atvari""",Nav,administrācijas ēka,56.341186000206,25.8531340000874,,e1603bdc-5e55-403e-a021-04fbe574a4f0
+478,"Dubulti, Kalna pagasts, Jēkabpils novads","""Zītari""",Nav,tautas nams,56.308615999943,25.7703159999843,,a0d3d5c0-c276-43d5-9af2-7918a71b6d49
+479,Jēkabpils,Vecpilsētas laukums,3,tautas nams,56.4977809999788,25.865555000131,,2b2a0913-26e1-4ed7-aa33-9950d7ce82ad
+480,"Sudrabkalns, Dunavas pagasts, Jēkabpils novads",''Alkšņi'',Nav,dzīvojamā māja,56.2582009999124,26.1792989999564,,fac6f7f0-1212-42c6-973f-b97d40bb715a
+481,"Sudrabkalns, Dunavas pagasts, Jēkabpils novads",''Alkšņi'',Nav,dzīvojamā māja,56.2583609998986,26.1793359997663,,dabb1053-dad3-4b6c-b8d4-f808b0cff472
+482,"Sudrabkalns, Dunavas pagasts, Jēkabpils novads",''Alkšņi'',Nav,dzīvojamā māja,56.2585070002192,26.1794060000865,,2652e3ca-375d-4f2d-beb7-a9ddcda2a984
+483,"Sala, Salas pagasts, Jēkabpils novads",Kalna iela,3,Pirmsskolas izglītības iestāde,56.5061630000827,25.763293999664,,9ac36d64-e075-49dd-8fcd-34ecc524d81f
+484,"Sala, Salas pagasts, Jēkabpils novads",Kalna iela,3,Pirmsskolas izglītības iestāde,56.5057339998653,25.7635830002673,,4f8b9f07-72a9-49c3-8412-3b72f0fdf2fc
+485,Jūrmala,Aizputes iela,1A,Skola,56.9814750000125,23.8621670003229,,0eaec0f4-8b0b-4407-9588-31b441204acc
+486,Rīga,Raiņa bulvāris,8,Skola,56.9526740000881,24.1123010002323,,30f7608a-5a9c-4aea-aefd-edc95c94e5c7
+487,Rīga,Sarkandaugavas iela,22,Skola,56.9992449998917,24.1242610001435,,5a52e4e7-05a6-4896-84d9-efff93530791
+488,Jūrmala,Raiņa iela,53,Skola,56.9527730002349,23.6107920003064,,f7a27771-bb8a-473f-add2-9b1d7fb35b5c
+489,Jūrmala,Raiņa iela,55,Skola,56.9532169998563,23.6111089996004,,171cf053-0b04-45e8-a2f4-1432a0a381da
+490,Ogre,Brīvības iela,50,Skola,56.8201500000329,24.6078590000658,,9dc59301-11ca-4091-987b-843d48da6310
+491,Salaspils,Rīgas iela,30,Administratīvā ēka,56.8579829998471,24.3478420004035,,574aeab0-d57d-43a2-8fc0-2be2664b3aef
+492,Rīga,Biķernieku iela,47A,Pirmsskolas izglītības iestāde,56.9697649998745,24.1796710002795,,fd6eea95-cfd5-47e1-938c-9501d252a0bc
+493,Rīga,Krišjāņa Barona iela,99,bērnu un jauniešu centrs,56.9625200000511,24.143166000382,,b15122a4-32df-4ffa-a3d2-79fcdb7f52ff
+494,Ādaži,Pirmā iela,26a,Pirmsskolas izglītības iestāde,57.074800000086,24.3247610001071,,a9cd73ec-434a-4688-b470-6b964069b72c
+495,Ropaži,Rīgas iela,6,Skola,56.9730109997674,24.6332760000883,,22f86189-9188-4c5b-92ce-2d8d11bea401
+496,Ropaži,Sporta iela,1,Biroja ēka,56.9752550000868,24.6388310003457,,c2e41c11-fcc3-4eab-a41d-6f5edf6b6e8b
+497,"Saurieši, Stopiņu pagasts, Ropažu novads",Līdumnieku iela,10,Pamatskola,56.9209380001639,24.3565019995926,,dd3b7698-9032-4239-a9b9-4bce8f7991dc
+498,"Upeslejas, Stopiņu pagasts, Ropažu novads",Zahārija Stopija iela,10,"Veikals, Biroja ēka",56.9222999999344,24.377679999808,,7a8e46e8-bd73-4175-8c50-77c411326f38
+499,Jūrmala,Straumes iela,1A,Administratīvā ēka,56.9689380000128,23.8061389996956,,2a911297-8cc8-4247-985d-b2c804066b47
+500,Jūrmala,Rīgas iela,3,Skola,56.9702360000219,23.8040669995601,,1b8276d9-bc8f-4805-b98f-f263f863933b
+501,Jūrmala,Plūdu iela,4A,Pirmsskolas izglītības iestāde,56.9622589999407,23.8147639996229,,4d3d4ca0-b054-481d-899c-e6e515b941fe
+502,Jūrmala,Rēzeknes pulka iela,28,Pirmskolas izglītības iestāde,56.9796650001326,23.8663380003579,,ee7ba481-0d9e-4d82-b07e-490b73a77acc
+503,"Loja, Sējas pagasts, Saulkrastu novads","""Bitīte""",nav,Pirmskolas izglītības iestāde,57.1549199999894,24.6480000002461,,98070969-eb7b-47a7-9846-503524690ebf
+504,Rīga,Ikšķiles iela,6,Skola,56.9017450001615,24.208446999677,,99f4a1c6-7c3b-490e-afd4-1400c79e8253
+505,Rīga,Jelgavas iela,86A,skola,56.9248333997726,24.0925837001947,,675b0942-b01b-4ab8-8a18-9cc0df9c53eb
+506,Ogre,Zinību iela,3,Skola,56.8170800001801,24.6101010000805,,be17424f-4032-4b8c-bb11-f6def98d35c5
+507,Ogre,Zinibu iela,3,Skola,56.8171460001109,24.6105529999922,,078b10d9-01b5-47b1-bef8-e8fa9a223a5f
+508,Jūrmala,Kļavu iela,29/31,Pirmsskolas izglītības iestāde,56.9657900000839,23.7663280001265,,5d627406-9264-49bf-be8c-874033c9603b
+509,Jūrmala,Dzirnavu iela,59,Pamatskola,56.9420029999821,23.6188559996438,,b4b6496d-b482-48d2-add3-76373608786a
+510,Jūrmala,Tērbatas iela,1,Pirmsskolas izglītības iestāde,56.9499960000353,23.6190399997668,,c70fff42-b1af-4184-97fd-dac6b97aaefe
+511,Jūrmala,Tērbatas iela,42,Pirmsskolas izglītības iestāde,56.9578730001627,23.6176189997346,,cdcd15ea-35d9-45f2-a2f7-64c22cf9aa89
+512,Jūrmala,Lēdurgas iela,27,Pirmsskolas izglītības iestāde,56.956822000023,23.6068460004022,,b54f226b-61fc-453b-b785-4352217cd0f7
+513,Rīga,Kandavas iela,4 k-1,Skola,56.949575000073,24.051475999581,,024731e8-2ce3-458e-9b9c-40966bbbd125
+514,Rīga,Bauskas iela,88,Skola,56.9160711998176,24.1112813998084,,a1ed637f-2201-4467-95f1-5c4231703bff
+515,Rīga,Skuju iela,11,Skola,57.03147399982,24.1019699998674,,3aea22f2-6dcb-4b8b-b8f7-9f92cc789752
+516,Rīga,Visvalža iela,2,Skola,56.9489159998343,24.1286549997613,,1d28bac7-07b9-4030-bd12-404a98d100c0
+517,Rīga,Visvalža iela,9,Skola,56.947912000116,24.131305000205,,50839404-724e-4fd1-b16b-92d81ff919e5
+518,Ķekava,Nākotnes iela,3,Skola,56.8254969999606,24.2373500001945,,77efebe0-263b-4690-8faf-e862330b2e0f
+519,Saulkrasti,Ainažu iela,34,Ārstniecības vai veselības aprūpes iestāžu ēkas,57.2738599999886,24.4164700002763,,c0832128-a8d3-472e-83f4-3746a58c6395
+520,"Valdlauči, Ķekavas pagasts, Ķekavas novads",Jaunatnes iela,2,Pirmsskolas izglītības iestāde,56.5248999999326,24.8589999997306,,9c1abe6f-b43b-4105-b235-df7e317ac513
+521,"Baloži, Ķekavas novads ",Jaunatnes iela,3,Pirmsskolas izglītības iestāde,56.8770790001424,24.1195229996708,,744df511-3518-470d-b79e-5403834a9d75
+522,"Baloži, Ķekavas novads ",Jaunatnes iela,3,Pirmsskolas izglītības iestāde,56.877342999901,24.1198180001219,,730263ee-463a-4d95-8614-fe6b354d4eb4
+523,Ķekava,Gaismas iela,15,Ambulance,56.8244889999954,24.2307239997094,,48726d3e-74fc-4eef-82b0-e74453d41f8a
+524,Salaspils,Enerģētiķu iela,9,bibliotēka,56.8554930000793,24.3305289999014,,1e5e6cd1-bd65-45a6-ad41-249ac30b6eb7
+525,Rīga,Stūrmaņu iela,23,Skola,57.0335029999448,24.052573999573,,4bb1b0bf-4f87-4536-b038-346de34ce471
+526,Rīga,Ulbrokas iela,13 k-3,Daudzdzīvokļu dzīvojama māja,56.9462499999782,24.2153760001109,,a26918ae-918b-4898-b877-fe6a0db12330
+527,Rīga,Ineses Jaunzemes iela,4,Pirmsskolas izglītības iestāde,56.9830280000338,24.2152320001708,,0e7fcf44-f6dd-494e-9236-30841481a6d3
+528,Rīga,Hipokrāta iela,25,Pirmsskolas izglītības iestāde,56.9653830001529,24.2374330000352,,482b7796-ff45-4e1f-b1b7-2d3f0cf595ec
+529,Sigulda,Pils iela,10,Kultūras  centrs,57.1561690001383,24.8531239999813,,7b85b420-d9a2-43f3-a620-63ddc5526785
+530,"Baloži, Ķekavas novads ",Skolas iela,6,Skola,56.8775309999089,24.1164520001758,,e65d030c-5c04-4fd3-9337-40e25b86704d
+531,"Baloži, Ķekavas novads ",Skolas iela,6,Skola,56.8770499998601,24.1169609999889,,c8e4f395-40a3-484e-be7c-16ad819e1f73
+532,Rīga,Dzilnas iela,22,Daudzdzīvokļu dzīvojamā māja,56.9459100000755,24.2352300003785,,01e1de9f-4d03-4360-93e1-db1ac79c18b0
+533,Rīga,Dzilnas iela,24,Daudzdzīvokļu dzīvojamā māja,56.9455890001826,24.2351869998225,,fb2f9f95-0091-41ff-b5a8-6f24542f4ff1
+534,"Ķegums, Ogres novads",Lāčplēša iela,1,Biroja ēka,56.7403969997877,24.7238989999611,,77262674-fcb4-4ae2-9832-9b6c158bdcc9
+535,"Birzgale, Birzgales pagasts, Ogres novads ",Nākotnes iela,2A,Administratīvā ēka,56.6312940000982,24.7559340000729,,8e4c01f2-0705-44eb-8c25-41ebd7285dad
+536,"Jumprava, Jumpravas pagasts, Ogres novads",Daugavas iela,6,Administratīvā ēka,56.675927960393,24.9711817705149,,000f0f53-e6f2-4c19-b38e-41013a8a0d4c
+537,Olaine,Zemgales iela,39,Pirmsskolas izglītības iestāde,56.7812179998252,23.9314549996215,,082b6951-5fb2-46eb-bf0a-2c90a5c83e30
+538,Jūrmala,Turaidas iela,1,Koncertzāle,56.9776789998637,23.8121700001539,,0dddb93b-f293-4acf-a1d8-8e339d8e62ab
+539,Ogre,Zvaigžņu iela,4,Pašvaldība,56.8204529999635,24.6085639996974,,48a3f12b-0ef5-4306-a0cd-9a790d714b7d
+540,Ogre,Jaunogres prospekts,2,Sporta centrs,56.8184809998759,24.5898259998635,,f2537dd3-2a4f-485a-8ead-8f09140eaf9f
+541,Ogre,Brīvibas iela,18,kafejnīca,56.8158470000581,24.6042139995622,,aaeb541c-037d-46d8-9311-811047a83bc6
+542,Olaine,Stacijas iela,38A,Kultūras centrs,56.7795269998266,23.9306300003392,,59c4ee91-2136-4fb0-80ee-e4c24c31458d
+543,Jūrmala,Zigfrīda Meierovica prospekts,20,Muzejs,56.9716010000276,23.7810770003986,,ce680706-3a9b-4880-9558-d1e575879325
+544,Salaspils,Līvzemes iela,7,Kultūras nams,56.8589060000109,24.3500070004254,,579f6f22-5b42-45dc-9f43-63ca4a015240
+545,Sigulda,Zinātnes iela,7,Kultūras nams,57.1491029998861,24.8921820002381,,3ac5cb11-b8ce-4102-9c79-c44bb4aa6f17
+546,"Daugmale, Daugmales pagasts, Ķekavas novads ","""Adatiņas""",Nav,Ārstniecības vai veselības aprūpes iestāžu ēkas,56.8206759997828,24.4165139997589,,784e0cc0-944b-4a50-bf35-7c24cd1a5289
+547,"Ķegums, Ogres novads",Liepu aleja,1B,Dienas centrs,56.7430894250194,24.7193819077932,,8d7264c6-2c14-4b8f-8982-e3c76ca0b555
+548,"Spuņciems, Salas pagasts, Mārupes novads","""Vietvalži""",Nav,Kultūrizglītības centra filiāle,56.935620000052,23.697721999995,,239e6480-f08e-4bd0-b98e-8747b45696b9
+549,"Tome, Tomes pagasts, Ogres novads","""Tomes pamatskola""",Nav,Muzejs/Biblotēka,56.7533399999504,24.6407140003352,,549aff22-a839-4922-9757-b4d1475116d4
+550,"Baldones pagasts, Ķekavas novads","""Mercendarbes muiža""",Nav,Pagrabs,56.7659360002203,24.4291569995604,,355297a8-6c31-4bc6-b003-539c9cfd65f4
+551,"Ikšķile, Ogres novads ",Rīgas iela,175,Pagrabs,56.8189210001038,24.5343399995594,,89116c17-c1eb-4726-91d4-4c144a75d3ce
+552,"Ikšķile, Ogres novads ",Rīgas iela,175,Pagrabs,56.8189560001571,24.5331379998104,,db7ebbb7-6af3-499e-99d6-f99a5d969a26
+553,"Ikšķile, Ogres novads ",Daugavs prospekts,34,Biroju ēkas,56.8383949999905,24.5044009998726,,d1be9484-89ef-4853-9607-c90ec1ca8cc4
+554,"Tīnūži, Tīnūžu pagasts, Ogres novads","""Kalnliepas""",Nav,Skola,56.8669800000323,24.5658979996452,,ba31dc38-87f0-48c5-97bf-6e5d5b13b39a
+555,"Ceplīši, Tīnūžu pagasts, Ogres novads",Priežu iela,1,Lauksaimniecības nedzīvojamās ēkas,56.880235999833,24.5435660002596,,b4b99c7f-5f5c-4b42-8a2f-ac4952e766af
+556,Ogre,Brīvības iela,48,Administratīvā ēka,56.8190940000766,24.6077700003773,,92e318f4-0568-491b-b959-6b7674cbb62d
+557,Ogre,Brīvības iela,44,Pilsonības un migrācijas lietu pārvalde,56.8188559998479,24.606827000196,,44db0acf-df02-482b-b269-cda2864e1deb
+558,"Birzgale, Birzgales pagasts, Ogres novads ",Skolas iela,2,Tautas nams,56.6305419998922,24.7564880000917,,ca24beef-fafa-4f5a-bc80-0379938697d2
+559,"Tome, Tomes pagasts, Ogres novads","""Tomes tautas nams""",Nav,Tautas nams,56.7544060001629,24.6441999999318,,b598e7de-37f2-4fc5-839d-4c54ff90852c
+560,"Suntaži, Suntažu pagasts, Ogres novads","""Tautas nams""",0,Tautas nams,56.9042520001646,24.9274169997162,,e2209efd-a7a9-487a-9211-3cb6d4d2d103
+561,"Suntaži, Suntažu pagasts, Ogres novads","""Rūpnieki""",Nav,Dzīvojamā māja,56.9070840000684,24.9246709999113,,2b6d083f-b5db-42f2-8046-d2c26ddac4d8
+562,"Ķegums, Ogres novads",Ķeguma prospekts,4,Tautas nams,56.7430059998722,24.7180730004405,,63fb555a-72f7-4c0b-b2aa-5eb2604f09b9
+563,"Tīnūži, Tīnūžu pagasts, Ogres novads","""Kraujas""",Nav,Tautas nams,56.8681080000505,24.5699049996487,,8aea6364-7afe-4774-97ef-e1b1e2164f3e
+564,Sigulda,Lakstīgalas iela,13,Slimnīca,57.1561289998363,24.8441550000974,,b5105bf9-1521-4af6-a135-cac264a54d26
+565,"Ulbroka, Stopiņu pagasts, Ropažu novads ",Institūta iela,12,Dzīvojamā ēka,56.9431430002024,24.2817080004406,,777a7674-539b-4b4d-89bb-4035c7f71e20
+566,"Upesciems, Garkalnes pagasts, Ropažu novads",Skolas iela,8,Skola,56.9822939998239,24.3353090002069,,3a18b008-d193-4ac5-95ed-714311149baf
+567,"Upesciems, Garkalnes pagasts, Ropažu novads",Skolas iela,14,Skola,56.9813149998603,24.3404250000731,,564505eb-c9b6-4195-a6b7-f5754fbebfe0
+568,"Ciemupe, Ogresgala pagasts, Ogres novads",Liepu gatve,12,Tautas nams,56.7788950002026,24.6472090004007,,eeeaf322-cea2-4cae-85e9-65749a48bf66
+569,"Lielvārde, Ogres novads",Raiņa iela,5,Doktorāts,56.7155030000426,24.8107979996877,,609593c8-4ab4-4d17-8c33-0436fba0256b
+570,"Loja, Sējas pagasts, Saulkrastu novads","""Sējas kultūras nams""",1,Kultūras nams,57.1536888650136,24.6454201213951,,f584cb3e-9c6a-4683-863d-98bc89e26fa3
+571,"Ogresgals, Ogresgala pagasts, Ogres novads",Bumbieru iela,9,Tautas nams,56.8069819999137,24.7289579999259,,6cd2a8e2-cbb1-4653-8d1f-4452389bcf61
+572,Ogre,Suntažu iela,2,Skola,56.8164610001402,24.6259559998422,,21c88b08-0635-49a7-8d94-f25aca2e1720
+573,"Vangaži, Ropažu novads",Gaujas iela,12,Kultūras nams,57.0932379998313,24.5470350001378,,77d1260d-ddf1-4ef2-b01a-d9ccb3dd8cbf
+574,"Rembate, Rembates pagasts, Ogres novads ","""Senliepas""",Nav,Sociālās aprūpes centrs,56.795309000064,24.8239729997667,,f6fadcde-fa36-4de7-ac28-e862ff9f699d
+575,Ogre,Mālkalnes prospekts,34,Daudzdzīvokļu dzīvojamā māja,56.8236170001813,24.5992040000013,,80a0ea86-3a84-415f-9997-7053ab527efc
+576,Olaine,Parka iela,5,Pirmsskolas izglītības iestāde,56.7789370002368,23.9270309998664,,435d53aa-ac62-4438-a919-9789c8dcdfd0
+577,"Carnikava, Carnikavas pagasts, Ādažu novads",Stacijas iela,7,Administratīvā ēka,57.1286000000662,24.2783059996112,,869f50d3-cdb8-443f-9085-173c9802a91a
+578,Rīga,Hipokrāta iela,2,Medicīnas ekspertīzes centrs,56.964543999789,24.2466019999356,,8044eb69-c522-4b3d-9800-927455698401
+579,Rīga,Linezera iela,3 k-1,Medicīnas iestāde,56.9768099999224,24.1975129997878,,d8d7d478-ce58-4808-ae74-3c32dc89c5de
+580,Rīga,Linezera iela,3 k-2,Medicīnas iestāde,56.9769120001208,24.1976259997657,,5a6f241a-6ea9-42be-bcae-8e376cfe49d6
+581,Rīga,Linezera iela,3 k-3,Medicīnas iestāde,56.9771319999146,24.1976900002382,,5474e72d-7467-465b-9ef4-248e2c72d352
+582,Rīga,Linezera iela,3 k-11,Medicīnas iestāde,56.9768709998443,24.1992459999896,,c4127a18-55fa-4b0f-9db9-d3fdef9a5d35
+583,Rīga,Duntes iela,16 k-4,Garāžas,56.9812430002283,24.1388439998359,,4d6d518d-ff49-4c4b-99da-9903d1ac6cda
+584,Jūrmala,Slokas iela,61,Skola,56.9548740000778,23.7731239995926,,9d41fcb9-85c3-4c77-884c-360282c20848
+585,Jūrmala,Slokas iela,61 k-2,Skola,56.9554839999019,23.7736080001896,,638571c5-247f-429a-be99-447c41afd69e
+586,Jūrmala,Slokas iela,61 k-3,Skola,56.9550019998278,23.7724709998395,,9b866f6e-d6bc-4e90-b37f-f95e4cc7f9a4
+587,Rīga,Skolas iela ,28,Administratīva ēka,56.9589570001478,24.1211360002219,,647c8b25-1b1d-4a23-83b6-fb699ea8fa83
+588,Rīga,Jēzusbaznīcas iela ,11,Administratīva ēka,56.9421300001911,24.1238100000568,,b72b17d2-fa07-4efb-8abf-6b02fae3b9d1
+589,Dobele,Zaļā iela,27,Administratīva ēka,56.6190169998334,23.2852080002204,,109e5b28-f8ab-4e43-ab5f-e9c0539c5523
+590,Jelgava,Mātera iela,57,Administratīva ēka,56.6420089998914,23.7243359997437,,30554751-016b-4220-a5c1-061609d8c8d8
+591,Jelgava,Pasta iela,43,Administratīva ēka,56.6496079998353,23.7244289996301,,9a241ecc-77b3-43e4-aa94-571f100ef256
+592,"Skrīveri, Skrīveru pagasts, Aizkraukles novads",Daugavas iela,58,Muzejs,56.6412679999472,25.1158909996464,,97224462-af0a-41ba-9aaa-6a5397b0beaf
+593,Rīga,Kaļķu iela ,11A,Hostelis,56.9498770000078,24.1100740002862,,fc1c1b9f-4f4a-4e70-8a99-b046d25480ab
+594,Rīga,Pulka iela,8,Muzejs,56.9584179999841,24.0674020003862,,5c77cb1d-28d1-4ea8-b7d4-8ccd64e39f69
+595,"Alsviķi,Alsviķu pagasts, Alūksnes novads","""Alsviķu profesionālā skola""",Nav,Skola,57.4450550000621,26.9365129999426,,8c62cc0d-e98a-4df6-84ea-702d8074c500
+596,Rīga,Piedrujas iela,17,Patvertne,56.9374980001574,24.1789380001605,,9ef2cb4f-8717-48bf-a578-8088b0be6de7
+597,Valmiera,Vadu iela,3,Dienesta viesnīca,57.5277859999856,25.4457980001033,,2196fef8-9126-4fa7-ab59-c810b0ac1eeb
+598,Rīga,Krišjāņa Valdemāra iela,1C,Skola,56.9530769998934,24.1043800001117,,1f0a5be9-c5fe-4e07-b7fe-fa0b536524a5
+599,Ogre,Brīvības iela,129B,Administratīva ēka,56.8202189998237,24.6565830003406,,e57ee2e0-95cc-4000-a52f-b12a1180c393
+600,Rīga,Brīvības iela,58,Administratīva ēka,56.9562470000899,24.121676999822,,28852199-bf70-4dd2-83bf-018764820f64
+601,Daugavpils,Krišjāņa Valdemāra iela,13,Administratīvā ēka (pašvaldības īpašums),55.8674650001864,26.5192769995888,,2d643ff8-547e-4fde-8022-e2d8c0b41cc9
+602,"Dikļi, Valmieras novads","""Dikļu skola""",Nav,Skola,57.5975940000171,25.0732720003481,,710a74c6-aa70-48de-ad6c-efcf4cc46694
+603,"Matīši, Valmieras novads",Skolas iela,22,Skola,57.694948999826,25.1525970002837,,fd9dac33-1187-49a8-b111-8ca6c656cae5
+604,"Valmieras novads, Kauguru pagasts",“Kauguru skola”,Nav,Skola,57.4940819998514,25.4494319998379,,7252bdbc-d3c6-482d-ad68-d8690efc463e
+605,"Valmieras novads, Vaidavas pagasts, Vaidava",Skolas iela,5,Šķūnis,57.4323520000948,25.2882589997447,,255499da-b984-43a0-8b11-5af6dc8b136c
+606,"Valmieras novads, Vaidavas pagasts, Vaidava",Skolas iela,5,Skola,57.4325280000242,25.2873509997235,,beb28ed5-aa8d-4729-a754-4ccea536ee29
+607,Rūjiena,Dārza iela,8,Pirmsskolas izglītības iestāde,57.8989760001044,25.3306560001834,,19de7e5f-c629-4f83-989b-4ee82a8c51ee
+608,"Ēvele, Ēveles pagasts, Valmieras novads","""Ēveles skola""",Nav,Pamatskola,57.6927169997944,25.5813320004161,,2db4af05-43ce-499f-9bc7-02dc82470922
+609,Rīga,Ulbrokas iela,13 K-1,Daudzdzīvokļu dzīvojamā māja,56.9461679999827,24.216725999998,,db261f7c-701a-40ba-8bc4-545396fe0c02
+610,Rīga,Dzilnas iela,16,Daudzdzīvokļu dzīvojamā māja,56.9459160002303,24.2332129995963,,19967744-618b-460f-9a23-b776fe02850c
+611,Rīga,Dzilnas iela,17,Daudzdzīvokļu dzīvojamā māja,56.9465100000022,24.2349940003769,,68b22c29-8fbe-4e65-a00b-7e331996da80
+612,Rīga,Dzilnas iela,18,Daudzdzīvokļu dzīvojamā māja,56.9456709999815,24.2332229996421,,7508f699-7511-4c56-8929-225a32c566ef
+613,Rīga,Dzilnas iela,15,Daudzdzīvokļu dzīvojamā māja,56.9477299998332,24.2341359996861,,ac402aa9-5c42-4e67-96c5-0edf3f106a0d
+614,Rīga,Dzilnas iela,14,Daudzdzīvokļu dzīvojamā māja,56.9459950002194,24.2328269998069,,ab1fab2a-0a64-4915-90f6-7b0be3cb4256
+615,Rīga,Dzirciema iela,24,Daudzdzīvokļu dzīvojamā māja,56.9565899999701,24.0548080000901,,19957be1-c6e0-4072-aaee-4beee54df9a0
+616,"Dundaga, Dundagas pagasts, Talsu novads",Talsu iela,7,pirmskola,57.5081140000084,22.35108600003,,944f11f5-6290-4e89-bae1-9583177a006e
+617,"Kalni, Nīgrandes pagasts, Saldus novads",Kalnu iela,2,Kulūras nams,56.4437850001137,22.1254710001676,,6701fc14-a725-4a07-bdc2-669bdd649d8f
+618,"Valdemārpils, Talsu novads",Raiņa iela,16,Biroja ēka,57.3748760001714,22.5909770003364,,a9ef99ce-2f8c-49c7-bbda-ec37cd4bb5cf
+619,"Tiņģere, Īves pagasts, Talsu novads","""Pils""",Nav,Administratīvā ēka,57.4497969997894,22.5261239997652,,d552c04f-4e5f-4b79-9001-93916d4790c4
+620,Bauska,Rātslaukums,4,Biroju ēka,56.4101380000428,24.1860709999105,,06b8aa31-3009-4f54-896e-1a28221d237e
+621,Bauska,Biržu iela,8A,Administratīva ēka,56.4126880001653,24.199262999708,,4c9fe5ad-9e37-4ff3-ae52-c77dec66eefb
+622,"Jaunjelgava, Aizkraukles novads",Smilšu iela,2,Pirmskolas izglītības iestāde,56.6117210000171,25.0869870002024,,cff6d478-b7de-4a0b-90b8-d3409e14576e
+623,"Sunākste, Sunākstes pagasts, Aizkraules novads","""Ārguļi""",Nav,Jauniešu centrs,56.458934000241,25.4817149996468,,247a5ce5-ade5-4860-bc9f-bd7217456da5
+624,"Irlava, Irlavas pagasts, Tukuma novads","""Irlavas skola""",Nav,Skola,56.8697129999308,23.00359099967,,98fd06de-a11d-451a-9645-0df1dd2fa3fb
+625,"Taurene, Taurenes pagasts, Cēsu novads",Krasta iela,2,Pirmsskolas izglītības iestāde,57.1552310001339,25.6579890003646,,2382483d-a1d0-435f-9b22-741790d5f1fd
+626,Rīga,Zigfrīda Annas Meierovica bulvāris,1 k-5,Biroju ēka,56.95296800023,24.1074509996066,,311eea0b-c1f8-4a2b-8183-f140d3687a4a
+627,"Seda, Valmieras novads",Skolas laukums,2,Skola,57.6504039999357,25.7508269995896,,e8ff8800-ee8d-48e8-964d-a01f9147aa8b
+628,Valmiera,Lāčplēša iela,2,Administratīvā ēka,57.5391219999164,25.4267639999934,,fee5e7b6-e252-46fa-9526-427f03d2e8da
+629,Valmiera,Pāvila Rozīša iela,40,Skola,57.5326810001413,25.4087030002019,,78630003-bc6d-4cdd-abe1-ddbec31685f3
+630,Valmiera,Pāvila Rozīša iela,5,Skola,57.535711000175,25.4181010004312,,c594b082-df6e-4138-92a7-790e402c3dc2
+631,Valmiera,Raiņa iela,14,Administratīvā ēka,57.5479120001517,25.4220730002746,,05c03aa2-c627-4d9c-a034-0fb5af0859ff
+632,"Mūrmuiža, Kauguru pagasts, Valmieras novads",“Pagastmāja”,Nav,Administratīvā ēka,57.4750929998796,25.4898149998675,,93c76643-3bf9-4ec8-ade8-f93005470a2b
+633,"Plāņi,  Plāņu pagasts, Valmieras novads",Skolas iela,2,Biroju ēka,57.5379769999175,25.8656220000782,,5feb1d73-cef9-4aa4-8f8e-c8b138f0244e
+634,"Ēvele, Ēveles pagasts, Valmieras novads","""Ēveles klubs""",Nav,Tautas nams,57.698358999997,25.5670710000407,,ba0ba93c-ec63-4e81-8ce8-bf770f963943
+635,"Strenči, Valmieras novads",Rīgas iela,7,Administratīvā ēka,57.6271642998342,25.6850162997042,,0be6910b-0257-4e3d-9b67-8fd5f58bf69f
+636,"Baldone, Ķekavas novads ",Pārupes iela ,3,Biroja ēka,56.739336999943,24.3900470003233,,b57b259c-0394-4704-9e8c-48f62aff3abd
+637,Rīga,Aglonas iela,57,Skola,56.9095600000818,24.1908899996758,,34eb6ae1-1b7c-46c0-9733-dc4b2f03dcbe
+638,Rīga,Baltāsbaznīcas iela,29,Bērnudārzs,57.035840999944,24.0901420002007,,903a1533-d1ef-4da0-8e85-eb6f3c02487a
+639,Rīga,Baltāsbaznīcas iela,14,Skola,57.0376740002312,24.0999160001737,,8706d360-a329-4159-945b-0262aac47c23
+640,Rīga,Biešu iela,6,Sociālās aprūpes centrs,56.9276193767704,24.0873208114066,,523920ea-a053-4597-aaf6-03cd1aba06ab
+641,Rīga,Bruknas iela,3,pirmsskolas izglītības iestāde,56.9031680002338,24.0843199999797,,6697cdc9-46d3-483e-b2a7-f9875ca16dce
+642,Rīga,Centrāltirgus iela,1,Tirdzniecības objekts,56.9445209999794,24.1163819998557,,58b153f6-4fdf-40f1-a368-a4abf7a81ab3
+643,Rīga,Centrāltirgus iela,3 k-1,Tirdzniecības objekts,56.9442079999712,24.116194000433,,4cd8cfc7-ac83-4e8f-9a34-944724f90243
+644,Rīga,Centrāltirgus iela,3 k-2,Tirdzniecības objekts,56.9438159997571,24.1151950001752,,f15280e8-58d4-4488-9f05-e35f936467ff
+645,Rīga,Centrāltirgus iela,3 k-3,Tirdzniecības objekts,56.9435759998722,24.1144240004213,,55f1a1d6-30b0-45e0-9f85-8543775480a3
+646,Rīga,Centrāltirgus iela,3 k-4,Tirdzniecības objekts,56.9433249998467,24.1136510001194,,ba62efe5-2607-4112-b1a8-3204d0ffd294
+647,Rīga,Juglas iela,1B,Pirmsskolas izglītības iestāde,56.987349000057,24.2415229998794,,4921d68b-b62b-47fb-87da-f2277a170262
+648,Rīga,Kaņiera iela,13,Poliklīnika,56.9139339998768,24.1722170001391,,2939dd75-56f0-4ea4-8e61-9746e1209e7c
+649,Rīga,Lavīzes iela,2B,Skola,56.9412959998759,24.0730940000125,,f936e048-142e-406a-9f8d-9157d90c27e0
+650,Rīga,Lidoņu iela,10A,Pirmsskola,56.9719799998601,24.0626100003851,,0851daa5-9bf1-4d13-a040-778a6fecdb47
+651,Rīga,Prūšu iela,32,Skola,56.9118059999052,24.1914069998847,,384b0eb7-19b9-4684-94ff-60aa48b7477b
+652,Rīga,Zeļļu iela,4,skola,56.9357920001146,24.0752180000264,,c9c43cc5-6419-4741-8cec-4003e9a713f3
+653,Rīga,Iļģuciema iela,4,Bērnudārzs,56.9618999999152,24.0507600000788,,61e866d2-2a78-49f3-8bcc-2b03ca112350
+654,Rīga,Dammes iela,42,Pirmsskolas izglītības iestāde,56.9663800001715,24.0118800000971,,1a36847b-9a64-4095-846b-a732472f1c88
+655,Rīga,Slokas iela,126,Pirmskolas izglītības iestāde,56.9617200000289,24.0286200003138,,cf1e4cda-569b-4bd6-a8e9-093b01fcfdae
+656,Rīga,Slokas iela,130,Pirmskolas izglītības iestāde,56.9641699998462,24.0209999995937,,a40ebb3e-be66-449f-a57e-3040e8602f06
+657,Rīga,Altonavas iela,6,"Rīgas bērnu un jauniešu centrs ""Altona""",56.9256300000473,24.0878499999573,,dc7d4cdb-5274-4c43-bf4e-0ead26f2838b
+658,Sigulda,Pils iela,16,Muzejs,57.165180000218,24.8500099999303,,8200d9fd-d88d-4cb3-86fb-ef9b857dc5cf
+659,Sigulda,Pils iela,16,Muzejs,57.1648199998746,24.8499599997016,,81a52a60-eec5-4ed2-bb92-e7033d9eec54
+660,"Ragana, Krimuldas pagasts, Siguldas novads",Skolas iela,11,Skola,57.1825499997691,24.6983499996941,,b0bbc125-8fa9-490f-a1be-b1028bcbc977
+661,"Ragana, Krimuldas pagasts, Siguldas novads",Parka iela,1,Tautas nams,57.1799699998729,24.7014100002167,,dd9ad168-17e9-4140-a05c-69156a2ca8c6
+662,Jelgava,Lielā iela,11,Biroju ēka (Dome),56.6515500000205,23.7226600003417,,e9b701a9-9992-4e65-a4fd-707bb7fce9b3
+663,Jelgava,Pulkveža Brieža iela,23A,Pirmsskolas izglītības iestāde,56.6544699999136,23.7126999996976,,548a1e5d-f91c-498b-a226-b69c35860f6b
+664,Jelgava,Mātera iela,44,Skola,56.6442199998717,23.7215199996186,,72823b0f-e7f2-464b-94e1-73d7efe33a50
+665,Jelgava,Tērvetes iela,6,Bērnudārzs,56.6440100000952,23.7109799999147,,74a14397-8563-4a0c-8019-b602792fcf35
+666,Jelgava,Uzvaras iela,10,Skola,56.6551300000735,23.7238100002123,,e4886d74-a11b-40fe-a749-a0954a71f77b
+667,Jelgava,Stacijas iela,13,"Sociālo lietu pārvalde, sarkanais krusts",56.6411300002075,23.7232899996303,,b38e55ca-a279-4b07-90a6-f51e5f16bc51
+668,Jelgava,Pasta iela,44,Triju vai vairāku dzīvokļu mājas (daudzdzīvokļu māja),56.6423699999357,23.7274299997032,,cd7894fb-1aaa-424c-855f-1532ea307b52
+669,Jelgava,Zirgu iela,47A,Daudzfunkcionāls sociālo pakalpojumu centrs,56.6401999999642,23.7155600002037,,a47ec950-7b49-4b30-82b8-573cab4e9944
+670,Jelgava,Mazais ceļš,2,Skola,56.6479400002219,23.7103399996821,,6ecd227e-1a64-4add-a2c5-3db260c4724e
+671,Jelgava,Pulkveža Oskara Kalpaka iela,9,Dažādu sociālo grupu kopdzīvojamās mājas,56.6474100001549,23.7151900003078,,56675eab-5c14-48f9-8431-7a9d7833b5da
+672,Jelgava,Ganību iela,66,Pirmsskolas izglītības iestāde,56.6583700000294,23.6981599996629,,7bd817fc-b551-45db-b4eb-59004f6768dd
+673,Jelgava,Aspazijas iela,18,Pirmsskolas izglītības iestāde,56.6485600001651,23.6980199999208,,14b49a63-5fc8-46ea-8528-34c83b91d598
+674,Jelgava,Svētes iela,33,Noliktava sētniekam,56.648049999936,23.7167600003029,,c88817e3-c5f1-4307-b2ef-f87a0c96c436
+675,"Vidaga, Virešu pagasts, Smiltenes novads","""Gaismas""",Nav,Bērnudārzs,57.4259429998474,26.3542239997137,,5fa20469-75b4-4daf-b692-00190f874429
+676,"Kalnmuiža, Smiltenes pagasts, Smiltenes novads","""Kalnamuiža 2""",Nav,Pašvaldības ēka,57.4275290002247,25.9086660004222,,2fcccad0-dd37-49c3-9baf-b6f5cb95133f
+677,"Rauna, Raunas pagasts, Smiltenes novads",Kalna iela,4,Bērnudārzs,57.3362949999594,25.6032040003925,,e789d88a-0a8d-4b09-bd4e-647d65456ef9
+678,"Rauna, Raunas pagasts, Smiltenes novads",Dīķa iela,6,Kultūras nams,57.329027999877,25.6177639996204,,e115669d-dcf6-46f8-ba2c-30295fa4558e
+679,"Gaujiena, Gaujienas pagasts, Smiltenes novads","""Rīti""",Nav,Dzīvojamā māja,57.5113620002387,26.402014000028,,36724027-20b9-4420-b0b7-ebca5e31e9a2
+680,"Gaujiena, Gaujienas pagasts, Smiltenes novads","""Kolonas""",Nav,Vairāk dzīvokļu ēka,57.5146099998698,26.3993920000717,,c3f9d5d2-163a-4ab3-953b-0ec5515c5cd8
+681,"Gaujiena, Gaujienas pagasts, Smiltenes novads","""Muižkungi""",Nav,Skolas viesnīca,57.5138809997648,26.3983459999582,,847bfb83-b956-47ad-a072-92ed300b6f3c
+682,"Gaujiena, Gaujienas pagasts, Smiltenes novads","""Vidusskola""",Nav,Lauksaimniecības neapdzīvotas ēkas.,57.5141820000132,26.3974699997241,,d97f34c5-50fc-4c14-afa7-c9dc448e362d
+683,"Gaujiena, Gaujienas pagasts, Smiltenes novads","""Rubeņi""",Nav,Ārsta prakse.,57.518324999941,26.3969580004363,,b69c1088-4d37-4375-b0e7-47877cac7f29
+684,"Palsmane, Palsmanes pagasts, Smiltenes novads","""Speciālā internātskola""",Nav,Skola,57.3883610001194,26.185465000134,,7fb5ea6c-9aca-4b36-92e6-e423e87f6724
+685,"Blome, Blomes pagasts, Smiltenes novads",Cēsu iela,9,Pagasta ēka,57.4371530002384,25.7797510000235,,b7614cb7-db58-4a62-9177-cd0186b687c9
+686,"Blome, Blomes pagasts, Smiltenes novads",Dzirnavu iela,1,Kultūras nams,57.4362520001992,25.7797460000006,,4eb3ab4c-0c8e-4b44-9f8e-4f84024b6c23
+687,"Mēri, Bilskas pagasts, Smiltenes novads","""Mēru muiža""",Nav,Muiža,57.4450109998737,26.0930110001501,,0fb158d9-05f5-4389-9e47-1bb7900c1195
+688,Smiltene,Galdnieku iela,10,Krīzes centrs,57.4188279999667,25.9039460003912,,9a04c98a-2bfc-4403-a0ac-3b92ef3e5242
+689,Smiltene,Rīgas iela,16C,Skola,57.4192299999167,25.8875629996515,,1f1e3922-0e65-4694-8a24-3c8f9da32b46
+690,Smiltene,Dakteru iela,14B,Multifunkcionālais centrs,57.4255750000869,25.9143870003609,,c1510ccf-1f90-4acc-a9db-5bad25dc9728
+691,Smiltene,Rīgas iela,8A,Bērnudārzs,57.422310000048,25.8906399998926,,0d92e939-5476-4700-be61-b876d738db17
+692,Smiltene,Pils iela,3,Skola,57.4261730000559,25.9057130000298,,c598842b-f179-4371-a132-87f5d9867680
+693,Smiltene,Gaujas iela,1,Kultūras centrs,57.4229140002405,25.9029520001562,,2b3f20df-8fb9-456d-8ca9-50e233ca38eb
+694,Alūksne,Glika iela,10,Skola,57.423599999951,27.0388100003946,,33b37a89-a5d9-4869-9b9b-d4efe5e24c59
+695,"Mārtiņkalns, Ziemera pagasts, Alūksnes novads","""Līksmes""",Nav,Tautas nams,57.4880439998563,26.9780819998277,,351660a3-74da-44ed-b90a-5184166a98a0
+696,Olaine,Zeiferta iela,4,Skola,56.7881910001189,23.9424730000745,,28201114-bc76-4b30-8569-1d0198ac4d05
+697,Olaine,Veselības iela,7,Pirmskolas izglītības iestāde,56.7852150001715,23.9331119996552,,bc17d4d9-0c24-4e0c-ad5d-fd48130ed632
+698,Olaine,Zemgales iela,33,Biroju ēka,56.7837240001625,23.9366109996706,,4f3f782c-ad52-4de0-b765-45897c07851c
+699,Kuldīga,Pilsētas laukums,2,Administrācijas ēka,56.9688579997752,21.9596380003178,,bb5f4824-edb9-4974-8334-f23fc48e4a88
+700,Olaine,Skolas iela,1,Skola,56.7827210001523,23.9344730003112,,220489b8-3287-4662-8fe5-b73082064132
+701,"Baloži, Ķekavas novads ",Uzvaras prospekts,1a,Administrācijas ēka,56.8807339998363,24.1491400000407,,fbd7e3a9-4a4a-48de-8ced-336b12381f08
+702,"Rauna, Raunas pagasts, Smiltenes novads",Vidzemes iela,2,Pašvaldības ēka,57.3316790000973,25.6104450000976,,35eed5df-df84-4131-82e1-efa6afc6cdeb
+703,"Palsmane, Palsmanes pagasts, Smiltenes novads","""Palsmanes pils""",Nav,Pils,57.386425999802,26.1860450000921,,3f1927c9-3cca-4891-b80e-f2727486b3ec
+704,Smiltene,Dakteru iela,14A,Multifunkcionālais centrs,57.4254120001318,25.9137789999153,,86563f78-d903-430e-9094-b820c2370e83
+705,Rēzekne,Raiņa iela,29A,Sabiedriskā tualete,56.5118710000736,27.3396169997922,,81c90c90-183e-40fd-b67c-7e007f6e30ab
+706,Rēzekne,Atbrīvošanas aleja,92,Dienesta viesnīca,56.5048879998554,27.3304470000669,,fc09b2c4-d1c0-43a6-978d-211404d527b4
+707,Rīga,Zentas Mauriņas iela,1,Rīgas Pašvaldības policijas Vidzemes pārvalde,56.9499329998663,24.1965639997588,,c740b4a7-79a8-464f-9720-6835d5c3488c
+708,Rīga,Dzirciema iela,28,Dzimtsarakstu nodaļa,56.9577560002062,24.0534880003403,,162a7372-7d97-46ca-867b-67ccc3737817
+709,Rīga,Ieriķu iela,2B,Sociālā dzīvojamā māja,56.9645350001357,24.1615479996655,,edfce8e8-eb32-4772-9203-063992e5f5b5
+710,Rīga,Imantas 8.līnija,1 k-1,Veselības centrs,56.9515609998204,24.0193269996665,,1e9d5095-8f16-402e-a975-252d8ea4e4ed
+711,Rīga,Imantas 8.līnija,1 k-2,Rīgas sociālais dienests,56.9507430000824,24.0180420000767,,6df15719-42cf-4f49-b2f3-2143612a9275
+712,Rīga,Imantas 8.līnija ,1 k-3,Komerctelpas,56.9509540001318,24.0182749997053,,c0a72ff7-7421-4e2d-99d9-c8df3719bfaf
+713,Rīga,Lubānas iela,48,Sociālā māja,56.9315330000262,24.1724070001099,,978d599d-7c2e-4ddd-b65a-c46fdc18b8ba
+714,Rīga,Ziepju iela,13,Sociālā māja,56.9143410001828,24.1107050002979,,94ab502f-fc47-41df-bf61-e4297cccca4d
+715,Ķekava,Gaismas iela,17,Kultūras nams,56.8243390002011,24.2299970003364,,97d3b9b7-dd3a-4b73-960a-8627b68e44a5
+716,Ķekava,Gaismas iela,19 k-9,Dienesta viesnīca,56.8228900001083,24.230558000028,,14ccbc2b-ecbe-4d95-8655-6e4481e77486
+717,Ķekava,Skolas iela,2B,jauniešu centrs,56.8284170000292,24.2367540003428,,1f2f4fda-5af2-422d-8d32-1df2d6b73b4e
+718,"Baldone, Ķekavas novads",Mežvidu iela,17,Noliktava,56.7459789999351,24.3695500003484,,ee0fa671-c25f-4484-ba34-7cadc0103a55
+719,"Valdlauči, Ķekavas pagasts, Ķekavas novads",Meistaru iela,43,Dažādu sociālo grupu kopdzīvojamās mājas,56.9076429998443,24.1479409997663,,bedf4140-2ba8-4235-a450-f00122bf43d5
+720,Balvi,Vidzemes iela,26,Skola,57.1386589999315,27.2440810004429,,0c94ece9-0a2d-4134-996b-788745d7c316
+721,Balvi,Vidzemes iela,2B,Sociālā aprūpe,57.1396210000934,27.257468000234,,c60b8f09-e2ea-4f10-8754-e4ab768f1489
+722,Balvi,Brīvības iela,61,Kultūras nams,57.1329109999221,27.2685839996981,,b9436978-6ab0-44ed-92bc-91fa68584db7
+723,Balvi,Brīvības iela,46,Muzejs,57.1308519998672,27.2571050000109,,367681db-623d-4cea-8fc1-fb325063be1e
+724,Balvi,Brīvības iela,47,Skola,57.1320840001282,27.2575619999454,,e1003156-8fd1-4683-991b-804ef4d4eb93
+725,Balvi,Teātra iela,2,Mākslas skola,57.1304729998602,27.2639930004368,,d99625a7-44e1-41c7-9ba7-56e515c8b027
+726,"Viļaka, Balvu novads",Pils iela,11A,Skola,57.1833500000241,27.6861199996275,,f76d6eb6-0e56-4921-926c-28fea7dcb3e8
+727,"Viļaka, Balvu novads",Pils iela,11,Skola,57.1829999997617,27.6862700003136,,d8df02a2-ac49-49a3-8060-eae2aeab5d60
+728,Balvi,Bērzpils iela,1A,Administratīvā ēka,57.1316109998577,27.2684020001232,,6fd1edf5-b134-4053-8e10-d424b537d761
+729,"Viļaka, Balvu novads",Abrenes iela,26,Viļakas pakalpojumu centrs,57.1826869999447,27.6759089998116,,40ec3c03-9024-4e86-a4d8-ce2d56d09977
+730,"Grūšļeva, Briežuciems, Balvu novads","""Gaismas""",Nav,Pagasta pārvalde,56.9616040000006,27.5932820004024,,603f557c-c3ce-4207-92e8-d1b791267616
+731,"Kubuli, Kubulu pagasts, Balvu novads",Balvu iela,15,Administratīva ēka,57.1576010001891,27.2042370003635,,74e2a142-79c1-4a51-86bb-544ed569f77b
+732,Rīga,Skaistkalnes iela,7,Skola,56.9159110001251,24.1017820004448,,e4f9d947-043c-4f48-9f38-a5ff48a14d40
+733,Rīga,Dammes iela,20,Skola,56.9655189999675,24.0155940001977,,1530d6dc-44f8-4945-8e33-88b0da305d73
+734,Rīga,Bultu iela,5,Skola,56.9094270001625,24.1937030003261,,7cd318f7-896a-4b44-b5ac-817b8c18c47a
+735,Rīga,Kleistu iela,14,Skola,56.9622800000848,24.0244900002866,,1682f007-2064-4023-9403-b96ef4faacbc
+736,Rīga,Ulbrokas iela,13k-4,Daudzdzīvokļu dzīvojamā māja,56.9469179998071,24.2148709995975,,a11eb660-9182-4baa-9dee-51863224972b
+737,Rīga,Dzilnas iela,20,Pirmsskolas izglītības iestāde,56.945694999769,24.2340650004393,,ca6d5d04-2dcf-4bfb-a81b-5425b5c727d9
+738,Rīga,Krišjāņa Valdemāra iela,65,Skola,56.9613260000674,24.1213400004364,,86838235-b309-456d-ad4c-1568f5e1bd4a
+739,Rīga,Katrīnas iela,5A,Pirmsskolas izglītības iestāde,56.9674080000314,24.0999999998393,,9497634c-997d-42c2-8bbb-4ab6a3263570
+740,Rīga,Ulbrokas iela,13 k-2,Daudzdzīvokļu dzīvojamā mājā.,56.9467039999282,24.2165560001186,,cf2a3396-8e8c-4552-b789-b0acaec198e2
+741,Rīga,Ulbrokas iela,13 k-5,Daudzdzīvokļu dzīvojamā māja,56.9466540001549,24.2141469996993,,ac7a17e0-d2ba-433f-9931-ca1aa6a99833
+742,Rīga,Aglonas iela,57 k-1,Skola,56.909809999765,24.1919099998499,,9351e1cf-c9da-43aa-9ce0-346b9f39d0ed
+743,Rīga,Kungu iela,3,Mākslas galerija,56.9476220001928,24.1072049995593,,2bf521b4-4b7d-4875-a9a1-cfc052479925
+744,Rīga,Garā iela,31,Bērnudārzs,56.9690809998198,24.0538330001218,,4047ba57-3986-4f63-81ec-521ada07b5ad
+745,Rīga,Ģertrūdes iela,28,Skola,56.9553109997702,24.1260579999193,,c83121d8-4805-453d-81f7-cb49367fd7ed
+746,Rīga,Bruknas iela,5,skola,56.9032500001032,24.0857519998826,,4914e361-4d41-4a2f-9ee1-47c542d9cd8e
+747,Rīga,Dzilnas iela,26,Daudzdzīvokļu dzīvojamā māja,56.9459310001233,24.2359540002767,,0746e9fd-1635-4b18-9f19-4c0050c9db9c
+748,Rīga,Ēvalda Valtera iela,3,Daudzdzīvokļu dzīvojamā māja,56.9451759998163,24.2364270001047,,88b3bdc7-c2fd-49e6-9cb6-f7b227d65e97
+749,Rīga,Malienas iela,3A,slimnīca,56.9739880001694,24.2304009996692,,e049c693-1bc0-463e-8b17-c77afbf0f1a2
+750,Rīga,Zalves iela,46,daudzdzīvokļu dzīvojamā māja,56.9389600000554,24.0369079999572,,78e910a7-51ef-4eea-9a99-fd04570ce088
+751,Rīga,Vecmīlgrāvja iela,17,Daudzdzīvokļu ēka,57.0300120000788,24.1012540003652,,ad16f913-c1e9-48f1-9770-1d3999b98535
+752,Rīga,Patversmes iela,13,Darbnīcas noliktava,56.9935209998809,24.1292260003969,,e886b4e3-23f6-4baa-b706-6e2f9a777086
+753,Rīga,Čiekurkalna 1.līnija,64,Publiskā bibliotēka,56.9832119997853,24.1735319998661,,8249fd39-7189-41e1-86b0-0399522f3603
+754,Rīga,Brīvības gatve,266,biroju ēka,56.9757700000385,24.1769379999951,,5a8af0a5-f4b4-4988-a47f-0effe7d9170f
+755,Rīga,Braila iela,24,Internātvidusskola,56.9835159998087,24.251599999801,,250b4f37-465a-4b16-b243-a2b4a61f4438
+756,Rīga,Braila iela,26,Internātvidusskola,56.9835159998087,24.2510419995842,,ad38b1ec-3c40-49f9-a11e-25ae2f8bcd5c
+757,Rīga,Cieceres iela,3,Pirmskolas izglītības iestāde,56.9308890000527,24.0756840001818,,8b128813-7216-4f9e-89ff-2e8fa07e644b
+758,Rīga,Īslīces iela,10,Pirmskolas izglītības iestāde,56.9011250001743,24.0829929996589,,7d517a2f-bbc7-4e63-8b94-c329959dd9c8
+759,Rīga,Īslīces iela,4,Pirmskolas izglītības iestāde,56.902225999803,24.0837390001967,,e886eb69-a4c0-466f-ade4-6db84d6562e4
+760,Rīga,Avotu iela,31 k-2,Birojs (Rīgas Sociālais dienests),56.9517889998616,24.1349909998182,,0915fe44-9954-4b72-95bb-0e1bcf93b70a
+761,Rīga,Garā iela,24,Bērnudārzs,56.9686640000648,24.0534359995635,,da8f8e5b-93c0-4ffd-adb3-e7be4ad13b87
+762,Rīga,Riekstu iela,14,Bērnudārzs,56.967179000096,24.0638749998834,,07d82245-aef6-49c5-8727-d28758e791e9
+763,Rīga,Mazā Lubānas iela,8,Sociālā aprūpes dienesta ēka,56.9348857521454,24.1641998236893,,324cd822-63cf-4888-a997-cfe2b44c2573
+764,Rīga,Kurzemes prospekts,86c,Pirmsskolas izglītības iestāde,56.9677420001655,24.015102999928,,76615f2a-4ac4-447c-a171-fe09404936aa
+765,Rīga,Kronvalda bulvāris,2,Ēkas plašizklaides pasākumiem,56.9538150001322,24.104509999808,,2a549447-3e02-45c9-b544-1c755e829f5b
+766,Rīga,Ikšķiles iela,8,Bērnudārzs,56.9008920000977,24.2092400000705,,8ee6cc76-94c8-4528-85b2-0b3848ab4345
+767,Rīga,Vecumnieku iela,7,Pirmsskolas izglītības iestāde,56.9552129997726,24.0286200003138,,9c2dc11c-dfa3-4f30-bd0b-1627393067e5
+768,Rīga,Dzirciema iela,109,Skola,56.9711600000566,24.0569999998762,,7925e490-a918-494c-9bf9-f84deb19e6f3
+769,Rīga,Avotu iela,31 k-2,Birojs (Rīgas Sociālais dienests),56.9517889998616,24.1349909998182,,05f9718f-888b-441a-b9d0-c22e42026638
+770,Rīga,Zigfrīda Annas Meierovica bulvāris,1 k-2,Biroju ēka,56.9526939999113,24.1086370003605,,fdbffaef-8836-4624-a6ac-13434d181cfd
+771,"Sēlija, Sēlpils pagasts, Jēkabpils novads",Pētera Barisona iela,6,Kūltūras nams,56.5579790000781,25.6339260004271,,b4e2529b-5e37-4335-b095-9439db093015
+772,"Malta, Maltas pagasts, Rēzeknes novads",Parka iela,20,Bērnu un jauniešu centrs,56.3494129999663,27.1593069996569,,e0b8dbeb-1f5e-4955-9a7f-82a512ca3e36
+773,"Malta, Maltas pagasts, Rēzeknes novads",Skolas iela,25,Pirmsskolas izglītības iestāde,56.3502059998775,27.1645559995925,,b25006ba-9433-46ae-a5a5-a60ec65a535d
+774,"Radopole, Viļānu pagasts, Rēzeknes novads",Jaunatnes iela,2,Pirmsskolas izglītības iestāde,56.51888499981,26.9008519995938,,1d643608-bfab-40d0-9e59-388e9a270893
+775,"Pleikšņi, Ozolaines pagasts, Rēzeknes novads","""Pazeme""",Nav,Neklasificēta būve,56.4916710001184,27.3254249999121,,60401d55-dfe6-47bf-8d04-ca5822fcc8d4
+776,Daugavpils,Vaiņodes iela,4,Skola,55.9057609999669,26.5832749998423,,37ad5066-ddc4-461f-b054-614167bcbfa2
+777,Daugavpils,Tukuma iela,47A,pirmsskolas izglītības iestāde,55.8802099998875,26.5491120004169,,4b362526-7d9b-4306-b18b-ed3d62077f11
+778,Daugavpils,Šaurā iela,26,Ģimenes atbalsta centrs,55.8933680001763,26.5470939998098,,70fe876f-d0e4-4013-b701-66d34baa5a91
+779,Madona,Gaujas iela,13,Sporta halle (šautuve),56.8577000001747,26.2169100002418,,f4cf2eb0-f6ad-4f79-ab70-3e3e9b811bd7
+780,"Cibla, Ciblas pagasts, Ludzas novads",Muižas iela,1,Kultūras nams,56.549404999917,27.8821790001176,,98251092-5452-466e-a720-f46e0a6b79c3
+781,Ludza,Stacijas iela,41,Kultūras nams,56.543783999784,27.7200980000032,,724d0b60-9bbd-44a6-9220-3847299395dc

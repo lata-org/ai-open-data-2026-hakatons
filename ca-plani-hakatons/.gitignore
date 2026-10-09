@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+# SQLite datubāzes, ko veido skripti
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+avoti/kadastrs/dati/
+avoti/celu-tikls/dati/
+# Vietne
+vietne/node_modules/
+vietne/dist/
+vietne/.astro/
+vietne/src/content/plani/
+vietne/public/dati/
+# Oriģinālie dokumenti netiek glabāti repozitorijā
+originali/**/*.pdf
+originali/**/*.docx
+originali/**/*.doc
+originali/**/*.odt
+originali/**/*.jpeg
+originali/**/*.jpg
+originali/**/*.htm
+# Konvertēšanas starpfaili
+markdown/**/.tmp/
+# OS
+.DS_Store
+Thumbs.db

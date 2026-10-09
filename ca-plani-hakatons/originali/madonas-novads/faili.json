@@ -1,0 +1,80 @@
+[
+  {
+    "fails": "madona_ca_plans_2021_lemums_534.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 46256011,
+    "sha256": "9fb5b7f74c810900293fbabb1d5adf768ecf2a141a2807257551a50f05cfb992",
+    "avota_url": "https://www.madona.lv/lat/box/veidnes/filelist/tx1641560146/fltx1641560146.1641560374-1.1.1_21_534.pdf",
+    "gala_url": "https://www.madona.lv/lat/box/veidnes/filelist/tx1641560146/fltx1641560146.1641560374-1.1.1_21_534.pdf",
+    "lejupieladets": "2026-09-11 21:38:02",
+    "apraksts": "vecāka versija – plāns, apstiprināts ar domes 2021-12-30 lēmumu Nr. 534",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "madona_ca_plans_2026.docx",
+    "formats": "docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "izmers_baiti": 6888418,
+    "sha256": "e7eea463e5428e64e5de9dfb000d07a168fc40c1f558cc5b30105ee0eaf10405",
+    "avota_url": "https://www.madona.lv/lat/box/datnes/26.06/tx1720183220_madona_ca_plans_2026.docx",
+    "gala_url": "https://www.madona.lv/lat/box/datnes/26.06/tx1720183220_madona_ca_plans_2026.docx",
+    "lejupieladets": "2026-09-11 23:59:42",
+    "apraksts": "pamatdokuments – Madonas novada sadarbības teritorijas civilās aizsardzības plāns (apstiprināts 2026-05-28)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "piel_5_pulcesanas_vietas_madonas_nov_2026.docx",
+    "formats": "docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "izmers_baiti": 21969,
+    "sha256": "a241e1f8858e22493dcc2edb1df6e071cc1dc7d0f1c6b1583f9430e3211703b7",
+    "avota_url": "https://www.madona.lv/lat/box/datnes/26.07/tx1720183220_piel_5_pulcesanas_vietas_madonas_nov_2026.docx",
+    "gala_url": "https://www.madona.lv/lat/box/datnes/26.07/tx1720183220_piel_5_pulcesanas_vietas_madonas_nov_2026.docx",
+    "lejupieladets": "2026-09-11 23:59:45",
+    "apraksts": "5. pielikums – evakuācijas pulcēšanās vietas katastrofu gadījumā Madonas novadā (2026)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "piel_10_ieteikumi_iestazu_darbam_gaisa_telpas_apdraudejuma_gadijuma.docx",
+    "formats": "docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "izmers_baiti": 58819,
+    "sha256": "fef986112ef2e561cf7dd6160873a84951a2ac237e38934c639ec589c700db1e",
+    "avota_url": "https://www.madona.lv/lat/box/datnes/26.07/tx1720183220_piel_10_ieteikumi_iestazu_darbam_gaisa_telpas_apdraudejuma_gadijuma.docx",
+    "gala_url": "https://www.madona.lv/lat/box/datnes/26.07/tx1720183220_piel_10_ieteikumi_iestazu_darbam_gaisa_telpas_apdraudejuma_gadijuma.docx",
+    "lejupieladets": "2026-09-11 23:59:49",
+    "apraksts": "10. pielikums – vadlīnijas un ieteikumi pašvaldības iestādēm rīcībai gaisa telpas apdraudējuma gadījumos",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "lemums_335_2026-05-28_par_CA_plana_apstiprinasanu.docx",
+    "formats": "docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "izmers_baiti": 73036,
+    "sha256": "ecfbb4dfe75f6eb8c4f383435ae594c3566d8fd89b7cbe6828999414c1f9db36",
+    "avota_url": "https://www.madona.lv/lat/box/lemumi/335%20Par%20Madonas%20novada%20sadarb%C4%ABbas%20teritorijas%20civil%C4%81s%20aizsardz%C4%ABbas%20pl%C4%81na%20apstiprin%C4%81%C5%A1anu.docx",
+    "gala_url": "https://www.madona.lv/lat/box/lemumi/335%20Par%20Madonas%20novada%20sadarb%C4%ABbas%20teritorijas%20civil%C4%81s%20aizsardz%C4%ABbas%20pl%C4%81na%20apstiprin%C4%81%C5%A1anu.docx",
+    "lejupieladets": "2026-09-12 00:02:18",
+    "apraksts": "domes lēmums Nr. 335 (2026-05-28) par plāna apstiprināšanu",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "lemums_335_pielikums_MADONA_CA_plans_2026.docx",
+    "formats": "docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "izmers_baiti": 6888418,
+    "sha256": "e7eea463e5428e64e5de9dfb000d07a168fc40c1f558cc5b30105ee0eaf10405",
+    "avota_url": "https://www.madona.lv/lat/box/lemumi/335.p.pielikums_MADONA_CA_plans%202026%20(2)%20(1).docx",
+    "gala_url": "https://www.madona.lv/lat/box/lemumi/335.p.pielikums_MADONA_CA_plans%202026%20(2)%20(1).docx",
+    "lejupieladets": "2026-09-12 00:02:22",
+    "apraksts": "lēmuma Nr. 335 pielikums – plāna redakcija, kas apstiprināta domē 2026-05-28 (baitu ziņā identiska ar madona_ca_plans_2026.docx)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

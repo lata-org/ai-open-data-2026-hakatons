@@ -1,0 +1,67 @@
+[
+  {
+    "fails": "Kekavas-novada-sadarbibas-teritorijas-CA-plans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 3719875,
+    "sha256": "d1bab47303cb95a5b873f95408a3f07d2eb56eca468f1431fbc178796a33dd1a",
+    "avota_url": "https://kekava.lv/wp-content/uploads/2024/01/CA-plans-48.pdf",
+    "gala_url": "https://kekava.lv/wp-content/uploads/2024/01/CA-plans-48.pdf",
+    "lejupieladets": "2026-09-11 21:27:29",
+    "apraksts": "pamatdokuments – Ķekavas novada sadarbības teritorijas civilās aizsardzības plāns (apstiprināts domes 20.12.2023. sēdē, 48. jautājums; 117 lpp.)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "baldonessadarbibasteritorijasplans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 3821531,
+    "sha256": "c9afd09b1ea3df382bbc797477ca5b3fd87726422a1446136c5e88a6e0370ff6",
+    "avota_url": "https://kekava.lv/uploads/filedir/Vija/2021/baldonessadarbibasteritorijasplans.pdf",
+    "gala_url": "https://kekava.lv/uploads/filedir/Vija/2021/baldonessadarbibasteritorijasplans.pdf",
+    "lejupieladets": "2026-09-12 00:06:42",
+    "apraksts": "vecāka versija – Baldones sadarbības teritorijas CA plāns (apstiprināts 22.04.2021., lēmums Nr.33), pamatdokuments",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "331pielikums.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 913774,
+    "sha256": "e453efe870ceb35ef6a125ef80d181836a4e9f53080d151fb8705dfaae9be466",
+    "avota_url": "https://kekava.lv/uploads/filedir/Vija/2021/331pielikums.pdf",
+    "gala_url": "https://kekava.lv/uploads/filedir/Vija/2021/331pielikums.pdf",
+    "lejupieladets": "2026-09-12 00:06:43",
+    "apraksts": "vecāka versija – 2021. gada plāna 1. pielikums",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "332pielikums.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 133135,
+    "sha256": "fd64569812719e5999aed9173aa2a1b6d6dc86a92d466ef2ea6316b98ee2f7dd",
+    "avota_url": "https://kekava.lv/uploads/filedir/Vija/2021/332pielikums.pdf",
+    "gala_url": "https://kekava.lv/uploads/filedir/Vija/2021/332pielikums.pdf",
+    "lejupieladets": "2026-09-12 00:06:43",
+    "apraksts": "vecāka versija – 2021. gada plāna 2. pielikums (vispārējā katastrofu apziņošanas shēma)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "nr33caplans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 117048,
+    "sha256": "39d6de49900cfe2f461b8da517655321afaef458d088e0137d6b4d7b327fb32e",
+    "avota_url": "https://kekava.lv/uploads/filedir/Vija/2021/nr33caplans.pdf",
+    "gala_url": "https://kekava.lv/uploads/filedir/Vija/2021/nr33caplans.pdf",
+    "lejupieladets": "2026-09-12 00:06:44",
+    "apraksts": "vecāka versija – domes 22.04.2021. lēmums Nr.33 par Baldones sadarbības teritorijas CA plāna apstiprināšanu",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

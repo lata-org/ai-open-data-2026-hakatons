@@ -1,0 +1,26 @@
+---
+import type { Profils } from '../lib/vertejums';
+import { kopsavilkums, datums } from '../lib/vertejums';
+interface Props { p: Profils; cilne: 'parskats' | 'analize' | 'plans' }
+const { p, cilne } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const k = kopsavilkums(p);
+const root = `${base}novads/${p.slug}/`;
+---
+<div class="novads-head">
+  <div class="wrap">
+    <p class="small" style="margin:0 0 6px"><a href={base}>← Visas pašvaldības</a></p>
+    <h1>{p.pasvaldiba}</h1>
+    <div class="meta">
+      <span>{p.plans.nosaukums}</span>
+      <span>· apstiprināts {datums(p.plans.apstiprinats)}</span>
+      <span>· {p.plans.lpp} lpp.</span>
+      <span>· MK 658 atbilstība <strong>{k.punkti}/{k.max}</strong> ({k.procenti} %)</span>
+    </div>
+    <nav class="tabs" aria-label="Novada skati">
+      <a href={root} aria-current={cilne === 'parskats' ? 'page' : undefined}>Pārskats</a>
+      <a href={`${root}analize/`} aria-current={cilne === 'analize' ? 'page' : undefined}>Analīze un salīdzinājums</a>
+      <a href={`${root}plans/`} aria-current={cilne === 'plans' ? 'page' : undefined}>Pilns plāna teksts</a>
+    </nav>
+  </div>
+</div>

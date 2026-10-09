@@ -1,0 +1,44 @@
+[
+  {
+    "fails": "jekabpils_ca_plans.doc",
+    "formats": "doc",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 964096,
+    "sha256": "0b52eb1ba65ca14fe968154c30d248b630ba9f6ad5ae17124e90fd5ae651063c",
+    "avota_url": "https://www.jekabpils.lv/lv/media/8386/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.jekabpils.lv%2Flv%2Fmedia%2F8386%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:06:01",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "jekabpils_cap_pielikums_2_ml.docx",
+    "formats": "docx",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 16963,
+    "sha256": "fa49fc5f32b6755fd9f0ada54524cb0eaa283bc22b6b5e49b0a889d4adf424ec",
+    "avota_url": "https://www.jekabpils.lv/lv/media/8392/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.jekabpils.lv%2Flv%2Fmedia%2F8392%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:08:26",
+    "apraksts": "2. pielikums",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "jekabpils_cap_pielikums1.doc",
+    "formats": "doc",
+    "content_type": "application/msword",
+    "izmers_baiti": 7295488,
+    "sha256": "d12bd7121c6b9a1c2a3957df9c6a73b9686a6fa897848ab786e10843bbb1c273",
+    "avota_url": "https://www.jekabpils.lv/lv/media/8395/download?attachment",
+    "gala_url": "https://www.jekabpils.lv/lv/media/8395/download?attachment",
+    "lejupieladets": "2026-09-12 00:50:56",
+    "apraksts": "1. pielikums",
+    "originals": true,
+    "caur_zenrows": true,
+    "metode": "ZenRows API, HTTP Range pa 2 MB daļām (custom_headers); tiešais HTTPS uz jekabpils.lv neatbildēja",
+    "content_disposition": "inline;filename=\"jekabpils_cap_pielikums1.doc\"",
+    "last_modified": "Sat, 23 May 2026 14:49:34 GMT"
+  }
+]

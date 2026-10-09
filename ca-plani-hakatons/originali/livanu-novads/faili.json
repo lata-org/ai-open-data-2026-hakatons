@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "livanu-novada-civilas-aizsardzibas-plans-vecaka-versija.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2096445,
+    "sha256": "0ae78b65d9f4215fc1afdf6c36e748529087ab02d7de5e94fa8afe9de3e96cb5",
+    "avota_url": "https://www.livani.lv/lv/media/18722/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.livani.lv%2Flv%2Fmedia%2F18722%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:59:43",
+    "apraksts": "vecāka versija (publicēta sadaļā Domes noteikumi)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "livanu-novada-civilas-aizsardzibas-plans-2024.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 2427563,
+    "sha256": "b5c45d7e31a2e186e5b2355f8a620ad9e7c5ccf8750a8aaf47b3528297c24c3f",
+    "avota_url": "https://www.livani.lv/lv/media/24639/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.livani.lv%2Flv%2Fmedia%2F24639%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:02:40",
+    "apraksts": "pamatdokuments – Līvānu novada Civilās aizsardzības plāns 2024",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "domes-sedes-protokols-2024-05-30-nr6.doc",
+    "formats": "doc",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 431616,
+    "sha256": "0239f40cac323886d647776fa2e9753949be50ddca5d8a5c68e37fd98f423079",
+    "avota_url": "https://www.livani.lv/lv/media/24723/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.livani.lv%2Flv%2Fmedia%2F24723%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:09:24",
+    "apraksts": "domes 30.05.2024. sēdes protokols Nr. 6 (17. jautājums – lēmums par civilās aizsardzības plāna apstiprināšanu; pats plāns nav pievienots)",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

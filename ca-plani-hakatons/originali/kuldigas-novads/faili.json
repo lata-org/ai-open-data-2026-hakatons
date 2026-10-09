@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "protokols-D15_2023_bez-kodiem_GALA.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 3057816,
+    "sha256": "958ddb2adf8ec55204340278eb036b3a223010ebb2dd3ca5d886089959e7a23c",
+    "avota_url": "https://kuldigasnovads.lv/wp-content/uploads/2023/12/protokols-D15_2023_bez-kodiem_GALA.pdf",
+    "gala_url": "https://kuldigasnovads.lv/wp-content/uploads/2023/12/protokols-D15_2023_bez-kodiem_GALA.pdf",
+    "lejupieladets": "2026-09-11 21:36:25",
+    "apraksts": "Domes 30.11.2023. sēdes protokols Nr. 15 – 127. lēmums par plāna sadaļas (militārs iebrukums/karš) apstiprināšanu ar ierobežotu pieejamību",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "Kuldigas_novada_sadarbibas_teritorijas_civilas_a_izsardzibas_plans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 5916906,
+    "sha256": "766816f2c253a91d0e334d0f8e5849f50b463df5fb1e59a8bad5a230de2c2721",
+    "avota_url": "https://kuldigasnovads.lv/wp-content/uploads/2022/10/Kuldigas_novada_sadarbibas_teritorijas_civilas_a_izsardzibas_plans.pdf",
+    "gala_url": "https://kuldigasnovads.lv/wp-content/uploads/2022/10/Kuldigas_novada_sadarbibas_teritorijas_civilas_a_izsardzibas_plans.pdf",
+    "lejupieladets": "2026-09-12 00:01:00",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "29.01.2026.-Kuldigas-novada-domes-sedes-protokols-Nr.1.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 2123480,
+    "sha256": "b41e7b6a51bdcee831e652bd1b5fdaa15e958331b6de87574240c8cacb9d8c1b",
+    "avota_url": "https://kuldigasnovads.lv/wp-content/uploads/2026/02/29.01.2026.-Kuldigas-novada-domes-sedes-protokols-Nr.1.pdf",
+    "gala_url": "https://kuldigasnovads.lv/wp-content/uploads/2026/02/29.01.2026.-Kuldigas-novada-domes-sedes-protokols-Nr.1.pdf",
+    "lejupieladets": "2026-09-12 00:18:58",
+    "apraksts": "domes 29.01.2026. sēdes protokols Nr.1 – 83. punkts: lēmums par aktuālā STCA plāna apstiprināšanu (pašu plānu nesatur)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

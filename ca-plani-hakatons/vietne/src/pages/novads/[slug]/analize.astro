@@ -1,0 +1,155 @@
+---
+import Base from '../../../layouts/Base.astro';
+import NovadsHead from '../../../components/NovadsHead.astro';
+import Cips from '../../../components/Cips.astro';
+import AtbilstibasJosla from '../../../components/AtbilstibasJosla.astro';
+import { profili, prototipi, punkti, kopsavilkums, fmt, datums } from '../../../lib/vertejums';
+import type { Vertejums, Statuss } from '../../../lib/vertejums';
+
+export function getStaticPaths() {
+  return prototipi.map((n) => ({ params: { slug: n.slug } }));
+}
+const { slug } = Astro.params;
+const p = profili[slug!];
+const k = kopsavilkums(p);
+const citi = prototipi.filter((n) => n.slug !== slug).map((n) => profili[n.slug]);
+const visi = [p, ...citi];
+const base = import.meta.env.BASE_URL;
+const v = (pr: typeof p, id: string) => (pr.atbilstiba as Record<string, Vertejums>)[id];
+
+// Salīdzināšanas matrica — rādītāji, kas nav MK 658 punkti, bet raksturo plāna lietojamību
+const raditaji = [
+  { n: 'Plāna apstiprināšanas datums', f: (x: typeof p) => datums(x.plans.apstiprinats) },
+  { n: 'Pārapstiprināšana līdz', f: (x: typeof p) => datums(x.plans.derigs_lidz) },
+  { n: 'Publiskais apjoms (lpp.)', f: (x: typeof p) => String(x.plans.lpp) },
+  { n: 'Iedzīvotāju datu datums', f: (x: typeof p) => x.teritorija.iedzivotaju_datums },
+  { n: 'Apdraudējumi / izvērsti scenāriji', f: (x: typeof p) => `${x.riski.apdraudejumu_skaits} / ${x.riski.scenariju_skaits}` },
+  { n: 'Risku matrica publiska', f: (x: typeof p) => (x.riski.matrica_publiska ? 'jā' : 'nē') },
+  { n: 'Pulcēšanās vietas ar koordinātēm publiskas', f: (x: typeof p) => (x.evakuacija.pulcesanas_vietas_publiskas ? `jā (${x.evakuacija.pulcesanas_vietas.length})` : 'nē') },
+  { n: 'Izmitināšanas kapacitāte / 2 % norma', f: (x: typeof p) => (x.evakuacija.izmitinasanas_kapacitate ? `${fmt(x.evakuacija.izmitinasanas_kapacitate)} / ${fmt(x.evakuacija.norma_2_procenti)}` : `nav publiski / ${fmt(x.evakuacija.norma_2_procenti)}`) },
+  { n: 'Patvertnes (112.lv) / uz 1000 iedz.', f: (x: typeof p) => `${x.patvertnes.skaits} / ${x.patvertnes.uz_1000}` },
+  { n: 'Komisijā pārstāvētās institūcijas', f: (x: typeof p) => String(x.komisija.institucijas) },
+  { n: 'Apziņošanas shēma publiska', f: (x: typeof p) => (x.komisija.apzinosanas_shema ? 'jā' : 'tikai tekstā') },
+  { n: 'Iedzīvotāju rīcības instrukcijas', f: (x: typeof p) => x.bridinasana.iedzivotaju_instrukcijas.split(':')[0] },
+  { n: 'Datu kvalitātes atradumi', f: (x: typeof p) => `${x.datu_kvalitate.filter((d) => d.veids === 'kritiski').length} kritiski, ${x.datu_kvalitate.filter((d) => d.veids === 'brīdinājums').length} brīdinājumi` },
+];
+const grupas = [
+  { n: 'Saturs (4.1.–4.9.)', ids: punkti.filter((x) => x.grupa === 'saturs').map((x) => x.id) },
+  { n: 'Pielikumi (5.1.–5.4.)', ids: punkti.filter((x) => x.grupa === 'pielikumi').map((x) => x.id) },
+];
+const grupasPunkti = (pr: typeof p, ids: string[]) => ids.reduce((s, id) => s + ({ pilns: 2, dalejs: 1, ierobezots: 1, nav: 0, nav_vertets: 0 } as Record<Statuss, number>)[v(pr, id)?.statuss ?? 'nav_vertets'], 0);
+---
+<Base title={`${p.pasvaldiba} — plāna analīze un salīdzinājums`} aktivs="novads">
+  <NovadsHead p={p} cilne="analize" />
+  <div class="wrap">
+    <section class="section">
+      <div class="grid grid--4">
+        <div class="tile"><div class="tile__label">Atbilstības punkti</div><div class="tile__value">{k.punkti}<span class="muted" style="font-size:1rem">/{k.max}</span></div><div class="tile__note">{k.procenti} % no maksimuma</div></div>
+        <div class="tile"><div class="tile__label">Elementi plānā</div><div class="tile__value">{k.ir}<span class="muted" style="font-size:1rem">/{k.kopa}</span></div><div class="tile__note">pilnībā, daļēji vai ierobežoti</div></div>
+        <div class="tile"><div class="tile__label">Pilnībā publiski</div><div class="tile__value">{k.publiski}<span class="muted" style="font-size:1rem">/{k.kopa}</span></div><div class="tile__note">iedzīvotājam pieejami bez ierobežojumiem</div></div>
+        <div class="tile"><div class="tile__label">Nav atrodami</div><div class="tile__value">{k.skaiti.nav}</div><div class="tile__note">publiskajā versijā</div></div>
+      </div>
+      <div style="margin-top:14px"><AtbilstibasJosla p={p} /></div>
+    </section>
+
+    <section class="section">
+      <h2>Atbilstība MK noteikumu Nr. 658 prasībām — pa elementiem</h2>
+      <div class="table-wrap card card--flat" style="padding:0">
+        <table class="t">
+          <thead><tr><th>Punkts</th><th>Elements</th><th>Statuss</th><th>Kur plānā</th><th>Lpp.</th><th>Piezīme</th></tr></thead>
+          <tbody>
+            {punkti.map((pk) => { const x = v(p, pk.id); return (
+              <tr>
+                <td class="mono dim">{pk.id}</td>
+                <td><strong>{pk.nosaukums}</strong>{pk.apaksp.length > 0 && <details><summary class="small muted" style="cursor:pointer">apakšpunkti</summary><ul class="small tiks">{pk.apaksp.map((a) => <li>{a}</li>)}</ul></details>}</td>
+                <td><Cips s={x?.statuss ?? 'nav_vertets'} /></td>
+                <td class="small">{x?.kur}</td>
+                <td class="small dim">{x?.lpp}</td>
+                <td class="small">{x?.piezime}</td>
+              </tr>
+            ); })}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Salīdzinājums ar citiem prototipa novadiem</h2>
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>Punkti pa grupām</h3>
+          <div class="table-wrap">
+            <table class="t">
+              <thead><tr><th>Grupa</th>{visi.map((x) => <th>{x.pasvaldiba}{x.slug === slug ? ' (šis)' : ''}</th>)}</tr></thead>
+              <tbody>
+                {grupas.map((g) => <tr><td>{g.n} <span class="dim small">max {g.ids.length * 2}</span></td>{visi.map((x) => <td><strong>{grupasPunkti(x, g.ids)}</strong></td>)}</tr>)}
+                <tr><td><strong>Kopā</strong></td>{visi.map((x) => { const kk = kopsavilkums(x); return <td><strong>{kk.punkti}</strong> / {kk.max}</td>; })}</tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="chart-box" style="height:220px;margin-top:10px">
+            <canvas id="salidz" data-dati={JSON.stringify(visi.map((x) => ({ n: x.pasvaldiba, pilns: kopsavilkums(x).skaiti.pilns, dalejs: kopsavilkums(x).skaiti.dalejs, ierobezots: kopsavilkums(x).skaiti.ierobezots, nav: kopsavilkums(x).skaiti.nav })))} role="img" aria-label="Elementu statusu sadalījums pa novadiem"></canvas>
+          </div>
+          <div class="legend"><span><i style="background:var(--good)"></i>Ir un publiski</span><span><i style="background:var(--warning)"></i>Daļēji</span><span><i style="background:var(--violet)"></i>Ierobežots</span><span><i style="background:#b8b7b0"></i>Nav</span></div>
+        </div>
+        <div class="card">
+          <h3>Elementi blakus</h3>
+          <div class="table-wrap">
+            <table class="t">
+              <thead><tr><th>Punkts</th>{visi.map((x) => <th>{x.pasvaldiba.replace(' novads', '')}</th>)}</tr></thead>
+              <tbody>{punkti.map((pk) => <tr><td class="small"><span class="mono dim">{pk.id}</span> {pk.nosaukums}</td>{visi.map((x) => <td><Cips s={v(x, pk.id)?.statuss ?? 'nav_vertets'} /></td>)}</tr>)}</tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <h3>Salīdzināšanas matrica — lietojamības rādītāji</h3>
+        <div class="table-wrap">
+          <table class="t">
+            <thead><tr><th>Rādītājs</th>{visi.map((x) => <th>{x.pasvaldiba}{x.slug === slug ? ' (šis)' : ''}</th>)}</tr></thead>
+            <tbody>{raditaji.map((r) => <tr><td>{r.n}</td>{visi.map((x) => <td>{r.f(x)}</td>)}</tr>)}</tbody>
+          </table>
+        </div>
+        <p class="small muted" style="margin:10px 0 0">Rādītāju kopa ir prototipa piedāvājums; to var papildināt, kad pievienosies pārējās 40 pašvaldības.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Secinājumi</h2>
+      <div class="grid grid--2">
+        <div class="card"><h3>Stiprās puses</h3><ul class="tiks pluss">{p.stipras_puses.map((s) => <li>{s}</li>)}</ul></div>
+        <div class="card"><h3>Trūkumi un riski</h3><ul class="tiks minuss">{p.vajas_puses.map((s) => <li>{s}</li>)}</ul></div>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <h3>Datu kvalitātes atradumi</h3>
+        <ul class="tiks">{p.datu_kvalitate.map((d) => <li><span class={`chip chip--${d.veids === 'kritiski' ? 'nav' : d.veids === 'brīdinājums' ? 'dalejs' : 'neitrals'}`}>{d.veids}</span> {d.teksts}</li>)}</ul>
+      </div>
+      <p class="small" style="margin-top:14px">Plāna struktūra: {p.plans.struktura} Publiskais apjoms: {p.plans.publiskais_apjoms} Avots: <a href={p.plans.publicesanas_lapa} target="_blank" rel="noopener">pašvaldības publicēšanas lapa</a>.</p>
+    </section>
+  </div>
+  <script>
+    import { Chart, BarController, BarElement, CategoryScale, LinearScale, Tooltip, Legend } from 'chart.js';
+    Chart.register(BarController, BarElement, CategoryScale, LinearScale, Tooltip, Legend);
+    const c = document.getElementById('salidz') as HTMLCanvasElement | null;
+    if (c) {
+      const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+      const ink = dark ? '#c3c2b7' : '#52514e';
+      const d = JSON.parse(c.dataset.dati || '[]') as { n: string; pilns: number; dalejs: number; ierobezots: number; nav: number }[];
+      const ser = [
+        { label: 'Ir un publiski', key: 'pilns', color: '#0ca30c' },
+        { label: 'Daļēji', key: 'dalejs', color: '#fab219' },
+        { label: 'Ierobežots', key: 'ierobezots', color: dark ? '#9085e9' : '#4a3aa7' },
+        { label: 'Nav', key: 'nav', color: '#b8b7b0' },
+      ] as const;
+      new Chart(c, {
+        type: 'bar',
+        data: { labels: d.map((x) => x.n), datasets: ser.map((s) => ({ label: s.label, data: d.map((x) => x[s.key]), backgroundColor: s.color, borderWidth: 2, borderColor: dark ? '#1f1f1d' : '#ffffff', barThickness: 22 })) },
+        options: {
+          indexAxis: 'y', maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { callbacks: { label: (ctx) => ` ${ctx.dataset.label}: ${ctx.parsed.x} elementi` } } },
+          scales: { x: { stacked: true, max: 13, ticks: { color: ink, stepSize: 1 }, grid: { color: dark ? '#383835' : '#e2e1db' }, border: { display: false } }, y: { stacked: true, ticks: { color: ink }, grid: { display: false }, border: { display: false } } },
+        },
+      });
+    }
+  </script>
+</Base>

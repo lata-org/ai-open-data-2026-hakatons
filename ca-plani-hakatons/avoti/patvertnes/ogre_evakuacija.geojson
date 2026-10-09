@@ -1,0 +1,670 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ogres_novada_evakuacijas_vietas",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 1,
+        "nosaukums": "Ogres novada kultūras centrs",
+        "adrese": "Brīvības iela 15, Ogre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6005461,
+          56.8171304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 2,
+        "nosaukums": "Ogres pilsētas dzelzceļa stacija",
+        "adrese": "Skolas iela 1, Ogre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5822824,
+          56.8150123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 3,
+        "nosaukums": "Ogresgala pamatskola",
+        "adrese": "Nākotnes iela 4, Ogresgals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7275629,
+          56.8058044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 4,
+        "nosaukums": "Ikšķiles centra laukums",
+        "adrese": "Skolas iela 2, Ikšķile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4913526,
+          56.8359986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 5,
+        "nosaukums": "Ikšķiles dzelzceļa stacija",
+        "adrese": "Ausekļa iela, Ikšķile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5035987,
+          56.839394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 6,
+        "nosaukums": "Tīnūžu tautas nams",
+        "adrese": "“Kraujas”, Tīnūži"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5679128,
+          56.8680484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 7,
+        "nosaukums": "Ķeguma vidusskola",
+        "adrese": "Skolas iela 10, Ķegums"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7118709,
+          56.7470782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 8,
+        "nosaukums": "Ķeguma dzelzceļa stacija",
+        "adrese": "Stacijas laukums 1, Ķegums"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7233884,
+          56.7414506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 9,
+        "nosaukums": "Lielvārdes vidusskola",
+        "adrese": "Gaismas 17, Lielvārde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8170542,
+          56.7137415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 10,
+        "nosaukums": "Lielvārdes dzelzceļa stacija",
+        "adrese": "Lielvārde, Lielvārdes pilsēta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8057242,
+          56.722024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 11,
+        "nosaukums": "Birzgales pamatskola",
+        "adrese": "Skolas iela 1, Birzgale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.759819,
+          56.629998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 12,
+        "nosaukums": "Birzgales tautas nams",
+        "adrese": "Skolas iela 2, Birzgale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7542936,
+          56.6307009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 13,
+        "nosaukums": "Tomes pagasta pārvalde",
+        "adrese": "“Ābelītes”, Tome",
+        "piezime": "Koriģēts no oriģinālā plāna drukas kļūdas (24.029)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.64447,
+          56.75411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 14,
+        "nosaukums": "Rembates pagasta pārvalde",
+        "adrese": "Lielvārdes ielā 3, Rembate",
+        "piezime": "Koriģēts no oriģinālā plāna drukas kļūdas (23.942)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.78318,
+          56.7553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 15,
+        "nosaukums": "Madlienas pagasta pārvalde",
+        "adrese": "“Pagastmāja”, Madliena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1534828,
+          56.8467475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 16,
+        "nosaukums": "Ķeipenes pamatskola",
+        "adrese": "Ziedu iela 3, Ķeipene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1827238,
+          56.8902488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 17,
+        "nosaukums": "Taurupes tautas nams",
+        "adrese": "Bērzu iela 9, Taurupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.339031,
+          56.884615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 18,
+        "nosaukums": "Taurupes pamatskolas Meņģeles filiāle",
+        "adrese": "Meņģele, Ogres novads",
+        "piezime": "Koriģēts no oriģinālā plāna drukas kļūdas (23.825)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.41513,
+          56.80584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 19,
+        "nosaukums": "Taurupes pamatskolas Mazozolu filiāle",
+        "adrese": "„Jaunā skola”, Līčupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3472421,
+          56.8855318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 20,
+        "nosaukums": "Krapes pagasta pārvalde",
+        "adrese": "Krape, Krapes pagasts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.1238784,
+          56.7428198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 21,
+        "nosaukums": "Suntažu tautas nams",
+        "adrese": "Tautas nams, Suntaži"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9253035,
+          56.9043571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 22,
+        "nosaukums": "Lauberes pagasta pārvalde",
+        "adrese": "Ozolu iela 3, Laubere"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.01709,
+          56.858015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 23,
+        "nosaukums": "Mazozolu pagasta pārvalde",
+        "adrese": "Rīgas ielā 5, Līčupe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3057885,
+          56.924867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 25,
+        "nosaukums": "Jumpravas pagasta pārvalde",
+        "adrese": "Daugavas ielā 6, Jumprava",
+        "piezime": "Koriģēts no oriģinālā plāna drukas kļūdas (56.562)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.97151,
+          56.67612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "pulcesanas_vieta",
+        "nr": 28,
+        "nosaukums": "Lēdmanes pagasta pārvalde",
+        "adrese": "“Pagastmāja”, Lēdmane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8516233,
+          56.7722954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 1,
+        "nosaukums": "Ogres 1. vidusskola",
+        "adrese": "Zinību iela 3, Ogre",
+        "ietilpiba": 1000,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "2 sporta zāles, aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.610286,
+          56.817408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 2,
+        "nosaukums": "Ogres Valsts ģimnāzija un sākumskola",
+        "adrese": "Meža prospekts 14, Ogre",
+        "ietilpiba": 1365,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta zāle, aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6044083,
+          56.8219568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 3,
+        "nosaukums": "Jaunogres vidusskola",
+        "adrese": "Mālkalnes prosp. 43, Ogre",
+        "ietilpiba": 1000,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta zāle, aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5918844,
+          56.8245756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 4,
+        "nosaukums": "Ogresgala pamatskola",
+        "adrese": "Nākotnes iela 4, Ogresgals",
+        "ietilpiba": 160,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta zāle, aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.729324,
+          56.80602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 5,
+        "nosaukums": "Madlienas vidusskola",
+        "adrese": "'Skola', Madliena",
+        "ietilpiba": 800,
+        "ednica": true,
+        "gultas": 40,
+        "telpas": "Sporta zāle, aktu zāle, internāts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.147037,
+          56.848061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 6,
+        "nosaukums": "Taurupes pamatskola",
+        "adrese": "Taurupe",
+        "ietilpiba": 100,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta-aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.349579,
+          56.885514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 7,
+        "nosaukums": "Suntažu vidusskola",
+        "adrese": "Suntaži",
+        "ietilpiba": 500,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "2 aktu zāles, sporta zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.922965,
+          56.906826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 8,
+        "nosaukums": "Ķeipenes pamatskola",
+        "adrese": "Ziedu iela 3, Ķeipene",
+        "ietilpiba": 200,
+        "ednica": true,
+        "gultas": 11,
+        "telpas": "Sporta zāle, klases, kopmītnes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.184021,
+          56.89056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 9,
+        "nosaukums": "Ikšķiles vidusskola",
+        "adrese": "Skolas iela 2, Ikšķile",
+        "ietilpiba": 2000,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "2 sporta zāles, aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4913526,
+          56.8359986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 10,
+        "nosaukums": "Tīnūžu sākumskola 'Kalnliepas'",
+        "adrese": "Tīnūži",
+        "ietilpiba": 500,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta zāle, aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5637727,
+          56.8668364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 11,
+        "nosaukums": "PII 'Čiekuriņš'",
+        "adrese": "Irbenāju iela 2, Ikšķile",
+        "ietilpiba": 500,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta zāles, aktu zāle, grupiņas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.4779415,
+          56.8322399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 12,
+        "nosaukums": "PII 'Urdaviņa'",
+        "adrese": "Melioratoru iela 10, Ikšķile",
+        "ietilpiba": 500,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta zāle, aktu zāle, grupiņas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.50199,
+          56.83809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tips": "izmitinasanas_centrs",
+        "nr": 13,
+        "nosaukums": "Ķeguma komercnovirziena vidusskola",
+        "adrese": "Skolas iela 10, Ķegums",
+        "ietilpiba": 300,
+        "ednica": true,
+        "gultas": 0,
+        "telpas": "Sporta zāle, aktu zāle, klases"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.713992,
+          56.74696
+        ]
+      }
+    }
+  ]
+}

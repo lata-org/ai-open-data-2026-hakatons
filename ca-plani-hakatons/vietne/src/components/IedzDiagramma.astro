@@ -1,0 +1,48 @@
+---
+// Horizontāla joslu diagramma: iedzīvotāju skaits pa teritoriālajām vienībām (viena sērija — bez leģendas).
+interface Vieniba { nosaukums: string; grupa: string; iedz: number; km2: number }
+interface Props { vienibas: Vieniba[]; id?: string; virsraksts: string }
+const { vienibas, id = 'iedz', virsraksts } = Astro.props;
+const dati = [...vienibas].sort((a, b) => b.iedz - a.iedz);
+const augstums = Math.max(260, dati.length * 22 + 40);
+---
+<div class="chart-box" style={`height:${augstums}px`}>
+  <canvas id={id} data-dati={JSON.stringify(dati)} data-virsraksts={virsraksts} role="img" aria-label={virsraksts}></canvas>
+</div>
+<script>
+  import { Chart, BarController, BarElement, CategoryScale, LinearScale, Tooltip } from 'chart.js';
+  Chart.register(BarController, BarElement, CategoryScale, LinearScale, Tooltip);
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const ink = dark ? '#c3c2b7' : '#52514e';
+  const grid = dark ? '#383835' : '#e2e1db';
+  for (const c of document.querySelectorAll<HTMLCanvasElement>('canvas[data-dati]')) {
+    const dati = JSON.parse(c.dataset.dati || '[]') as { nosaukums: string; iedz: number; km2: number; grupa: string }[];
+    new Chart(c, {
+      type: 'bar',
+      data: {
+        labels: dati.map((d) => d.nosaukums),
+        datasets: [{ data: dati.map((d) => d.iedz), backgroundColor: dark ? '#3987e5' : '#2a78d6', borderRadius: 4, barThickness: 12, borderSkipped: 'start' }],
+      },
+      options: {
+        indexAxis: 'y',
+        maintainAspectRatio: false,
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => {
+                const d = dati[ctx.dataIndex];
+                return ` ${d.iedz.toLocaleString('lv-LV')} iedz. · ${d.km2} km² · ${(d.iedz / d.km2).toFixed(1)} iedz./km² · ${d.grupa}`;
+              },
+            },
+          },
+        },
+        scales: {
+          x: { grid: { color: grid }, ticks: { color: ink, callback: (v) => Number(v).toLocaleString('lv-LV') }, border: { display: false } },
+          y: { grid: { display: false }, ticks: { color: ink, font: { size: 11 }, autoSkip: false }, border: { display: false } },
+        },
+      },
+    });
+  }
+</script>

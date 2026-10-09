@@ -1,0 +1,92 @@
+---
+// Interaktīva karte (Leaflet): novada robeža (ja ir), patvertnes (112.lv), pulcēšanās un izmitināšanas vietas no plāna.
+interface Vieta { nr: number; nosaukums: string; adrese: string; lat: number; lon: number; anomalija?: string; dublikats?: number; vietas?: number; ednica?: boolean }
+interface Props { slug: string; centrs: [number, number]; zoom: number; pulcesanas?: Vieta[]; izmitinasanas?: Vieta[]; robeza?: boolean; id?: string }
+const { slug, centrs, zoom, pulcesanas = [], izmitinasanas = [], robeza = false, id = 'karte' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<div
+  id={id}
+  class="karte"
+  data-base={base}
+  data-slug={slug}
+  data-centrs={JSON.stringify(centrs)}
+  data-zoom={zoom}
+  data-robeza={robeza ? '1' : ''}
+  data-pulcesanas={JSON.stringify(pulcesanas)}
+  data-izmitinasanas={JSON.stringify(izmitinasanas)}
+  role="region"
+  aria-label="Interaktīvā karte"
+></div>
+<div class="karte-legenda">
+  {robeza && <span><i style="background:transparent;border-color:#2a78d6;box-shadow:none;border-width:2px"></i>Novada robeža (VZD)</span>}
+  <span><i style="background:#4a3aa7"></i>Patvertne (112.lv)</span>
+  {pulcesanas.length > 0 && <span><i style="background:#2a78d6"></i>Pulcēšanās vieta (plāns)</span>}
+  {pulcesanas.some((v) => v.anomalija) && <span><i style="background:#d03b3b"></i>Pulcēšanās vieta ar koordinātu anomāliju</span>}
+  {izmitinasanas.length > 0 && <span><i style="background:#0ca30c"></i>Izmitināšanas vieta (lielums ∝ ietilpība)</span>}
+</div>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  type Vieta = { nr: number; nosaukums: string; adrese: string; lat: number; lon: number; anomalija?: string; dublikats?: number; vietas?: number; ednica?: boolean };
+
+  for (const el of document.querySelectorAll<HTMLElement>('.karte[data-slug]')) {
+    const base = el.dataset.base || '/';
+    const slug = el.dataset.slug!;
+    const centrs = JSON.parse(el.dataset.centrs || '[56.9,24.6]') as [number, number];
+    const zoom = Number(el.dataset.zoom || 9);
+    const pulc = JSON.parse(el.dataset.pulcesanas || '[]') as Vieta[];
+    const izm = JSON.parse(el.dataset.izmitinasanas || '[]') as Vieta[];
+
+    const map = L.map(el, { scrollWheelZoom: false }).setView(centrs, zoom);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    const slani: Record<string, L.Layer> = {};
+    const punkts = (krasa: string, r = 6) => ({ radius: r, color: '#fff', weight: 1.5, fillColor: krasa, fillOpacity: 0.95 });
+
+    if (el.dataset.robeza) {
+      fetch(`${base}dati/${slug}/robeza.geojson`).then((r) => r.json()).then((gj) => {
+        const l = L.geoJSON(gj, { style: { color: '#2a78d6', weight: 2, fillOpacity: 0.03 } }).addTo(map);
+        slani['Novada robeža'] = l;
+        ctrl.addOverlay(l, 'Novada robeža');
+      }).catch(() => {});
+    }
+
+    fetch(`${base}dati/${slug}/patvertnes.geojson`).then((r) => r.json()).then((gj) => {
+      const l = L.geoJSON(gj, {
+        pointToLayer: (_f, latlng) => L.circleMarker(latlng, punkts('#4a3aa7', 5)),
+        onEachFeature: (f, layer) => {
+          const p = f.properties;
+          layer.bindPopup(`<strong>Patvertne</strong><br>${p.iela ?? ''} ${p.nr ?? ''}<br>${p.vieta ?? ''}<br><em>${p.veids ?? ''}</em>${p.komentars ? `<br>${p.komentars}` : ''}<br><small>Avots: 112.lv</small>`);
+        },
+      }).addTo(map);
+      ctrl.addOverlay(l, `Patvertnes (${gj.features.length})`);
+    }).catch(() => {});
+
+    if (pulc.length) {
+      const l = L.layerGroup(pulc.map((v) => {
+        const m = L.circleMarker([v.lat, v.lon], v.anomalija ? { ...punkts('#d03b3b', 7), dashArray: '3 3', color: '#d03b3b', fillOpacity: 0.5 } : punkts('#2a78d6', 7));
+        m.bindPopup(`<strong>${v.nr}. ${v.nosaukums}</strong><br>${v.adrese}<br><small class="mono">${v.lat}, ${v.lon}</small>${v.anomalija ? `<br><span style="color:#d03b3b">⚠ ${v.anomalija}</span>` : ''}${v.dublikats ? `<br><small>Dublē ${v.dublikats}. ierakstu</small>` : ''}`);
+        return m;
+      })).addTo(map);
+      slani['Pulcēšanās vietas'] = l;
+    }
+    if (izm.length) {
+      const l = L.layerGroup(izm.map((v) => {
+        const r = Math.max(6, Math.sqrt(v.vietas || 50) / 2.2);
+        const m = L.circleMarker([v.lat, v.lon], punkts('#0ca30c', r));
+        m.bindPopup(`<strong>${v.nr}. ${v.nosaukums}</strong><br>${v.adrese}<br>Ietilpība: <strong>${v.vietas}</strong> pers.${v.ednica === false ? '<br>Bez ēdnīcas' : ''}`);
+        return m;
+      })).addTo(map);
+      slani['Izmitināšanas vietas'] = l;
+    }
+
+    const ctrl = L.control.layers({}, slani, { collapsed: false }).addTo(map);
+    L.control.scale({ imperial: false }).addTo(map);
+  }
+</script>

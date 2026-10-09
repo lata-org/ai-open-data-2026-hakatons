@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "Siguldas-novada-sadarbibas-teritorijas-civilas-aizsardzibas-plans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 1845761,
+    "sha256": "1d52601486070aec6d183063ae658d31c578e61c2ce0318f339e334aa6c63620",
+    "avota_url": "https://sigulda.lv/media/uploads/Siguldas-novada-sadarbibas-teritorijas-civilas-aizsardzibas-plans.pdf",
+    "gala_url": "https://sigulda.lv/media/uploads/Siguldas-novada-sadarbibas-teritorijas-civilas-aizsardzibas-plans.pdf",
+    "lejupieladets": "2026-09-12 00:10:37",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "27-pielikums-informacija-iedzivotajiem.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 305434,
+    "sha256": "5de8136bf21886893e235bf7b9ba93e1d00178988266242000348d0a22b503c0",
+    "avota_url": "https://sigulda.lv/media/uploads/Siguldas_novada_sadarbibas_teritorijas_civilas_aizsardzibas_plans__27._pielikums_–_informacija_iedzivotajiem-1.pdf",
+    "gala_url": "https://sigulda.lv/media/uploads/Siguldas_novada_sadarbibas_teritorijas_civilas_aizsardzibas_plans__27._pielikums_%E2%80%93_informacija_iedzivotajiem-1.pdf",
+    "lejupieladets": "2026-09-12 00:10:42",
+    "apraksts": "27. pielikums – informācija iedzīvotājiem",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "domes-sedes-23.10.2025-protokols.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 1690092,
+    "sha256": "473ac42fa1d552d6c807ebd802f5fcedb8f05a95837f6731ceac9b3b5309f204",
+    "avota_url": "https://sigulda.lv/media/uploads/domes-sedes-23.10.2025.-protokols.pdf",
+    "gala_url": "https://sigulda.lv/media/uploads/domes-sedes-23.10.2025.-protokols.pdf",
+    "lejupieladets": "2026-09-12 00:14:52",
+    "apraksts": "domes 2025-10-23 sēdes protokols (2.§ – plāna atkārtota apstiprināšana; 1.§ – CA komisijas nolikums un sastāvs)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "fails": "Smiltenes_novada_sadarbibas_teritorijas_CA_plans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 6540340,
+    "sha256": "26ba8df475e791c71b02ec9ca96b1022b5d0c05223045fe39785cffafe965a5a",
+    "avota_url": "https://www.smiltenesnovads.lv/lv/media/41166/download?attachment",
+    "gala_url": "https://www.smiltenesnovads.lv/lv/media/41166/download?attachment",
+    "lejupieladets": "2026-09-12 00:24:02",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true,
+    "metode": "ZenRows Browser Sessions, HTTP Range pa 1 MiB daļām (tiešais HTTPS uz smiltenesnovads.lv no šīs iekārtas neatbildēja; ZenRows API deva 413 - fails par lielu)",
+    "content_disposition": "inline;filename=\"SMILTENES NOVADA SADARBÄªBAS TERITORIJAS CIVILÄS AIZSARDZÄªBAS PLÄNS.pdf\""
+  },
+  {
+    "fails": "18_pielikums_Informativais_materials_sabiedribai_dabasgaze_2023.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 271393,
+    "sha256": "80cafea65d911d5a32ef92b659a049f212f7da04645b7b1e3eb9279b725a76e9",
+    "avota_url": "https://www.smiltenesnovads.lv/lv/media/52895/download?attachment",
+    "gala_url": "https://www.smiltenesnovads.lv/lv/media/52895/download?attachment",
+    "lejupieladets": "2026-09-12 00:28:59",
+    "apraksts": "18. pielikums (kā norādīts pašvaldības lapā) – informatīvais materiāls sabiedrībai par rīcību avārijas gadījumā dabasgāzes pārvades sistēmas objektos",
+    "originals": true,
+    "caur_zenrows": true,
+    "piezime_gala_url": "lejupielādēts caur ZenRows API; gala_url = avota URL"
+  },
+  {
+    "fails": "Domes_lemums_136_29032023_CA_plana_apstiprinasana.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 132218,
+    "sha256": "66a5479e1da63c7c1f56280a4dc478cb2d25dbf19c6e9cdecf3fe09dc8a4f967",
+    "avota_url": "https://www.smiltenesnovads.lv/lv/media/6315/download?attachment",
+    "gala_url": "https://www.smiltenesnovads.lv/lv/media/6315/download?attachment",
+    "lejupieladets": "2026-09-12 00:32:27",
+    "apraksts": "Domes 29.03.2023. lēmums Nr. 136 'Smiltenes novada sadarbības teritorijas Civilās aizsardzības plāna apstiprināšana' (prot. Nr. 5)",
+    "originals": true,
+    "caur_zenrows": true,
+    "piezime_gala_url": "lejupielādēts caur ZenRows API; gala_url = avota URL"
+  }
+]

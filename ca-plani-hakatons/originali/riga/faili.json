@@ -1,0 +1,46 @@
+[
+  {
+    "fails": "4-pielikums-risku-scenariji.docx",
+    "formats": "docx",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 565544,
+    "sha256": "ea677c9dfb60bd978887f2f30e5e9d1218c90d9336f65319e1bb35c1634e1d5e",
+    "avota_url": "https://www.riga.lv/lv/media/36884/download?attachment",
+    "gala_url": "https://www.riga.lv/lv/media/36884/download?attachment",
+    "lejupieladets": "2026-09-11 21:18:03",
+    "apraksts": "4. pielikums – risku scenāriji (2021. gada plāna versijas pielikums, joprojām publicēts plāna lapā; vecāka versija; saturs atbilst 2024. g. plāna 27. pielikumam)",
+    "originals": true,
+    "caur_zenrows": true,
+    "metode": "ZenRows Fetch API (mode=auto); tiesais HTTPS uz riga.lv nebija pieejams"
+  },
+  {
+    "fails": "rigas-valstspilsetas-sadarbibas-teritorijas-civilas-aizsardzibas-plans-2024.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 6833903,
+    "sha256": "9f0bf333c22c29ba0f04fd0db9d0bfc9df292d0e4f3b0b1f23f71078ccca6f1b",
+    "avota_url": "https://www.riga.lv/lv/media/56912/download?attachment",
+    "gala_url": "https://www.riga.lv/lv/media/56912/download?attachment",
+    "lejupieladets": "2026-09-11 21:33:12",
+    "apraksts": "pamatdokuments ar 27 pielikumiem (apstiprināts 27.03.2024, lēmums RD-24-3412-lē; redakcija ar 26.03.2025 lēmumu RD-25-4455-lē)",
+    "originals": true,
+    "caur_zenrows": true,
+    "metode": "ZenRows Browser Sessions, HTTP Range pa 1 MiB daļām (tiešais HTTPS uz riga.lv nebija pieejams)",
+    "content_disposition": "inline;filename=\"rigas-valstspilsetas-sadarbibas-teritorijas-civilas-aizsardzibas-plans-2024.pdf\""
+  },
+  {
+    "fails": "3-pielikums-karte.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 16697400,
+    "sha256": "dd8273671154f4cfb7a7c2587fde85c605b59e814040d78bf12ed2ef22945b51",
+    "avota_url": "https://www.riga.lv/lv/media/36886/download?attachment",
+    "gala_url": "https://www.riga.lv/lv/media/36886/download?attachment",
+    "lejupieladets": "2026-09-11 21:33:50",
+    "apraksts": "3. pielikums – karte mērogā 1:10000 (2021. gada plāna versijas pielikums, joprojām publicēts plāna lapā; vecāka versija)",
+    "originals": true,
+    "caur_zenrows": true,
+    "metode": "ZenRows Browser Sessions, HTTP Range pa 1 MiB daļām (tiešais HTTPS uz riga.lv nebija pieejams)",
+    "content_disposition": "inline;filename=\"3-pielikums-karte.pdf\""
+  }
+]

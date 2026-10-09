@@ -1,0 +1,7 @@
+---
+import type { Statuss } from '../lib/vertejums';
+import { statusi, ikona } from '../lib/vertejums';
+interface Props { s: Statuss; pilns?: boolean }
+const { s, pilns = false } = Astro.props;
+---
+<span class={`chip chip--${s}`} title={statusi[s].nosaukums}><span class="chip__ico" aria-hidden="true">{ikona(s)}</span>{pilns ? statusi[s].nosaukums : statusi[s].isais}</span>

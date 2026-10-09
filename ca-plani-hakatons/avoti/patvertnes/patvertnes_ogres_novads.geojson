@@ -1,0 +1,818 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ogres_novada_patvertnes",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 490,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6078590000658,
+          56.8201500000329
+        ]
+      },
+      "properties": {
+        "objectid": 490,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Brīvības iela",
+        "ekasnumurs": "50",
+        "patvertnesieejasdurvjukoord": "56.82015 24.607859 25.098778139799833 4.761515881638361",
+        "patvertnesieejasdurvjukoordlat": 56.82015,
+        "patvertnesieejasdurvjukoordlon": 24.607859,
+        "ekasgalvlietosanasveids": "Skola",
+        "komentars": null,
+        "streetviewkoordlat": 56.82015,
+        "streetviewkoordlon": 24.607859,
+        "streetviewskatalenkis": null,
+        "globalid": "9dc59301-11ca-4091-987b-843d48da6310"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 506,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6101010000805,
+          56.8170800001801
+        ]
+      },
+      "properties": {
+        "objectid": 506,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Zinību iela",
+        "ekasnumurs": "3",
+        "patvertnesieejasdurvjukoord": "56.81708 24.610101 46.978416442871094 35",
+        "patvertnesieejasdurvjukoordlat": 56.81708,
+        "patvertnesieejasdurvjukoordlon": 24.610101,
+        "ekasgalvlietosanasveids": "Skola",
+        "komentars": null,
+        "streetviewkoordlat": 56.81708,
+        "streetviewkoordlon": 24.610101,
+        "streetviewskatalenkis": null,
+        "globalid": "be17424f-4032-4b8c-bb11-f6def98d35c5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 507,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6105529999922,
+          56.8171460001109
+        ]
+      },
+      "properties": {
+        "objectid": 507,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Zinibu iela",
+        "ekasnumurs": "3",
+        "patvertnesieejasdurvjukoord": "56.817146 24.610553 45.3610725402832 35",
+        "patvertnesieejasdurvjukoordlat": 56.817146,
+        "patvertnesieejasdurvjukoordlon": 24.610553,
+        "ekasgalvlietosanasveids": "Skola",
+        "komentars": null,
+        "streetviewkoordlat": 56.817146,
+        "streetviewkoordlon": 24.610553,
+        "streetviewskatalenkis": null,
+        "globalid": "078b10d9-01b5-47b1-bef8-e8fa9a223a5f"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 534,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7238989999611,
+          56.7403969997877
+        ]
+      },
+      "properties": {
+        "objectid": 534,
+        "pilsetasvaiapdzvietasnosaukums": "Ķegums, Ogres novads",
+        "ielasnosaukums": "Lāčplēša iela",
+        "ekasnumurs": "1",
+        "patvertnesieejasdurvjukoord": "56.740397 24.723899 62.19999694824219 13.86299991607666",
+        "patvertnesieejasdurvjukoordlat": 56.740397,
+        "patvertnesieejasdurvjukoordlon": 24.723899,
+        "ekasgalvlietosanasveids": "Biroja ēka",
+        "komentars": null,
+        "streetviewkoordlat": 56.740397,
+        "streetviewkoordlon": 24.723899,
+        "streetviewskatalenkis": null,
+        "globalid": "77262674-fcb4-4ae2-9832-9b6c158bdcc9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 535,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7559340000729,
+          56.6312940000982
+        ]
+      },
+      "properties": {
+        "objectid": 535,
+        "pilsetasvaiapdzvietasnosaukums": "Birzgale, Birzgales pagasts, Ogres novads ",
+        "ielasnosaukums": "Nākotnes iela",
+        "ekasnumurs": "2A",
+        "patvertnesieejasdurvjukoord": "56.631294 24.755934 80.29999542236328 60",
+        "patvertnesieejasdurvjukoordlat": 56.631294,
+        "patvertnesieejasdurvjukoordlon": 24.755934,
+        "ekasgalvlietosanasveids": "Administratīvā ēka",
+        "komentars": null,
+        "streetviewkoordlat": 56.631294,
+        "streetviewkoordlon": 24.755934,
+        "streetviewskatalenkis": null,
+        "globalid": "8e4c01f2-0705-44eb-8c25-41ebd7285dad"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 536,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9711817705149,
+          56.675927960393
+        ]
+      },
+      "properties": {
+        "objectid": 536,
+        "pilsetasvaiapdzvietasnosaukums": "Jumprava, Jumpravas pagasts, Ogres novads",
+        "ielasnosaukums": "Daugavas iela",
+        "ekasnumurs": "6",
+        "patvertnesieejasdurvjukoord": "56.675948 24.971180 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.675948,
+        "patvertnesieejasdurvjukoordlon": 24.97118,
+        "ekasgalvlietosanasveids": "Administratīvā ēka",
+        "komentars": null,
+        "streetviewkoordlat": 56.675948,
+        "streetviewkoordlon": 24.97118,
+        "streetviewskatalenkis": null,
+        "globalid": "000f0f53-e6f2-4c19-b38e-41013a8a0d4c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 539,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6085639996974,
+          56.8204529999635
+        ]
+      },
+      "properties": {
+        "objectid": 539,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Zvaigžņu iela",
+        "ekasnumurs": "4",
+        "patvertnesieejasdurvjukoord": "56.820453 24.608564 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.820453,
+        "patvertnesieejasdurvjukoordlon": 24.608564,
+        "ekasgalvlietosanasveids": "Pašvaldība",
+        "komentars": null,
+        "streetviewkoordlat": 56.820453,
+        "streetviewkoordlon": 24.608564,
+        "streetviewskatalenkis": null,
+        "globalid": "48a3f12b-0ef5-4306-a0cd-9a790d714b7d"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 540,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5898259998635,
+          56.8184809998759
+        ]
+      },
+      "properties": {
+        "objectid": 540,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Jaunogres prospekts",
+        "ekasnumurs": "2",
+        "patvertnesieejasdurvjukoord": "56.818481 24.589826 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.818481,
+        "patvertnesieejasdurvjukoordlon": 24.589826,
+        "ekasgalvlietosanasveids": "Sporta centrs",
+        "komentars": null,
+        "streetviewkoordlat": 56.818481,
+        "streetviewkoordlon": 24.589826,
+        "streetviewskatalenkis": null,
+        "globalid": "f2537dd3-2a4f-485a-8ead-8f09140eaf9f"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 541,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6042139995622,
+          56.8158470000581
+        ]
+      },
+      "properties": {
+        "objectid": 541,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Brīvibas iela",
+        "ekasnumurs": "18",
+        "patvertnesieejasdurvjukoord": "56.815847 24.604214 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.815847,
+        "patvertnesieejasdurvjukoordlon": 24.604214,
+        "ekasgalvlietosanasveids": "kafejnīca",
+        "komentars": null,
+        "streetviewkoordlat": 56.815847,
+        "streetviewkoordlon": 24.604214,
+        "streetviewskatalenkis": null,
+        "globalid": "aaeb541c-037d-46d8-9311-811047a83bc6"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 547,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7193819077932,
+          56.7430894250194
+        ]
+      },
+      "properties": {
+        "objectid": 547,
+        "pilsetasvaiapdzvietasnosaukums": "Ķegums, Ogres novads",
+        "ielasnosaukums": "Liepu aleja",
+        "ekasnumurs": "1B",
+        "patvertnesieejasdurvjukoord": "56.743089424567266 24.719381907656963 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.74308942,
+        "patvertnesieejasdurvjukoordlon": 24.71938191,
+        "ekasgalvlietosanasveids": "Dienas centrs",
+        "komentars": null,
+        "streetviewkoordlat": 56.74308942,
+        "streetviewkoordlon": 24.71938191,
+        "streetviewskatalenkis": null,
+        "globalid": "8d7264c6-2c14-4b8f-8982-e3c76ca0b555"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 549,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6407140003352,
+          56.7533399999504
+        ]
+      },
+      "properties": {
+        "objectid": 549,
+        "pilsetasvaiapdzvietasnosaukums": "Tome, Tomes pagasts, Ogres novads",
+        "ielasnosaukums": "\"Tomes pamatskola\"",
+        "ekasnumurs": "Nav",
+        "patvertnesieejasdurvjukoord": "56.75334 24.640714 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.75334,
+        "patvertnesieejasdurvjukoordlon": 24.640714,
+        "ekasgalvlietosanasveids": "Muzejs/Biblotēka",
+        "komentars": null,
+        "streetviewkoordlat": 56.75334,
+        "streetviewkoordlon": 24.640714,
+        "streetviewskatalenkis": null,
+        "globalid": "549aff22-a839-4922-9757-b4d1475116d4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 551,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5343399995594,
+          56.8189210001038
+        ]
+      },
+      "properties": {
+        "objectid": 551,
+        "pilsetasvaiapdzvietasnosaukums": "Ikšķile, Ogres novads ",
+        "ielasnosaukums": "Rīgas iela",
+        "ekasnumurs": "175",
+        "patvertnesieejasdurvjukoord": "56.818921 24.53434 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.818921,
+        "patvertnesieejasdurvjukoordlon": 24.53434,
+        "ekasgalvlietosanasveids": "Pagrabs",
+        "komentars": null,
+        "streetviewkoordlat": 56.818921,
+        "streetviewkoordlon": 24.53434,
+        "streetviewskatalenkis": null,
+        "globalid": "89116c17-c1eb-4726-91d4-4c144a75d3ce"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 552,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5331379998104,
+          56.8189560001571
+        ]
+      },
+      "properties": {
+        "objectid": 552,
+        "pilsetasvaiapdzvietasnosaukums": "Ikšķile, Ogres novads ",
+        "ielasnosaukums": "Rīgas iela",
+        "ekasnumurs": "175",
+        "patvertnesieejasdurvjukoord": "56.818956 24.533138 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.818956,
+        "patvertnesieejasdurvjukoordlon": 24.533138,
+        "ekasgalvlietosanasveids": "Pagrabs",
+        "komentars": null,
+        "streetviewkoordlat": 56.818956,
+        "streetviewkoordlon": 24.533138,
+        "streetviewskatalenkis": null,
+        "globalid": "db7ebbb7-6af3-499e-99d6-f99a5d969a26"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5044009998726,
+          56.8383949999905
+        ]
+      },
+      "properties": {
+        "objectid": 553,
+        "pilsetasvaiapdzvietasnosaukums": "Ikšķile, Ogres novads ",
+        "ielasnosaukums": "Daugavs prospekts",
+        "ekasnumurs": "34",
+        "patvertnesieejasdurvjukoord": "56.838395 24.504401 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.838395,
+        "patvertnesieejasdurvjukoordlon": 24.504401,
+        "ekasgalvlietosanasveids": "Biroju ēkas",
+        "komentars": null,
+        "streetviewkoordlat": 56.838395,
+        "streetviewkoordlon": 24.504401,
+        "streetviewskatalenkis": null,
+        "globalid": "d1be9484-89ef-4853-9607-c90ec1ca8cc4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 554,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5658979996452,
+          56.8669800000323
+        ]
+      },
+      "properties": {
+        "objectid": 554,
+        "pilsetasvaiapdzvietasnosaukums": "Tīnūži, Tīnūžu pagasts, Ogres novads",
+        "ielasnosaukums": "\"Kalnliepas\"",
+        "ekasnumurs": "Nav",
+        "patvertnesieejasdurvjukoord": "56.86698 24.565898 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.86698,
+        "patvertnesieejasdurvjukoordlon": 24.565898,
+        "ekasgalvlietosanasveids": "Skola",
+        "komentars": null,
+        "streetviewkoordlat": 56.86698,
+        "streetviewkoordlon": 24.565898,
+        "streetviewskatalenkis": null,
+        "globalid": "ba31dc38-87f0-48c5-97bf-6e5d5b13b39a"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 555,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5435660002596,
+          56.880235999833
+        ]
+      },
+      "properties": {
+        "objectid": 555,
+        "pilsetasvaiapdzvietasnosaukums": "Ceplīši, Tīnūžu pagasts, Ogres novads",
+        "ielasnosaukums": "Priežu iela",
+        "ekasnumurs": "1",
+        "patvertnesieejasdurvjukoord": "56.880236 24.543566 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.880236,
+        "patvertnesieejasdurvjukoordlon": 24.543566,
+        "ekasgalvlietosanasveids": "Lauksaimniecības nedzīvojamās ēkas",
+        "komentars": null,
+        "streetviewkoordlat": 56.880236,
+        "streetviewkoordlon": 24.543566,
+        "streetviewskatalenkis": null,
+        "globalid": "b4b99c7f-5f5c-4b42-8a2f-ac4952e766af"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 556,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6077700003773,
+          56.8190940000766
+        ]
+      },
+      "properties": {
+        "objectid": 556,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Brīvības iela",
+        "ekasnumurs": "48",
+        "patvertnesieejasdurvjukoord": "56.819094 24.60777 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.819094,
+        "patvertnesieejasdurvjukoordlon": 24.60777,
+        "ekasgalvlietosanasveids": "Administratīvā ēka",
+        "komentars": null,
+        "streetviewkoordlat": 56.819094,
+        "streetviewkoordlon": 24.60777,
+        "streetviewskatalenkis": null,
+        "globalid": "92e318f4-0568-491b-b959-6b7674cbb62d"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 557,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.606827000196,
+          56.8188559998479
+        ]
+      },
+      "properties": {
+        "objectid": 557,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Brīvības iela",
+        "ekasnumurs": "44",
+        "patvertnesieejasdurvjukoord": "56.818856 24.606827 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.818856,
+        "patvertnesieejasdurvjukoordlon": 24.606827,
+        "ekasgalvlietosanasveids": "Pilsonības un migrācijas lietu pārvalde",
+        "komentars": null,
+        "streetviewkoordlat": 56.818856,
+        "streetviewkoordlon": 24.606827,
+        "streetviewskatalenkis": null,
+        "globalid": "44db0acf-df02-482b-b269-cda2864e1deb"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 558,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7564880000917,
+          56.6305419998922
+        ]
+      },
+      "properties": {
+        "objectid": 558,
+        "pilsetasvaiapdzvietasnosaukums": "Birzgale, Birzgales pagasts, Ogres novads ",
+        "ielasnosaukums": "Skolas iela",
+        "ekasnumurs": "2",
+        "patvertnesieejasdurvjukoord": "56.630542 24.756488 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.630542,
+        "patvertnesieejasdurvjukoordlon": 24.756488,
+        "ekasgalvlietosanasveids": "Tautas nams",
+        "komentars": null,
+        "streetviewkoordlat": 56.630542,
+        "streetviewkoordlon": 24.756488,
+        "streetviewskatalenkis": null,
+        "globalid": "ca24beef-fafa-4f5a-bc80-0379938697d2"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 559,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6441999999318,
+          56.7544060001629
+        ]
+      },
+      "properties": {
+        "objectid": 559,
+        "pilsetasvaiapdzvietasnosaukums": "Tome, Tomes pagasts, Ogres novads",
+        "ielasnosaukums": "\"Tomes tautas nams\"",
+        "ekasnumurs": "Nav",
+        "patvertnesieejasdurvjukoord": "56.754406 24.6442 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.754406,
+        "patvertnesieejasdurvjukoordlon": 24.6442,
+        "ekasgalvlietosanasveids": "Tautas nams",
+        "komentars": null,
+        "streetviewkoordlat": 56.754406,
+        "streetviewkoordlon": 24.6442,
+        "streetviewskatalenkis": null,
+        "globalid": "b598e7de-37f2-4fc5-839d-4c54ff90852c"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 560,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9274169997162,
+          56.9042520001646
+        ]
+      },
+      "properties": {
+        "objectid": 560,
+        "pilsetasvaiapdzvietasnosaukums": "Suntaži, Suntažu pagasts, Ogres novads",
+        "ielasnosaukums": "\"Tautas nams\"",
+        "ekasnumurs": "0",
+        "patvertnesieejasdurvjukoord": "56.904252 24.927417 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.904252,
+        "patvertnesieejasdurvjukoordlon": 24.927417,
+        "ekasgalvlietosanasveids": "Tautas nams",
+        "komentars": null,
+        "streetviewkoordlat": 56.904252,
+        "streetviewkoordlon": 24.927417,
+        "streetviewskatalenkis": null,
+        "globalid": "e2209efd-a7a9-487a-9211-3cb6d4d2d103"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 561,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9246709999113,
+          56.9070840000684
+        ]
+      },
+      "properties": {
+        "objectid": 561,
+        "pilsetasvaiapdzvietasnosaukums": "Suntaži, Suntažu pagasts, Ogres novads",
+        "ielasnosaukums": "\"Rūpnieki\"",
+        "ekasnumurs": "Nav",
+        "patvertnesieejasdurvjukoord": "56.907084 24.924671 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.907084,
+        "patvertnesieejasdurvjukoordlon": 24.924671,
+        "ekasgalvlietosanasveids": "Dzīvojamā māja",
+        "komentars": null,
+        "streetviewkoordlat": 56.907084,
+        "streetviewkoordlon": 24.924671,
+        "streetviewskatalenkis": null,
+        "globalid": "2b6d083f-b5db-42f2-8046-d2c26ddac4d8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 562,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7180730004405,
+          56.7430059998722
+        ]
+      },
+      "properties": {
+        "objectid": 562,
+        "pilsetasvaiapdzvietasnosaukums": "Ķegums, Ogres novads",
+        "ielasnosaukums": "Ķeguma prospekts",
+        "ekasnumurs": "4",
+        "patvertnesieejasdurvjukoord": "56.743006 24.718073 58.39999771118164 13.182000160217285",
+        "patvertnesieejasdurvjukoordlat": 56.743006,
+        "patvertnesieejasdurvjukoordlon": 24.718073,
+        "ekasgalvlietosanasveids": "Tautas nams",
+        "komentars": null,
+        "streetviewkoordlat": 56.743006,
+        "streetviewkoordlon": 24.718073,
+        "streetviewskatalenkis": null,
+        "globalid": "63fb555a-72f7-4c0b-b2aa-5eb2604f09b9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 563,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5699049996487,
+          56.8681080000505
+        ]
+      },
+      "properties": {
+        "objectid": 563,
+        "pilsetasvaiapdzvietasnosaukums": "Tīnūži, Tīnūžu pagasts, Ogres novads",
+        "ielasnosaukums": "\"Kraujas\"",
+        "ekasnumurs": "Nav",
+        "patvertnesieejasdurvjukoord": "56.868108 24.569905 50.39999771118164 36.900001525878906",
+        "patvertnesieejasdurvjukoordlat": 56.868108,
+        "patvertnesieejasdurvjukoordlon": 24.569905,
+        "ekasgalvlietosanasveids": "Tautas nams",
+        "komentars": null,
+        "streetviewkoordlat": 56.868108,
+        "streetviewkoordlon": 24.569905,
+        "streetviewskatalenkis": null,
+        "globalid": "8aea6364-7afe-4774-97ef-e1b1e2164f3e"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 568,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6472090004007,
+          56.7788950002026
+        ]
+      },
+      "properties": {
+        "objectid": 568,
+        "pilsetasvaiapdzvietasnosaukums": "Ciemupe, Ogresgala pagasts, Ogres novads",
+        "ielasnosaukums": "Liepu gatve",
+        "ekasnumurs": "12",
+        "patvertnesieejasdurvjukoord": "56.778895 24.647209 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.778895,
+        "patvertnesieejasdurvjukoordlon": 24.647209,
+        "ekasgalvlietosanasveids": "Tautas nams",
+        "komentars": null,
+        "streetviewkoordlat": 56.778895,
+        "streetviewkoordlon": 24.647209,
+        "streetviewskatalenkis": null,
+        "globalid": "eeeaf322-cea2-4cae-85e9-65749a48bf66"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 569,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8107979996877,
+          56.7155030000426
+        ]
+      },
+      "properties": {
+        "objectid": 569,
+        "pilsetasvaiapdzvietasnosaukums": "Lielvārde, Ogres novads",
+        "ielasnosaukums": "Raiņa iela",
+        "ekasnumurs": "5",
+        "patvertnesieejasdurvjukoord": "56.715503 24.810798 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.715503,
+        "patvertnesieejasdurvjukoordlon": 24.810798,
+        "ekasgalvlietosanasveids": "Doktorāts",
+        "komentars": null,
+        "streetviewkoordlat": 56.715503,
+        "streetviewkoordlon": 24.810798,
+        "streetviewskatalenkis": null,
+        "globalid": "609593c8-4ab4-4d17-8c33-0436fba0256b"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 571,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.7289579999259,
+          56.8069819999137
+        ]
+      },
+      "properties": {
+        "objectid": 571,
+        "pilsetasvaiapdzvietasnosaukums": "Ogresgals, Ogresgala pagasts, Ogres novads",
+        "ielasnosaukums": "Bumbieru iela",
+        "ekasnumurs": "9",
+        "patvertnesieejasdurvjukoord": "56.806982 24.728958 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.806982,
+        "patvertnesieejasdurvjukoordlon": 24.728958,
+        "ekasgalvlietosanasveids": "Tautas nams",
+        "komentars": null,
+        "streetviewkoordlat": 56.806982,
+        "streetviewkoordlon": 24.728958,
+        "streetviewskatalenkis": null,
+        "globalid": "6cd2a8e2-cbb1-4653-8d1f-4452389bcf61"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 572,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6259559998422,
+          56.8164610001402
+        ]
+      },
+      "properties": {
+        "objectid": 572,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Suntažu iela",
+        "ekasnumurs": "2",
+        "patvertnesieejasdurvjukoord": "56.816461 24.625956 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.816461,
+        "patvertnesieejasdurvjukoordlon": 24.625956,
+        "ekasgalvlietosanasveids": "Skola",
+        "komentars": null,
+        "streetviewkoordlat": 56.816461,
+        "streetviewkoordlon": 24.625956,
+        "streetviewskatalenkis": null,
+        "globalid": "21c88b08-0635-49a7-8d94-f25aca2e1720"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 574,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8239729997667,
+          56.795309000064
+        ]
+      },
+      "properties": {
+        "objectid": 574,
+        "pilsetasvaiapdzvietasnosaukums": "Rembate, Rembates pagasts, Ogres novads ",
+        "ielasnosaukums": "\"Senliepas\"",
+        "ekasnumurs": "Nav",
+        "patvertnesieejasdurvjukoord": "56.795309 24.823973 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.795309,
+        "patvertnesieejasdurvjukoordlon": 24.823973,
+        "ekasgalvlietosanasveids": "Sociālās aprūpes centrs",
+        "komentars": null,
+        "streetviewkoordlat": 56.795309,
+        "streetviewkoordlon": 24.823973,
+        "streetviewskatalenkis": null,
+        "globalid": "f6fadcde-fa36-4de7-ac28-e862ff9f699d"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 575,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.5992040000013,
+          56.8236170001813
+        ]
+      },
+      "properties": {
+        "objectid": 575,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Mālkalnes prospekts",
+        "ekasnumurs": "34",
+        "patvertnesieejasdurvjukoord": "56.823617 24.599204 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.823617,
+        "patvertnesieejasdurvjukoordlon": 24.599204,
+        "ekasgalvlietosanasveids": "Daudzdzīvokļu dzīvojamā māja",
+        "komentars": null,
+        "streetviewkoordlat": 56.823617,
+        "streetviewkoordlon": 24.599204,
+        "streetviewskatalenkis": null,
+        "globalid": "80a0ea86-3a84-415f-9997-7053ab527efc"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 599,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.6565830003406,
+          56.8202189998237
+        ]
+      },
+      "properties": {
+        "objectid": 599,
+        "pilsetasvaiapdzvietasnosaukums": "Ogre",
+        "ielasnosaukums": "Brīvības iela",
+        "ekasnumurs": "129B",
+        "patvertnesieejasdurvjukoord": "56.820219 24.656583 0 0",
+        "patvertnesieejasdurvjukoordlat": 56.820219,
+        "patvertnesieejasdurvjukoordlon": 24.656583,
+        "ekasgalvlietosanasveids": "Administratīva ēka",
+        "komentars": null,
+        "streetviewkoordlat": 56.820219,
+        "streetviewkoordlon": 24.656583,
+        "streetviewskatalenkis": null,
+        "globalid": "e57ee2e0-95cc-4000-a52f-b12a1180c393"
+      }
+    }
+  ]
+}

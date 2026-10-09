@@ -1,0 +1,15 @@
+[
+  {
+    "fails": "Gulbenes_sadarbibas_teritorijas_civilas_aizsardzibas_plans.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 4293486,
+    "sha256": "e30bad0d4c5821517087ad643f2f7c067db3f495678aae2a5f599e5a2c72ad1b",
+    "avota_url": "https://www.gulbene.lv/lv/media/36615/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.gulbene.lv%2Flv%2Fmedia%2F36615%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:32:02",
+    "apraksts": "pamatdokuments (ar pielikumiem vienā failā)",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

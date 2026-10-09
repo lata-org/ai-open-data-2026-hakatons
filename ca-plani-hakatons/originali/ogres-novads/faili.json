@@ -1,0 +1,44 @@
+[
+  {
+    "fails": "a_jaunais_-ca-plans_30.03.2023_publikacijai_0.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 11173518,
+    "sha256": "e4516edaa79398ab825779ef4dc1f4e9339aadf9aed1b39c378e5ae3bbd23e3b",
+    "avota_url": "https://www.ogresnovads.lv/lv/media/127114/download?attachment",
+    "gala_url": "https://www.ogresnovads.lv/lv/media/127114/download?attachment",
+    "lejupieladets": "2026-09-12 00:23:42",
+    "apraksts": "pamatdokuments (publiskā, saīsinātā versija)",
+    "originals": true,
+    "caur_zenrows": true,
+    "piezime": "Lejupielādēts ar ZenRows Browser Session (attālais Chromium, fails pārsūtīts pa base64 gabaliem), jo HTTPS uz 212.70.163.179 no darba tīkla nebija sasniedzams un ZenRows Fetch API atbildēja 413 (RESP005). Servera Last-Modified: Mon, 18 May 2026 18:55:06 GMT; Content-Disposition filename: a_jaunais_-ca-plans_30.03.2023_publikacijai_0.pdf. sha256 sakrīt ar Wayback Machine 2025-10-03 kopiju."
+  },
+  {
+    "fails": "2023-03-30_lemums_34_par_CA_plana_apstiprinasanu.docx",
+    "formats": "docx",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 34848,
+    "sha256": "0148f3b3cb0cb922e5701dfa581905582220b3f22afb9b806a4453f9a3d507b4",
+    "avota_url": "https://www.ogresnovads.lv/lv/media/126886/download?attachment",
+    "gala_url": "https://www.ogresnovads.lv/lv/media/126886/download?attachment",
+    "lejupieladets": "2026-09-12 00:29:41",
+    "apraksts": "domes 30.03.2023. lēmums Nr. 34 (prot. Nr. 3; 34.) par plāna apstiprināšanu",
+    "originals": true,
+    "caur_zenrows": true,
+    "piezime": "Lejupielādēts caur ZenRows Fetch API."
+  },
+  {
+    "fails": "2024-05-30_lemums_56_par_militaras_sadalas_apstiprinasanu.docx",
+    "formats": "docx",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 36488,
+    "sha256": "6b3a810b5a7426ed072539e53958306edfd2fefa7d7e3f256eee111cd5c2b02f",
+    "avota_url": "https://www.ogresnovads.lv/lv/media/153273/download?attachment",
+    "gala_url": "https://www.ogresnovads.lv/lv/media/153273/download?attachment",
+    "lejupieladets": "2026-09-12 00:29:47",
+    "apraksts": "domes 30.05.2024. lēmums Nr. 56 par plāna sadaļas 'Par darbību militāra iebrukuma vai kara gadījumā' apstiprināšanu",
+    "originals": true,
+    "caur_zenrows": true,
+    "piezime": "Lejupielādēts caur ZenRows Fetch API."
+  }
+]

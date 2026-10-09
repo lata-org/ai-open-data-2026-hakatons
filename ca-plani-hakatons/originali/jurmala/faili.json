@@ -1,0 +1,54 @@
+[
+  {
+    "fails": "L0004_pielikums.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 19435255,
+    "sha256": "9102d87c58450ee24509cea08a9b25faccef9f6799dcd188e233f86d8875a98f",
+    "avota_url": "https://dokumenti.jurmala.lv/docs/l22/x/L0004_pielikums.pdf",
+    "gala_url": "https://dokumenti.jurmala.lv/docs/l22/x/L0004_pielikums.pdf",
+    "lejupieladets": "2026-09-11 21:10:37",
+    "apraksts": "pamatdokuments – Jūrmalas pilsētas sadarbības teritorijas civilās aizsardzības plāns (domes 27.01.2022. lēmuma Nr. 4 pielikums)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "l220004_lemums.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 268388,
+    "sha256": "91d93fef5c66f666755e16c467c4e94f5720f22ad2f43b73eecf94dcd19bfe38",
+    "avota_url": "https://dokumenti.jurmala.lv/docs/l22/l/pdf/l220004.pdf",
+    "gala_url": "https://dokumenti.jurmala.lv/docs/l22/l/pdf/l220004.pdf",
+    "lejupieladets": "2026-09-11 21:14:08",
+    "apraksts": "Jūrmalas domes 27.01.2022. lēmums Nr. 4 “Par Jūrmalas pilsētas sadarbības teritorijas civilās aizsardzības plānu” (apstiprināšanas lēmums)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "l22d010_m_komisijas_nolikums.htm",
+    "formats": "html",
+    "content_type": "text/html",
+    "izmers_baiti": 6878,
+    "sha256": "7d7ff77e3970fa9f8708304eed9e817489c8eb7f2dfd2d48e9d46c79796f82ef",
+    "avota_url": "https://dokumenti.jurmala.lv/docs/l22/d/l22d010_m.htm",
+    "gala_url": "https://dokumenti.jurmala.lv/docs/l22/d/l22d010_m.htm",
+    "lejupieladets": "2026-09-11 21:35:13",
+    "apraksts": "2. pielikums (daļēji) – Jūrmalas pilsētas sadarbības teritorijas civilās aizsardzības komisijas nolikums (domes 17.02.2022. nolikums Nr. 10, konsolidētā redakcija ar 2022. un 2023. gada grozījumiem; publicēts atsevišķi no plāna)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "N001_pielikums_apzinosanas_kartiba.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 417331,
+    "sha256": "1f4df0aed2bbbbe4cfd99a9a02fb3d4474e5a982c8b92e79e6270623e8d25fd2",
+    "avota_url": "https://dokumenti.jurmala.lv/docs/m23/x/N001_pielikums.pdf",
+    "gala_url": "https://dokumenti.jurmala.lv/docs/m23/x/N001_pielikums.pdf",
+    "lejupieladets": "2026-09-11 21:35:14",
+    "apraksts": "2. pielikums (daļēji) – komisijas apziņošanas kārtība (shēma), komisijas nolikuma pielikums 26.01.2023. redakcijā; publicēts atsevišķi no plāna",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

@@ -1,0 +1,242 @@
+/* Civilās aizsardzības plānu vietne — globālie stili */
+:root {
+  color-scheme: light;
+  --bg: #f4f4f1;
+  --surface: #ffffff;
+  --surface-2: #f9f9f7;
+  --text: #121212;
+  --text-2: #52514e;
+  --muted: #8a8983;
+  --border: #e2e1db;
+  --primary: #2a78d6;
+  --primary-ink: #1c5cab;
+  --primary-soft: #e4effb;
+  --accent: #eb6834;
+  --good: #0ca30c;
+  --good-soft: #e3f5e3;
+  --warning: #fab219;
+  --warning-soft: #fff3d6;
+  --serious: #ec835a;
+  --serious-soft: #fde7de;
+  --critical: #d03b3b;
+  --critical-soft: #fbe1e1;
+  --violet: #4a3aa7;
+  --violet-soft: #e8e5f7;
+  --neutral-soft: #ecebe7;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 4px 14px rgba(0, 0, 0, 0.05);
+  --font: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --maxw: 1180px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #161615;
+    --surface: #1f1f1d;
+    --surface-2: #262624;
+    --text: #f2f1ec;
+    --text-2: #c3c2b7;
+    --muted: #8f8e86;
+    --border: #383835;
+    --primary: #3987e5;
+    --primary-ink: #86b6ef;
+    --primary-soft: #1d2f47;
+    --good-soft: #1b3a1b;
+    --warning-soft: #40320f;
+    --serious-soft: #4a2418;
+    --critical-soft: #4a1c1c;
+    --violet-soft: #2b2650;
+    --neutral-soft: #2e2e2b;
+  }
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--text);
+  background: var(--bg);
+}
+a { color: var(--primary-ink); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--primary); }
+img { max-width: 100%; }
+h1, h2, h3, h4 { line-height: 1.25; margin: 0 0 0.5em; font-weight: 650; letter-spacing: -0.01em; }
+h1 { font-size: clamp(1.7rem, 3vw, 2.4rem); }
+h2 { font-size: 1.45rem; margin-top: 0; }
+h3 { font-size: 1.15rem; }
+p { margin: 0 0 1em; }
+small, .small { font-size: 0.86rem; color: var(--text-2); }
+.muted { color: var(--muted); }
+code, .mono { font-family: var(--mono); font-size: 0.9em; }
+
+.wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
+
+/* Galvene */
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 50;
+}
+.site-header .wrap { display: flex; align-items: center; gap: 18px; min-height: 60px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; }
+.brand__mark { width: 30px; height: 30px; border-radius: 8px; background: var(--primary); color: #fff; display: grid; place-items: center; font-size: 15px; font-weight: 800; }
+.brand small { display: block; font-weight: 400; color: var(--text-2); font-size: 0.78rem; line-height: 1.1; }
+.site-nav { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; }
+.site-nav a { padding: 7px 11px; border-radius: 8px; text-decoration: none; color: var(--text-2); font-size: 0.93rem; }
+.site-nav a:hover, .site-nav a[aria-current="page"] { background: var(--primary-soft); color: var(--primary-ink); }
+.proto-badge { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); border: 1px solid currentColor; border-radius: 999px; padding: 2px 8px; }
+
+main { padding: 28px 0 60px; }
+.site-footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--text-2); font-size: 0.86rem; }
+
+/* Kārtis un režģi */
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; box-shadow: var(--shadow); }
+.card--flat { box-shadow: none; }
+.grid { display: grid; gap: 16px; }
+.grid--2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.grid--3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.grid--4 { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.section { margin: 34px 0; }
+.section > h2 { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.section > h2 .ref { font-size: 0.78rem; font-weight: 600; color: var(--muted); font-family: var(--mono); }
+.lead { font-size: 1.08rem; color: var(--text-2); max-width: 70ch; }
+
+/* Statistikas flīzes */
+.tile { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
+.tile__label { font-size: 0.8rem; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600; }
+.tile__value { font-size: 1.7rem; font-weight: 700; line-height: 1.15; margin: 4px 0 2px; font-variant-numeric: tabular-nums; }
+.tile__note { font-size: 0.82rem; color: var(--muted); }
+.tile--na .tile__value { color: var(--muted); font-size: 1.15rem; }
+
+/* Statusa čipi */
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font-size: 0.8rem; font-weight: 600; white-space: nowrap; border: 1px solid transparent; }
+.chip__ico { font-size: 0.85em; }
+.chip--pilns { background: var(--good-soft); color: var(--good); border-color: color-mix(in srgb, var(--good) 35%, transparent); }
+.chip--dalejs { background: var(--warning-soft); color: #7a5200; border-color: color-mix(in srgb, var(--warning) 55%, transparent); }
+.chip--ierobezots { background: var(--violet-soft); color: var(--violet); border-color: color-mix(in srgb, var(--violet) 35%, transparent); }
+.chip--nav { background: var(--critical-soft); color: var(--critical); border-color: color-mix(in srgb, var(--critical) 35%, transparent); }
+.chip--nav_vertets, .chip--neitrals { background: var(--neutral-soft); color: var(--text-2); }
+.chip--pieslegts { background: var(--good-soft); color: var(--good); }
+.chip--daleji { background: var(--warning-soft); color: #7a5200; }
+.chip--vietturis { background: var(--neutral-soft); color: var(--text-2); }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .chip--dalejs, :root:not([data-theme="light"]) .chip--daleji { color: #ffd37a; }
+  :root:not([data-theme="light"]) .chip--pilns, :root:not([data-theme="light"]) .chip--pieslegts { color: #6fdc6f; }
+  :root:not([data-theme="light"]) .chip--ierobezots { color: #b3a9f5; }
+  :root:not([data-theme="light"]) .chip--nav { color: #ff8a8a; }
+}
+
+/* Progresa josla */
+.bar { height: 10px; border-radius: 999px; background: var(--neutral-soft); overflow: hidden; display: flex; }
+.bar > span { display: block; height: 100%; }
+.bar__pilns { background: var(--good); }
+.bar__dalejs { background: var(--warning); }
+.bar__ierobezots { background: var(--violet); }
+.bar__nav { background: transparent; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.8rem; color: var(--text-2); margin-top: 6px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+
+/* Tabulas */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table.t { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+table.t th, table.t td { padding: 8px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+table.t th { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-2); font-weight: 600; background: var(--surface-2); position: sticky; top: 0; }
+table.t td.num, table.t th.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.t tr:hover td { background: var(--surface-2); }
+table.t .dim { color: var(--muted); }
+
+/* Cilnes novada lapā */
+.novads-head { background: var(--surface); border-bottom: 1px solid var(--border); margin-top: -28px; padding: 22px 0 0; }
+.novads-head h1 { margin-bottom: 4px; }
+.novads-head .meta { color: var(--text-2); display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.92rem; }
+.tabs { display: flex; gap: 2px; margin-top: 16px; overflow-x: auto; }
+.tabs a { padding: 10px 16px; text-decoration: none; color: var(--text-2); border-bottom: 3px solid transparent; font-weight: 600; white-space: nowrap; }
+.tabs a[aria-current="page"] { color: var(--primary-ink); border-color: var(--primary); }
+.tabs a:hover { color: var(--primary); }
+
+/* Vietturi (placeholders) */
+.vietturis {
+  border: 1.5px dashed color-mix(in srgb, var(--primary) 55%, var(--border));
+  background: repeating-linear-gradient(135deg, transparent 0 10px, color-mix(in srgb, var(--primary) 6%, transparent) 10px 20px), var(--surface-2);
+  border-radius: var(--radius); padding: 14px 16px; color: var(--text-2); display: flex; gap: 12px; align-items: flex-start; margin: 14px 0;
+}
+.vietturis__ikona { font-size: 1.4rem; line-height: 1; color: var(--primary); }
+.vietturis strong { color: var(--text); }
+.vietturis--liels { min-height: 220px; align-items: center; justify-content: center; text-align: center; flex-direction: column; }
+
+/* Risku matrica */
+.matrica { border-collapse: separate; border-spacing: 3px; width: 100%; font-size: 0.8rem; table-layout: fixed; }
+.matrica th { font-weight: 600; color: var(--text-2); font-size: 0.75rem; padding: 4px; }
+.matrica th.rinda { text-align: right; width: 90px; white-space: nowrap; }
+.matrica td { vertical-align: top; padding: 6px 7px; border-radius: 6px; min-height: 48px; height: 58px; background: var(--neutral-soft); color: var(--text); }
+.matrica td.l0 { background: var(--neutral-soft); }
+.matrica td.l1 { background: color-mix(in srgb, var(--good) 22%, var(--surface)); }
+.matrica td.l2 { background: color-mix(in srgb, var(--warning) 38%, var(--surface)); }
+.matrica td.l3 { background: color-mix(in srgb, var(--serious) 45%, var(--surface)); }
+.matrica td.l4 { background: color-mix(in srgb, var(--critical) 42%, var(--surface)); }
+.matrica td ul { margin: 0; padding-left: 14px; }
+.matrica td li { margin: 0 0 2px; }
+
+/* Riska līmeņa čipi */
+.riska { display: inline-block; padding: 1px 8px; border-radius: 6px; font-size: 0.78rem; font-weight: 700; }
+.riska--loti_augsts { background: var(--critical-soft); color: var(--critical); }
+.riska--augsts { background: var(--serious-soft); color: #9c3c14; }
+.riska--videjs { background: var(--warning-soft); color: #7a5200; }
+.riska--nozimigs { background: color-mix(in srgb, var(--good) 20%, var(--surface)); color: #1f6b1f; }
+.riska--maznozimigs, .riska--zems { background: var(--neutral-soft); color: var(--text-2); }
+
+/* Karte */
+.karte { height: 520px; border-radius: var(--radius); border: 1px solid var(--border); overflow: hidden; background: var(--surface-2); }
+.karte-legenda { display: flex; gap: 16px; flex-wrap: wrap; font-size: 0.82rem; color: var(--text-2); margin-top: 8px; }
+.karte-legenda i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -2px; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.25); }
+.leaflet-popup-content { font-family: var(--font); font-size: 0.88rem; }
+
+/* Plāna teksts */
+.plans-layout { display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 900px) { .plans-layout { grid-template-columns: 1fr; } }
+.toc { position: sticky; top: 76px; max-height: calc(100vh - 90px); overflow: auto; font-size: 0.85rem; padding-right: 8px; }
+.toc a { display: block; padding: 3px 0 3px 10px; color: var(--text-2); text-decoration: none; border-left: 2px solid transparent; }
+.toc a:hover { color: var(--primary); border-color: var(--primary); }
+.toc a.d3 { padding-left: 22px; font-size: 0.8rem; }
+.toc a.d4 { padding-left: 34px; font-size: 0.78rem; color: var(--muted); }
+.prose { max-width: 80ch; font-size: 1rem; }
+.prose h2 { margin-top: 2.2em; padding-top: 0.5em; border-top: 1px solid var(--border); font-size: 1.35rem; }
+.prose h3 { margin-top: 1.6em; font-size: 1.12rem; }
+.prose h4 { margin-top: 1.3em; font-size: 1rem; }
+.prose table { border-collapse: collapse; font-size: 0.86rem; margin: 1em 0; display: block; overflow-x: auto; max-width: 100%; }
+.prose th, .prose td { border: 1px solid var(--border); padding: 5px 8px; vertical-align: top; }
+.prose th { background: var(--surface-2); }
+.prose blockquote { margin: 1em 0; padding: 4px 14px; border-left: 3px solid var(--border); color: var(--text-2); font-size: 0.9rem; }
+.prose sup { font-size: 0.7em; }
+.prose .lpp { display: block; position: relative; height: 0; }
+.prose .lpp::after { content: attr(data-lpp) ". lpp."; position: absolute; right: -0.5rem; transform: translateX(100%); top: -0.2em; font-size: 0.7rem; color: var(--muted); font-family: var(--mono); white-space: nowrap; }
+@media (max-width: 1100px) { .prose .lpp::after { right: 0; transform: none; top: -1.2em; } }
+.prose img { display: none; }
+.doc-details { margin-top: 24px; }
+.doc-details summary { cursor: pointer; font-weight: 600; padding: 10px 0; }
+
+/* Ievade */
+input.filtrs { width: 100%; max-width: 380px; padding: 9px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 0.95rem; background: var(--surface); color: var(--text); }
+
+/* Diagrammas */
+.chart-box { position: relative; width: 100%; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+ul.tiks { padding-left: 1.2em; margin: 0; }
+ul.tiks li { margin-bottom: 6px; }
+.pluss li::marker { color: var(--good); }
+.minuss li::marker { color: var(--critical); }
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; font-size: 0.92rem; }
+.kv dt { color: var(--text-2); }
+.kv dd { margin: 0; }
+.steps { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.steps li { counter-increment: s; position: relative; padding-left: 38px; }
+.steps li::before { content: counter(s); position: absolute; left: 0; top: 0; width: 26px; height: 26px; border-radius: 50%; background: var(--primary); color: #fff; display: grid; place-items: center; font-size: 0.8rem; font-weight: 700; }
+.btn { display: inline-block; padding: 8px 14px; border-radius: 8px; background: var(--primary); color: #fff; text-decoration: none; font-weight: 600; font-size: 0.92rem; }
+.btn:hover { background: var(--primary-ink); color: #fff; }
+.btn--ghost { background: transparent; color: var(--primary-ink); border: 1px solid var(--border); }
+.btn--ghost:hover { background: var(--primary-soft); }

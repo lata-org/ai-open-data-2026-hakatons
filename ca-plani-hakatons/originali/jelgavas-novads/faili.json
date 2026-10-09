@@ -1,0 +1,54 @@
+[
+  {
+    "fails": "40_lemuma_pielikums_civilas_aizsardzibas_plans_0.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 3199780,
+    "sha256": "3c200ee88efb945864434ada4bb4e89be3bfc4ebc50a5b6053b04c26edb5b89c",
+    "avota_url": "https://www.jelgavasnovads.lv/lv/media/48489/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.jelgavasnovads.lv%2Flv%2Fmedia%2F48489%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:32:40",
+    "apraksts": "pamatdokuments (Jelgavas novada civilās aizsardzības plāns, pašvaldības mājas lapa)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "jelgava_lv_12_5_pielikums3.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 3199780,
+    "sha256": "3c200ee88efb945864434ada4bb4e89be3bfc4ebc50a5b6053b04c26edb5b89c",
+    "avota_url": "http://www.jelgava.lv/wp-content/uploads/2023/03/12_5_pielikums3.pdf",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=http%3A%2F%2Fwww.jelgava.lv%2Fwp-content%2Fuploads%2F2023%2F03%2F12_5_pielikums3.pdf&mode=auto",
+    "lejupieladets": "2026-09-11 21:32:59",
+    "apraksts": "Jelgavas novada civilās aizsardzības plāns – kopija Jelgavas valstspilsētas mājas lapā (VUGD saraksta norāde; domes 29.09.2022. lēmuma Nr. 12/5 3. pielikums)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "40_lemuma_pielikums_civilas_aizsardzibas_plans.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 3199780,
+    "sha256": "3c200ee88efb945864434ada4bb4e89be3bfc4ebc50a5b6053b04c26edb5b89c",
+    "avota_url": "https://www.jelgavasnovads.lv/lv/media/20176/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.jelgavasnovads.lv%2Flv%2Fmedia%2F20176%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:34:17",
+    "apraksts": "Jelgavas novada civilās aizsardzības plāns – kopija pašvaldības mājas lapas sadaļā Plānošanas dokumenti",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "lemums_40_1.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 215965,
+    "sha256": "4ef25183103d8fd92fc3bd336650bf0f14b3ed2b882456bfc6871182dd611510",
+    "avota_url": "https://www.jelgavasnovads.lv/lv/media/5731/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.jelgavasnovads.lv%2Flv%2Fmedia%2F5731%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:46:48",
+    "apraksts": "Jelgavas novada domes 26.10.2022. lēmums Nr. 40 (protokols Nr. 41) “Par Jelgavas pilsētas un Jelgavas novada sadarbības teritorijas civilās aizsardzības plāna apstiprināšanu”",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

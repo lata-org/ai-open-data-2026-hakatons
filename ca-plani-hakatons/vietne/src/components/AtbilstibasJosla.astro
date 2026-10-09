@@ -1,0 +1,21 @@
+---
+import type { Profils } from '../lib/vertejums';
+import { kopsavilkums } from '../lib/vertejums';
+interface Props { p: Profils; legenda?: boolean }
+const { p, legenda = true } = Astro.props;
+const k = kopsavilkums(p);
+const pct = (n: number) => `${(n / k.kopa) * 100}%`;
+---
+<div class="bar" role="img" aria-label={`No ${k.kopa} obligātajiem elementiem: ${k.skaiti.pilns} pilnībā, ${k.skaiti.dalejs} daļēji, ${k.skaiti.ierobezots} ar ierobežotu pieejamību, ${k.skaiti.nav} nav`}>
+  <span class="bar__pilns" style={`width:${pct(k.skaiti.pilns)}`}></span>
+  <span class="bar__dalejs" style={`width:${pct(k.skaiti.dalejs)}`}></span>
+  <span class="bar__ierobezots" style={`width:${pct(k.skaiti.ierobezots)}`}></span>
+</div>
+{legenda && (
+  <div class="legend">
+    <span><i style="background:var(--good)"></i>Ir un publiski {k.skaiti.pilns}</span>
+    <span><i style="background:var(--warning)"></i>Daļēji {k.skaiti.dalejs}</span>
+    <span><i style="background:var(--violet)"></i>Ierobežots {k.skaiti.ierobezots}</span>
+    <span><i style="background:var(--neutral-soft);border:1px solid var(--border)"></i>Nav {k.skaiti.nav}</span>
+  </div>
+)}

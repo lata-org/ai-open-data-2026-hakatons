@@ -1,0 +1,41 @@
+[
+  {
+    "fails": "cap_ropazi_2024_publicesanai_0.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 3370752,
+    "sha256": "2ec22a98766dc7aa158a8c6c59c5c8d260374fa360b65f09acef9513e55fdfba",
+    "avota_url": "https://www.ropazi.lv/lv/media/83197/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.ropazi.lv%2Flv%2Fmedia%2F83197%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:05:43",
+    "apraksts": "pamatdokuments",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "ropazu_novada_sadarbibas_teritorijas_civilas_aizsardzibas_komisijas_nolikums_konsolideta_versija_17.06.2026.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 268786,
+    "sha256": "8327e207c2ef70a1a69e1bfe57b99491d8e9dac0cc59411cf127e42c8c4deb5c",
+    "avota_url": "https://www.ropazi.lv/lv/media/115964/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.ropazi.lv%2Flv%2Fmedia%2F115964%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:13:18",
+    "apraksts": "1. pielikums – Sadarbības teritorijas civilās aizsardzības komisijas nolikums (konsolidētā versija 17.06.2026.)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "lemumi_27112024.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 1110171,
+    "sha256": "76f35d8134beead12bc11101297c8bde2944f580966d0674221de161c7cee973",
+    "avota_url": "https://www.ropazi.lv/lv/media/83440/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.ropazi.lv%2Flv%2Fmedia%2F83440%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-12 00:15:14",
+    "apraksts": "Domes 27.11.2024. sēdes lēmumi (prot. Nr.110/2024); lēmums Nr.3696 par plāna apstiprināšanu ir 66.-67. lpp.",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

@@ -1,0 +1,94 @@
+NAP (transportdata.gov.lv) ABONĒŠANAS UN API ATSLĒGAS IEGŪŠANAS SOĻI
+=====================================================================
+Sagatavots 2026-07-30. Konteksts: celu-karte/PLUSMA.md un PUBLISKO_DATU_IESPEJAS.md.
+
+STATUSS 2026-07-31: visas 17 kopas ABONĒTAS. Atslēgas (katrai kopai sava)
+noglabātas failā dati\nap_atslegas.json un pārbaudītas pret API — 17/17 strādā.
+Šajā failā atslēgas vairs neglabāt — tas ir dokumentācijas fails.
+
+1. REĢISTRĀCIJA (vienreiz) — IZDARĪTS
+--------------------------
+Sākumlapa:  https://www.transportdata.gov.lv/lv
+  - Spied "Reģistrēties" (sākumlapas reklāmkarogs) VAI "Autentificēties" (lapas
+    augšā) -> "Neesi reģistrējies? Izveidot profilu".
+  - Lietotāja veids: "DATU ŅĒMĒJS" (nevis datu devējs!).
+  - E-pasts -> apstiprinājuma saite e-pastā -> izveido paroli
+    (vismaz 9 simboli: lielie + mazie latīņu burti + cipars + speciālais simbols).
+Oficiālā instrukcija ("Datu ņēmēja konta izveide"):
+  https://www.transportdata.gov.lv/lv/8195
+
+2. ABONĒŠANA (katrai kopai atsevišķi)
+-------------------------------------
+Katalogs:  https://www.transportdata.gov.lv/lv/katalogs
+Atver kopas kartīti (saites zemāk) -> spied "ABONĒT".
+Uzreiz pēc "Abonēt" uzpeld logs ar API ATSLĒGU — nokopē (kopēšanas ikona).
+Vēlāk visas atslēgas + Endpoint (+ MQTT topic) atrodamas profila sadaļā
+"Lietotāja iespējas" -> "ABONĒTIE DATI".
+Oficiālā instrukcija ("Datu abonēšana un pārvaldīšana"):
+  https://www.transportdata.gov.lv/lv/25129
+
+OBLIGĀTI — STATISKIE SLĀŅI (6):
+  [x] Valsts ceļu tīkls (State road network)
+      https://transportdata.gov.lv/card/9139f5e8-aa99-45d6-8b8a-4c20484cf943
+  [x] Ceļu posmi ar fiziskajiem atribūtiem (State road network links and their physical attributes)
+      https://transportdata.gov.lv/card/5227e6e0-e1c6-4539-a286-d9b9cf27aa90
+  [x] Ceļu klasifikācija A/P/V (State road classification)
+      https://transportdata.gov.lv/card/e246031a-b4f1-4faa-8772-f4c7e8467ea1
+  [x] Prioritārie autoceļi (Primary roads)
+      https://transportdata.gov.lv/card/d551fa5c-c47d-49cb-8514-3ead2ff0a792
+  [x] Melnie punkti (Black points)
+      https://transportdata.gov.lv/card/f20a7f76-4431-4b66-9f95-aa4618d7cc16
+  [x] Ātruma ierobežojuma zīmju vietas (Location of speed limit road signs)
+      https://transportdata.gov.lv/card/0d9dbc43-d006-48d0-90c1-2abee3d6fd06
+
+OBLIGĀTI — REĀLLAIKA DATEX II (6):
+  [x] Ceļu slēgumi (Road closures)
+      https://transportdata.gov.lv/card/75611a36-e66b-40cf-af2c-69db48c278cf
+  [x] Remontdarbi (Road works)
+      https://transportdata.gov.lv/card/35fa5c41-90ce-4b74-a4a3-08216d470134
+  [x] Īslaicīgie remontdarbi (Short term road works)
+      https://transportdata.gov.lv/card/aacdd187-60b4-45c5-a137-884039110be9
+  [x] Slidens ceļš — SIC (Temporary slippery road, Traffic information centre data)
+      https://transportdata.gov.lv/card/f3204a64-3dc3-4ed6-b6f0-872f58500735
+  [x] Slikti ceļa apstākļi — uzturētāji (Poor road conditions, Road maintenance reports)
+      https://transportdata.gov.lv/card/18e8ab75-4cff-432d-b5cb-f4430b68f49e
+  [x] Meteostaciju reāllaika mērījumi (Real time measurements of weather stations)
+      https://transportdata.gov.lv/card/5a1e9a81-c9a8-4122-9478-edeb03ea8b12
+
+IETEICAMS (5):
+  [x] Gājēju ceļi valsts tīklā (Micromobility infrastructure for pedestrians on the state road network)
+      https://transportdata.gov.lv/card/52aa4e3f-2173-4408-9ceb-efaa88b7b193
+  [x] Masas un gabarītu ierobežojumi (Weight and dimensions restrictions)
+      https://transportdata.gov.lv/card/d5337096-f00f-4d51-93f2-32f643c65f9e
+  [x] Meteostaciju vietas (Weather station locations)
+      https://transportdata.gov.lv/card/3d2d3df3-cb93-4c59-9333-752b340afbcf
+  [x] Braukšanas joslu slēgumi (Lane closures)
+      https://transportdata.gov.lv/card/82e20567-7e0d-4f58-8040-77d6fcb32899
+  [x] Negadījumi (Accidents and incidents)
+      https://transportdata.gov.lv/card/e8659cdd-9372-41fd-8b28-e7c742895bdd
+
+3. KUR GLABĀJAS ATSLĒGAS
+------------------------
+Katrai kopai ir SAVA atslēga (atslēga identificē abonēto kopu — pieprasījumos
+nav dataset_id, tikai galvene x-api-key). Glabāšana:
+    izglitibas-portals\celu-karte\dati\nap_atslegas.json
+    (kopas slug -> {nosaukums, veids, card, atslega}; tur pat pierakstīti
+     abu galapunktu URL — failu saraksts un lejupielāde)
+NEKAD: čatā atklātā tekstā bez vajadzības, git, kodā, ievaks žurnālā.
+Ja atslēga noplūst — pārģenerē NAP portālā ("Abonētie dati") un atjauno JSON.
+
+Galapunkti (pārbaudīti 2026-07-31, 17/17 atslēgas strādā):
+  - Failu saraksts:  GET  https://www.transportdata.gov.lv/api/v1/metadata/file/info
+                     (galvene x-api-key; statiskajām kopām atgriež failus,
+                      reāllaika plūsmām tukšu sarakstu — tām lejupielādē file_id="1")
+  - Lejupielāde:     POST https://www.transportdata.gov.lv/api/v1/get/file/download-file
+                     (galvene x-api-key; ķermenis {"file_id":"...","format":"xml"|"geojson"})
+
+4. NODERĪGAS ATSAUCES
+---------------------
+  - Autentificēšanās palīdzība:  https://www.transportdata.gov.lv/lv/25113
+  - API izmantošana un specifikācijas (datu ņēmējiem):
+      https://www.transportdata.gov.lv/lv/27281
+  - REST API specifikācija (lokāli jau saglabāta):
+      C:\Users\peteris\Downloads\DN_LV_REST_HTML\dn_rest_lv.html
+  - Platformas kontakti (ja kas neiet):  https://www.transportdata.gov.lv/lv/25122

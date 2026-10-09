@@ -1,0 +1,12 @@
+---
+interface Props { virsraksts: string; liels?: boolean; avots?: string; avotaUrl?: string }
+const { virsraksts, liels = false, avots, avotaUrl } = Astro.props;
+---
+<div class={`vietturis${liels ? ' vietturis--liels' : ''}`} role="note">
+  <span class="vietturis__ikona" aria-hidden="true">⬚</span>
+  <div>
+    <strong>{virsraksts}</strong>
+    <div class="small"><slot /></div>
+    {avots && <div class="small muted">Datu avots: {avotaUrl ? <a href={avotaUrl} target="_blank" rel="noopener">{avots}</a> : avots}</div>}
+  </div>
+</div>

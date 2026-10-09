@@ -1,0 +1,54 @@
+[
+  {
+    "fails": "12_5_pielikums2_Jelgavas_valstspilsetas_CA_plans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 9324608,
+    "sha256": "fdc8831de7c6106f28f25cf52f4730e94fcb666439dadd3d42999272978fdad5",
+    "avota_url": "https://www.jelgava.lv/wp-content/uploads/2023/03/12_5_pielikums2.pdf",
+    "gala_url": "https://www.jelgava.lv/wp-content/uploads/2023/03/12_5_pielikums2.pdf",
+    "lejupieladets": "2026-09-11 21:14:41",
+    "apraksts": "pamatdokuments – 1. sējums: Jelgavas valstspilsētas civilās aizsardzības plāns (domes 29.09.2022. lēmuma Nr. 12/5 2. pielikums), 201 lpp.",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "12_5_pielikums3_Jelgavas_novada_CA_plans.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 3199780,
+    "sha256": "3c200ee88efb945864434ada4bb4e89be3bfc4ebc50a5b6053b04c26edb5b89c",
+    "avota_url": "https://www.jelgava.lv/wp-content/uploads/2023/03/12_5_pielikums3.pdf",
+    "gala_url": "https://www.jelgava.lv/wp-content/uploads/2023/03/12_5_pielikums3.pdf",
+    "lejupieladets": "2026-09-11 21:14:52",
+    "apraksts": "2. sējums: Jelgavas novada civilās aizsardzības plāns – kopīgā sadarbības teritorijas plāna otrā daļa (domes 29.09.2022. lēmuma Nr. 12/5 3. pielikums), 187 lpp.",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "12_5_lemums_29.09.2022.docx",
+    "formats": "docx",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 310130,
+    "sha256": "31ca10caf976cf1dcd2150f8f1c31b0a8a9fb1688bdbdd9fc915aa0f5e08c00c",
+    "avota_url": "https://www.jelgava.lv/wp-content/uploads/2022/09/12_5.docx",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.jelgava.lv%2Fwp-content%2Fuploads%2F2022%2F09%2F12_5.docx&mode=auto",
+    "lejupieladets": "2026-09-11 21:22:46",
+    "apraksts": "domes 29.09.2022. lēmums Nr. 12/5 \"Jelgavas pilsētas un Jelgavas novada sadarbības teritorijas civilās aizsardzības plāna apstiprināšana\" (noraksts)",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "12_5_pielikums1.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 117931,
+    "sha256": "d33df06be574ed13c49a2ba3a4f89db6e4e623ccbe04c456bcfb2c71d562375b",
+    "avota_url": "https://www.jelgava.lv/wp-content/uploads/2022/09/12_5_PIELIKUMS1.pdf",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.jelgava.lv%2Fwp-content%2Fuploads%2F2022%2F09%2F12_5_PIELIKUMS1.pdf&mode=auto",
+    "lejupieladets": "2026-09-11 21:22:53",
+    "apraksts": "1. pielikums – plāna titullapa un ievads (kopīgā plāna sastāvs: 2 sējumi) (domes 29.09.2022. lēmuma Nr. 12/5 1. pielikums), 2 lpp.",
+    "originals": true,
+    "caur_zenrows": true
+  }
+]

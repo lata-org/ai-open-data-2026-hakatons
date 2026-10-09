@@ -1,0 +1,43 @@
+pasvaldiba,tips,atvk_kods,adresu_registra_kods,majas_lapa,parbaudita_url,piezimes
+Rīga,valstspilsēta,0001000,100003003,https://www.riga.lv,https://www.riga.lv/lv,
+Daugavpils,valstspilsēta,0002000,100003011,https://daugavpils.lv,https://daugavpils.lv/,
+Jelgava,valstspilsēta,0003000,100003028,https://www.jelgava.lv,https://www.jelgava.lv/,
+Jūrmala,valstspilsēta,0004000,100003036,https://www.jurmala.lv,https://www.jurmala.lv/lv,
+Liepāja,valstspilsēta,0005000,100003044,https://www.liepaja.lv,https://www.liepaja.lv/,
+Rēzekne,valstspilsēta,0006000,100003052,https://rezekne.lv,https://rezekne.lv/,
+Ventspils,valstspilsēta,0007000,100003060,https://www.ventspils.lv,https://www.ventspils.lv/,
+Aizkraukles novads,novads,0020000,100016630,https://www.aizkraukle.lv,https://www.aizkraukle.lv/lv,
+Alūksnes novads,novads,0021000,100015694,https://aluksne.lv,https://aluksne.lv/,
+Augšdaugavas novads,novads,0022000,100016462,https://www.augsdaugavasnovads.lv,https://www.augsdaugavasnovads.lv/lv,
+Ādažu novads,novads,0023000,100016501,https://www.adazunovads.lv,https://www.adazunovads.lv/lv,adazi.lv pāradresē uz adazunovads.lv
+Balvu novads,novads,0024000,100016438,https://www.balvi.lv,https://www.balvi.lv/lv,
+Bauskas novads,novads,0025000,100016575,https://www.bauskasnovads.lv,https://www.bauskasnovads.lv/lv,vecais bauska.lv pāradresē uz bauskasnovads.lv; bauska.lv sertifikāts beidzies 2026-09-05
+Cēsu novads,novads,0026000,100016487,https://www.cesis.lv,https://www.cesis.lv/lv/,cesunovads.lv pāradresē uz cesis.lv
+Dienvidkurzemes novads,novads,0027000,100016495,https://www.dkn.lv,https://www.dkn.lv/lv,
+Dobeles novads,novads,0028000,100016622,https://www.dobele.lv,https://www.dobele.lv/lv,
+Gulbenes novads,novads,0029000,100015854,https://www.gulbene.lv,https://www.gulbene.lv/lv,
+Jelgavas novads,novads,0030000,100016534,https://www.jelgavasnovads.lv,https://www.jelgavasnovads.lv/lv,
+Jēkabpils novads,novads,0031000,100016421,https://www.jekabpils.lv,https://www.jekabpils.lv/lv,ietver valstspilsētu Jēkabpils
+Krāslavas novads,novads,0032000,100016743,https://www.kraslava.lv,https://www.kraslava.lv/lv,
+Kuldīgas novads,novads,0033000,100016696,https://kuldigasnovads.lv,https://kuldigasnovads.lv/,vecais kuldiga.lv atgriež 404; sertifikāts izdots kuldigasnovads.lv
+Ķekavas novads,novads,0034000,100016470,https://kekava.lv,https://kekava.lv/,kekavasnovads.lv pāradresē uz kekava.lv
+Limbažu novads,novads,0035000,100016606,https://www.limbazunovads.lv,https://www.limbazunovads.lv/lv,
+Līvānu novads,novads,0036000,100015243,https://www.livani.lv,https://www.livani.lv/lv,
+Ludzas novads,novads,0037000,100016751,https://www.ludzasnovads.lv,https://www.ludzasnovads.lv/lv,
+Madonas novads,novads,0038001,100016671,https://madona.lv,https://madona.lv/lat/,no 2025-07-01 ietver bijušo Varakļānu novadu; madonasnovads.lv rāda to pašu saturu
+Mārupes novads,novads,0039000,100016583,https://www.marupe.lv,https://www.marupe.lv/lv,
+Ogres novads,novads,0040000,100016688,https://www.ogresnovads.lv,https://www.ogresnovads.lv/lv,ietver valstspilsētu Ogre
+Olaines novads,novads,0041000,100016077,https://olaine.lv,https://olaine.lv/lv,
+Preiļu novads,novads,0042000,100016727,https://www.preili.lv,https://www.preili.lv/lv,
+Rēzeknes novads,novads,0043000,100016542,https://rezeknesnovads.lv,https://rezeknesnovads.lv/,
+Ropažu novads,novads,0044000,100016784,https://www.ropazi.lv,https://www.ropazi.lv/lv,
+Salaspils novads,novads,0045000,100015485,https://salaspils.lv,https://salaspils.lv/,
+Saldus novads,novads,0046000,100016663,https://www.saldus.lv,https://www.saldus.lv/,
+Saulkrastu novads,novads,0047000,100016550,https://saulkrasti.lv,https://saulkrasti.lv/,
+Siguldas novads,novads,0048000,100016768,https://sigulda.lv,https://sigulda.lv/,
+Smiltenes novads,novads,0049000,100016735,https://www.smiltenesnovads.lv,https://www.smiltenesnovads.lv/lv,
+Talsu novads,novads,0051000,100016390,https://www.talsunovads.lv,https://www.talsunovads.lv/lv,talsi.lv ir tikai pāradresācijas lapa uz talsunovads.lv
+Tukuma novads,novads,0052000,100016710,https://www.tukums.lv,https://www.tukums.lv/lv,
+Valkas novads,novads,0053000,100016286,https://www.valka.lv,https://www.valka.lv/lv,
+Valmieras novads,novads,0054000,100016647,https://www.valmierasnovads.lv,https://www.valmierasnovads.lv/,ietver valstspilsētu Valmiera
+Ventspils novads,novads,0056000,100016333,https://www.ventspilsnovads.lv,https://www.ventspilsnovads.lv/lv,

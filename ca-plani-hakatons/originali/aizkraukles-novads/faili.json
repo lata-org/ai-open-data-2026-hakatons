@@ -1,0 +1,42 @@
+[
+  {
+    "fails": "22.01.2026_10_izpilde_un_priekslikumi.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 154423,
+    "sha256": "fc01bdba11d5e18ac95b55a975e85849fb13530c74fc6de0f8436ae2ec3c386e",
+    "avota_url": "https://www.aizkraukle.lv/lv/media/68423/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.aizkraukle.lv%2Flv%2Fmedia%2F68423%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:10:28",
+    "apraksts": "lēmuma Nr. 10 pielikums – CA plāna izpilde un priekšlikumi civilās aizsardzības plāna aktualizēšanai 2025",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "22.01.2026_10.pdf",
+    "formats": "pdf",
+    "content_type": "text/plain; charset=utf-8",
+    "izmers_baiti": 211195,
+    "sha256": "d1534abc7cf8596f0e8858d2967a53b24b8eccaf482a9e6e9e0fd14baa2cdf23",
+    "avota_url": "https://www.aizkraukle.lv/lv/media/68420/download?attachment",
+    "gala_url": "https://api.zenrows.com/v1/?apikey=b6b69407a25fc23de62bc2f959c7a931458aa618&url=https%3A%2F%2Fwww.aizkraukle.lv%2Flv%2Fmedia%2F68420%2Fdownload%3Fattachment&mode=auto",
+    "lejupieladets": "2026-09-11 21:10:31",
+    "apraksts": "domes lēmums 22.01.2026 Nr. 10 – Par Aizkraukles novada Civilās aizsardzības plāna apstiprināšanu jaunā redakcijā",
+    "originals": true,
+    "caur_zenrows": true
+  },
+  {
+    "fails": "22.01.2026_10_CAP_jauna_redakcija.pdf",
+    "formats": "pdf",
+    "content_type": "",
+    "izmers_baiti": 8561292,
+    "sha256": "c72bb14fb19f599a6a16436a23376ae69cfc9f5a61bcc0f05168bea232ec735a",
+    "avota_url": "https://www.aizkraukle.lv/lv/media/69197/download?attachment",
+    "gala_url": "https://www.aizkraukle.lv/lv/media/69197/download?attachment",
+    "lejupieladets": "2026-09-11 21:45:43",
+    "apraksts": "pamatdokuments – Aizkraukles novada civilās aizsardzības plāns (jaunā redakcija, apstiprināts 22.01.2026 ar lēmumu Nr. 2026/10; publicēts sadaļā Civilā aizsardzība)",
+    "originals": true,
+    "caur_zenrows": false,
+    "piezime": "lejupielādēts ar curl (tiešā ielāde, atkārtoti mēģinājumi HTTPS noildzes dēļ); reģistrēts ar register.py"
+  }
+]

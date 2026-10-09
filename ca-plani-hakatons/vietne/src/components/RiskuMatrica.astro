@@ -1,0 +1,29 @@
+---
+interface Props { varbutibas: string[]; sekas: string[]; matrica: string[][]; avots?: string }
+const { varbutibas, sekas, matrica, avots } = Astro.props;
+const limeni = ['Maznozīmīgs', 'Nozīmīgs', 'Vidējs', 'Augsts', 'Ļoti augsts'];
+---
+<div class="table-wrap">
+  <table class="matrica">
+    <caption class="sr-only">Risku matrica: rindas — varbūtība, kolonnas — sekas un riska līmenis</caption>
+    <thead>
+      <tr>
+        <th class="rinda">Varbūtība ↓ / Sekas →</th>
+        {sekas.map((s, i) => <th>{s}<br /><span class="muted">{limeni[i]} risks</span></th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {matrica.map((rinda, r) => (
+        <tr>
+          <th class="rinda">{varbutibas[r]}</th>
+          {rinda.map((sh, c) => (
+            <td class={`l${sh ? c : 0}`}>
+              {sh && <ul>{sh.split(';').map((x) => <li>{x.trim()}</li>)}</ul>}
+            </td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+{avots && <p class="small muted" style="margin-top:6px">Avots: {avots}. Krāsa atbilst kolonnas riska līmenim, kā oriģinālajā tabulā.</p>}

@@ -1,0 +1,28 @@
+[
+  {
+    "fails": "CAP_PLANS_2025.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 4415377,
+    "sha256": "37c08dc2071e10ef8e730dc22389d248e17e2d905e1caabcf822121b50a362e2",
+    "avota_url": "https://aluksne.lv/09_03/CAP_PLANS_2025.pdf",
+    "gala_url": "https://aluksne.lv/09_03/CAP_PLANS_2025.pdf",
+    "lejupieladets": "2026-09-11 21:07:23",
+    "apraksts": "pamatdokuments – Alūksnes sadarbības teritorijas civilās aizsardzības plāns (apstiprināts 23.12.2025., lēmums Nr. 420)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "380_CAK_nolikums.docx",
+    "formats": "docx",
+    "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "izmers_baiti": 52990,
+    "sha256": "36e98f94840ce2741b6283657455d3066fbcc7d56ce90fd3d2768c9fe4933363",
+    "avota_url": "https://aluksne.lv/wp-content/uploads/2025/01/380_CAK_nolikums.docx",
+    "gala_url": "https://aluksne.lv/wp-content/uploads/2025/01/380_CAK_nolikums.docx",
+    "lejupieladets": "2026-09-11 21:11:34",
+    "apraksts": "1. pielikums – Alūksnes sadarbības teritorijas civilās aizsardzības komisijas nolikums (publicēts atsevišķi komisiju lapā; plānā uzskaitīts kā 1. pielikums, identiskums ar plāna pielikuma redakciju nav pārbaudāms)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]

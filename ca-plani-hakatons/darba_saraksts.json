@@ -1,0 +1,380 @@
+[
+ {
+  "pasvaldiba": "Rīga",
+  "tips": "valstspilsēta",
+  "slug": "riga",
+  "majas_lapa": "https://www.riga.lv",
+  "domens": "riga.lv",
+  "vugd_norade": "https://www.riga.lv/lv/rigas-sadarbibas-teritorijas-civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Daugavpils",
+  "tips": "valstspilsēta",
+  "slug": "daugavpils",
+  "majas_lapa": "https://daugavpils.lv",
+  "domens": "daugavpils.lv",
+  "vugd_norade": "https://www.daugavpils.lv/pasvaldiba/dokumenti/civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": "augsdaugavas-novads"
+ },
+ {
+  "pasvaldiba": "Jelgava",
+  "tips": "valstspilsēta",
+  "slug": "jelgava",
+  "majas_lapa": "https://www.jelgava.lv",
+  "domens": "jelgava.lv",
+  "vugd_norade": "https://www.jelgava.lv/dokumenti/planosanas-dokumenti/jelgavas-pilsetas-un-jelgavas-novada-sadarbibas-teritorijas-civilas-aizsardzibas-plans/",
+  "iespejams_kopigs_ar": "jelgavas-novads"
+ },
+ {
+  "pasvaldiba": "Jūrmala",
+  "tips": "valstspilsēta",
+  "slug": "jurmala",
+  "majas_lapa": "https://www.jurmala.lv",
+  "domens": "jurmala.lv",
+  "vugd_norade": "https://www.jurmala.lv/lv/jurmalas-pilsetas-sadarbibas-teritorijas-civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Liepāja",
+  "tips": "valstspilsēta",
+  "slug": "liepaja",
+  "majas_lapa": "https://www.liepaja.lv",
+  "domens": "liepaja.lv",
+  "vugd_norade": "https://www.liepaja.lv/civila-aizsardziba/liepajas-valstspilsetas-un-dienvidkurzemes-novada-civilas-aizsardzibas-plans/",
+  "iespejams_kopigs_ar": "dienvidkurzemes-novads"
+ },
+ {
+  "pasvaldiba": "Rēzekne",
+  "tips": "valstspilsēta",
+  "slug": "rezekne",
+  "majas_lapa": "https://rezekne.lv",
+  "domens": "rezekne.lv",
+  "vugd_norade": "https://rezekne.lv/civila-aizsardziba/",
+  "iespejams_kopigs_ar": "rezeknes-novads"
+ },
+ {
+  "pasvaldiba": "Ventspils",
+  "tips": "valstspilsēta",
+  "slug": "ventspils",
+  "majas_lapa": "https://www.ventspils.lv",
+  "domens": "ventspils.lv",
+  "vugd_norade": "https://www.ventspils.lv/app/uploads/2023/05/63_par-ventspils-valstspilsetas-pasvaldibas-un-ventspils-novada-pasvaldibas-sadarbibas-teritorijas-civilas-aizsardzibas-plana-apstiprinasanupiel_publiskais__.pdf",
+  "iespejams_kopigs_ar": "ventspils-novads"
+ },
+ {
+  "pasvaldiba": "Aizkraukles novads",
+  "tips": "novads",
+  "slug": "aizkraukles-novads",
+  "majas_lapa": "https://www.aizkraukle.lv",
+  "domens": "aizkraukle.lv",
+  "vugd_norade": "https://www.aizkraukle.lv/lv/aizkraukles-novada-civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Alūksnes novads",
+  "tips": "novads",
+  "slug": "aluksnes-novads",
+  "majas_lapa": "https://aluksne.lv",
+  "domens": "aluksne.lv",
+  "vugd_norade": "https://aluksne.lv/index.php/pasvaldiba/dokumenti/civilas-aizsardzibas-plans/",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Augšdaugavas novads",
+  "tips": "novads",
+  "slug": "augsdaugavas-novads",
+  "majas_lapa": "https://www.augsdaugavasnovads.lv",
+  "domens": "augsdaugavasnovads.lv",
+  "vugd_norade": "https://www.daugavpils.lv/pasvaldiba/dokumenti/civilas-aizsardzibas-plans (VUGD sarakstā kopīgs Daugavpils un Augšdaugavas novada plāns)",
+  "iespejams_kopigs_ar": "daugavpils"
+ },
+ {
+  "pasvaldiba": "Ādažu novads",
+  "tips": "novads",
+  "slug": "adazu-novads",
+  "majas_lapa": "https://www.adazunovads.lv",
+  "domens": "adazunovads.lv",
+  "vugd_norade": "https://www.adazunovads.lv/lv/media/25821/download?attachment",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Balvu novads",
+  "tips": "novads",
+  "slug": "balvu-novads",
+  "majas_lapa": "https://www.balvi.lv",
+  "domens": "balvi.lv",
+  "vugd_norade": "https://www.balvi.lv/lv/civila-aizsardziba",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Bauskas novads",
+  "tips": "novads",
+  "slug": "bauskas-novads",
+  "majas_lapa": "https://www.bauskasnovads.lv",
+  "domens": "bauskasnovads.lv",
+  "vugd_norade": "https://www.bauskasnovads.lv/lv/operativa-riciba-civila-aizsardziba#civila-aizsardziba",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Cēsu novads",
+  "tips": "novads",
+  "slug": "cesu-novads",
+  "majas_lapa": "https://www.cesis.lv",
+  "domens": "cesis.lv",
+  "vugd_norade": "https://www.cesis.lv/lv/attistiba/dokumenti/nozaru-attistibas-strategijas/civilas-aizsardzibas-plans/",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Dienvidkurzemes novads",
+  "tips": "novads",
+  "slug": "dienvidkurzemes-novads",
+  "majas_lapa": "https://www.dkn.lv",
+  "domens": "dkn.lv",
+  "vugd_norade": "https://www.liepaja.lv/civila-aizsardziba/liepajas-valstspilsetas-un-dienvidkurzemes-novada-civilas-aizsardzibas-plans/ (VUGD sarakstā kopīgs Liepājas un Dienvidkurzemes novada plāns)",
+  "iespejams_kopigs_ar": "liepaja"
+ },
+ {
+  "pasvaldiba": "Dobeles novads",
+  "tips": "novads",
+  "slug": "dobeles-novads",
+  "majas_lapa": "https://www.dobele.lv",
+  "domens": "dobele.lv",
+  "vugd_norade": "https://dobele.lv/lv/content/civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Gulbenes novads",
+  "tips": "novads",
+  "slug": "gulbenes-novads",
+  "majas_lapa": "https://www.gulbene.lv",
+  "domens": "gulbene.lv",
+  "vugd_norade": "https://www.gulbene.lv/lv/media/36615/download?attachment",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Jelgavas novads",
+  "tips": "novads",
+  "slug": "jelgavas-novads",
+  "majas_lapa": "https://www.jelgavasnovads.lv",
+  "domens": "jelgavasnovads.lv",
+  "vugd_norade": "https://www.jelgava.lv/dokumenti/planosanas-dokumenti/jelgavas-pilsetas-un-jelgavas-novada-sadarbibas-teritorijas-civilas-aizsardzibas-plans/ (VUGD sarakstā kopīgs Jelgavas pilsētas un Jelgavas novada plāns)",
+  "iespejams_kopigs_ar": "jelgava"
+ },
+ {
+  "pasvaldiba": "Jēkabpils novads",
+  "tips": "novads",
+  "slug": "jekabpils-novads",
+  "majas_lapa": "https://www.jekabpils.lv",
+  "domens": "jekabpils.lv",
+  "vugd_norade": "https://www.jekabpils.lv/lv/civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Krāslavas novads",
+  "tips": "novads",
+  "slug": "kraslavas-novads",
+  "majas_lapa": "https://www.kraslava.lv",
+  "domens": "kraslava.lv",
+  "vugd_norade": "https://www.vugd.gov.lv/lv/media/7083/download?attachment (fails VUGD vietnē)",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Kuldīgas novads",
+  "tips": "novads",
+  "slug": "kuldigas-novads",
+  "majas_lapa": "https://kuldigasnovads.lv",
+  "domens": "kuldigasnovads.lv",
+  "vugd_norade": "https://www.kuldiga.lv/pasvaldiba/publiskie-dokumenti/civilas-aizsardzibas-plans (vecais domēns, tagad kuldigasnovads.lv)",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Ķekavas novads",
+  "tips": "novads",
+  "slug": "kekavas-novads",
+  "majas_lapa": "https://kekava.lv",
+  "domens": "kekava.lv",
+  "vugd_norade": "https://kekava.lv/dokumenti/baldones-sadarbibas-teritorijas-civilas-aizsardzibas-plans/",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Limbažu novads",
+  "tips": "novads",
+  "slug": "limbazu-novads",
+  "majas_lapa": "https://www.limbazunovads.lv",
+  "domens": "limbazunovads.lv",
+  "vugd_norade": "https://www.limbazunovads.lv/lv/civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Līvānu novads",
+  "tips": "novads",
+  "slug": "livanu-novads",
+  "majas_lapa": "https://www.livani.lv",
+  "domens": "livani.lv",
+  "vugd_norade": "https://www.livani.lv/lv/civila-aizsardziba",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Ludzas novads",
+  "tips": "novads",
+  "slug": "ludzas-novads",
+  "majas_lapa": "https://www.ludzasnovads.lv",
+  "domens": "ludzasnovads.lv",
+  "vugd_norade": "https://www.ludzasnovads.lv/lv/ludzas-sadarbibas-teritorijas-civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Madonas novads",
+  "tips": "novads",
+  "slug": "madonas-novads",
+  "majas_lapa": "https://madona.lv",
+  "domens": "madona.lv",
+  "vugd_norade": "https://www.madona.lv/lat/madonas-novada-sadarbibas-teritorijas-civilas-aizs (kopš 2025-07 ietver bijušo Varakļānu novadu; vecais Varakļānu plāns: https://www.varaklani.lv/images/2020/Varaklani_CAP.pdf)",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Mārupes novads",
+  "tips": "novads",
+  "slug": "marupes-novads",
+  "majas_lapa": "https://www.marupe.lv",
+  "domens": "marupe.lv",
+  "vugd_norade": "https://www.marupe.lv/lv/marupes-novada-pasvaldiba/civila-aizsardziba",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Ogres novads",
+  "tips": "novads",
+  "slug": "ogres-novads",
+  "majas_lapa": "https://www.ogresnovads.lv",
+  "domens": "ogresnovads.lv",
+  "vugd_norade": "https://www.ogresnovads.lv/lv/media/127114/download?attachment",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Olaines novads",
+  "tips": "novads",
+  "slug": "olaines-novads",
+  "majas_lapa": "https://olaine.lv",
+  "domens": "olaine.lv",
+  "vugd_norade": "https://www.olaine.lv/lv/pakalpojumi-un-informacija/drosiba/civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Preiļu novads",
+  "tips": "novads",
+  "slug": "preilu-novads",
+  "majas_lapa": "https://www.preili.lv",
+  "domens": "preili.lv",
+  "vugd_norade": "https://preili.lv/pasvaldiba/civila-aizsardziba/",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Rēzeknes novads",
+  "tips": "novads",
+  "slug": "rezeknes-novads",
+  "majas_lapa": "https://rezeknesnovads.lv",
+  "domens": "rezeknesnovads.lv",
+  "vugd_norade": "https://rezekne.lv/civila-aizsardziba/ (VUGD sarakstā kopīgs Rēzeknes valstspilsētas un Rēzeknes novada plāns)",
+  "iespejams_kopigs_ar": "rezekne"
+ },
+ {
+  "pasvaldiba": "Ropažu novads",
+  "tips": "novads",
+  "slug": "ropazu-novads",
+  "majas_lapa": "https://www.ropazi.lv",
+  "domens": "ropazi.lv",
+  "vugd_norade": "https://www.ropazi.lv/lv/ropazu-novada-pasvaldibas-sadarbibas-teritorijas-civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Salaspils novads",
+  "tips": "novads",
+  "slug": "salaspils-novads",
+  "majas_lapa": "https://salaspils.lv",
+  "domens": "salaspils.lv",
+  "vugd_norade": "https://www.salaspils.lv/lv/civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Saldus novads",
+  "tips": "novads",
+  "slug": "saldus-novads",
+  "majas_lapa": "https://www.saldus.lv",
+  "domens": "saldus.lv",
+  "vugd_norade": "https://saldus.lv/pasvaldiba/dokumenti/posts/civilas-aizsardzibas-plans/",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Saulkrastu novads",
+  "tips": "novads",
+  "slug": "saulkrastu-novads",
+  "majas_lapa": "https://saulkrasti.lv",
+  "domens": "saulkrasti.lv",
+  "vugd_norade": "https://saulkrasti.lv/novads/drosiba/civilas-aizsardzibas-plans/",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Siguldas novads",
+  "tips": "novads",
+  "slug": "siguldas-novads",
+  "majas_lapa": "https://sigulda.lv",
+  "domens": "sigulda.lv",
+  "vugd_norade": "https://www.sigulda.lv/novads/civila-aizsardziba/civilas-aizsardzibas-plans/ (fails: https://www.sigulda.lv/media/uploads/Siguldas-novada-sadarbibas-teritorijas-civilas-aizsardzibas-plans.pdf; ir arī 27. pielikums iedzīvotājiem)",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Smiltenes novads",
+  "tips": "novads",
+  "slug": "smiltenes-novads",
+  "majas_lapa": "https://www.smiltenesnovads.lv",
+  "domens": "smiltenesnovads.lv",
+  "vugd_norade": "https://www.smiltenesnovads.lv/lv/civila-aizsardziba",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Talsu novads",
+  "tips": "novads",
+  "slug": "talsu-novads",
+  "majas_lapa": "https://www.talsunovads.lv",
+  "domens": "talsunovads.lv",
+  "vugd_norade": "https://www.talsunovads.lv/lv/dokumentu-katalogs/talsu-novada-sadarbibas-teritorijas-civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Tukuma novads",
+  "tips": "novads",
+  "slug": "tukuma-novads",
+  "majas_lapa": "https://www.tukums.lv",
+  "domens": "tukums.lv",
+  "vugd_norade": "https://www.tukums.lv/lv/tukuma-novada-civilas-aizsardzibas-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Valkas novads",
+  "tips": "novads",
+  "slug": "valkas-novads",
+  "majas_lapa": "https://www.valka.lv",
+  "domens": "valka.lv",
+  "vugd_norade": "http://www.valka.lv/lv/valkas-novads-1/pasvaldiba-1/civila-aizsardziba/civila-aizsardziba-plans",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Valmieras novads",
+  "tips": "novads",
+  "slug": "valmieras-novads",
+  "majas_lapa": "https://www.valmierasnovads.lv",
+  "domens": "valmierasnovads.lv",
+  "vugd_norade": "https://www.vugd.gov.lv/lv/media/6887/download?attachment (fails VUGD vietnē)",
+  "iespejams_kopigs_ar": ""
+ },
+ {
+  "pasvaldiba": "Ventspils novads",
+  "tips": "novads",
+  "slug": "ventspils-novads",
+  "majas_lapa": "https://www.ventspilsnovads.lv",
+  "domens": "ventspilsnovads.lv",
+  "vugd_norade": "https://www.ventspils.lv/app/uploads/2023/05/63_par-ventspils-valstspilsetas-pasvaldibas-un-ventspils-novada-pasvaldibas-sadarbibas-teritorijas-civilas-aizsardzibas-plana-apstiprinasanupiel_publiskais__.pdf (VUGD sarakstā kopīgs Ventspils valstspilsētas un Ventspils novada plāns)",
+  "iespejams_kopigs_ar": "ventspils"
+ }
+]

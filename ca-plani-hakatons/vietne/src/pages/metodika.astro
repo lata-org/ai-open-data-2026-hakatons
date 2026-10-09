@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import Cips from '../components/Cips.astro';
+import mk658 from '../data/mk658.json';
+import AtvertieDati from '../components/AtvertieDati.astro';
+---
+<Base title="Metodika — kā vērtēti plāni" aktivs="metodika">
+  <div class="wrap">
+    <section class="section" style="margin-top:0">
+      <h1>Metodika</h1>
+      <p class="lead">Katrs plāns tiek vērtēts pret <a href={mk658.avota_url} target="_blank" rel="noopener">{mk658.avots}</a>. {mk658.piezime}</p>
+      <div class="grid grid--2">
+        <div class="card">
+          <h3>Statusi un punkti</h3>
+          <table class="t">
+            <tbody>
+              {(Object.keys(mk658.statusi) as (keyof typeof mk658.statusi)[]).filter((s) => s !== 'nav_vertets').map((s) => <tr><td><Cips s={s} /></td><td class="small">{mk658.statusi[s].nosaukums}</td><td class="num"><strong>{mk658.statusi[s].punkti}</strong> p.</td></tr>)}
+            </tbody>
+          </table>
+          <p class="small" style="margin-top:10px">Maksimums: {mk658.punkti.length} elementi × 2 = {mk658.punkti.length * 2} punkti. „Ierobežots” un „daļēji” dod vienādu punktu skaitu, jo abos gadījumos elements ir izstrādāts, bet iedzīvotājam nav pilnībā pieejams.</p>
+        </div>
+        <div class="card">
+          <h3>Kā top vērtējums</h3>
+          <ol class="steps">
+            <li>Plāna PDF/DOCX konvertē uz Markdown ar lappušu marķieriem (mape <code>markdown/</code>).</li>
+            <li>Katram MK 658 punktam atrod atbilstošo nodaļu, tabulu vai pielikumu un piefiksē lappusi.</li>
+            <li>Nosaka statusu pēc publiski pieejamās versijas; ierobežotas pieejamības pielikumus atzīmē atsevišķi.</li>
+            <li>Papildus fiksē lietojamības rādītājus (koordinātas, kapacitāte, datu aktualitāte) un datu kvalitātes atradumus.</li>
+            <li>Rezultāts glabājas <code>src/data/profili/&lt;slug&gt;.json</code> — to var labot ar rokām un vietne pārbūvējas.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Obligātie elementi</h2>
+      <div class="table-wrap card card--flat" style="padding:0">
+        <table class="t">
+          <thead><tr><th>Punkts</th><th>Elements</th><th>Apakšpunkti</th></tr></thead>
+          <tbody>{mk658.punkti.map((pk) => <tr><td class="mono dim">{pk.id}</td><td><strong>{pk.nosaukums}</strong><br /><span class="small">{pk.apraksts}</span></td><td class="small">{pk.apaksp.length ? <ul class="tiks">{pk.apaksp.map((a) => <li>{a}</li>)}</ul> : '—'}</td></tr>)}</tbody>
+        </table>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Atvērto datu katalogs</h2>
+      <div class="card card--flat" style="padding:0"><AtvertieDati /></div>
+    </section>
+  </div>
+</Base>

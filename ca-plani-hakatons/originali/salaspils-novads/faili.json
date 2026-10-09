@@ -1,0 +1,28 @@
+[
+  {
+    "fails": "CA_plans_2024_GALA__16.05.2024_Domes_sede.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 6258004,
+    "sha256": "fe1b2726edd241c79a79b260007dea9ae8d4b3169dc60159afffce3ca42ff678",
+    "avota_url": "https://www.salaspils.lv/sites/default/files/Civil%C4%81%20aizsardziba/CA_plans_2024_GALA__16.05.2024_Domes_sede.pdf",
+    "gala_url": "https://www.salaspils.lv/sites/default/files/Civil%C4%81%20aizsardziba/CA_plans_2024_GALA__16.05.2024_Domes_sede.pdf",
+    "lejupieladets": "2026-09-12 00:06:13",
+    "apraksts": "pamatdokuments – Salaspils novada sadarbības teritorijas civilās aizsardzības plāns (2024, domes sēde 16.05.2024)",
+    "originals": true,
+    "caur_zenrows": false
+  },
+  {
+    "fails": "public-9-16-05-20240516.pdf",
+    "formats": "pdf",
+    "content_type": "application/pdf",
+    "izmers_baiti": 1903996,
+    "sha256": "31296f166b7d13e3f03c207ff6f93343737d850a48deb62b24c594ec998f7de4",
+    "avota_url": "https://www.salaspils.lv/sites/default/files/Domes%20s%C4%93des/L%C4%93mumi/2024/public-9-16-05-20240516.pdf",
+    "gala_url": "https://www.salaspils.lv/sites/default/files/Domes%20s%C4%93des/L%C4%93mumi/2024/public-9-16-05-20240516.pdf",
+    "lejupieladets": "2026-09-12 00:21:53",
+    "apraksts": "domes sēdes 16.05.2024 protokols Nr. 9 (10.§ un pielikums Nr. 10 – lēmums par plāna apstiprināšanu; pats plāns nav protokolā)",
+    "originals": true,
+    "caur_zenrows": false
+  }
+]
